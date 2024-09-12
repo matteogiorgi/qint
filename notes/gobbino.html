@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>qmath – gobbino</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22256%22 height=%22256%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%237d6ee7%22></rect><path d=%22M32.27 77.81L32.27 77.81Q28.31 77.81 28.31 74.57L28.31 74.57L28.31 23.72Q29.93 22.10 33.17 22.10L33.17 22.10Q35.33 22.10 36.86 22.95Q38.39 23.81 39.65 26.06L39.65 26.06L56.84 54.86Q57.92 56.75 59.09 58.86Q60.26 60.98 61.34 63.09Q62.42 65.21 63.36 67.06Q64.31 68.90 64.94 70.16L64.94 70.16L65.30 70.07Q64.58 62.78 64.44 55.40Q64.31 48.02 64.31 41L64.31 41L64.31 22.82Q64.85 22.64 65.75 22.41Q66.65 22.19 67.73 22.19L67.73 22.19Q71.69 22.19 71.69 25.43L71.69 25.43L71.69 76.37Q70.88 77.09 69.62 77.50Q68.36 77.90 66.83 77.90L66.83 77.90Q64.67 77.90 63.14 77.05Q61.61 76.19 60.35 73.94L60.35 73.94L43.25 45.14Q42.17 43.34 40.95 41.18Q39.74 39.02 38.61 36.95Q37.49 34.88 36.55 32.99Q35.60 31.10 34.97 29.84L34.97 29.84L34.61 29.93Q35.06 34.25 35.33 39.79Q35.60 45.32 35.60 50.27L35.60 50.27L35.60 77.18Q35.15 77.36 34.20 77.58Q33.26 77.81 32.27 77.81Z%22 fill=%22%23fff%22></path></svg>" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu Mono">
+  <link rel="stylesheet" href="https://latex.now.sh/style.css">
+  <link rel="stylesheet" href="https://latex.now.sh/prism/prism.css">
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs/prism.min.js"></script>
+  <style>
+  body {
+      max-width: 60rem;
+      line-height: 1.4;
+      color: black;
+      background: white;
+  }
+  code, pre, kbd {
+      font-family: 'Ubuntu Mono', monospace;
+      font-size: 95%;
+  }
+  blockquote {
+      font-style: italic;
+      border: 1px solid black;
+      border-radius: 4px;
+      background: #e9edf3;
+      padding: 1rem 3rem 2rem 3rem;
+      margin-left: 0rem;
+      margin-right: 0rem;
+  }
+  hr {
+      width: 50%;
+      height: 1px;
+      border: none;
+      background: gray;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+  }
+  a {
+      text-decoration: none;
+  }
+  a:hover {
+      text-decoration: underline;
+  }
+  </style>
+</head>
+<body>
+<nav class="site-nav" style="font-weight:bold">
+<!-- before content -->
+</nav>
+<h1 id="calcolo">Calcolo</h1>
+<p>Questa pagina contiene il materiale di lezioni ed esercitazioni tenute dal <a href="http://pagine.dm.unipi.it/gobbino/Home_Page/ArchivioDidattico.html">Prof. Gobbino</a> per l’esame di <em>Calcolo</em> del corso di Laurea in <em>Ingengeria Elettronica e Telecomunicazioni</em> dell’<a href="https://www.unipi.it">Università di Pisa</a> nell’anno accademico 2007/2008, oltre al materiale del corso di <em>Precalcolo</em> tenuto dal Professore nel medesimo anno.</p>
+<p>Il corso (12 cfu) è pensato per essere svolto nell’arco di un semestre, per un totale di 112 ore di lezione ad una frequenza di 8 ore a settimana. Benché non abbia la stessa lunghezza di un corso universitario standard di Analisi Matematica I e II (dai 18 ai 27 cfu), il Professore ha creato un corso ugualmente completo e ben strutturato, che copre tutti gli argomenti fondamentali della materia. Questo lo rende particolarmente adatto durante la preparazione ad una Laurea Magistrale di tipo quantitativo o semplicemente per rinfrescare alcuni concetti di base.</p>
+<blockquote>
+<p>Il lavoro e la dedizione del Prof. Gobbino sono encomiabili e il suo corso è un vero e proprio tesoro da tenere sempre a portata di mano. Nella pagina personale del Professore, è possibile trovare diverse lezioni che negli anni egli ha tenuto all’Università di Pisa: si veda <a href="http://pagine.dm.unipi.it/gobbino/Home_Page/AD_AM13.html">Analisi 1 (120 ore)</a>, <a href="http://pagine.dm.unipi.it/gobbino/Home_Page/AD_AM2_14.html">Analisi 2 (60 ore)</a>, <a href="http://pagine.dm.unipi.it/gobbino/Home_Page/AD_AL_14.html">Algebra lineare (60 ore)</a> tenuti a Ingegneria e <a href="http://pagine.dm.unipi.it/gobbino/Home_Page/AD_AM1_17.html">Analisi 1 (135 ore)</a>, <a href="http://pagine.dm.unipi.it/gobbino/Home_Page/AD_AM2_18.html">Analisi 2 (120 ore)</a> tenuti a Matematica. Tutto il materiale è in <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><code>CC</code></a>.</p>
+</blockquote>
+<h3 id="lezioni-precalcolo">Lezioni <em>Precalcolo</em></h3>
+<ol type="1">
+<li><a href="">Frazioni e potenze</a> - <a href=""><code>PDF</code></a></li>
+<li><a href="">Polinomi ed equazioni polinomiali</a> - <a href=""><code>PDF</code></a></li>
+<li><a href="">Disequazioni di secondo grado e con prodotti e quozienti</a> - <a href=""><code>PDF</code></a></li>
+<li><a href="">Logaritmi e relative (dis)equazioni</a> - <a href=""><code>PDF</code></a></li>
+<li><a href="">(Dis)equazioni con radici</a> - <a href=""><code>PDF</code></a></li>
+<li><a href="">(Dis)equazioni con valori assoluti</a> - <a href=""><code>PDF</code></a></li>
+<li><a href="">Trigonometria, (dis)equazioni trigonometriche</a> - <a href=""><code>PDF</code></a></li>
+<li><a href="">Trigonometria e triangoli</a> - <a href=""><code>PDF</code></a></li>
+<li><a href="">Geometria analitica</a> - <a href=""><code>PDF</code></a></li>
+<li><a href="">Insiemi del piano e geometria euclidea</a> - <a href=""><code>PDF</code></a></li>
+</ol>
+<h3 id="lezioni-calcolo">Lezioni <em>Calcolo</em></h3>
+<ol type="1">
+<li><code>[02/10/07]</code> <a href="">Insiemi</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[02/10/07]</code> <a href="">Funzioni tra insiemi, iniettività, surgettività, immagine e controimmagine</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[03/10/07]</code> <a href="">Principio di induzione</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[03/10/07]</code> <a href="">Funzioni reali: simmetrie, monotonia, iniettività, surgettività</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[03/10/07]</code> <a href="">Presentazione funzioni elementari</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[04/10/07]</code> <a href="">Fine presentazione funzioni elementari, assioma di continuità</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[04/10/07]</code> <a href="">Estremo inferiore e superiore</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[04/10/07]</code> <a href="">Limiti di successioni: definizioni</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[04/10/07]</code> <a href="">Operazioni sui grafici: interpretazione grafica di equazioni, disequazioni, immagine e controimmagine</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[09/10/07]</code> <a href="">Limiti di successioni: teoremi algebrici e di confronto</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[09/10/07]</code> <a href="">Successioni monotone: esempi di calcolo di limiti di successioni</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[09/10/07]</code> <a href="">Limiti di successioni: rapporto, radice, rapporto → radice</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[09/10/07]</code> <a href="">Confronto tra ordini di infinito per successioni</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[10/10/07]</code> <a href="">Limiti di funzioni: definizioni</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[10/10/07]</code> <a href="">Continuità, primi esempi di calcolo di limiti</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[10/10/07]</code> <a href="">Cambio di variabili nei limiti: esempi</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[11/10/07]</code> <a href="">Dimostrazione dei principali limiti notevoli</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[11/10/07]</code> <a href="">Criterio funzioni → successioni: esempi di calcolo di limiti</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[12/10/07]</code> <a href="">Sottosuccessioni e non esistenza di limiti</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[12/10/07]</code> <a href="">Esercizi sui limiti</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[16/10/07]</code> <a href="">Linguaggio degli infinitesimi: o piccolo</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[16/10/07]</code> <a href=""><em>Sviluppini</em> e loro utilizzo nel calcolo dei limiti</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[17/10/07]</code> <a href="">Derivata e differenziale in una variabile</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[17/10/07]</code> <a href="">Operazioni algebriche sulle derivate</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[17/10/07]</code> <a href="">Derivate di funzioni inverse: esempi di calcolo di derivate</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[18/10/07]</code> <a href="">Teorema di De L’Hopital e formula di Taylor</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[18/10/07]</code> <a href="">Sviluppi di Taylor di funzioni elementari e loro utilizzo nel calcolo di limiti</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[19/10/07]</code> <a href="">Funzioni iperboliche</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[19/10/07]</code> <a href="">Polinomi di Taylor di composizioni di funzioni</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[23/10/07]</code> <a href="">Polinomi di Taylor con centro in un punto diverso dall’origine</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[23/10/07]</code> <a href="">Serie: definizione, condizione necessaria, serie telescopiche</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[24/10/07]</code> <a href="">Criteri per serie a termini positivi: radice, rapporto, confronto, confronto asintotico (casi standard)</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[24/10/07]</code> <a href="">Serie: dimostrazione criteri e casi limite del confronto asintotico</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[24/10/07]</code> <a href="">Esercizi sulle serie</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[25/10/07]</code> <a href="">Serie a termini di segno qualunque: criterio di Leibniz e assoluta convergenza</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[25/10/07]</code> <a href="">Esercizi sulle serie (anche con parametri)</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[26/10/07]</code> <a href="">Serie di potenze</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[26/10/07]</code> <a href="">Esercizi sulle serie di Taylor</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[30/10/07]</code> <a href="">Teorema di esistenza degli zeri e conseguenze</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[30/10/07]</code> <a href="">Studio locale di funzioni</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[31/10/07]</code> <a href="">Massimi, minimi e teorema di Weierstrass</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[31/10/07]</code> <a href="">Ricerca dei punti di max/min, teoremi di Rolle, Cauchy, Lagrange</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[31/10/07]</code> <a href="">Monotonia e segno della derivata</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[06/11/07]</code> <a href="">Teorema <em>Monotonia 3</em>, asintoti orizzontali e verticali</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[06/11/07]</code> <a href="">Asintoti obliqui, convessità e concavità</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[07/11/07]</code> <a href="">Successioni per ricorrenza: introduzione e primi esempi</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[07/11/07]</code> <a href="">Formula di Taylor con resto di Lagrange e applicazioni</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[07/11/07]</code> <a href="">Esercizi su studio di funzioni, inf, sup, max, min</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[08/11/07]</code> <a href="">Funzioni Lipschitziane</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[08/11/07]</code> <a href="">Esercizi su studio di funzioni, inf, sup, max, min</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[09/11/07]</code> <a href="">Successioni per ricorrenza autonome monotone</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[09/11/07]</code> <a href="">Successioni per ricorrenza autonome spiraleggianti</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[13/11/07]</code> <a href="">Successioni per ricorrenza non autonome</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[13/11/07]</code> <a href="">Successioni per ricorrenza: ulteriori esercizi</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[14/11/07]</code> <a href="">Spazio n-dimensionale, vettori, norma, prodotto scalare</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[14/11/07]</code> <a href="">Funzioni di 2 variabili e loro linee di livello</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[14/11/07]</code> <a href="">Limiti e continuità in 2 variabili</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[15/11/07]</code> <a href="">Derivate parziali e direzionali</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[15/11/07]</code> <a href="">Differenziale e gradiente</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[16/11/07]</code> <a href="">Massimi e minimi in 2 variabili: teorema di Weiestrass e metodo delle linee di livello</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[16/11/07]</code> <a href="">Massimi e minimi in 2 variabili: parametrizzazione del bordo</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[20/11/07]</code> <a href="">Moltiplicatori di Lagrange</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[20/11/07]</code> <a href="">Massimi e minimi su insiemi limitati</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[21/11/07]</code> <a href="">Derivate parziali successive, massimi e minimi su insiemi non limitati</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[21/11/07]</code> <a href="">Integrali in una variabile: notazioni, significato geometrico, definizioni</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[21/11/07]</code> <a href="">Funzione integrale, primitive, teorema della media integrale, teorema fondamentale del calcolo integrale</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[22/11/07]</code> <a href="">Integrazione per parti</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[22/11/07]</code> <a href="">Integrazione per sostituzione</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[23/11/07]</code> <a href="">Integrazione funzioni razionali (prima parte)</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[23/11/07]</code> <a href="">Integrazione funzioni razionali (seconda parte)</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[27/11/07]</code> <a href="">Sostituzioni razionalizzanti (prima parte)</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[27/11/07]</code> <a href="">Sostituzioni razionalizzanti (seconda parte)</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[28/11/07]</code> <a href="">Integrali doppi: notazioni, definizioni, formula di riduzione sui rettangoli</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[28/11/07]</code> <a href="">Integrali doppi: formula di riduzione su insiemi normali rispetto all’asse <code>x</code></a> - <a href=""><code>PDF</code></a></li>
+<li><code>[28/11/07]</code> <a href="">Integrali doppi: formula di riduzione su insiemi normali rispetto all’asse <code>y</code></a> - <a href=""><code>PDF</code></a></li>
+<li><code>[29/11/07]</code> <a href="">Integrali impropri: definizioni e spezzamento in integrali monoproblema</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[29/11/07]</code> <a href="">Integrali impropri: criteri di convergenza</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[30/11/07]</code> <a href="">Coordinate polari e loro utilizzo per il calcolo di integrali doppi</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[30/11/07]</code> <a href="">Cambi di variabile negli integrali doppi</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[04/12/07]</code> <a href="">Integrali tripli: notazioni, definizioni, formula di riduzione per colonne</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[04/12/07]</code> <a href="">Integrali tripli: formula di riduzione per sezioni</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[05/12/07]</code> <a href="">Coordinate cilindriche e sferiche e loro utilizzo per il calcolo di integrali tripli</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[05/12/07]</code> <a href="">Calcolo di baricentri di figure piane e solide mediante integrali doppi e tripli</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[05/12/07]</code> <a href="">Cambi di variabile negli integrali tripli (volume dei solidi di rotazione)</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[06/12/07]</code> <a href="">Studio della convergenza di integrali impropri mediante l’integrazione per parti</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[06/12/07]</code> <a href="">Confronti serie integrali (metodo <em>dei triangolini</em> per lo studio di integrali impropri)</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[07/12/07]</code> <a href="">Curve: definizioni, lunghezza, integrali curvilinei</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[07/12/07]</code> <a href="">Baricentro di una curva (area di una superficie di rotazione)</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[11/12/07]</code> <a href="">Equazioni differenziali e problema di Cauchy (notazioni e definizioni)</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[12/12/07]</code> <a href="">Equazioni differenziali a variabili separabili (tempo di vita, blow-up, break-down)</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[12/12/07]</code> <a href="">Esempi di studio di equazioni differenziali a variabili separabili</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[12/12/07]</code> <a href="">Esempi di studio di equazioni differenziali a variabili separabili in funzione del dato iniziale</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[13/12/07]</code> <a href="">Equazioni differenziali lineari omogenee</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[13/12/07]</code> <a href="">Equazioni differenziali lineari non omogenee (ricerca per tentavi di una soluzione)</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[14/12/07]</code> <a href="">Equazioni differenziali lineari non omogenee (ulteriori esempi di ricerca per tentavi di una soluzione)</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[14/12/07]</code> <a href="">Equazioni differenziali lineari del primo ordine</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[18/12/07]</code> <a href="">Equazioni differenziali lineari non omogenee (metodo di variazione delle costanti)</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[18/12/07]</code> <a href="">Tecniche per calcolare la somma di una serie di potenze</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[19/12/07]</code> <a href="">Sistemi di equazioni differenziali lineari omogenee (studio di equazioni differenziali con parametri)</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[19/12/07]</code> <a href="">Calcolo di 2 integrali impegnativi</a> - <a href=""><code>PDF</code></a></li>
+</ol>
+<h3 id="esercitazioni-calcolo">Esercitazioni <em>Calcolo</em></h3>
+<ol type="1">
+<li><code>[11/10/07]</code> <a href="">Funzioni, limiti</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[18/10/07]</code> <a href="">Limiti</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[25/10/07]</code> <a href="">Limiti, serie</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[08/11/07]</code> <a href="">Serie, studi di funzione</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[15/11/07]</code> <a href="">Limiti, serie, successioni per ricorrenza, inf/sup/max/min</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[22/11/07]</code> <a href="">Max e min in 2 variabili, successioni per ricorrenza</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[29/11/07]</code> <a href="">Integrali (anche multipli) e serie</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[06/12/07]</code> <a href="">Limiti, successioni per ricorrenza, serie, integrali multipli</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[13/12/07]</code> <a href="">Integrali impropri, integrali multipli</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[19/12/07]</code> <a href="">Risoluzione scritto d’esame <code>maggio 2004</code></a> - <a href=""><code>PDF</code></a></li>
+<li><code>[20/12/07]</code> <a href="">Un po’ di tutto</a> - <a href=""><code>PDF</code></a></li>
+<li><code>[07/01/08]</code> <a href="">Un po’ di tutto (temi d’esame)</a> - <a href=""><code>PDF</code></a></li>
+</ol>
+<nav class="site-nav" style="font-size:70%">
+<!-- footer content -->
+</nav>
+</body>
+</html>
