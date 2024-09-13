@@ -4,12 +4,12 @@ Questa pagina contiene il materiale di lezioni ed esercitazioni tenute dal [Prof
 
 Il corso (12 cfu) è pensato per essere svolto nell'arco di un semestre, per un totale di 112 ore di lezione ad una frequenza di 8 ore a settimana. Benché non abbia la stessa lunghezza di un corso universitario standard di Analisi Matematica I e II (dai 18 ai 27 cfu), il Professore ha creato un corso ugualmente completo e ben strutturato, che copre tutti gli argomenti fondamentali della materia. Questo lo rende particolarmente adatto durante la preparazione ad una Laurea Magistrale di tipo quantitativo o semplicemente per rinfrescare alcuni concetti di base.
 
-> Il lavoro e la dedizione del Prof. Gobbino sono encomiabili e il suo corso è un vero e proprio tesoro da tenere sempre a portata di mano. Nella pagina personale del Professore, sono archiviate, in [`CC`](https://creativecommons.org/licenses/by-nc-sa/4.0/), lezioni che negli anni ha tenuto all'Università di Pisa: si veda [Analisi 1 (120 ore)](http://pagine.dm.unipi.it/gobbino/Home_Page/AD_AM13.html), [Analisi 2 (60 ore)](http://pagine.dm.unipi.it/gobbino/Home_Page/AD_AM2_14.html), [Algebra lineare (60 ore)](http://pagine.dm.unipi.it/gobbino/Home_Page/AD_AL_14.html) tenuti a Ingegneria e [Analisi 1 (135 ore)](http://pagine.dm.unipi.it/gobbino/Home_Page/AD_AM1_17.html), [Analisi 2 (120 ore)](http://pagine.dm.unipi.it/gobbino/Home_Page/AD_AM2_18.html) tenuti a Matematica.
+> Il lavoro e la dedizione del Prof. Gobbino sono encomiabili e il suo corso è un vero e proprio tesoro da tenere sempre a portata di mano. Il Professore, oltre a quelle di [Calcolo](http://pagine.dm.unipi.it/gobbino/Home_Page/AD_T08.html), rende disponibile il materiale di vari corsi che negli anni ha tenuto all'Università di Pisa: consiglio Analisi [uno](http://pagine.dm.unipi.it/gobbino/Home_Page/AD_AM13.html), [due](http://pagine.dm.unipi.it/gobbino/Home_Page/AD_AM2_14.html) e [Algebra lineare](http://pagine.dm.unipi.it/gobbino/Home_Page/AD_AL_14.html) tenuti a Ingegneria, oltre ad Analisi [uno](http://pagine.dm.unipi.it/gobbino/Home_Page/AD_AM1_17.html) e [due](http://pagine.dm.unipi.it/gobbino/Home_Page/AD_AM2_18.html) tenuti a Matematica. Tutto il materiale è rilasciato con licenza [`Creative Commons`](https://creativecommons.org/licenses/by-nc-sa/4.0/)!
 
 
 
 
-### Lezioni *Precalcolo*
+### Lezioni *Precalcolo* - [`PDF`]()
 
 1.  [Frazioni e potenze]() - [`PDF`]()
 2.  [Polinomi ed equazioni polinomiali]() - [`PDF`]()
@@ -25,7 +25,7 @@ Il corso (12 cfu) è pensato per essere svolto nell'arco di un semestre, per un 
 
 
 
-### Lezioni *Calcolo*
+### Lezioni *Calcolo* - [`PDF`]()
 
 1. 	 `[02/10/07]` [Insiemi]() - [`PDF`]()
 2. 	 `[02/10/07]` [Funzioni tra insiemi, iniettività, surgettività, immagine e controimmagine]() - [`PDF`]()
@@ -131,7 +131,7 @@ Il corso (12 cfu) è pensato per essere svolto nell'arco di un semestre, per un 
 
 
 
-### Esercitazioni *Calcolo*
+### Esercitazioni *Calcolo* - [`PDF`]()
 
 1.  `[11/10/07]` [Funzioni, limiti]() - [`PDF`]()
 2.  `[18/10/07]` [Limiti]() - [`PDF`]()
