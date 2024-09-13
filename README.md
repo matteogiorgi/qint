@@ -4,6 +4,6 @@ This repository contains a collection of material, useful for quant interviews p
 
 - [Calulus lectures](https://www.geoteo.net/qmath/gobbino)
 - [Personal library](https://www.geoteo.net/qmath/books)
-- [Useful material](https://www.geoteo.net/qmath/dispense)
+- [Useful notes](https://www.geoteo.net/qmath/dispense)
 - [Online calculator](https://www.geogebra.org/calculator)
 - [Online text-editor](https://github.dev)
