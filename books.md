@@ -90,7 +90,7 @@
 - `[Rotondi, Pedroni, Pievatolo]` [Probabilità, statistica e simulazione]()
 - `[Dekking, Kraaikamp, Lopuhaä, Meester]` [A modern introduction to probability and statistics]()
 - `[Bulmer]` [Principles of statistics]()
-- `[Diez, Barr, Çetinkay]` [undel - OpenIntro statistics]()
+- `[Diez, Barr, Çetinkaya-Rundel]` [OpenIntro statistics]()
 - `[Capinski, Kopp]` [Measure, integral and probability]()
 - `[Brzezniak, Zastawniak]` [Basic stochastic processes]()
 
