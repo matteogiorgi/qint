@@ -1,6 +1,6 @@
 # Dispense
 
-- `[Gaiffi`] - [Aritmetica]()
+- `[Gaiffi]` - [Aritmetica]()
 - `[Berarducci, Gaiffi]` [Appunti di matematica discreta]()
 - `[Di Martino, Gaiffi]` [Appunti di algebrea lineare]()
 - `[Polini]` [Algebra lineare for dummies]()
