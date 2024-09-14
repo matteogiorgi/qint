@@ -168,7 +168,7 @@
 - `[Bishop]` [Pattern recognition and machine learning]()
 - `[Grigoletto, Pauli, Ventura]` [Modello lineare]()
 - `[Deisenroth, Faisal, Ong]` [Mathematics for machine learning]()
-- `[Shale]` [hwartz, Ben-David - Understanding machine learning]()
+- `[Shale-Shwartz, Ben-David]` [Understanding machine learning]()
 - `[Willmott]` [Machine learning: an applied mathematics introduction]()
 - `[Zhou]` [Machine learning]()
 - `[Goodfellow, Bengio, Courville]` [Deep learning]()
