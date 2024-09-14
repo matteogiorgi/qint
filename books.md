@@ -15,7 +15,7 @@
 ### Combinatorics
 - `[Keller, Trotter]` [Applied combinatorics]()
 - `[Graham, Knuth, Patashnik]` [Matematica discreta]()
-- `[Maricaonda, Tonolo]` [Calcolo discreto]()
+- `[Mariconda, Tonolo]` [Calcolo discreto]()
 - `[Wilf]` [Generatingfunctionology]()
 - `[Martin]` [Counting, the art of enumerative combinatorics]()
 - `[Chen, Koh]` [Principles and techniques in combinatorics]()
