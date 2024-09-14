@@ -312,7 +312,7 @@
 - `[Tanenbaum]` [I moderni sistemi operativi]()
 - `[Silberschatz, Galvin, Gagne]` [Sistemi operativi]()
 - `[Arpaci, Dusseau]` [Operating systems: three easy pieces]()
-- `[Love]` [Linux kernel development]()
+- `[Love]` [*Linux* kernel development]()
 
 
 

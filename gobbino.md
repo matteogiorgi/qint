@@ -1,10 +1,10 @@
 # Calcolo
 
-Questa pagina contiene il materiale di lezioni ed esercitazioni tenute dal [Prof. Gobbino](http://pagine.dm.unipi.it/gobbino/Home_Page/ArchivioDidattico.html) per l'esame di *Calcolo* del corso di Laurea in *Ingengeria Elettronica e Telecomunicazioni* dell'[Università di Pisa](https://www.unipi.it) nell'anno accademico 2007/2008, oltre al materiale del corso di *Precalcolo* tenuto dal Professore nel medesimo anno.
+Questa pagina contiene il materiale di lezioni ed esercitazioni tenute dal [Prof. Gobbino](http://pagine.dm.unipi.it/gobbino/Home_Page/ArchivioDidattico.html) per l'esame di *Calcolo* del corso di Laurea in *Ingegneria Elettronica e Telecomunicazioni* dell'[Università di Pisa](https://www.unipi.it) nell'anno accademico 2007/2008, oltre al materiale del corso di *Precalcolo* tenuto dal Professore nel medesimo anno.
 
 Il corso (12 cfu) è pensato per essere svolto nell'arco di un semestre, per un totale di 112 ore di lezione ad una frequenza di 8 ore a settimana. Benché non abbia la stessa lunghezza di un corso universitario standard di Analisi Matematica I e II (dai 18 ai 27 cfu), il Professore ha creato un corso ugualmente completo e ben strutturato, che copre tutti gli argomenti fondamentali della materia. Questo lo rende particolarmente adatto durante la preparazione ad una Laurea Magistrale di tipo quantitativo o semplicemente per rinfrescare alcuni concetti di base.
 
-> Il lavoro e la dedizione del Prof. Gobbino sono encomiabili e il suo corso è un vero e proprio tesoro da tenere sempre a portata di mano. Il Professore, oltre a quelle di [Calcolo](http://pagine.dm.unipi.it/gobbino/Home_Page/AD_T08.html), rende disponibile il materiale di vari corsi che negli anni ha tenuto all'Università di Pisa: consiglio Analisi [uno](http://pagine.dm.unipi.it/gobbino/Home_Page/AD_AM13.html), [due](http://pagine.dm.unipi.it/gobbino/Home_Page/AD_AM2_14.html) e [Algebra lineare](http://pagine.dm.unipi.it/gobbino/Home_Page/AD_AL_14.html) tenuti a Ingegneria, oltre ad Analisi [uno](http://pagine.dm.unipi.it/gobbino/Home_Page/AD_AM1_17.html) e [due](http://pagine.dm.unipi.it/gobbino/Home_Page/AD_AM2_18.html) tenuti a Matematica. Tutto il materiale è rilasciato con licenza [`Creative Commons`](https://creativecommons.org/licenses/by-nc-sa/4.0/)!
+> Il lavoro e la dedizione del Prof. Gobbino sono encomiabili e il suo corso è un vero e proprio tesoro da tenere sempre a portata di mano. Il Professore, oltre a questo di [Calcolo](http://pagine.dm.unipi.it/gobbino/Home_Page/AD_T08.html), rende disponibile il materiale di vari corsi che negli anni ha tenuto all'Università di Pisa: consiglio Analisi [uno](http://pagine.dm.unipi.it/gobbino/Home_Page/AD_AM13.html), [due](http://pagine.dm.unipi.it/gobbino/Home_Page/AD_AM2_14.html) e [Algebra lineare](http://pagine.dm.unipi.it/gobbino/Home_Page/AD_AL_14.html) tenuti a Ingegneria, oltre ad Analisi [uno](http://pagine.dm.unipi.it/gobbino/Home_Page/AD_AM1_17.html) e [due](http://pagine.dm.unipi.it/gobbino/Home_Page/AD_AM2_18.html) tenuti a Matematica. Tutto il materiale è rilasciato con licenza [`Creative Commons`](https://creativecommons.org/licenses/by-nc-sa/4.0/)!
 
 
 
@@ -142,6 +142,6 @@ Il corso (12 cfu) è pensato per essere svolto nell'arco di un semestre, per un 
 7.  `[29/11/07]` [Integrali (anche multipli) e serie]() - [`PDF`]()
 8.  `[06/12/07]` [Limiti, successioni per ricorrenza, serie, integrali multipli]() - [`PDF`]()
 9.  `[13/12/07]` [Integrali impropri, integrali multipli]() - [`PDF`]()
-10. `[19/12/07]` [Risoluzione scritto d'esame `maggio 2004`]() - [`PDF`]()
+10. `[19/12/07]` [Risoluzione scritto d'esame maggio 2004]() - [`PDF`]()
 11. `[20/12/07]` [Un po' di tutto]() - [`PDF`]()
 12. `[07/01/08]` [Un po' di tutto (temi d'esame)]() - [`PDF`]()
