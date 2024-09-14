@@ -11,16 +11,16 @@ Il corso (12 cfu) è pensato per essere svolto nell'arco di un semestre, per un 
 
 ### Lezioni *Precalcolo* - [`PDF`]()
 
-1.  [Frazioni e potenze]() - [`PDF`]()
-2.  [Polinomi ed equazioni polinomiali]() - [`PDF`]()
-3.  [Disequazioni di secondo grado e con prodotti e quozienti]() - [`PDF`]()
-4.  [Logaritmi e relative (dis)equazioni]() - [`PDF`]()
-5.  [(Dis)equazioni con radici]() - [`PDF`]()
-6.  [(Dis)equazioni con valori assoluti]() - [`PDF`]()
-7.  [Trigonometria, (dis)equazioni trigonometriche]() - [`PDF`]()
-8.  [Trigonometria e triangoli]() - [`PDF`]()
-9.  [Geometria analitica]() - [`PDF`]()
-10. [Insiemi del piano e geometria euclidea]() - [`PDF`]()
+1.  `[17/09/07]` [Frazioni e potenze]() - [`PDF`]()
+2.  `[18/09/07]` [Polinomi ed equazioni polinomiali]() - [`PDF`]()
+3.  `[19/09/07]` [Disequazioni di secondo grado e con prodotti e quozienti]() - [`PDF`]()
+4.  `[20/09/07]` [Logaritmi e relative (dis)equazioni]() - [`PDF`]()
+5.  `[21/09/07]` [(Dis)equazioni con radici]() - [`PDF`]()
+6.  `[22/09/07]` [(Dis)equazioni con valori assoluti]() - [`PDF`]()
+7.  `[25/09/07]` [Trigonometria, (dis)equazioni trigonometriche]() - [`PDF`]()
+8.  `[26/09/07]` [Trigonometria e triangoli]() - [`PDF`]()
+9.  `[27/09/07]` [Geometria analitica]() - [`PDF`]()
+10. `[28/09/07]` [Insiemi del piano e geometria euclidea]() - [`PDF`]()
 
 
 
