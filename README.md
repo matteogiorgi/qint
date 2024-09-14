@@ -4,6 +4,10 @@ This repository contains a collection of material, useful for quant interviews p
 
 - [Lectures notes](https://www.geoteo.net/qmath/dispense)
 - [Personal library](https://www.geoteo.net/qmath/books)
-- [Calculus lectures](https://www.geoteo.net/qmath/gobbino)
-- [Online text-editor](https://github.dev)
-- [Online calculator](https://www.geogebra.org/calculator)
+- [Calculus 1&2](https://www.geoteo.net/qmath/gobbino)
+- [Text editor](https://github.dev)
+- [*LaTeX* editor](https://www.overleaf.com)
+- [*UML* editor](https://app.diagrams.net)
+- [Graph calculator](https://www.geogebra.org/calculator)
+- [Shared whiteboard](https://excalidraw.com)
+- [Shared codespace](https://codeshare.io)
