@@ -13,3 +13,5 @@
 - `[Trevisan]` [Probabilità e processi stocastici]()
 - `[Mauny]` [Functional programming using *Caml Light*]()
 - `[Leroy, Remy]` [*UNIX* system programming in *OCaml*]()
+- `[Serrano Mena]` [Book of monads]()
+- `[Serrano Mena]` [*Haskell* (almost) standard libraries]()
