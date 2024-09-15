@@ -2,12 +2,28 @@
 
 This repository contains a collection of material, useful for quant interviews preparation: from books and notes to online lectures, from coding to math. Everything is always a work in progress, do not expect anything fancy.
 
-- [Lectures notes](https://www.geoteo.net/qmath/dispense)
+
+
+
+### Notes & Books
+
 - [Personal library](https://www.geoteo.net/qmath/books)
-- [Calculus 1&2](https://www.geoteo.net/qmath/gobbino)
-- [Text editor](https://github.dev)
+- [University notebooks](https://www.geoteo.net/qmath/dispense)
+- [Full calculus lectures](https://www.geoteo.net/qmath/gobbino)
+
+
+
+
+### Interviews & Coding
+- [LeetCode problems]()
+- [Stochastic exercises]()
+
+
+
+
+### Online services
+
+- [Code & Git](https://github.dev)
 - [*LaTeX* editor](https://www.overleaf.com)
-- [*UML* editor](https://app.diagrams.net)
-- [Graph calculator](https://www.geogebra.org/calculator)
-- [Shared whiteboard](https://excalidraw.com)
-- [Shared codespace](https://codeshare.io)
+- [*UML* & Diagrams](https://app.diagrams.net)
+- [Graphs & CAS](https://www.geogebra.org/calculator)

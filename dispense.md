@@ -1,10 +1,15 @@
 # Dispense
 
-- `[Gaiffi]` - [Aritmetica]()
+- `[Gaiffi]` [Appunti di aritmetica]()
+- `[Bonchi, Conte, Corradini, Grossi]` [Fondamenti dell'informatica]()
 - `[Berarducci, Gaiffi]` [Appunti di matematica discreta]()
 - `[Di Martino, Gaiffi]` [Appunti di algebrea lineare]()
+- `[Berarducci, Papini]` [Linear algebra exercises]()
 - `[Polini]` [Algebra lineare for dummies]()
 - `[Acquistapace]` [Appunti di analisi matematica 1]()
 - `[Acquistapace]` [Appunti di analisi matematica 2]()
+- `[Sengupta]` [Introductory calculus notes]()
 - `[Carpignani]` [Elementi di probabilità e statistica]()
+- `[Trevisan]` [Probabilità e processi stocastici]()
+- `[Mauny]` [Functional programming using *Caml Light*]()
 - `[Leroy, Remy]` [*UNIX* system programming in *OCaml*]()
