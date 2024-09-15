@@ -15,7 +15,7 @@ This repository contains a collection of material, useful for quant interviews p
 
 
 ### Interviews & Coding
-- [LeetCode problems]()
+- [*LeetCode* problems]()
 - [Stochastic exercises]()
 
 
