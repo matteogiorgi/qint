@@ -7,9 +7,8 @@ Questa pagina contiene una raccolta di dispense (disponibili in rete) su vari ar
 
 ### Algoritmi & Strutture dati
 
-- `[Bonchi, Conte, Corradini, Grossi]` [Fondamenti dell'informatica](https://mega.nz/file/U1xSCQKR#m82gfTfq95pCfLd2AgXcOk9N27gHjqW90am1cQLmGwY)
-- `[Fleck]` [Building blocks for theoretical computer science](https://mega.nz/file/ggARGbCB#uydNx9jOIgjK3xOJP-Q7DRe51u_NDRQf0kWigrglVdo)
 - `[De Francesco, Martini]` [Appunti di algoritmi e strutture dati](https://mega.nz/file/M5IWxKaI#43cRF8HtbZ0pqOKAIiZw2S-ST2uliuwsQ_iO6mYQE5Y)
+- `[Shaffer]` [Data structures and algorithm analysis](https://mega.nz/file/8lxX0b5J#u7jlCf9_Gyo9h6xQ13Cqyrp7TPWYhBlk4pDdIeHnsf8)
 - `[Morin]` [Open data structures](https://mega.nz/file/RxJWkRJL#JrSZ0fGA4KE4japX4okulsdw8VL1eTCzBnALhRXy1Bs)
 - `[Sheehy]` [A first course on data structures](https://mega.nz/file/cpB0SaiJ#2fCtplLNndEg22v2yPteZByI4qB8G0PIbP4xVwua9gE)
 - `[Erickson]` [Algorithms](https://mega.nz/file/5ooTFC5Z#8Obnl02rVjL7cUjfdRKplTwi8pP7ztHZ-6yTG2hQImI)
@@ -29,6 +28,8 @@ Questa pagina contiene una raccolta di dispense (disponibili in rete) su vari ar
 
 ### Matematica discreta
 
+- `[Fleck]` [Building blocks for theoretical computer science](https://mega.nz/file/ggARGbCB#uydNx9jOIgjK3xOJP-Q7DRe51u_NDRQf0kWigrglVdo)
+- `[Bonchi, Conte, Corradini, Grossi]` [Fondamenti dell'informatica](https://mega.nz/file/U1xSCQKR#m82gfTfq95pCfLd2AgXcOk9N27gHjqW90am1cQLmGwY)
 - `[Polini]` [Algebra lineare for dummies](https://mega.nz/file/NwRSyCgI#oVgzZkVVNTX1Ma3T9R-P2XJEluiO1WsM_3ioMZMw4C0)
 - `[Martelli]` [Geometria e algebra lineare](https://mega.nz/file/Zl4i1LpI#DuIFxdW0Hf3Dt6sg-E22ImXXgEZV6dzRhl9xQWCTeZY)
 - `[Gaiffi]` [Appunti di aritmetica](https://mega.nz/file/0xBWjBrA#Xs3GSpC-Yz_szlrTyoTtA3aAEJvZR2KHUNtVb-UqoYo)
@@ -70,17 +71,6 @@ Questa pagina contiene una raccolta di dispense (disponibili in rete) su vari ar
 
 
 
-### Ricerca operativa
-
-- `[Bigi, Frangioni, Gallo, Pallottino, Scutellà]` [Appunti di ricerca operativa](https://mega.nz/file/g0pQiRSS#vpbuJlfIUTrfGa_PTWyjyfNQpWB6FICnxG0Ip8Kc954)
-- `[Lucidi, De Santis]` [Appunti di ricerca operativa](https://mega.nz/file/p5RHQDhA#HGf9qkI1Kw7n_Akt27sZ7VI9HRCYXQu--C8ZrWzhju8)
-- `[Roma]` Appunti di ricerca operativa
-    - [Note di ricerca operativa](https://mega.nz/file/Z1QziRyB#WYazjJaWGN7wJzag5Z_kqNoExVh572FGaL4EUwLGTfY)
-    - [Problemi risolti](https://mega.nz/file/h0QzFDIS#IYOZmNz6vLTkErreibiRu9QMVhOL5YD0vqlZ6wUfq48)
-
-
-
-
 ### Metodi numerici
 
 - `[Cavalca]` [Appunti di metodi numerici per l'ingegneria](https://mega.nz/file/Ypw3zZQb#Ohy9kfUhLx1U-WYCUdJ4wjB9EC5xorhkNfReXaFWKf4)
@@ -88,6 +78,17 @@ Questa pagina contiene una raccolta di dispense (disponibili in rete) su vari ar
 - `[Bevilacqua, Menchi]` Appunti di calcolo numerico
     - [Note di calcolo numerico](https://mega.nz/file/ktQVnLgD#AELQ71lo5C4Fup1KuauaaboM_3phtk8Kyvths_1LTKM)
     - [Problemi risolti](https://mega.nz/file/RkpRAATZ#hgnXH5DSXmhElmHg0D2Ai0dUB__DEci_muPbk-jz09I)
+
+
+
+
+### Ricerca operativa
+
+- `[Bigi, Frangioni, Gallo, Pallottino, Scutellà]` [Appunti di ricerca operativa](https://mega.nz/file/g0pQiRSS#vpbuJlfIUTrfGa_PTWyjyfNQpWB6FICnxG0Ip8Kc954)
+- `[Lucidi, De Santis]` [Appunti di ricerca operativa](https://mega.nz/file/p5RHQDhA#HGf9qkI1Kw7n_Akt27sZ7VI9HRCYXQu--C8ZrWzhju8)
+- `[Roma]` Appunti di ricerca operativa
+    - [Note di ricerca operativa](https://mega.nz/file/Z1QziRyB#WYazjJaWGN7wJzag5Z_kqNoExVh572FGaL4EUwLGTfY)
+    - [Problemi risolti](https://mega.nz/file/h0QzFDIS#IYOZmNz6vLTkErreibiRu9QMVhOL5YD0vqlZ6wUfq48)
 
 
 
