@@ -1,5 +1,7 @@
 # Books
 
+This is a list of books I've read, I'm reading, or I'm planning to read. The list is divided into categories, and covers a wide range of topics, from mathematics to computer science, from physics to finance with a focus on quantitative methods.
+
 
 
 
