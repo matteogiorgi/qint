@@ -51,6 +51,8 @@ Questa pagina contiene una raccolta di dispense (disponibili in rete) su vari ar
 - `[Acquistapace]` Appunti di analisi matematica
     - [Analisi uno](https://mega.nz/file/YswTXQwR#71xO_iaQH44jLts4pp6psh15pUKZoYiqWJ1ieT9qIFI)
     - [Analisi due](https://mega.nz/file/0sYThR6A#bs5R18OyyAf8sMNzNHNYNnlFKtmUedmqC9awYgL0wYQ)
+- `[Zanghì]` [Appunti di metodi matematici della fisica](https://mega.nz/file/o0QClKQC#TSYTL01Os7ZuB8n7u9zJ9D44yckdFmLfwuTqHTM6VaM)
+- `[Zanghì]` [Lezioni di fisica teorica](https://mega.nz/file/N8BVhaZI#pnmBoXgm_pCZyN4mbS66w4aTmlI2QHTXUnvnSFWTrpU)
 
 
 
