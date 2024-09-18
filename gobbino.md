@@ -2,6 +2,10 @@
 
 Questa pagina contiene il materiale di lezioni ed esercitazioni tenute dal [Prof. Gobbino](http://pagine.dm.unipi.it/gobbino/Home_Page/ArchivioDidattico.html) per l'esame di *Calcolo* del corso di Laurea in *Ingegneria Elettronica e Telecomunicazioni* dell'[Università di Pisa](https://www.unipi.it) nell'anno accademico 2007/2008, oltre al materiale del corso di *Precalcolo* tenuto dal Professore nel medesimo anno.
 
+- [Lezioni di *Precalcolo*](#lezioni-precalcolo) - [`PDF`](https://mega.nz/file/494AjQaR#ZJMr0XKfmEUgvrVcZfupBSP7UkyrBhSQn0tSQNT7Xj4)
+- [Lezioni di *Calcolo*](#lezioni-calcolo) - [`PDF`](https://mega.nz/file/B9oGEQSD#1P7fkyQ17V1bOtrMV56JAPwi9pO7k8sEHrJAiUITuh8)
+- [Esercitazioni di *Calcolo*](#esercitazioni-calcolo) - [`PDF`](https://mega.nz/file/JwpX3TLb#Cl9sJp1o1rSNYEZwt_oteCxlNwAAd-wTwqvtarVyra8)
+
 Il corso (12 cfu) è pensato per essere svolto nell'arco di un semestre, per un totale di 112 ore di lezione ad una frequenza di 8 ore a settimana. Benché non abbia la stessa lunghezza di un corso universitario standard di Analisi Matematica I e II (dai 18 ai 27 cfu), il Professore ha creato un corso ugualmente completo e ben strutturato, che copre tutti gli argomenti fondamentali della materia. Questo lo rende particolarmente adatto durante la preparazione ad una Laurea Magistrale di tipo quantitativo o semplicemente per rinfrescare alcuni concetti di base.
 
 > Il lavoro e la dedizione del Prof. Gobbino sono encomiabili e il suo corso è un vero e proprio tesoro da tenere sempre a portata di mano. Il Professore, oltre a questo di [Calcolo](http://pagine.dm.unipi.it/gobbino/Home_Page/AD_T08.html), rende disponibile il materiale di vari corsi che negli anni ha tenuto all'Università di Pisa: consiglio Analisi [uno](http://pagine.dm.unipi.it/gobbino/Home_Page/AD_AM13.html), [due](http://pagine.dm.unipi.it/gobbino/Home_Page/AD_AM2_14.html) e [Algebra lineare](http://pagine.dm.unipi.it/gobbino/Home_Page/AD_AL_14.html) tenuti a Ingegneria, oltre ad Analisi [uno](http://pagine.dm.unipi.it/gobbino/Home_Page/AD_AM1_17.html) e [due](http://pagine.dm.unipi.it/gobbino/Home_Page/AD_AM2_18.html) tenuti a Matematica. Tutto il materiale è rilasciato con licenza [`Creative Commons`](https://creativecommons.org/licenses/by-nc-sa/4.0/)!
@@ -9,7 +13,7 @@ Il corso (12 cfu) è pensato per essere svolto nell'arco di un semestre, per un 
 
 
 
-### Lezioni *Precalcolo* - [`PDF`](https://mega.nz/file/494AjQaR#ZJMr0XKfmEUgvrVcZfupBSP7UkyrBhSQn0tSQNT7Xj4)
+### Lezioni *Precalcolo*
 
 1.  `[17/09/07]` [Frazioni e potenze](https://mega.nz/file/khIHUZaD#1Y4EpqKSjPMh3wPQN7jeHg-fcCPgLJrBSNWkPIO-PcU) - [`PDF`](https://mega.nz/file/FtR0iCyB#yHNSp0-ljIsfLJlopZtPwzZBQ0HwdGwIz0hrniux-E0)
 2.  `[18/09/07]` [Polinomi ed equazioni polinomiali](https://mega.nz/file/99QWTa4K#o2zC0ILXsx3UmCvckLmIRIS9DfJzNUaKS2VANXxr-lA) - [`PDF`](https://mega.nz/file/U14GQR4Q#OpP-SB_Wp4hSACFJHIRvccIism2XLZ2H7kXeIC2eIlE)
@@ -25,7 +29,7 @@ Il corso (12 cfu) è pensato per essere svolto nell'arco di un semestre, per un 
 
 
 
-### Lezioni *Calcolo* - [`PDF`](https://mega.nz/file/B9oGEQSD#1P7fkyQ17V1bOtrMV56JAPwi9pO7k8sEHrJAiUITuh8)
+### Lezioni *Calcolo*
 
 1. 	 `[02/10/07]` [Insiemi](https://mega.nz/file/Y8ZSyZKB#SocjSc8UR_ghF-UzrI2plUd6tAoDvT5QaYjD6wb9czI) - [`PDF`](https://mega.nz/file/p9QzTR7T#cmhkAEb8JSXz3mhsqd5gB6GQ77um5kBdTCo9y0oH02M)
 2. 	 `[02/10/07]` [Funzioni tra insiemi, iniettività, surgettività, immagine e controimmagine](https://mega.nz/file/R9ZAFTqT#UhyClOSBLImsvKfP6GJGHTUCOKr18YmKrqeIPUm2_ok) - [`PDF`](https://mega.nz/file/kwpWWR7Q#jtPypG0jFwWg278cZBYuSEUNxdHT-1OML_o7HtaWSoU)
@@ -131,7 +135,7 @@ Il corso (12 cfu) è pensato per essere svolto nell'arco di un semestre, per un 
 
 
 
-### Esercitazioni *Calcolo* - [`PDF`](https://mega.nz/file/JwpX3TLb#Cl9sJp1o1rSNYEZwt_oteCxlNwAAd-wTwqvtarVyra8)
+### Esercitazioni *Calcolo*
 
 1.  `[11/10/07]` [Funzioni, limiti](https://mega.nz/file/FwpSjbbR#lJVzRsbHvJVgdRZkRAnGVnGiZbGYV3RhcJZJ31sGdfI) - [`PDF`](https://mega.nz/file/F8h1XLJb#Gi_0Xvux4HF_kR-Bul46-q_X0qYCeTx2ejCM9T18ePo)
 2.  `[18/10/07]` [Limiti](https://mega.nz/file/h9QEVRgY#T-XOzlHQwxQnvduhuS0v5tSnfYUZ45U7lSMFvdntDVk) - [`PDF`](https://mega.nz/file/p1o1QaIT#51rJefVBk9eKmp9P8t5zwUYvPRjdfXPqZGIz6v8Qb-8)
