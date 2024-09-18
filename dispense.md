@@ -101,4 +101,7 @@ Questa pagina contiene una raccolta di dispense (disponibili in rete) su vari ar
 
 - `[Airoldi]` [Elementi di finanza, metodi numerici e loro implementazione](https://mega.nz/file/99AjwZrI#-E5EMVvUULVAvojGTmKJwOzf_6UqsJv3w76YlroV_as)
 - `[Palestini]` [Dispense di matematica finanziaria](https://mega.nz/file/81RTlYLY#AIrd7gomGuiNc387zYTfuFz8CpJq7wXON4zb3Vh6or8)
+- `[Amisano]` [Lezioni di econometria](https://mega.nz/file/AloiDQha#rGvxtiA3KVFJxiDGtpGTqP34o0BTUT_3PfHAno3RwSU)
+- `[Tscherig, haupt]` [Introductory econometrics](https://mega.nz/file/I4xjhZaR#c1wvOgGMotnRiJGz9Nz-1qAZd9xb6PkAkapz_NDOrt8)
+- `[Lucchetti]` [Basic econometrics](https://mega.nz/file/xh5mgLqT#Ilvb4YBO1R1dJr6RagIYqBacAtHPXCM6eNVTcZrbi-s)
 - `[Lucchetti]` [Appunti di analisi delle serie storiche](https://mega.nz/file/Up5CyLSI#eQ9KUrFK75NgkjVFkQvHo5xCmFtVlGoWL8GjoMWGNXw)
