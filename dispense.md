@@ -19,6 +19,8 @@ Questa pagina contiene una raccolta di dispense (disponibili in rete) su vari ar
 
 ### Linguaggi di programmazione
 
+- `[Abelson, Sussman]` [Structure and interpretation of computer programs](https://mega.nz/file/wgIEUb6A#3NrlsDomh_nqVTEbGnjMOn0sM5aWGuurqilhEY8dfac)
+- `[Haverbeke]` [Eloquent *JavaScript*](https://mega.nz/file/BghQTJYI#QNqICiQszzUVW8J4n9RP9RuTISe8wXEb_TJqEPWBGN8)
 - `[Banahan, Brady, Doran]` [The *C* book](https://mega.nz/file/01x0kBLC#hrlzEyf4HONk1l6gEQ5D3J09B7nfxeR-yqasSIz-FEc)
 - `[Mauny]` [Functional programming using *Caml Light*](https://mega.nz/file/I44jGajC#EQmxpWWFRPszp076gGSup3ML4fl1k54A0-vhJRnOWnk)
 - `[Leroy, Remy]` [*UNIX* system programming in *OCaml*](https://mega.nz/file/V5hD0Cba#jjwItIUKfoKrO_aHN0SWTbSVDeZaEvh_sE581ZdMHLk)
