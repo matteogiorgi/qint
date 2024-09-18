@@ -6,7 +6,7 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 - [Linguaggi di programmazione](#linguaggi-di-programmazione)
 - [Matematica discreta](#matematica-discreta)
 - [Calcolo & Analisi matematica](#calcolo-analisi-matematica)
-- [Probabilità & Statistica](#probabilit-statistica)
+- [Probabilità & Statistica](#probabilità-statistica)
 - [Metodi numerici](#metodi-numerici)
 - [Ricerca operativa](#ricerca-operativa)
 - [Finanza & Econometria](#finanza-econometria)
