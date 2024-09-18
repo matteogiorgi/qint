@@ -1,6 +1,37 @@
 # Books
 
-This is a list of books I've read, I'm reading, or I'm planning to read. The list is divided into categories, and covers a wide range of topics, from mathematics to computer science, from physics to finance with a focus on quantitative methods.
+This is an ensemble of books I've used to study and keep as reference. The list is divided into categories and covers a wide range of topics, from mathematics to computer science, from physics to finance, with a focus on quantitative methods.
+
+- [Number theory](#number-theory)
+- [Combinatorics](#combinatorics)
+- [Algebra](#algebra)
+- [Geometry](#geometry)
+- [Mathematical Analysis](#mathematical-analysis)
+- [Mathematical methods](#mathematical-methods)
+- [Numerical methods](#numerical-methods)
+- [Probability & Statistics](#probability-statistics)
+- [Mathematical & Computational finance](#mathematical-computational-finance)
+- [Algorithms](#algorithms)
+- [Operational research](#operational-research)
+- [Competitive programming](#competitive-programming)
+- [Machine & Deep learning](#machine-deep-learning)
+- [Phisics](#phisics)
+- [Quantum mechanics](#quantum-mechanics)
+- [Information theory](#information-theory)
+- [Cryptography](#cryptography)
+- [Computability & Complexity](#computability-complexity)
+- [Category theory & Logic](#category-theory-logic)
+- [Compilers & Language theory](#compilers-language-theory)
+- [Programming languages](#programming-languages)
+- [Computer architecture](#computer-architecture)
+- [Operating systems](#operating-systems)
+- [Computer networks](#computer-networks)
+- [Distributed systems & Blockchain](#distributed-systems-blockchain)
+- [UNIX programming](#unix-programming)
+- [UNIX system administration](#unix-system-administration)
+- [Software engineering & Databases](#software-engineering-databases)
+- [Uncategorized](#uncategorized)
+- [Solutions & Exercises manuals](#solutions-exercises-manuals)
 
 
 

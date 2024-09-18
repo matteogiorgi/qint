@@ -1,12 +1,22 @@
 # Dispense
 
-Questa pagina contiene una raccolta di dispense (disponibili in rete) su vari argomenti, scritte da diversi autori. Il materiale è principalmente in italiano e copre argomenti utili per lo studio di algoritmi, matematica computazionale e materie affini.
+Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_libero) raccolta di dispense su vari argomenti, scritte da diversi autori. Il materiale è principalmente in italiano e copre argomenti utili per lo studio di algoritmi, matematica computazionale e materie affini.
+
+- [Algoritmi & Strutture dati](#algoritmi-strutture-dati)
+- [Linguaggi di programmazione](#linguaggi-di-programmazione)
+- [Matematica discreta](#matematica-discreta)
+- [Calcolo & Analisi matematica](#calcolo-analisi-matematica)
+- [Probabilità & Statistica](#probabilit-statistica)
+- [Metodi numerici](#metodi-numerici)
+- [Ricerca operativa](#ricerca-operativa)
+- [Finanza & Econometria](#finanza-econometria)
 
 
 
 
 ### Algoritmi & Strutture dati
 
+- `[Lauria]` [Appunti su algoritmi e complesssità](https://mega.nz/file/dshBnJyQ#iHZ7BZwnJ0iziQZoEiUBP8kpYJT9wbnxsVfIzmr-T-M)
 - `[De Francesco, Martini]` [Appunti di algoritmi e strutture dati](https://mega.nz/file/M5IWxKaI#43cRF8HtbZ0pqOKAIiZw2S-ST2uliuwsQ_iO6mYQE5Y)
 - `[Shaffer]` [Data structures and algorithm analysis](https://mega.nz/file/8lxX0b5J#u7jlCf9_Gyo9h6xQ13Cqyrp7TPWYhBlk4pDdIeHnsf8)
 - `[Morin]` [Open data structures](https://mega.nz/file/RxJWkRJL#JrSZ0fGA4KE4japX4okulsdw8VL1eTCzBnALhRXy1Bs)
@@ -24,6 +34,7 @@ Questa pagina contiene una raccolta di dispense (disponibili in rete) su vari ar
 - `[Mauny]` [Functional programming using *Caml Light*](https://mega.nz/file/I44jGajC#EQmxpWWFRPszp076gGSup3ML4fl1k54A0-vhJRnOWnk)
 - `[Leroy, Remy]` [*UNIX* system programming in *OCaml*](https://mega.nz/file/V5hD0Cba#jjwItIUKfoKrO_aHN0SWTbSVDeZaEvh_sE581ZdMHLk)
 - `[Banahan, Brady, Doran]` [The *C* book](https://mega.nz/file/01x0kBLC#hrlzEyf4HONk1l6gEQ5D3J09B7nfxeR-yqasSIz-FEc)
+- `[Downey]` [Pensare in *Python*](https://mega.nz/file/c8oFTTTA#pJYO2aXIFoJMck705o2UyQGk36knZs8Bo3RMo7Bl9aI)
 
 
 
