@@ -2,9 +2,9 @@
 
 Questa pagina contiene il materiale di lezioni ed esercitazioni tenute dal [Prof. Gobbino](http://pagine.dm.unipi.it/gobbino/Home_Page/ArchivioDidattico.html) per l'esame di calcolo del corso di Laurea in *Ingegneria Elettronica e Telecomunicazioni* dell'[Università di Pisa](https://www.unipi.it) nell'anno accademico 2007/2008, oltre al materiale del corso di precalcolo tenuto dal Professore nel medesimo anno.
 
-> [`Lezioni di precalcolo`](#lezioni-di-precalcolo) - [`PDF`](https://mega.nz/file/494AjQaR#ZJMr0XKfmEUgvrVcZfupBSP7UkyrBhSQn0tSQNT7Xj4)\
-> [`Lezioni di calcolo`](#lezioni-di-calcolo) - [`PDF`](https://mega.nz/file/B9oGEQSD#1P7fkyQ17V1bOtrMV56JAPwi9pO7k8sEHrJAiUITuh8)\
-> [`Esercitazioni di calcolo`](#esercitazioni-di-calcolo) - [`PDF`](https://mega.nz/file/JwpX3TLb#Cl9sJp1o1rSNYEZwt_oteCxlNwAAd-wTwqvtarVyra8)
+> → [`Lezioni di precalcolo`](#lezioni-di-precalcolo) - [`PDF`](https://mega.nz/file/494AjQaR#ZJMr0XKfmEUgvrVcZfupBSP7UkyrBhSQn0tSQNT7Xj4)\
+> → [`Lezioni di calcolo`](#lezioni-di-calcolo) - [`PDF`](https://mega.nz/file/B9oGEQSD#1P7fkyQ17V1bOtrMV56JAPwi9pO7k8sEHrJAiUITuh8)\
+> → [`Esercitazioni di calcolo`](#esercitazioni-di-calcolo) - [`PDF`](https://mega.nz/file/JwpX3TLb#Cl9sJp1o1rSNYEZwt_oteCxlNwAAd-wTwqvtarVyra8)
 
 Il corso (12 cfu) è pensato per essere svolto nell'arco di un semestre, per un totale di 112 ore di lezione ad una frequenza di 8 ore a settimana. Benché non abbia la stessa lunghezza di un corso universitario standard di Analisi Matematica I e II (dai 18 ai 27 cfu), il Professore ha creato un corso ugualmente completo e ben strutturato, che copre tutti gli argomenti fondamentali della materia. Questo lo rende particolarmente adatto durante la preparazione ad una Laurea Magistrale di tipo quantitativo o semplicemente per rinfrescare alcuni concetti di base.
 
