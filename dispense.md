@@ -3,9 +3,9 @@
 Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_libero) raccolta di dispense su vari argomenti, scritte da diversi autori. Il materiale è principalmente in italiano e copre argomenti utili per lo studio di algoritmi, matematica computazionale e materie affini.
 
 > → [`Algoritmi & Strutture dati`](#algoritmi-strutture-dati)\
-> → [`Linguaggi di programmazione`](#linguaggi-di-programmazione)\
+> → [`Linguaggi & Programmazione`](#linguaggi-programmazione)\
 > → [`Matematica discreta`](#matematica-discreta)\
-> → [`Calcolo & Analisi matematica`](#calcolo-analisi-matematica)\
+> → [`Calcolo & Analisi`](#calcolo-analisi)\
 > → [`Probabilità & Statistica`](#probabilità-statistica)\
 > → [`Metodi numerici`](#metodi-numerici)\
 > → [`Ricerca operativa`](#ricerca-operativa)\
@@ -27,7 +27,7 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 
 
 
-### Linguaggi di programmazione
+### Linguaggi & Programmazione
 
 - `[Abelson, Sussman]` [Structure and interpretation of computer programs](https://mega.nz/file/wgIEUb6A#3NrlsDomh_nqVTEbGnjMOn0sM5aWGuurqilhEY8dfac)
 - `[Haverbeke]` [Eloquent *JavaScript*](https://mega.nz/file/BghQTJYI#QNqICiQszzUVW8J4n9RP9RuTISe8wXEb_TJqEPWBGN8)
@@ -54,7 +54,7 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 
 
 
-### Calcolo & Analisi matematica
+### Calcolo & Analisi
 
 - `[Sengupta]` [Introductory calculus notes](https://mega.nz/file/c8hDwayb#a55gupJXYpezTBu1yEFeio2AWBEmaONZmfuCK85_YM8)
 - `[Paolini]` [Appunti di analisi matematica](https://mega.nz/file/lkxBCLrS#GvwZYhrATQ4zN5lCRh5NTZvA_wD8jL3Kt135jeE1a5c)
