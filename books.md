@@ -21,7 +21,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 > → [`Cryptography`](#cryptography)\
 > → [`Computability & Complexity`](#computability-complexity)\
 > → [`Category theory & Logic`](#category-theory-logic)\
-> → [`Compilers & Language theory`](#compilers-language-theory)\
+> → [`Interpreters & Compilers`](#interpreters-compilers)\
 > → [`Programming languages`](#programming-languages)\
 > → [`Computer architecture`](#computer-architecture)\
 > → [`Operating systems`](#operating-systems)\
@@ -281,7 +281,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 
-### Compilers & Language theory
+### Interpreters & Compilers
 - `[Ball]` Writing an interpreter in *Go*
 - `[Ball]` Writing a compiler in *Go*
 - `[Holub]` Compiler design in *C*
