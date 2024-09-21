@@ -19,10 +19,13 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 
 - `[Lauria]` [Appunti su algoritmi e complesssità](https://mega.nz/file/dshBnJyQ#iHZ7BZwnJ0iziQZoEiUBP8kpYJT9wbnxsVfIzmr-T-M)
 - `[De Francesco, Martini]` [Appunti di algoritmi e strutture dati](https://mega.nz/file/M5IWxKaI#43cRF8HtbZ0pqOKAIiZw2S-ST2uliuwsQ_iO6mYQE5Y)
+- `[Bongiovanni, Calamoneri, Monti]` [Introduzione agli algoritmi: note del corso](https://mega.nz/file/Ag5wETCK#36jz3PvlI0IYfFfnzkV7xnOXBhc0aedERtRCoroybao)
+- `[Bongiovanni, Calamoneri, Monti]` [Introduzione agli algoritmi: esercizi risolti](https://mega.nz/file/U1w2VIaA#qsCxVwwt_FEyaLO-xwnTJ20NSLt8PXh3ffKmcZArjYU)
+- `[Finocchi, Mulas]` [Appunti di algoritmica](https://mega.nz/file/cs4GATaD#9cMCqjCTAiGnsBkll--aKsxloD_CnMOS_7GOoyq9mNY)
+- `[Erickson]` [Algorithms](https://mega.nz/file/5ooTFC5Z#8Obnl02rVjL7cUjfdRKplTwi8pP7ztHZ-6yTG2hQImI)
 - `[Shaffer]` [Data structures and algorithm analysis](https://mega.nz/file/8lxX0b5J#u7jlCf9_Gyo9h6xQ13Cqyrp7TPWYhBlk4pDdIeHnsf8)
 - `[Morin]` [Open data structures](https://mega.nz/file/RxJWkRJL#JrSZ0fGA4KE4japX4okulsdw8VL1eTCzBnALhRXy1Bs)
 - `[Sheehy]` [A first course on data structures](https://mega.nz/file/cpB0SaiJ#2fCtplLNndEg22v2yPteZByI4qB8G0PIbP4xVwua9gE)
-- `[Erickson]` [Algorithms](https://mega.nz/file/5ooTFC5Z#8Obnl02rVjL7cUjfdRKplTwi8pP7ztHZ-6yTG2hQImI)
 - `[Laaksonen]` [Competitive programmer's handbook](https://mega.nz/file/FlBVxTBa#1_3tayyZDEpj-MsX78DlQzs6jhGpZbLPG0tbCf4s13Y)
 
 
