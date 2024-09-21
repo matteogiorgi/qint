@@ -118,10 +118,10 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 
 ### Matematica di base
 
+- `[Battaia]` [Matematica di base: note di teoria](https://mega.nz/file/EhgwGZZA#HYrWlL3r9t1RLlZsefCdkS3x-6MnxmOxoNMpNJImhJA)
+- `[Battaia]` [Matematica di base: esercizi risolti](https://mega.nz/file/QsZUFA6B#0MxujvvCdOnDwtXX3Um1Dp9RwJlPOUeYEy7JWwXsI0w)
 - `[Pantieri]` [Matematica per le prime](https://mega.nz/file/YgYmhCKC#DxKICnse-eZnAlZTJHe7VS5garG9ZUJxGcx6drZj9UQ)
 - `[Pantieri]` [Matematica per le seconde](https://mega.nz/file/99YExBya#f1tIEV3jyBqDJs5kiCf57us61oem0QsM4Pc8u3mB4aU)
 - `[Pantieri]` [Matematica per le terze](https://mega.nz/file/9tYDQbzC#EOJeiy3FguVl9PJZZDaRx3XH03-JDJO4DEouAEVYxVM)
 - `[Pantieri]` [Matematica per le quarte](https://mega.nz/file/F9xiVS7B#1LHLCOu9UQiKyoeS_mNHcgi3FPb95Reirc8CKlrGGnM)
 - `[Pantieri]` [Matematica per le quinte](https://mega.nz/file/NhYWnDCK#BpBKMRYi6UVI_4HCua8xkXnx_TXuFbkQAMBSfKmRL4k)
-- `[Battaia]` [Matematica di base: note di teoria](https://mega.nz/file/EhgwGZZA#HYrWlL3r9t1RLlZsefCdkS3x-6MnxmOxoNMpNJImhJA)
-- `[Battaia]` [Matematica di base: esercizi risolti](https://mega.nz/file/QsZUFA6B#0MxujvvCdOnDwtXX3Um1Dp9RwJlPOUeYEy7JWwXsI0w)
