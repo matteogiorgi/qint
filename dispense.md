@@ -9,7 +9,8 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 > → [`Probabilità & Statistica`](#probabilità-statistica)\
 > → [`Metodi numerici`](#metodi-numerici)\
 > → [`Ricerca operativa`](#ricerca-operativa)\
-> → [`Finanza & Econometria`](#finanza-econometria)
+> → [`Finanza & Econometria`](#finanza-econometria)\
+> → [`Matematica di base`](#matematica-di-base)
 
 
 
@@ -106,7 +107,21 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 
 - `[Palestini]` [Dispense di matematica finanziaria](https://mega.nz/file/81RTlYLY#AIrd7gomGuiNc387zYTfuFz8CpJq7wXON4zb3Vh6or8)
 - `[Airoldi]` [Elementi di finanza, metodi numerici e loro implementazione](https://mega.nz/file/99AjwZrI#-E5EMVvUULVAvojGTmKJwOzf_6UqsJv3w76YlroV_as)
+- `[Borrelli]` [Calcolo stocastico e mercati finanziari](https://mega.nz/file/RxYFESAS#vSoQJlGM503hlS711AEdom0dI6j1fTVa8Ezerggu2mQ)
 - `[Forsyth]` [An introduction to computational finance without agonizing pain](https://mega.nz/file/k4p2yL6L#iyMcH4MPmQ6kddqsb3XhemHsVErmsSzlyZrReEYObQg)
 - `[Amisano]` [Lezioni di econometria](https://mega.nz/file/AloiDQha#rGvxtiA3KVFJxiDGtpGTqP34o0BTUT_3PfHAno3RwSU)
 - `[Lucchetti]` [Basic econometrics](https://mega.nz/file/xh5mgLqT#Ilvb4YBO1R1dJr6RagIYqBacAtHPXCM6eNVTcZrbi-s)
 - `[Lucchetti]` [Appunti di analisi delle serie storiche](https://mega.nz/file/Up5CyLSI#eQ9KUrFK75NgkjVFkQvHo5xCmFtVlGoWL8GjoMWGNXw)
+
+
+
+
+### Matematica di base
+
+- `[Pantieri]` [Matematica per le prime](https://mega.nz/file/YgYmhCKC#DxKICnse-eZnAlZTJHe7VS5garG9ZUJxGcx6drZj9UQ)
+- `[Pantieri]` [Matematica per le seconde](https://mega.nz/file/99YExBya#f1tIEV3jyBqDJs5kiCf57us61oem0QsM4Pc8u3mB4aU)
+- `[Pantieri]` [Matematica per le terze](https://mega.nz/file/9tYDQbzC#EOJeiy3FguVl9PJZZDaRx3XH03-JDJO4DEouAEVYxVM)
+- `[Pantieri]` [Matematica per le quarte](https://mega.nz/file/F9xiVS7B#1LHLCOu9UQiKyoeS_mNHcgi3FPb95Reirc8CKlrGGnM)
+- `[Pantieri]` [Matematica per le quinte](https://mega.nz/file/NhYWnDCK#BpBKMRYi6UVI_4HCua8xkXnx_TXuFbkQAMBSfKmRL4k)
+- `[Battaia]` [Matematica di base: note di teoria](https://mega.nz/file/EhgwGZZA#HYrWlL3r9t1RLlZsefCdkS3x-6MnxmOxoNMpNJImhJA)
+- `[Battaia]` [Matematica di base: esercizi risolti](https://mega.nz/file/QsZUFA6B#0MxujvvCdOnDwtXX3Um1Dp9RwJlPOUeYEy7JWwXsI0w)
