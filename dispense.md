@@ -43,6 +43,7 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 
 - `[Fleck]` [Building blocks for theoretical computer science](https://mega.nz/file/ggARGbCB#uydNx9jOIgjK3xOJP-Q7DRe51u_NDRQf0kWigrglVdo)
 - `[Bonchi, Conte, Corradini, Grossi]` [Fondamenti dell'informatica](https://mega.nz/file/U1xSCQKR#m82gfTfq95pCfLd2AgXcOk9N27gHjqW90am1cQLmGwY)
+- `[Campanella]` [Algebra](https://mega.nz/file/l1YynCIK#vOTEjEzmaZeguQj0DNo0vfGMJnrrnk3sLdkPms-gpzM)
 - `[Gaiffi]` [Appunti di aritmetica](https://mega.nz/file/0xBWjBrA#Xs3GSpC-Yz_szlrTyoTtA3aAEJvZR2KHUNtVb-UqoYo)
 - `[Berarducci, Gaiffi]` [Appunti di matematica discreta: aritmetica](https://mega.nz/file/s0pwETIC#RjYJLEnkjTVBOHG2afQAfUEKzZy73FefOcoeklXhL0w)
 - `[Di Martino, Gaiffi]` [Appunti di matematica discreta: algebra lineare](https://mega.nz/file/o9wxHZ5L#u0nknPBHyi0xlnhwiUfBPRdV5lim-J5usW_XJa6cuHo)
