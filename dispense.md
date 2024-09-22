@@ -35,10 +35,11 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 
 - `[Abelson, Sussman]` [Structure and interpretation of computer programs](https://mega.nz/file/wgIEUb6A#3NrlsDomh_nqVTEbGnjMOn0sM5aWGuurqilhEY8dfac)
 - `[Haverbeke]` [Eloquent *JavaScript*](https://mega.nz/file/BghQTJYI#QNqICiQszzUVW8J4n9RP9RuTISe8wXEb_TJqEPWBGN8)
-- `[Mauny]` [Functional programming using *Caml Light*](https://mega.nz/file/I44jGajC#EQmxpWWFRPszp076gGSup3ML4fl1k54A0-vhJRnOWnk)
-- `[Leroy, Remy]` [*UNIX* system programming in *OCaml*](https://mega.nz/file/V5hD0Cba#jjwItIUKfoKrO_aHN0SWTbSVDeZaEvh_sE581ZdMHLk)
 - `[Banahan, Brady, Doran]` [The *C* book](https://mega.nz/file/01x0kBLC#hrlzEyf4HONk1l6gEQ5D3J09B7nfxeR-yqasSIz-FEc)
 - `[Downey]` [Pensare in *Python*](https://mega.nz/file/c8oFTTTA#pJYO2aXIFoJMck705o2UyQGk36knZs8Bo3RMo7Bl9aI)
+- `[De Marchi]` [Matlab, un ambiente per il calcolo scientifico](https://mega.nz/file/sxAihJBL#dq3R0_L1NhnzUEesMZmtR6q9G6c1Qshzc8ssdq0JJ34)
+- `[Mauny]` [Functional programming using *Caml Light*](https://mega.nz/file/I44jGajC#EQmxpWWFRPszp076gGSup3ML4fl1k54A0-vhJRnOWnk)
+- `[Leroy, Remy]` [*UNIX* system programming in *OCaml*](https://mega.nz/file/V5hD0Cba#jjwItIUKfoKrO_aHN0SWTbSVDeZaEvh_sE581ZdMHLk)
 
 
 
@@ -72,7 +73,9 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 - `[Eulettieri]` [Dispense di analisi matematica: seconda parte](https://mega.nz/file/JwoAWADY#ZXpy9cGEhO0aSUR_UvcDi5Sc1_VJ1sE0VRS4aNOo_Vo)
 - `[Acquistapace]` [Appunti di analisi matematica: prima parte](https://mega.nz/file/YswTXQwR#71xO_iaQH44jLts4pp6psh15pUKZoYiqWJ1ieT9qIFI)
 - `[Acquistapace]` [Appunti di analisi matematica: seconda parte](https://mega.nz/file/0sYThR6A#bs5R18OyyAf8sMNzNHNYNnlFKtmUedmqC9awYgL0wYQ)
+- `[Vitali]` [Lezioni introduttive sulle equazioni differenziali ordinarie](https://mega.nz/file/ApJBRB5Z#-ZEDXhOpE-5tlgI78h4nfEewb0-ySZ9qzEH-k7GP91Q)
 - `[Baiti]` [Dispensa sulle equazioni differenziali](https://mega.nz/file/89om0YpI#JR78Op87Mx1rbCo4bgXX0FFhCVGPztmJ6IvUtDeO-Us)
+- `[Mugelli]` [Metodi matematici per l'ingegneria dell'informazione](https://mega.nz/file/JlwElCjK#L4o3oSvwWhPNOrY_JB3BNurHH8IFHW2KUtOUqeQN1S0)
 - `[Campiti]` [Metodi matematici per l'ingegneria](https://mega.nz/file/d1JQiZrQ#VciI2gvGfcp072BySk1b7zTpqJWBLT5XlXJ0zxv2fB0)
 - `[Zanghì]` [Appunti di metodi matematici della fisica](https://mega.nz/file/o0QClKQC#TSYTL01Os7ZuB8n7u9zJ9D44yckdFmLfwuTqHTM6VaM)
 - `[Zanghì]` [Lezioni di fisica teorica](https://mega.nz/file/N8BVhaZI#pnmBoXgm_pCZyN4mbS66w4aTmlI2QHTXUnvnSFWTrpU)
