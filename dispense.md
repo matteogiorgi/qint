@@ -65,6 +65,8 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 ### Calcolo & Analisi
 
 - `[Sengupta]` [Introductory calculus notes](https://mega.nz/file/c8hDwayb#a55gupJXYpezTBu1yEFeio2AWBEmaONZmfuCK85_YM8)
+- `[Battaia]` [Introduzione al calcolo differenziale](https://mega.nz/file/JxBGSTjK#rPqzp8-w8PIT38wNq5qruiTxhPVT556wfKWOhLCAvDw)
+- `[Battaia]` [Appunti ed esercizi di meccanica razionale](https://mega.nz/file/J5oynb6I#_EGs23Zu5b-BwvD20jZxvcIRGLuj606F53aY7Jc63Uo)
 - `[Paolini]` [Appunti di analisi matematica uno](https://mega.nz/file/lkxBCLrS#GvwZYhrATQ4zN5lCRh5NTZvA_wD8jL3Kt135jeE1a5c)
 - `[Eulettieri]` [Dispense di analisi matematica: prima parte](https://mega.nz/file/RthWnQSb#diOVBhik34EnSd1D8vjg4uV5FUp4wMW94waUtmxuVpI)
 - `[Eulettieri]` [Dispense di analisi matematica: seconda parte](https://mega.nz/file/JwoAWADY#ZXpy9cGEhO0aSUR_UvcDi5Sc1_VJ1sE0VRS4aNOo_Vo)
@@ -129,6 +131,9 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 
 ### Matematica di base
 
+- `[Battaia]` [Matematica alla maturità](https://mega.nz/file/9pRmjJBS#cblgUKnvIWla0eWfHnQpm76o8WyscO_-H2hth9QQ_v0)
+- `[Battaia]` [Precorso di matematica](https://mega.nz/file/1lhHCBjI#RZmt30087W0e9dpD2yOhWRrcw4EYfERzJtd8D84alLY)
+- `[Battaia]` [Appunti di matematica](https://mega.nz/file/EsoiDALD#-70ie_1bmlPdNCQa7OfwCsURmrNUmRZuSKgeF4d-MUM)
 - `[Battaia]` [Matematica di base: note di teoria](https://mega.nz/file/EhgwGZZA#HYrWlL3r9t1RLlZsefCdkS3x-6MnxmOxoNMpNJImhJA)
 - `[Battaia]` [Matematica di base: esercizi risolti](https://mega.nz/file/QsZUFA6B#0MxujvvCdOnDwtXX3Um1Dp9RwJlPOUeYEy7JWwXsI0w)
 - `[Pantieri]` [Matematica per le prime](https://mega.nz/file/YgYmhCKC#DxKICnse-eZnAlZTJHe7VS5garG9ZUJxGcx6drZj9UQ)
