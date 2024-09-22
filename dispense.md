@@ -57,7 +57,11 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 - `[Berarducci, Gaiffi]` [Appunti di matematica discreta: aritmetica](https://mega.nz/file/s0pwETIC#RjYJLEnkjTVBOHG2afQAfUEKzZy73FefOcoeklXhL0w)
 - `[Di Martino, Gaiffi]` [Appunti di matematica discreta: algebra lineare](https://mega.nz/file/o9wxHZ5L#u0nknPBHyi0xlnhwiUfBPRdV5lim-J5usW_XJa6cuHo)
 - `[Martelli]` [Geometria e algebra lineare](https://mega.nz/file/Zl4i1LpI#DuIFxdW0Hf3Dt6sg-E22ImXXgEZV6dzRhl9xQWCTeZY)
+- `[Dedò]` [Algebra lineare e geometria](https://mega.nz/file/UkID2QBD#Kkplr3c5ess6rsZUb10N_CZVEwyAMKvgB0FIcb1f4j8)
+- `[Cantarini]` [Note di algebra lineare](https://mega.nz/file/hoZHRCbI#BeGBJ9HzAGUUuNrlILDSmDAXeLHZSmH0ZrQEBUEDAGc)
 - `[Polini]` [Algebra lineare for dummies](https://mega.nz/file/NwRSyCgI#oVgzZkVVNTX1Ma3T9R-P2XJEluiO1WsM_3ioMZMw4C0)
+- `[Hefferon]` [Linear algebra: manual](https://mega.nz/file/1ww0AASJ#3F1XaGkKuPOkVd95WJAMBmx_dgq27cY-PxFjX7bU0Dw)
+- `[Hefferon]` [Linear algebra: exercises](https://mega.nz/file/c0Yy3aqK#nZrFl2LZspojRkYCyDVXBAnrIVNcqjRSvYTBYaqq4bo)
 - `[Berarducci, Papini]` [Linear algebra exercises](https://mega.nz/file/Np4iXIBC#fcM8APRb4CptRMB6JSyEf1GAdWhiHca1pM4YMbfKoVM)
 
 
