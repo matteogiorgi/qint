@@ -47,7 +47,11 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 
 - `[Fleck]` [Building blocks for theoretical computer science](https://mega.nz/file/ggARGbCB#uydNx9jOIgjK3xOJP-Q7DRe51u_NDRQf0kWigrglVdo)
 - `[Bonchi, Conte, Corradini, Grossi]` [Fondamenti dell'informatica](https://mega.nz/file/U1xSCQKR#m82gfTfq95pCfLd2AgXcOk9N27gHjqW90am1cQLmGwY)
+- `[Quattrocchi]` [Breve introduzione alla teoria dei grafi](https://mega.nz/file/BsBSEbrQ#ofk5pY8IBc1h-aVsdTokOVwJ_bw-DYCUNu9clZ9DDO0)
 - `[Campanella]` [Algebra](https://mega.nz/file/l1YynCIK#vOTEjEzmaZeguQj0DNo0vfGMJnrrnk3sLdkPms-gpzM)
+- `[Campanella]` [Appunti di algebra: parte uno](https://mega.nz/file/p4YDTIrb#tVjGKr-ertNhKk0YZsivq7_d9pjnCTVy46D4oUbFedE)
+- `[Campanella]` [Appunti di algebra: parte due](https://mega.nz/file/I8x2iQCC#-stMRzbKXjerhHrzpd6VSis9K9umbtA6uQenEkc33kA)
+- `[Campanella]` [Appunti di algebra: soluzione esercizi](https://mega.nz/file/s0Zg3IYT#kyAC5eRJtisw7zap5Hz74FFqDdKOlhzII7Y_MDlvzyY)
 - `[Gaiffi]` [Appunti di aritmetica](https://mega.nz/file/0xBWjBrA#Xs3GSpC-Yz_szlrTyoTtA3aAEJvZR2KHUNtVb-UqoYo)
 - `[Berarducci, Gaiffi]` [Appunti di matematica discreta: aritmetica](https://mega.nz/file/s0pwETIC#RjYJLEnkjTVBOHG2afQAfUEKzZy73FefOcoeklXhL0w)
 - `[Di Martino, Gaiffi]` [Appunti di matematica discreta: algebra lineare](https://mega.nz/file/o9wxHZ5L#u0nknPBHyi0xlnhwiUfBPRdV5lim-J5usW_XJa6cuHo)
@@ -67,6 +71,7 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 - `[Acquistapace]` [Appunti di analisi matematica: prima parte](https://mega.nz/file/YswTXQwR#71xO_iaQH44jLts4pp6psh15pUKZoYiqWJ1ieT9qIFI)
 - `[Acquistapace]` [Appunti di analisi matematica: seconda parte](https://mega.nz/file/0sYThR6A#bs5R18OyyAf8sMNzNHNYNnlFKtmUedmqC9awYgL0wYQ)
 - `[Baiti]` [Dispensa sulle equazioni differenziali](https://mega.nz/file/89om0YpI#JR78Op87Mx1rbCo4bgXX0FFhCVGPztmJ6IvUtDeO-Us)
+- `[Campiti]` [Metodi matematici per l'ingegneria](https://mega.nz/file/d1JQiZrQ#VciI2gvGfcp072BySk1b7zTpqJWBLT5XlXJ0zxv2fB0)
 - `[Zanghì]` [Appunti di metodi matematici della fisica](https://mega.nz/file/o0QClKQC#TSYTL01Os7ZuB8n7u9zJ9D44yckdFmLfwuTqHTM6VaM)
 - `[Zanghì]` [Lezioni di fisica teorica](https://mega.nz/file/N8BVhaZI#pnmBoXgm_pCZyN4mbS66w4aTmlI2QHTXUnvnSFWTrpU)
 
@@ -75,6 +80,7 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 
 ### Probabilità & Statistica
 
+- `[Caravenna, Dai Prà]` [Introduzione alla probabilità](https://mega.nz/file/J0pkVRYQ#NcG-pWdvjuqqoyIVLe0NJpydkKU1JOI2LOcH-6v5xiM)
 - `[Carpignani]` [Elementi di probabilità e statistica](https://mega.nz/file/Ix5FDYwC#NDnbambPwfqgW-nt8GsxRLzvOpL32d8z4PzBF_TrXWY)
 - `[Trevisan]` [Probabilità e processi stocastici: note del corso](https://mega.nz/file/50oFmADI#ylNOsuU4ReE7loOKmgshSc9HcjxxKUeENygW6kMG1Kg)
 - `[Trevisan]` [Probabilità e processi stocastici: esercizi risolti](https://mega.nz/file/hpol2bCD#4p2JQ0hKLu8ViN87zlwJv3g1t8CZEOGwGWdIebebsuo)
@@ -90,6 +96,7 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 ### Metodi numerici
 
 - `[Cavalca]` [Appunti di metodi numerici per l'ingegneria](https://mega.nz/file/Ypw3zZQb#Ohy9kfUhLx1U-WYCUdJ4wjB9EC5xorhkNfReXaFWKf4)
+- `[Ferretti]` [Appunti di analisi numerica](https://mega.nz/file/ggoniQhL#CXYVYVTPRWrYnOOgicKPF3acWhzqI_MyiNKLnJrNaNE)
 - `[Gelardoni, Gheri, Marzulli]` [Elementi di calcolo numerico](https://mega.nz/file/E15lDAaJ#AlSMtPTuDd9NNRdhsk3Ia-GIotqurmChXuMH0BWexCA)
 - `[Bevilacqua, Menchi]` [Appunti di calcolo numerico: note del corso](https://mega.nz/file/ktQVnLgD#AELQ71lo5C4Fup1KuauaaboM_3phtk8Kyvths_1LTKM)
 - `[Bevilacqua, Menchi]` [Appunti di calcolo numerico: esercizi risolti](https://mega.nz/file/RkpRAATZ#hgnXH5DSXmhElmHg0D2Ai0dUB__DEci_muPbk-jz09I)
