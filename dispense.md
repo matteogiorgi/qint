@@ -73,6 +73,7 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 - `[Sengupta]` [Introductory calculus notes](https://mega.nz/file/c8hDwayb#a55gupJXYpezTBu1yEFeio2AWBEmaONZmfuCK85_YM8)
 - `[Battaia]` [Introduzione al calcolo differenziale](https://mega.nz/file/JxBGSTjK#rPqzp8-w8PIT38wNq5qruiTxhPVT556wfKWOhLCAvDw)
 - `[Battaia]` [Appunti ed esercizi di meccanica razionale](https://mega.nz/file/J5oynb6I#_EGs23Zu5b-BwvD20jZxvcIRGLuj606F53aY7Jc63Uo)
+- `[Gronchi]` [Lezioni di meccanica razionale](https://mega.nz/file/t1Rh2SiL#bGoPljB3F3NMwSVHlDT91w079YLm1-vQH5Nq7pgOiLk)
 - `[Paolini]` [Appunti di analisi matematica](https://mega.nz/file/lkxBCLrS#GvwZYhrATQ4zN5lCRh5NTZvA_wD8jL3Kt135jeE1a5c)
 - `[Gobbino]` [Lezioni di analisi matematica uno: parte prima](https://mega.nz/file/NlwhQaaD#e1EBO8xY7pXvd4wy5wEwCJmBlcd4kFB9rPISc0gcu-8)
 - `[Gobbino]` [Lezioni di analisi matematica uno: parte seconda](https://mega.nz/file/4xRQ3QgB#XXODWIXHg19E0V9jfSFbXJI5ZxSwAVF2XoC_nkueDcg)
