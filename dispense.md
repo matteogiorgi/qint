@@ -144,6 +144,7 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 
 ### Matematica di base
 
+- `[Sprugnoli]` [Introduzione alla matematica](https://mega.nz/file/oghSzS5B#O_0gdk4zphQtj0jrYC9ElLukLQe5JEPAcKffKKPoRnQ)
 - `[Battaia]` [Matematica alla maturità](https://mega.nz/file/9pRmjJBS#cblgUKnvIWla0eWfHnQpm76o8WyscO_-H2hth9QQ_v0)
 - `[Battaia]` [Precorso di matematica](https://mega.nz/file/1lhHCBjI#RZmt30087W0e9dpD2yOhWRrcw4EYfERzJtd8D84alLY)
 - `[Battaia]` [Appunti di matematica](https://mega.nz/file/EsoiDALD#-70ie_1bmlPdNCQa7OfwCsURmrNUmRZuSKgeF4d-MUM)
