@@ -137,6 +137,7 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 - `[Amisano]` [Lezioni di econometria](https://mega.nz/file/AloiDQha#rGvxtiA3KVFJxiDGtpGTqP34o0BTUT_3PfHAno3RwSU)
 - `[Lucchetti]` [Basic econometrics](https://mega.nz/file/xh5mgLqT#Ilvb4YBO1R1dJr6RagIYqBacAtHPXCM6eNVTcZrbi-s)
 - `[Lucchetti]` [Appunti di analisi delle serie storiche](https://mega.nz/file/Up5CyLSI#eQ9KUrFK75NgkjVFkQvHo5xCmFtVlGoWL8GjoMWGNXw)
+- `[Polini]` [Econometria for dummies](https://mega.nz/file/lgIH1ToR#49aO9Ln3DX750hq0faupJ-aa1Ndmz141Mx2nPhT51w0)
 - `[Fuhrman]` [Appunti sulla regressione lineare](https://mega.nz/file/k4wx1CSI#0DgHKq0JziEjm6Fz5x10R0DCanuoaLLWsBNxViwCcfs)
 
 
