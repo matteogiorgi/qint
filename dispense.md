@@ -33,9 +33,11 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 
 ### Linguaggi & Programmazione
 
+- `[Shotts]` [The *Linux* command line](https://mega.nz/file/F1BWFYQS#A-ALRqFEGV8EWQaIKqHd-7ObTC9kqcU1aSIbCm01n80)
+- `[Picardi]` [Guida alla programmazione in *Linux*](https://mega.nz/file/otgRWJgA#6yUpLdsZlYQTQ2t4hA9GCL3jIddjV0c4lDKDxtvyOvM)
+- `[Banahan, Brady, Doran]` [The *C* book](https://mega.nz/file/01x0kBLC#hrlzEyf4HONk1l6gEQ5D3J09B7nfxeR-yqasSIz-FEc)
 - `[Abelson, Sussman]` [Structure and interpretation of computer programs](https://mega.nz/file/wgIEUb6A#3NrlsDomh_nqVTEbGnjMOn0sM5aWGuurqilhEY8dfac)
 - `[Haverbeke]` [Eloquent *JavaScript*](https://mega.nz/file/BghQTJYI#QNqICiQszzUVW8J4n9RP9RuTISe8wXEb_TJqEPWBGN8)
-- `[Banahan, Brady, Doran]` [The *C* book](https://mega.nz/file/01x0kBLC#hrlzEyf4HONk1l6gEQ5D3J09B7nfxeR-yqasSIz-FEc)
 - `[Downey]` [Pensare in *Python*](https://mega.nz/file/c8oFTTTA#pJYO2aXIFoJMck705o2UyQGk36knZs8Bo3RMo7Bl9aI)
 - `[De Marchi]` [Matlab, un ambiente per il calcolo scientifico](https://mega.nz/file/sxAihJBL#dq3R0_L1NhnzUEesMZmtR6q9G6c1Qshzc8ssdq0JJ34)
 - `[Mauny]` [Functional programming using *Caml Light*](https://mega.nz/file/I44jGajC#EQmxpWWFRPszp076gGSup3ML4fl1k54A0-vhJRnOWnk)
@@ -96,6 +98,7 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 
 - `[Caravenna, Dai Prà]` [Introduzione alla probabilità](https://mega.nz/file/J0pkVRYQ#NcG-pWdvjuqqoyIVLe0NJpydkKU1JOI2LOcH-6v5xiM)
 - `[Carpignani]` [Elementi di probabilità e statistica](https://mega.nz/file/Ix5FDYwC#NDnbambPwfqgW-nt8GsxRLzvOpL32d8z4PzBF_TrXWY)
+- `[Grotto, Maurelli, Pratelli]` [Introduzione alla statistica matematica](https://mega.nz/file/F1JH1IyI#TRjGJCjrmJPcJO202duxkM85-rfdsVhv-dtn_oB5yNM)
 - `[Trevisan]` [Probabilità e processi stocastici: note del corso](https://mega.nz/file/50oFmADI#ylNOsuU4ReE7loOKmgshSc9HcjxxKUeENygW6kMG1Kg)
 - `[Trevisan]` [Probabilità e processi stocastici: esercizi risolti](https://mega.nz/file/hpol2bCD#4p2JQ0hKLu8ViN87zlwJv3g1t8CZEOGwGWdIebebsuo)
 - `[Trevisan]` [Calcolo delle probabilità e statistica: probabilità discreta](https://mega.nz/file/UgJ2QYab#Axq65ot4jeHEZRXy_wjv1vPuhT6WABRl_45qV1q_vlk)
