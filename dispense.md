@@ -27,6 +27,7 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 - `[Morin]` [Open data structures](https://mega.nz/file/RxJWkRJL#JrSZ0fGA4KE4japX4okulsdw8VL1eTCzBnALhRXy1Bs)
 - `[Sheehy]` [A first course on data structures](https://mega.nz/file/cpB0SaiJ#2fCtplLNndEg22v2yPteZByI4qB8G0PIbP4xVwua9gE)
 - `[Laaksonen]` [Competitive programmer's handbook](https://mega.nz/file/FlBVxTBa#1_3tayyZDEpj-MsX78DlQzs6jhGpZbLPG0tbCf4s13Y)
+- `[Chen Cai]` [*LeetCode* book](https://mega.nz/file/N8I2HKzA#ksmiyMC9iw6vM8OLM_Ilki_Bt6SBWk3cjOgV80zaaHM)
 
 
 
@@ -99,6 +100,7 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 - `[Caravenna, Dai Prà]` [Introduzione alla probabilità](https://mega.nz/file/J0pkVRYQ#NcG-pWdvjuqqoyIVLe0NJpydkKU1JOI2LOcH-6v5xiM)
 - `[Carpignani]` [Elementi di probabilità e statistica](https://mega.nz/file/Ix5FDYwC#NDnbambPwfqgW-nt8GsxRLzvOpL32d8z4PzBF_TrXWY)
 - `[Grotto, Maurelli, Pratelli]` [Introduzione alla statistica matematica](https://mega.nz/file/F1JH1IyI#TRjGJCjrmJPcJO202duxkM85-rfdsVhv-dtn_oB5yNM)
+- `[Marchetti]` [Introduzione ai modelli statistici](https://mega.nz/file/M1AznYKa#6GJgZZKexS3HnzoHqybsrDI9L3JLRnowfkAdeylBhaQ)
 - `[Trevisan]` [Probabilità e processi stocastici: note del corso](https://mega.nz/file/50oFmADI#ylNOsuU4ReE7loOKmgshSc9HcjxxKUeENygW6kMG1Kg)
 - `[Trevisan]` [Probabilità e processi stocastici: esercizi risolti](https://mega.nz/file/hpol2bCD#4p2JQ0hKLu8ViN87zlwJv3g1t8CZEOGwGWdIebebsuo)
 - `[Trevisan]` [Calcolo delle probabilità e statistica: probabilità discreta](https://mega.nz/file/UgJ2QYab#Axq65ot4jeHEZRXy_wjv1vPuhT6WABRl_45qV1q_vlk)

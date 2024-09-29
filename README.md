@@ -5,5 +5,5 @@ This repository contains a collection of material, useful for quant interviews p
 - [All-round books](https://www.geoteo.net/qmath/books)
 - [University notes](https://www.geoteo.net/qmath/dispense)
 - [Full calculus](https://www.geoteo.net/qmath/gobbino)
-- LeetCode problems
+- *LeetCode* problems
 - Brainteasers
