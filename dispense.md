@@ -41,6 +41,7 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 - `[Haverbeke]` [Eloquent *JavaScript*](https://mega.nz/file/BghQTJYI#QNqICiQszzUVW8J4n9RP9RuTISe8wXEb_TJqEPWBGN8)
 - `[Downey]` [Pensare in *Python*](https://mega.nz/file/c8oFTTTA#pJYO2aXIFoJMck705o2UyQGk36knZs8Bo3RMo7Bl9aI)
 - `[De Marchi]` [Matlab, un ambiente per il calcolo scientifico](https://mega.nz/file/sxAihJBL#dq3R0_L1NhnzUEesMZmtR6q9G6c1Qshzc8ssdq0JJ34)
+- `[Milewski]` [Category theory for programmers](https://mega.nz/file/c0wEFTIR#V1TXA5SWG_tJ6XH4kcmTtCVtyC1QxBZhcGQDTKok7Pg)
 - `[Mauny]` [Functional programming using *Caml Light*](https://mega.nz/file/I44jGajC#EQmxpWWFRPszp076gGSup3ML4fl1k54A0-vhJRnOWnk)
 - `[Leroy, Remy]` [*UNIX* system programming in *OCaml*](https://mega.nz/file/V5hD0Cba#jjwItIUKfoKrO_aHN0SWTbSVDeZaEvh_sE581ZdMHLk)
 
@@ -59,6 +60,9 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 - `[Gaiffi]` [Appunti di aritmetica](https://mega.nz/file/0xBWjBrA#Xs3GSpC-Yz_szlrTyoTtA3aAEJvZR2KHUNtVb-UqoYo)
 - `[Berarducci, Gaiffi]` [Appunti di matematica discreta: aritmetica](https://mega.nz/file/s0pwETIC#RjYJLEnkjTVBOHG2afQAfUEKzZy73FefOcoeklXhL0w)
 - `[Di Martino, Gaiffi]` [Appunti di matematica discreta: algebra lineare](https://mega.nz/file/o9wxHZ5L#u0nknPBHyi0xlnhwiUfBPRdV5lim-J5usW_XJa6cuHo)
+- `[Berarducci, Papini]` [Linear algebra exercises](https://mega.nz/file/Np4iXIBC#fcM8APRb4CptRMB6JSyEf1GAdWhiHca1pM4YMbfKoVM)
+- `[De Cecco, Vitolo]` [Appunti di geometria e algebra: note del corso](https://mega.nz/file/E55BiQ6b#UXnL-cdHvCsEolfJG2iwjRgR1utt9fhuto7MFHKcKWw)
+- `[Calvaruso, Vitolo]` [Appunti di geometria e algebra: esercizi risolti](https://mega.nz/file/w4xkyCga#E8R1lWb38gHr_03ZVqls-Gb3Q3MZ_Y9D0CZhRzRP1dQ)
 - `[Martelli]` [Geometria e algebra lineare](https://mega.nz/file/Zl4i1LpI#DuIFxdW0Hf3Dt6sg-E22ImXXgEZV6dzRhl9xQWCTeZY)
 - `[Dedò]` [Algebra lineare e geometria](https://mega.nz/file/UkID2QBD#Kkplr3c5ess6rsZUb10N_CZVEwyAMKvgB0FIcb1f4j8)
 - `[Gobbino]` [Lezioni di algebra lineare](https://mega.nz/file/gxAXGRTI#vowcuZEvzbdttr5oym2VZ4meJCHEShRF2N9fuZZluLg)
@@ -66,7 +70,6 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 - `[Polini]` [Algebra lineare for dummies](https://mega.nz/file/NwRSyCgI#oVgzZkVVNTX1Ma3T9R-P2XJEluiO1WsM_3ioMZMw4C0)
 - `[Hefferon]` [Linear algebra: manual](https://mega.nz/file/1ww0AASJ#3F1XaGkKuPOkVd95WJAMBmx_dgq27cY-PxFjX7bU0Dw)
 - `[Hefferon]` [Linear algebra: exercises](https://mega.nz/file/c0Yy3aqK#nZrFl2LZspojRkYCyDVXBAnrIVNcqjRSvYTBYaqq4bo)
-- `[Berarducci, Papini]` [Linear algebra exercises](https://mega.nz/file/Np4iXIBC#fcM8APRb4CptRMB6JSyEf1GAdWhiHca1pM4YMbfKoVM)
 
 
 
@@ -87,6 +90,7 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 - `[Acquistapace]` [Appunti di analisi matematica: parte seconda](https://mega.nz/file/0sYThR6A#bs5R18OyyAf8sMNzNHNYNnlFKtmUedmqC9awYgL0wYQ)
 - `[Vitali]` [Lezioni introduttive sulle equazioni differenziali ordinarie](https://mega.nz/file/ApJBRB5Z#-ZEDXhOpE-5tlgI78h4nfEewb0-ySZ9qzEH-k7GP91Q)
 - `[Baiti]` [Dispensa sulle equazioni differenziali](https://mega.nz/file/89om0YpI#JR78Op87Mx1rbCo4bgXX0FFhCVGPztmJ6IvUtDeO-Us)
+- `[De Marchi]` [Soluzione numerica di equazioni differenziali](https://mega.nz/file/wwBhWShB#4vMjSoLw6MtRsZToymtQrkJl1Na2RgyV51hUamF5YXs)
 - `[Mugelli]` [Metodi matematici per l'ingegneria dell'informazione](https://mega.nz/file/JlwElCjK#L4o3oSvwWhPNOrY_JB3BNurHH8IFHW2KUtOUqeQN1S0)
 - `[Campiti]` [Metodi matematici per l'ingegneria](https://mega.nz/file/d1JQiZrQ#VciI2gvGfcp072BySk1b7zTpqJWBLT5XlXJ0zxv2fB0)
 - `[Zanghì]` [Appunti di metodi matematici della fisica](https://mega.nz/file/o0QClKQC#TSYTL01Os7ZuB8n7u9zJ9D44yckdFmLfwuTqHTM6VaM)
@@ -97,10 +101,10 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 
 ### Probabilità & Statistica
 
-- `[Caravenna, Dai Prà]` [Introduzione alla probabilità](https://mega.nz/file/J0pkVRYQ#NcG-pWdvjuqqoyIVLe0NJpydkKU1JOI2LOcH-6v5xiM)
 - `[Carpignani]` [Elementi di probabilità e statistica](https://mega.nz/file/Ix5FDYwC#NDnbambPwfqgW-nt8GsxRLzvOpL32d8z4PzBF_TrXWY)
-- `[Grotto, Maurelli, Pratelli]` [Introduzione alla statistica matematica](https://mega.nz/file/F1JH1IyI#TRjGJCjrmJPcJO202duxkM85-rfdsVhv-dtn_oB5yNM)
-- `[Marchetti]` [Introduzione ai modelli statistici](https://mega.nz/file/M1AznYKa#6GJgZZKexS3HnzoHqybsrDI9L3JLRnowfkAdeylBhaQ)
+- `[Caravenna, Dai Prà]` [Introduzione alla probabilità](https://mega.nz/file/J0pkVRYQ#NcG-pWdvjuqqoyIVLe0NJpydkKU1JOI2LOcH-6v5xiM)
+- `[Dai Pra]` [Stochastic methods](https://mega.nz/file/slgwSIIA#LwYKPbABgK0YWKKsspoF767OHm3PDPsXB89aAMf3fkc)
+- `[Pavon]` [Lectures on discrete probabilistic methods](https://mega.nz/file/8whizIpY#dUqoY4s6f2stUHlEfvh6y55TL3RKpdqzdWU2frVIkPc)
 - `[Trevisan]` [Probabilità e processi stocastici: note del corso](https://mega.nz/file/50oFmADI#ylNOsuU4ReE7loOKmgshSc9HcjxxKUeENygW6kMG1Kg)
 - `[Trevisan]` [Probabilità e processi stocastici: esercizi risolti](https://mega.nz/file/hpol2bCD#4p2JQ0hKLu8ViN87zlwJv3g1t8CZEOGwGWdIebebsuo)
 - `[Trevisan]` [Calcolo delle probabilità e statistica: probabilità discreta](https://mega.nz/file/UgJ2QYab#Axq65ot4jeHEZRXy_wjv1vPuhT6WABRl_45qV1q_vlk)
@@ -108,6 +112,8 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 - `[Trevisan]` [Calcolo delle probabilità e statistica: catene di Markov](https://mega.nz/file/B0QlkZKK#pVYV7ra69LhuxwhaOlBP9CazX_QDih819Ze_dLlKQyo)
 - `[Trevisan]` [Calcolo delle probabilità e statistica: statistica bayesiana](https://mega.nz/file/BtRjQZiY#hQ0b292bhfcos9zWG2Ir98Y9KeXq61XouDzdNQaLpoI)
 - `[Trevisan]` [Calcolo delle probabilità e statistica: esercizi risolti](https://mega.nz/file/ZswhjZoZ#de_8oAEWahHMUlJwxmW2TVqHBsz0RDj-19q0z0YgJnA)
+- `[Grotto, Maurelli, Pratelli]` [Introduzione alla statistica matematica](https://mega.nz/file/F1JH1IyI#TRjGJCjrmJPcJO202duxkM85-rfdsVhv-dtn_oB5yNM)
+- `[Marchetti]` [Introduzione ai modelli statistici](https://mega.nz/file/M1AznYKa#6GJgZZKexS3HnzoHqybsrDI9L3JLRnowfkAdeylBhaQ)
 
 
 
@@ -119,6 +125,7 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 - `[Gelardoni, Gheri, Marzulli]` [Elementi di calcolo numerico](https://mega.nz/file/E15lDAaJ#AlSMtPTuDd9NNRdhsk3Ia-GIotqurmChXuMH0BWexCA)
 - `[Bevilacqua, Menchi]` [Appunti di calcolo numerico: note del corso](https://mega.nz/file/ktQVnLgD#AELQ71lo5C4Fup1KuauaaboM_3phtk8Kyvths_1LTKM)
 - `[Bevilacqua, Menchi]` [Appunti di calcolo numerico: esercizi risolti](https://mega.nz/file/RkpRAATZ#hgnXH5DSXmhElmHg0D2Ai0dUB__DEci_muPbk-jz09I)
+- `[De Cecco, Vitolo]` [Note di calcolo matriciale](https://mega.nz/file/AoQACQDI#zBjejZOVfXCNa8Z8nTCrabnlkq7uCwy7oasHA_XAQLI)
 
 
 
