@@ -103,6 +103,8 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 ### Probabilità & Statistica
 
 - `[Caravenna, Dai Prà]` [Introduzione alla probabilità](https://mega.nz/file/J0pkVRYQ#NcG-pWdvjuqqoyIVLe0NJpydkKU1JOI2LOcH-6v5xiM)
+- `[Vargiolu, Dai Pra]` [Appunti di probabilità e statistica: note del corso](https://mega.nz/file/10oCRS4J#4p9k1WXCQynhVhm7tnMCIQMtW2Ne5Xm6YV3eo2Avzlo)
+- `[Vargiolu, Dai Pra]` [Appunti di probabilità e statistica: esercizi risolti](https://mega.nz/file/FkZHXDpD#miZEvo7BN4ZJH6HsSh1hhLUu1c3uPNhF1eQZNaSIdac)
 - `[Trevisan]` [Calcolo delle probabilità e statistica: probabilità discreta](https://mega.nz/file/UgJ2QYab#Axq65ot4jeHEZRXy_wjv1vPuhT6WABRl_45qV1q_vlk)
 - `[Trevisan]` [Calcolo delle probabilità e statistica: probabilità continua](https://mega.nz/file/VgwilLSa#K1IUsvPDeXYbuR-jttL360M32J0RPr1GCOX9b9xDSs0)
 - `[Trevisan]` [Calcolo delle probabilità e statistica: catene di Markov](https://mega.nz/file/B0QlkZKK#pVYV7ra69LhuxwhaOlBP9CazX_QDih819Ze_dLlKQyo)
