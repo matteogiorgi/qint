@@ -114,7 +114,9 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 - `[Dai Pra]` [Stochastic methods](https://mega.nz/file/slgwSIIA#LwYKPbABgK0YWKKsspoF767OHm3PDPsXB89aAMf3fkc)
 - `[Pavon]` [Lectures on discrete probabilistic methods](https://mega.nz/file/8whizIpY#dUqoY4s6f2stUHlEfvh6y55TL3RKpdqzdWU2frVIkPc)
 - `[Grotto, Maurelli, Pratelli]` [Introduzione alla statistica matematica](https://mega.nz/file/F1JH1IyI#TRjGJCjrmJPcJO202duxkM85-rfdsVhv-dtn_oB5yNM)
+- `[Frederic]` [Appunti di statistica](https://mega.nz/file/wlAR2ADY#edFkAsaer5QC4ilIpok5_v1xYd1-4TzaoccRZujHEQc)
 - `[Marchetti]` [Introduzione ai modelli statistici](https://mega.nz/file/M1AznYKa#6GJgZZKexS3HnzoHqybsrDI9L3JLRnowfkAdeylBhaQ)
+- `[Fuhrman]` [Appunti sulla regressione lineare](https://mega.nz/file/k4wx1CSI#0DgHKq0JziEjm6Fz5x10R0DCanuoaLLWsBNxViwCcfs)
 
 
 
@@ -144,6 +146,7 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 ### Finanza & Econometria
 
 - `[Palestini]` [Dispense di matematica finanziaria](https://mega.nz/file/81RTlYLY#AIrd7gomGuiNc387zYTfuFz8CpJq7wXON4zb3Vh6or8)
+- `[Magi]` [Appunti di economia finanziaria](https://mega.nz/file/Y9hhgQZb#QA-FC3t2thwiyYPYI7PRS3Zc0V7NUSy0PC22CmZvsX0)
 - `[Airoldi]` [Elementi di finanza, metodi numerici e loro implementazione](https://mega.nz/file/99AjwZrI#-E5EMVvUULVAvojGTmKJwOzf_6UqsJv3w76YlroV_as)
 - `[Borrelli]` [Calcolo stocastico e mercati finanziari](https://mega.nz/file/RxYFESAS#vSoQJlGM503hlS711AEdom0dI6j1fTVa8Ezerggu2mQ)
 - `[Forsyth]` [An introduction to computational finance without agonizing pain](https://mega.nz/file/k4p2yL6L#iyMcH4MPmQ6kddqsb3XhemHsVErmsSzlyZrReEYObQg)
@@ -151,7 +154,6 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 - `[Lucchetti]` [Basic econometrics](https://mega.nz/file/xh5mgLqT#Ilvb4YBO1R1dJr6RagIYqBacAtHPXCM6eNVTcZrbi-s)
 - `[Lucchetti]` [Appunti di analisi delle serie storiche](https://mega.nz/file/Up5CyLSI#eQ9KUrFK75NgkjVFkQvHo5xCmFtVlGoWL8GjoMWGNXw)
 - `[Polini]` [Econometria for dummies](https://mega.nz/file/lgIH1ToR#49aO9Ln3DX750hq0faupJ-aa1Ndmz141Mx2nPhT51w0)
-- `[Fuhrman]` [Appunti sulla regressione lineare](https://mega.nz/file/k4wx1CSI#0DgHKq0JziEjm6Fz5x10R0DCanuoaLLWsBNxViwCcfs)
 
 
 
