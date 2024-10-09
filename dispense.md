@@ -2,15 +2,15 @@
 
 Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_libero) raccolta di dispense su vari argomenti, scritte da diversi autori. Il materiale è principalmente in italiano e copre argomenti utili per lo studio di algoritmi, matematica computazionale e materie affini.
 
-> → [`Algoritmi & Strutture dati`](#algoritmi-strutture-dati)\
-> → [`Linguaggi & Programmazione`](#linguaggi-programmazione)\
-> → [`Matematica discreta`](#matematica-discreta)\
-> → [`Calcolo & Analisi`](#calcolo-analisi)\
-> → [`Probabilità & Statistica`](#probabilità-statistica)\
-> → [`Metodi numerici`](#metodi-numerici)\
-> → [`Ricerca operativa`](#ricerca-operativa)\
-> → [`Finanza & Econometria`](#finanza-econometria)\
-> → [`Matematica di base`](#matematica-di-base)
+> → &nbsp;[`Algoritmi & Strutture dati`](#algoritmi-strutture-dati)\
+> → &nbsp;[`Linguaggi & Programmazione`](#linguaggi-programmazione)\
+> → &nbsp;[`Matematica discreta`](#matematica-discreta)\
+> → &nbsp;[`Calcolo & Analisi`](#calcolo-analisi)\
+> → &nbsp;[`Probabilità & Statistica`](#probabilità-statistica)\
+> → &nbsp;[`Metodi numerici`](#metodi-numerici)\
+> → &nbsp;[`Ricerca operativa`](#ricerca-operativa)\
+> → &nbsp;[`Finanza & Econometria`](#finanza-econometria)\
+> → &nbsp;[`Matematica di base`](#matematica-di-base)
 
 
 
@@ -26,6 +26,7 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 - `[Shaffer]` [Data structures and algorithm analysis](https://mega.nz/file/8lxX0b5J#u7jlCf9_Gyo9h6xQ13Cqyrp7TPWYhBlk4pDdIeHnsf8)
 - `[Morin]` [Open data structures](https://mega.nz/file/RxJWkRJL#JrSZ0fGA4KE4japX4okulsdw8VL1eTCzBnALhRXy1Bs)
 - `[Sheehy]` [A first course on data structures](https://mega.nz/file/cpB0SaiJ#2fCtplLNndEg22v2yPteZByI4qB8G0PIbP4xVwua9gE)
+- `[Goldwurm]` [Catene di Markov e applicazioni algoritmiche](https://mega.nz/file/Y9ggSRzJ#9mKA1k5IBfjMfsJjVop0N1oVSN1EwiRuw4xaVr9OvJ0)
 - `[Laaksonen]` [Competitive programmer's handbook](https://mega.nz/file/FlBVxTBa#1_3tayyZDEpj-MsX78DlQzs6jhGpZbLPG0tbCf4s13Y)
 - `[Chen Cai]` [*LeetCode* book](https://mega.nz/file/N8I2HKzA#ksmiyMC9iw6vM8OLM_Ilki_Bt6SBWk3cjOgV80zaaHM)
 
@@ -94,6 +95,7 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 - `[De Marchi]` [Soluzione numerica di equazioni differenziali](https://mega.nz/file/wwBhWShB#4vMjSoLw6MtRsZToymtQrkJl1Na2RgyV51hUamF5YXs)
 - `[Mugelli]` [Metodi matematici per l'ingegneria dell'informazione](https://mega.nz/file/JlwElCjK#L4o3oSvwWhPNOrY_JB3BNurHH8IFHW2KUtOUqeQN1S0)
 - `[Campiti]` [Metodi matematici per l'ingegneria](https://mega.nz/file/d1JQiZrQ#VciI2gvGfcp072BySk1b7zTpqJWBLT5XlXJ0zxv2fB0)
+- `[Ritelli, Spaletta]` [Introductory mathematical analysis for quantitative finance](https://mega.nz/file/RsozgYLQ#Ckv-yFsMak2pmGQf6vRJAmlNKZjKkb8Baw_CTej__A4)
 - `[Zanghì]` [Appunti di metodi matematici della fisica](https://mega.nz/file/o0QClKQC#TSYTL01Os7ZuB8n7u9zJ9D44yckdFmLfwuTqHTM6VaM)
 - `[Zanghì]` [Lezioni di fisica teorica](https://mega.nz/file/N8BVhaZI#pnmBoXgm_pCZyN4mbS66w4aTmlI2QHTXUnvnSFWTrpU)
 

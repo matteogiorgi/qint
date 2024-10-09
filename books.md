@@ -2,36 +2,36 @@
 
 This is an ensemble of books I've used to study and keep as reference. The list is divided into categories and covers a wide range of topics, from mathematics to computer science, from physics to finance, with a focus on quantitative methods.
 
-> → [`Number theory`](#number-theory)\
-> → [`Combinatorics`](#combinatorics)\
-> → [`Algebra`](#algebra)\
-> → [`Geometry`](#geometry)\
-> → [`Mathematical Analysis`](#mathematical-analysis)\
-> → [`Mathematical methods`](#mathematical-methods)\
-> → [`Numerical methods`](#numerical-methods)\
-> → [`Probability & Statistics`](#probability-statistics)\
-> → [`Computational finance`](#computational-finance)\
-> → [`Algorithms`](#algorithms)\
-> → [`Operational research`](#operational-research)\
-> → [`Competitive programming`](#competitive-programming)\
-> → [`Machine learning`](#machine-learning)\
-> → [`Phisics`](#phisics)\
-> → [`Quantum mechanics`](#quantum-mechanics)\
-> → [`Information theory`](#information-theory)\
-> → [`Cryptography`](#cryptography)\
-> → [`Computability & Complexity`](#computability-complexity)\
-> → [`Category theory & Logic`](#category-theory-logic)\
-> → [`Interpreters & Compilers`](#interpreters-compilers)\
-> → [`Programming languages`](#programming-languages)\
-> → [`Computer architecture`](#computer-architecture)\
-> → [`Operating systems`](#operating-systems)\
-> → [`Computer networks`](#computer-networks)\
-> → [`Distributed systems`](#distributed-systems)\
-> → [`UNIX programming`](#unix-programming)\
-> → [`UNIX system administration`](#unix-system-administration)\
-> → [`Software engineering`](#software-engineering)\
-> → [`Solutions manuals`](#solutions-manuals)\
-> → [`Uncategorized`](#uncategorized)
+> → &nbsp;[`Number theory`](#number-theory)\
+> → &nbsp;[`Combinatorics`](#combinatorics)\
+> → &nbsp;[`Algebra`](#algebra)\
+> → &nbsp;[`Geometry`](#geometry)\
+> → &nbsp;[`Mathematical Analysis`](#mathematical-analysis)\
+> → &nbsp;[`Mathematical methods`](#mathematical-methods)\
+> → &nbsp;[`Numerical methods`](#numerical-methods)\
+> → &nbsp;[`Probability & Statistics`](#probability-statistics)\
+> → &nbsp;[`Computational finance`](#computational-finance)\
+> → &nbsp;[`Algorithms`](#algorithms)\
+> → &nbsp;[`Operational research`](#operational-research)\
+> → &nbsp;[`Competitive programming`](#competitive-programming)\
+> → &nbsp;[`Machine learning`](#machine-learning)\
+> → &nbsp;[`Phisics`](#phisics)\
+> → &nbsp;[`Quantum mechanics`](#quantum-mechanics)\
+> → &nbsp;[`Information theory`](#information-theory)\
+> → &nbsp;[`Cryptography`](#cryptography)\
+> → &nbsp;[`Computability & Complexity`](#computability-complexity)\
+> → &nbsp;[`Category theory & Logic`](#category-theory-logic)\
+> → &nbsp;[`Interpreters & Compilers`](#interpreters-compilers)\
+> → &nbsp;[`Programming languages`](#programming-languages)\
+> → &nbsp;[`Computer architecture`](#computer-architecture)\
+> → &nbsp;[`Operating systems`](#operating-systems)\
+> → &nbsp;[`Computer networks`](#computer-networks)\
+> → &nbsp;[`Distributed systems`](#distributed-systems)\
+> → &nbsp;[`UNIX programming`](#unix-programming)\
+> → &nbsp;[`UNIX system administration`](#unix-system-administration)\
+> → &nbsp;[`Software engineering`](#software-engineering)\
+> → &nbsp;[`Solutions manuals`](#solutions-manuals)\
+> → &nbsp;[`Uncategorized`](#uncategorized)
 
 
 

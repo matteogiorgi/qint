@@ -6,53 +6,167 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>qmath – gobbino</title>
   <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
   </style>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22256%22 height=%22256%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%237d6ee7%22></rect><path d=%22M32.27 77.81L32.27 77.81Q28.31 77.81 28.31 74.57L28.31 74.57L28.31 23.72Q29.93 22.10 33.17 22.10L33.17 22.10Q35.33 22.10 36.86 22.95Q38.39 23.81 39.65 26.06L39.65 26.06L56.84 54.86Q57.92 56.75 59.09 58.86Q60.26 60.98 61.34 63.09Q62.42 65.21 63.36 67.06Q64.31 68.90 64.94 70.16L64.94 70.16L65.30 70.07Q64.58 62.78 64.44 55.40Q64.31 48.02 64.31 41L64.31 41L64.31 22.82Q64.85 22.64 65.75 22.41Q66.65 22.19 67.73 22.19L67.73 22.19Q71.69 22.19 71.69 25.43L71.69 25.43L71.69 76.37Q70.88 77.09 69.62 77.50Q68.36 77.90 66.83 77.90L66.83 77.90Q64.67 77.90 63.14 77.05Q61.61 76.19 60.35 73.94L60.35 73.94L43.25 45.14Q42.17 43.34 40.95 41.18Q39.74 39.02 38.61 36.95Q37.49 34.88 36.55 32.99Q35.60 31.10 34.97 29.84L34.97 29.84L34.61 29.93Q35.06 34.25 35.33 39.79Q35.60 45.32 35.60 50.27L35.60 50.27L35.60 77.18Q35.15 77.36 34.20 77.58Q33.26 77.81 32.27 77.81Z%22 fill=%22%23fff%22></path></svg>" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu Mono">
-  <link rel="stylesheet" href="https://latex.now.sh/style.css">
-  <link rel="stylesheet" href="https://latex.now.sh/prism/prism.css">
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/prismjs/prism.min.js"></script>
   <style>
   body {
       max-width: 60rem;
-      line-height: 1.4;
-      color: black;
-      background: white;
-  }
-  code, pre, kbd {
-      font-family: 'Ubuntu Mono', monospace;
-      font-size: 95%;
-  }
-  blockquote {
-      font-style: italic;
-      border: 1px solid black;
-      border-radius: 4px;
-      background: #e9edf3;
-      padding: 1rem 3rem 2rem 3rem;
-      margin-left: 0rem;
-      margin-right: 0rem;
-  }
-  hr {
-      width: 50%;
-      height: 1px;
-      border: none;
-      background: gray;
-      margin-top: 2rem;
-      margin-bottom: 2rem;
-  }
-  a {
-      text-decoration: none;
-  }
-  a:hover {
-      text-decoration: underline;
   }
   </style>
 </head>
@@ -61,153 +175,577 @@
 <!-- before content -->
 </nav>
 <h1 id="calcolo">Calcolo</h1>
-<p>Questa pagina contiene il materiale di lezioni ed esercitazioni tenute dal <a href="http://pagine.dm.unipi.it/gobbino/Home_Page/ArchivioDidattico.html">Prof. Gobbino</a> per l’esame di calcolo del corso di Laurea in <em>Ingegneria Elettronica e Telecomunicazioni</em> dell’<a href="https://www.unipi.it">Università di Pisa</a> nell’anno accademico 2007/2008, oltre al materiale del corso di precalcolo tenuto dal Professore nel medesimo anno.</p>
+<p>Questa pagina contiene il materiale di lezioni ed esercitazioni
+tenute dal <a
+href="http://pagine.dm.unipi.it/gobbino/Home_Page/ArchivioDidattico.html">Prof. Gobbino</a>
+per l’esame di calcolo del corso di Laurea in <em>Ingegneria Elettronica
+e Telecomunicazioni</em> dell’<a href="https://www.unipi.it">Università
+di Pisa</a> nell’anno accademico 2007/2008, oltre al materiale del corso
+di precalcolo tenuto dal Professore nel medesimo anno.</p>
 <blockquote>
-<p>→ <a href="#lezioni-di-precalcolo"><code>Lezioni di precalcolo</code></a><br />
-→ <a href="#lezioni-di-calcolo"><code>Lezioni di calcolo</code></a><br />
-→ <a href="#esercitazioni-di-calcolo"><code>Esercitazioni di calcolo</code></a></p>
+<p>→  <a
+href="#lezioni-di-precalcolo"><code>Lezioni di precalcolo</code></a><br />
+→  <a
+href="#lezioni-di-calcolo"><code>Lezioni di calcolo</code></a><br />
+→  <a
+href="#esercitazioni-di-calcolo"><code>Esercitazioni di calcolo</code></a></p>
 </blockquote>
-<p>Il corso (12 cfu) è pensato per essere svolto nell’arco di un semestre, per un totale di 112 ore di lezione ad una frequenza di 8 ore a settimana. Benché non abbia la stessa lunghezza di un corso universitario standard di Analisi Matematica I e II (dai 18 ai 27 cfu), il Professore ha creato un corso ugualmente completo e ben strutturato, che copre tutti gli argomenti fondamentali della materia. Questo lo rende particolarmente adatto durante la preparazione ad una Laurea Magistrale di tipo quantitativo o semplicemente per rinfrescare alcuni concetti di base.</p>
-<p>Il lavoro e la dedizione del Prof. Gobbino sono encomiabili e il suo corso è un vero e proprio tesoro da tenere sempre a portata di mano. Il Professore, oltre a questo di <a href="http://pagine.dm.unipi.it/gobbino/Home_Page/AD_T08.html">calcolo</a>, rende disponibile il materiale di vari corsi che negli anni ha tenuto all’Università di Pisa: consiglio analisi <a href="http://pagine.dm.unipi.it/gobbino/Home_Page/AD_AM13.html">uno</a>, <a href="http://pagine.dm.unipi.it/gobbino/Home_Page/AD_AM2_14.html">due</a> e <a href="http://pagine.dm.unipi.it/gobbino/Home_Page/AD_AL_14.html">algebra lineare</a> tenuti a <em>Ingegneria</em>, oltre ad analisi <a href="http://pagine.dm.unipi.it/gobbino/Home_Page/AD_AM1_17.html">uno</a> e <a href="http://pagine.dm.unipi.it/gobbino/Home_Page/AD_AM2_18.html">due</a> tenuti a <em>Matematica</em>.</p>
+<p>Il corso (12 cfu) è pensato per essere svolto nell’arco di un
+semestre, per un totale di 112 ore di lezione ad una frequenza di 8 ore
+a settimana. Benché non abbia la stessa lunghezza di un corso
+universitario standard di Analisi Matematica I e II (dai 18 ai 27 cfu),
+il Professore ha creato un corso ugualmente completo e ben strutturato,
+che copre tutti gli argomenti fondamentali della materia. Questo lo
+rende particolarmente adatto durante la preparazione ad una Laurea
+Magistrale di tipo quantitativo o semplicemente per rinfrescare alcuni
+concetti di base.</p>
+<p>Il lavoro e la dedizione del Prof. Gobbino sono encomiabili e il suo
+corso è un vero e proprio tesoro da tenere sempre a portata di mano. Il
+Professore, oltre a questo di <a
+href="http://pagine.dm.unipi.it/gobbino/Home_Page/AD_T08.html">calcolo</a>,
+rende disponibile il materiale di vari corsi che negli anni ha tenuto
+all’Università di Pisa: consiglio analisi <a
+href="http://pagine.dm.unipi.it/gobbino/Home_Page/AD_AM13.html">uno</a>,
+<a
+href="http://pagine.dm.unipi.it/gobbino/Home_Page/AD_AM2_14.html">due</a>
+e <a
+href="http://pagine.dm.unipi.it/gobbino/Home_Page/AD_AL_14.html">algebra
+lineare</a> tenuti a <em>Ingegneria</em>, oltre ad analisi <a
+href="http://pagine.dm.unipi.it/gobbino/Home_Page/AD_AM1_17.html">uno</a>
+e <a
+href="http://pagine.dm.unipi.it/gobbino/Home_Page/AD_AM2_18.html">due</a>
+tenuti a <em>Matematica</em>.</p>
 <h3 id="lezioni-di-precalcolo">Lezioni di precalcolo</h3>
 <ul>
-<li><a href="https://mega.nz/file/494AjQaR#ZJMr0XKfmEUgvrVcZfupBSP7UkyrBhSQn0tSQNT7Xj4"><code>Full PDF</code></a></li>
+<li><a
+href="https://mega.nz/file/494AjQaR#ZJMr0XKfmEUgvrVcZfupBSP7UkyrBhSQn0tSQNT7Xj4"><code>Full PDF</code></a></li>
 </ul>
 <ol type="1">
-<li><code>[17/09/07]</code> <a href="https://mega.nz/file/khIHUZaD#1Y4EpqKSjPMh3wPQN7jeHg-fcCPgLJrBSNWkPIO-PcU">Frazioni e potenze</a> - <a href="https://mega.nz/file/FtR0iCyB#yHNSp0-ljIsfLJlopZtPwzZBQ0HwdGwIz0hrniux-E0"><code>PDF</code></a></li>
-<li><code>[18/09/07]</code> <a href="https://mega.nz/file/99QWTa4K#o2zC0ILXsx3UmCvckLmIRIS9DfJzNUaKS2VANXxr-lA">Polinomi ed equazioni polinomiali</a> - <a href="https://mega.nz/file/U14GQR4Q#OpP-SB_Wp4hSACFJHIRvccIism2XLZ2H7kXeIC2eIlE"><code>PDF</code></a></li>
-<li><code>[19/09/07]</code> <a href="https://mega.nz/file/M0IRjJhC#v4GyP6A29qrgzH2Rv7QXZI2qw_KRy5kZHgMYq9L7smM">Disequazioni di secondo grado e con prodotti e quozienti</a> - <a href="https://mega.nz/file/NgBlAIAD#wJ9_kwzcz1e4gRWuPDoR0dtqP7dvRRNGNaT0WE-lfYI"><code>PDF</code></a></li>
-<li><code>[20/09/07]</code> <a href="https://mega.nz/file/IgJC0DiD#2mTRCVwQTeVdUzgZFwiwxIkZrUlycaQbFh3ZgRHQECU">Logaritmi e relative (dis)equazioni</a> - <a href="https://mega.nz/file/VxJjlAKQ#0PwVZ_sNppLeHiICIxgHDzKIuAc5NZXvQS6TjLknPS0"><code>PDF</code></a></li>
-<li><code>[21/09/07]</code> <a href="https://mega.nz/file/oooyERgT#UtMz4-UWobWf4qnf3Im4r_78TQVj_LN_TK0yk080-Pg">(Dis)equazioni con radici</a> - <a href="https://mega.nz/file/V8Yg3RJS#0_yOyrrfRQU9MrM-ro4IaBpsHkJRK-7btyCbHewf3bI"><code>PDF</code></a></li>
-<li><code>[22/09/07]</code> <a href="https://mega.nz/file/t0YFQZ7Z#78UAqHh5c54gRiJ1M0CcC_P88AtZ0nvArC7Vk6zHS3M">(Dis)equazioni con valori assoluti</a> - <a href="https://mega.nz/file/U9YxkbDL#Xy3bi_6MzXHU0URmUOUVm5ZUn_I0O9H9dpQEC3Nw2WM"><code>PDF</code></a></li>
-<li><code>[25/09/07]</code> <a href="https://mega.nz/file/IpJhyCRL#6Q3LLm2-LsX-Gcpdg-LgzrZCAEpLEnMIOvtPdw-tNm8">Trigonometria, (dis)equazioni trigonometriche</a> - <a href="https://mega.nz/file/95wThbLL#qGYf2eEBldF8c3E9CwBDU85q2-nr4wvNdApmq-08PzQ"><code>PDF</code></a></li>
-<li><code>[26/09/07]</code> <a href="https://mega.nz/file/chomnbAR#MPGBVaMye9lm4LyX0w_j-7uFistXFbgOFFUERMP0QS0">Trigonometria e triangoli</a> - <a href="https://mega.nz/file/BtBwUBKY#4RuXyfNkkz4UvJeTWzLDY1e3I5vfCDS9Aqts7RMou1c"><code>PDF</code></a></li>
-<li><code>[27/09/07]</code> <a href="https://mega.nz/file/wgBSRQab#CwgVx41dyJcmzzjdFWhZdG_V86MIwo84ETLmY-G__E4">Geometria analitica</a> - <a href="https://mega.nz/file/YxgSxACY#CooG02S0g12K0-5kTZKjUIiFQG3cbw2HWrUL_VphQek"><code>PDF</code></a></li>
-<li><code>[28/09/07]</code> <a href="https://mega.nz/file/cx5FTSzA#EtCsLzxRuMry7I7NG9T_6UcW-ytuzFiCCbsQeXvnqlA">Insiemi del piano e geometria euclidea</a> - <a href="https://mega.nz/file/thJAiYIL#3Klxeq9GyGjvtHH0OyeagmczVZmLC3X-Y1DzutrFyp0"><code>PDF</code></a></li>
+<li><code>[17/09/07]</code> <a
+href="https://mega.nz/file/khIHUZaD#1Y4EpqKSjPMh3wPQN7jeHg-fcCPgLJrBSNWkPIO-PcU">Frazioni
+e potenze</a> - <a
+href="https://mega.nz/file/FtR0iCyB#yHNSp0-ljIsfLJlopZtPwzZBQ0HwdGwIz0hrniux-E0"><code>PDF</code></a></li>
+<li><code>[18/09/07]</code> <a
+href="https://mega.nz/file/99QWTa4K#o2zC0ILXsx3UmCvckLmIRIS9DfJzNUaKS2VANXxr-lA">Polinomi
+ed equazioni polinomiali</a> - <a
+href="https://mega.nz/file/U14GQR4Q#OpP-SB_Wp4hSACFJHIRvccIism2XLZ2H7kXeIC2eIlE"><code>PDF</code></a></li>
+<li><code>[19/09/07]</code> <a
+href="https://mega.nz/file/M0IRjJhC#v4GyP6A29qrgzH2Rv7QXZI2qw_KRy5kZHgMYq9L7smM">Disequazioni
+di secondo grado e con prodotti e quozienti</a> - <a
+href="https://mega.nz/file/NgBlAIAD#wJ9_kwzcz1e4gRWuPDoR0dtqP7dvRRNGNaT0WE-lfYI"><code>PDF</code></a></li>
+<li><code>[20/09/07]</code> <a
+href="https://mega.nz/file/IgJC0DiD#2mTRCVwQTeVdUzgZFwiwxIkZrUlycaQbFh3ZgRHQECU">Logaritmi
+e relative (dis)equazioni</a> - <a
+href="https://mega.nz/file/VxJjlAKQ#0PwVZ_sNppLeHiICIxgHDzKIuAc5NZXvQS6TjLknPS0"><code>PDF</code></a></li>
+<li><code>[21/09/07]</code> <a
+href="https://mega.nz/file/oooyERgT#UtMz4-UWobWf4qnf3Im4r_78TQVj_LN_TK0yk080-Pg">(Dis)equazioni
+con radici</a> - <a
+href="https://mega.nz/file/V8Yg3RJS#0_yOyrrfRQU9MrM-ro4IaBpsHkJRK-7btyCbHewf3bI"><code>PDF</code></a></li>
+<li><code>[22/09/07]</code> <a
+href="https://mega.nz/file/t0YFQZ7Z#78UAqHh5c54gRiJ1M0CcC_P88AtZ0nvArC7Vk6zHS3M">(Dis)equazioni
+con valori assoluti</a> - <a
+href="https://mega.nz/file/U9YxkbDL#Xy3bi_6MzXHU0URmUOUVm5ZUn_I0O9H9dpQEC3Nw2WM"><code>PDF</code></a></li>
+<li><code>[25/09/07]</code> <a
+href="https://mega.nz/file/IpJhyCRL#6Q3LLm2-LsX-Gcpdg-LgzrZCAEpLEnMIOvtPdw-tNm8">Trigonometria,
+(dis)equazioni trigonometriche</a> - <a
+href="https://mega.nz/file/95wThbLL#qGYf2eEBldF8c3E9CwBDU85q2-nr4wvNdApmq-08PzQ"><code>PDF</code></a></li>
+<li><code>[26/09/07]</code> <a
+href="https://mega.nz/file/chomnbAR#MPGBVaMye9lm4LyX0w_j-7uFistXFbgOFFUERMP0QS0">Trigonometria
+e triangoli</a> - <a
+href="https://mega.nz/file/BtBwUBKY#4RuXyfNkkz4UvJeTWzLDY1e3I5vfCDS9Aqts7RMou1c"><code>PDF</code></a></li>
+<li><code>[27/09/07]</code> <a
+href="https://mega.nz/file/wgBSRQab#CwgVx41dyJcmzzjdFWhZdG_V86MIwo84ETLmY-G__E4">Geometria
+analitica</a> - <a
+href="https://mega.nz/file/YxgSxACY#CooG02S0g12K0-5kTZKjUIiFQG3cbw2HWrUL_VphQek"><code>PDF</code></a></li>
+<li><code>[28/09/07]</code> <a
+href="https://mega.nz/file/cx5FTSzA#EtCsLzxRuMry7I7NG9T_6UcW-ytuzFiCCbsQeXvnqlA">Insiemi
+del piano e geometria euclidea</a> - <a
+href="https://mega.nz/file/thJAiYIL#3Klxeq9GyGjvtHH0OyeagmczVZmLC3X-Y1DzutrFyp0"><code>PDF</code></a></li>
 </ol>
 <h3 id="lezioni-di-calcolo">Lezioni di calcolo</h3>
 <ul>
-<li><a href="https://mega.nz/file/B9oGEQSD#1P7fkyQ17V1bOtrMV56JAPwi9pO7k8sEHrJAiUITuh8"><code>Full PDF</code></a></li>
+<li><a
+href="https://mega.nz/file/B9oGEQSD#1P7fkyQ17V1bOtrMV56JAPwi9pO7k8sEHrJAiUITuh8"><code>Full PDF</code></a></li>
 </ul>
 <ol type="1">
-<li><code>[02/10/07]</code> <a href="https://mega.nz/file/Y8ZSyZKB#SocjSc8UR_ghF-UzrI2plUd6tAoDvT5QaYjD6wb9czI">Insiemi</a> - <a href="https://mega.nz/file/p9QzTR7T#cmhkAEb8JSXz3mhsqd5gB6GQ77um5kBdTCo9y0oH02M"><code>PDF</code></a></li>
-<li><code>[02/10/07]</code> <a href="https://mega.nz/file/R9ZAFTqT#UhyClOSBLImsvKfP6GJGHTUCOKr18YmKrqeIPUm2_ok">Funzioni tra insiemi, iniettività, surgettività, immagine e controimmagine</a> - <a href="https://mega.nz/file/kwpWWR7Q#jtPypG0jFwWg278cZBYuSEUNxdHT-1OML_o7HtaWSoU"><code>PDF</code></a></li>
-<li><code>[03/10/07]</code> <a href="https://mega.nz/file/xg4SiRIL#HkcQLRwks26Rtpb2h4nk3QsaS-5tabYczOi3wwPeZ_8">Principio di induzione</a> - <a href="https://mega.nz/file/RgpXTJDT#6PyS0E5pPwLG03uOHkUKDVEn4qGgPvcb5qoOJFkHKq8"><code>PDF</code></a></li>
-<li><code>[03/10/07]</code> <a href="https://mega.nz/file/ssQnEZLL#to4Th3HAkb8wpn8E13nrxhhGsb-tlr8nHhgl7UeR9n0">Funzioni reali: simmetrie, monotonia, iniettività, surgettività</a> - <a href="https://mega.nz/file/I1hiyRpZ#a7sLA1t0n6lDKQAnzHvHbY3SCHV49wpM5xLwwW7E6tI"><code>PDF</code></a></li>
-<li><code>[03/10/07]</code> <a href="https://mega.nz/file/1lYziI4B#IHPlFpzZ_MpIrR642BWmA21w6uIxrhn2_ZxvDknlXZI">Presentazione funzioni elementari</a> - <a href="https://mega.nz/file/hxRXWZ6a#kEfl1FREvVgJH3u-endCucMDJAu4g0fBUw4BBmTFQQ0"><code>PDF</code></a></li>
-<li><code>[04/10/07]</code> <a href="https://mega.nz/file/ZxgkUSoB#GSmSVoViMcALt7BDVN-0BoindeA89-ETs4sFYlIqXz4">Fine presentazione funzioni elementari, assioma di continuità</a> - <a href="https://mega.nz/file/UxhECTST#aLUdGD09jxsMMx1QakH4x27jve2pqHAsN0i_tLl-Lcs"><code>PDF</code></a></li>
-<li><code>[04/10/07]</code> <a href="https://mega.nz/file/Ixh2TKYS#2_uyEox4wsOCIqDQYog7h1yf5TzSLfSiEZHeW7U9wlU">Estremo inferiore e superiore</a> - <a href="https://mega.nz/file/F94GyQyC#SGjEG_I4fOoOUldJ8wL_QyjLDqjj4A7cDqBj0eehVPI"><code>PDF</code></a></li>
-<li><code>[04/10/07]</code> <a href="https://mega.nz/file/k8Z3DYoZ#ILZJYV_BFnlJNDS7NoY6Ca2qmRaPzlE5G2GemTtB5-c">Limiti di successioni: definizioni</a> - <a href="https://mega.nz/file/RhwQmQBC#t2Dq6_1F3T-YRcIbzptZ1Q7O7gN0f0ZWp1zyIr4nRbc"><code>PDF</code></a></li>
-<li><code>[04/10/07]</code> <a href="https://mega.nz/file/RxxHGbIA#zy9c6p_Zj8vjczNz_uhHL2Y50muTszljx1it0OPx8KU">Operazioni sui grafici: interpretazione grafica di equazioni, disequazioni, immagine e controimmagine</a> - <a href="https://mega.nz/file/tpw1AT5R#9tTUVtHg2is0wdSrfvHP4RRnvoz-zNEG6-Rwdlxh378"><code>PDF</code></a></li>
-<li><code>[09/10/07]</code> <a href="https://mega.nz/file/08o1VYgI#QvTt7baV-Ia442upqFOPMFOK5KObFy3dCs1xEjJLFSw">Limiti di successioni: teoremi algebrici e di confronto</a> - <a href="https://mega.nz/file/QspCFQga#QZztxAapdmYa763SO5e_YdWo3hBRwakJXY7GAfZ5jU0"><code>PDF</code></a></li>
-<li><code>[09/10/07]</code> <a href="https://mega.nz/file/NhJWiJDY#YFrf2HqNYVWWOauLqKm84GQLjLM1Q7POcf0hJ3Pz1g0">Successioni monotone: esempi di calcolo di limiti di successioni</a> - <a href="https://mega.nz/file/Mp4wFZRQ#J1XCxaIb9GqCnw-zZTtJOoPVwJi-6Oo0fl8RIGqS38Y"><code>PDF</code></a></li>
-<li><code>[09/10/07]</code> <a href="https://mega.nz/file/M4w3yJpY#_jo3y2U93Dc33p9xfMgIdQSQLaQXDsuUb9xBnSCHtxU">Limiti di successioni: rapporto, radice, rapporto → radice</a> - <a href="https://mega.nz/file/k5ZSlIjY#C4fsiq8f2Vkn07xE3PPLsm2wsag1u1ZaBL0rBNxPHr8"><code>PDF</code></a></li>
-<li><code>[09/10/07]</code> <a href="https://mega.nz/file/8lA0QJIL#phluFT_QrBYjkD3rsPnX_tqDiHbT1fEvZKuYARNmgx8">Confronto tra ordini di infinito per successioni</a> - <a href="https://mega.nz/file/s85AibCQ#Ah4ZRooy1H3ZfY5lwXi_6s0gj7BGsyyXCGCd8egktjk"><code>PDF</code></a></li>
-<li><code>[10/10/07]</code> <a href="https://mega.nz/file/spg21ZwQ#HxjSERTYoSYiZVeBboNez_xMH1yA9E8AsWb7qa6nhf0">Limiti di funzioni: definizioni</a> - <a href="https://mega.nz/file/t1BnlbKa#zSPMNHRzRtfHGxk8F-CwTpNEAsDiLjwo_DdIeUnnhd4"><code>PDF</code></a></li>
-<li><code>[10/10/07]</code> <a href="https://mega.nz/file/8oQAjZSI#2iD6d7oC7STPRWEilxPX7N5ZU3LHc8b4o-IesxVsIYU">Continuità, primi esempi di calcolo di limiti</a> - <a href="https://mega.nz/file/t8hAlT4L#BxSGh9h83YE2owKvcVJYIFgMlQz6oG9sEM_D090tOT8"><code>PDF</code></a></li>
-<li><code>[10/10/07]</code> <a href="https://mega.nz/file/t4w3SYgS#pXju2gl4mnMiJNon28qrQoVtDrPPpRsbmQ4S4RDS6Jo">Cambio di variabili nei limiti: esempi</a> - <a href="https://mega.nz/file/BgxzkDwR#VFDC_pe7KMcs_Y8Qz5qcZOf-vJfyGg9o3HMUYgkDbCA"><code>PDF</code></a></li>
-<li><code>[11/10/07]</code> <a href="https://mega.nz/file/El5VzLTI#4s6VEEdB09Bg-MObMQpPgMjJyckl6u7WMaiNPeE2wC8">Dimostrazione dei principali limiti notevoli</a> - <a href="https://mega.nz/file/wtxQ1KgR#-aEv6zlEL53rphvSLOdyu-Uoi3G7JABXLqzya4unJSY"><code>PDF</code></a></li>
-<li><code>[11/10/07]</code> <a href="https://mega.nz/file/8ooxVIIZ#USY8xRn2ArqbpMnLs1YrvG-lQfXTmrIkx7QRsBiWgxo">Criterio funzioni → successioni: esempi di calcolo di limiti</a> - <a href="https://mega.nz/file/E0Y0xQiQ#3V9yZ5Tc5P1aEYb7URcYSqCR9s9FWDoMI8p5EiXQ4-M"><code>PDF</code></a></li>
-<li><code>[12/10/07]</code> <a href="https://mega.nz/file/Bph0iJbB#flBxb_kmk1RgZ8038MWIM7IJaneuM0x35vkwC82rlDw">Sottosuccessioni e non esistenza di limiti</a> - <a href="https://mega.nz/file/85pw1LAS#gFEexi6GNrGBuiiJhkvyMAb_oOgaklcxFp0HWxTOqZY"><code>PDF</code></a></li>
-<li><code>[12/10/07]</code> <a href="https://mega.nz/file/E44GCCoZ#8TwpF7TeuWD4sRSt6d1s9ok3rhh2twFKbDd27jQD0IM">Esercizi sui limiti</a> - <a href="https://mega.nz/file/0hhzDZJa#E4GKhZLNbHaKzVtRSPxBfaLxb7vap42ToLojMBCizIk"><code>PDF</code></a></li>
-<li><code>[16/10/07]</code> <a href="https://mega.nz/file/AkQTyI5Y#Qv5P-YFpeMJ1l3GFMVUAxeuJGq6LuTflPOz_eQEGqnc">Linguaggio degli infinitesimi: o piccolo</a> - <a href="https://mega.nz/file/R5IigYZA#vSfDNi6oTj5oF5dU_8p-caA6sCSTfJ-pHjnrOIj6L5g"><code>PDF</code></a></li>
-<li><code>[16/10/07]</code> <a href="https://mega.nz/file/88h1xKxZ#qBNGhv8rw8sJcUTssNVibceLI1FdU6zdimgpQyOqeyw"><em>Sviluppini</em> e loro utilizzo nel calcolo dei limiti</a> - <a href="https://mega.nz/file/E8IQTDBa#4Zk2T3PzZ415st2DOnSe7p0JR_8jxxPckNTQhOXBpe0"><code>PDF</code></a></li>
-<li><code>[17/10/07]</code> <a href="https://mega.nz/file/s1YXSDTL#_Ns4mvqKnJrOu4T9uaytQHFUOGUA_PX2mg8qCuUIIto">Derivata e differenziale in una variabile</a> - <a href="https://mega.nz/file/psoTlRpB#vM5TuXmdNO_gHOl0Dpfhl-qcEifRAC1z24exV-5xy84"><code>PDF</code></a></li>
-<li><code>[17/10/07]</code> <a href="https://mega.nz/file/kthGgCIC#o_McojKXgWyna4rSkEmC4HOWkmwZpRw4SMwuvMFJyVw">Operazioni algebriche sulle derivate</a> - <a href="https://mega.nz/file/NsBDEQBQ#yCQo6_SdazwZ08dilqbCT2iDGT3wSTybYul9RTxrlGI"><code>PDF</code></a></li>
-<li><code>[17/10/07]</code> <a href="https://mega.nz/file/w0ZF3KKZ#rseQcego4iZzHU17-mg-0Q9eETOCYgfrcmZ8BxhTrN0">Derivate di funzioni inverse: esempi di calcolo di derivate</a> - <a href="https://mega.nz/file/Z15hxa5Q#cnnI6BS_u9r8tlwtfkXLTwqV3q1K2zu1aO2vzwt23F0"><code>PDF</code></a></li>
-<li><code>[18/10/07]</code> <a href="https://mega.nz/file/5sYkRISY#D4fSLQ647f5vN1Bp1K1Ieyp0mACcX8_ARtKehNsoST4">Teorema di De L’Hopital e formula di Taylor</a> - <a href="https://mega.nz/file/IlBjkDKA#HLLFhumZqFq-uYhZtM1wMq8F-9z5HaGmbLeEJA6VRnQ"><code>PDF</code></a></li>
-<li><code>[18/10/07]</code> <a href="https://mega.nz/file/Z45hRQTY#hJx7ntazHQW2N4-OyUYCVQd-tvjUgEc-53OxD6lSZHE">Sviluppi di Taylor di funzioni elementari e loro utilizzo nel calcolo di limiti</a> - <a href="https://mega.nz/file/YtYkkRaA#xB4jydvXQWfED21Ss2Xj7cvuKwqFSkM5SN0yRVfDPWI"><code>PDF</code></a></li>
-<li><code>[19/10/07]</code> <a href="https://mega.nz/file/E1xTmSJB#SkI-WEVpQhhqQCyhnyS17841iFR9V9td8CnfwS_Gb7A">Funzioni iperboliche</a> - <a href="https://mega.nz/file/cpZBXTTQ#R5Kh5eDnzxQOGBKVKeAfkW8WkToikbHM2Ky1OeLa9rs"><code>PDF</code></a></li>
-<li><code>[19/10/07]</code> <a href="https://mega.nz/file/doAjFLjS#LvFeqj_eaR31cWN8a29BfMACASm3LqbJYXz6ycAyo0g">Polinomi di Taylor di composizioni di funzioni</a> - <a href="https://mega.nz/file/g0AXHJAZ#Fuf_EqfT72zLJctG4JOvs6RgRa1mTGD77YPSao7Duck"><code>PDF</code></a></li>
-<li><code>[23/10/07]</code> <a href="https://mega.nz/file/9hY0CBAa#9fPQmA8myZUAWsaGqwrc5fv4Hv77vDgZxJ1i2Yg_CoM">Polinomi di Taylor con centro in un punto diverso dall’origine</a> - <a href="https://mega.nz/file/YkpjkQxQ#Co1DPDiY-v51AlWpsX5HpCgvOerOaPOUHdYgaujHEpE"><code>PDF</code></a></li>
-<li><code>[23/10/07]</code> <a href="https://mega.nz/file/0gQEgC4B#1ih0xcznG0yLJbRoCNxnyJgWxIl3OqKs0vrdXM_jpDQ">Serie: definizione, condizione necessaria, serie telescopiche</a> - <a href="https://mega.nz/file/Rp4iHDLY#CWlV5wJH9uYvhRCwpy9_AVjCmEulIe5B-WmDCKvrR7E"><code>PDF</code></a></li>
-<li><code>[24/10/07]</code> <a href="https://mega.nz/file/tsJ0iSpC#bfPwu8zf-EhWJd2gWgTqqaVcxjrKs-R3HbDzQ_puQow">Criteri per serie a termini positivi: radice, rapporto, confronto, confronto asintotico (casi standard)</a> - <a href="https://mega.nz/file/QhojBRrY#1JPr58eYLKKETTppSZL2NHzH9ku7BVq1wjfomibkoyM"><code>PDF</code></a></li>
-<li><code>[24/10/07]</code> <a href="https://mega.nz/file/FghAEDSA#b3KPeN6G7iZiYy4aQnBjXWZQyb4Y36O8QjhiUbpzIpI">Serie: dimostrazione criteri e casi limite del confronto asintotico</a> - <a href="https://mega.nz/file/0lIV1ShZ#8aimS3aO58fxvQpzNTvtryxrFQPXHVIfhknNPYepKJg"><code>PDF</code></a></li>
-<li><code>[24/10/07]</code> <a href="https://mega.nz/file/Fw4QFCAZ#wjBWGfhzBO553zarmnOJ_CU1Epoyunx5X9KrxV8aD5M">Esercizi sulle serie</a> - <a href="https://mega.nz/file/w4BAgZLS#15z60uIcEpqbFlqselcgvdCjiXVQdroM569vCpAoxak"><code>PDF</code></a></li>
-<li><code>[25/10/07]</code> <a href="https://mega.nz/file/B55gWYob#j51MjFDv9C318QB4k_0klot8T2mVYrpKVf43djCcGxQ">Serie a termini di segno qualunque: criterio di Leibniz e assoluta convergenza</a> - <a href="https://mega.nz/file/40ASHD4Y#bksm6MHDyShXBRQiFyaaDiUOo4Tdwj0LsFME8Pay6eE"><code>PDF</code></a></li>
-<li><code>[25/10/07]</code> <a href="https://mega.nz/file/d0gS2BJL#j3E2mPtVmXskCaAkp0yKVsIdrqWZPLXkm9lCkSJoAbw">Esercizi sulle serie (anche con parametri)</a> - <a href="https://mega.nz/file/csZ0QTZR#9Wz4LuImzXsvI-8kt-0QLVnfbmH__0p0ElX28GDuG2o"><code>PDF</code></a></li>
-<li><code>[26/10/07]</code> <a href="https://mega.nz/file/4xAVjb7R#6WD1kr9RttHgR_5vP8YlzPaV-4PbEOve4-CYyJmVCHk">Serie di potenze</a> - <a href="https://mega.nz/file/ZlQSwQzY#NW7XSCEgzGqoZ7Iu79lRWVI1JOL1Sbv4mw5pth0PG9g"><code>PDF</code></a></li>
-<li><code>[26/10/07]</code> <a href="https://mega.nz/file/h9xxWSxD#m_bWriab3kksNA_Pdq02oEerVNhttlkmGT0WxVsmqVk">Esercizi sulle serie di Taylor</a> - <a href="https://mega.nz/file/9ppxXSjY#8gxP2OCkTTckQAd_ZPOjAXfPSCqyFoZB939Fts3l8OI"><code>PDF</code></a></li>
-<li><code>[30/10/07]</code> <a href="https://mega.nz/file/clJxnSAI#f4RxRFmtmEmf_JSYjXVMgK2gLt6zxamJIF4jH2LQUmc">Teorema di esistenza degli zeri e conseguenze</a> - <a href="https://mega.nz/file/I1IxFa4D#ASHStAcLwv64zGiD-j7nV4qEHmhKarnyxCrUpeI5qbA"><code>PDF</code></a></li>
-<li><code>[30/10/07]</code> <a href="https://mega.nz/file/RpIjHRIb#Pyo6NHakDVjTo78SZyH22zvtvIQCUJ0k1t8O9Y4-Un0">Studio locale di funzioni</a> - <a href="https://mega.nz/file/BlJXzTRQ#c7KhpCRDzIh25bliwLbnjS2bkWfyLCLsoX1G0Gvu9AI"><code>PDF</code></a></li>
-<li><code>[31/10/07]</code> <a href="https://mega.nz/file/4xQ3yTIL#WqzXns3wDfBxbJM70cQ3qDO3z9muxlITgeDCetZeEgo">Massimi, minimi e teorema di Weierstrass</a> - <a href="https://mega.nz/file/lgYm2A5K#xK2FPeLhMLbiceZqE27f2Vym22clhA6lz3VCgETYEHo"><code>PDF</code></a></li>
-<li><code>[31/10/07]</code> <a href="https://mega.nz/file/94Q11KgS#SS3Z-gf3oSPlWmeDnFgmznEOqBA4-HCmBCsGY1AI128">Ricerca dei punti di max/min, teoremi di Rolle, Cauchy, Lagrange</a> - <a href="https://mega.nz/file/YlZUUJTb#Nl5bPEJou1SLbCpG0n8ouEepPxpwChLFlX8gp-InY9s"><code>PDF</code></a></li>
-<li><code>[31/10/07]</code> <a href="https://mega.nz/file/5kgnVT6B#_18NKCWZyUDasObjKQM7LIsGJrJ9HbIDOFrLLX8WOvM">Monotonia e segno della derivata</a> - <a href="https://mega.nz/file/9gYiBZAC#pKFx3uVXRilLMiQ_om0N_OZDm-1GWfAal38NlfNu7-o"><code>PDF</code></a></li>
-<li><code>[06/11/07]</code> <a href="https://mega.nz/file/YwADCDqK#9Z8IzctPG0kWIitMuHCfG3m5JvTJDo82h67ZOEaZfKw">Teorema <em>Monotonia 3</em>, asintoti orizzontali e verticali</a> - <a href="https://mega.nz/file/hwwWFBwB#Fft58hSCUuFPyfPVGRINyLWKh4BVzhGM1LC66xGaaBw"><code>PDF</code></a></li>
-<li><code>[06/11/07]</code> <a href="https://mega.nz/file/I94XDBIT#od8QCARFxrtLASuNJ_M2spJe_bDSgVR88U0PbvsPVI4">Asintoti obliqui, convessità e concavità</a> - <a href="https://mega.nz/file/s44UUQDD#m8BLQNXvVVI_cOv4UzB4iYasYaPqozAhX4TuqaayH1E"><code>PDF</code></a></li>
-<li><code>[07/11/07]</code> <a href="https://mega.nz/file/gtgmGITB#6wjDKNAOXdyHRnUcPKV-SFbJMcMJfibWa1EzwX-XEag">Successioni per ricorrenza: introduzione e primi esempi</a> - <a href="https://mega.nz/file/soRGEIKB#53U1HyZTVrncxHiDM_Pjh_jMXHpDCyGfbFXksTDdN_w"><code>PDF</code></a></li>
-<li><code>[07/11/07]</code> <a href="https://mega.nz/file/JsAyFKbZ#qpZmUtZAZ7R6tU-LtT3ROwKz6hcPWaD8LWlVnVEbl-M">Formula di Taylor con resto di Lagrange e applicazioni</a> - <a href="https://mega.nz/file/ItwXRbKI#djC4s1ejGfOYJ0qDl_l3vgxGR4_BZJhhromJiaLdZ7g"><code>PDF</code></a></li>
-<li><code>[07/11/07]</code> <a href="https://mega.nz/file/olAQyQiT#wc2kTE7GujYijw6gZTpfIwsHZCjqTL9sNGZy803wSPo">Esercizi su studio di funzioni, inf, sup, max, min</a> - <a href="https://mega.nz/file/JgQimChA#4_v_vAAKnvqRtwl5LxD9mUsxzuq8HPX_DcqaGyT26es"><code>PDF</code></a></li>
-<li><code>[08/11/07]</code> <a href="https://mega.nz/file/I9hzGCBI#l9GtOlnLNEIMGJMZFuwj2za1qDhyvU5RQY1uUK0jb9k">Funzioni Lipschitziane</a> - <a href="https://mega.nz/file/ptICGZDT#KFr8bGTmYHIZgANX8QPUPEvnN2EFxBrOE7GngqfcYg4"><code>PDF</code></a></li>
-<li><code>[08/11/07]</code> <a href="https://mega.nz/file/B4YlwKLC#8R0Xv93WHe6_2AH2R6qCNVxR_a9NLtEe-U9qSmURlIs">Esercizi su studio di funzioni, inf, sup, max, min</a> - <a href="https://mega.nz/file/oh5WHD5Q#935rrR-Q35KfnwBMseCHAAyhytkBvKEmdX3ZEKLIzN0"><code>PDF</code></a></li>
-<li><code>[09/11/07]</code> <a href="https://mega.nz/file/Ixg1nCYB#42qqhtdJkV2sDiRFkWTuWkC8Ts2C6BQuNqCglcHfS18">Successioni per ricorrenza autonome monotone</a> - <a href="https://mega.nz/file/9o5RwS5A#Xc7hW31cm9xVJ6bEwnXsURbHsKZ1tnRFdTWU4RAyaWY"><code>PDF</code></a></li>
-<li><code>[09/11/07]</code> <a href="https://mega.nz/file/I5hhVLra#YyW_XNMYedFt14RqnOK7GSB6dbkO7X8_td6gn9mFrsk">Successioni per ricorrenza autonome spiraleggianti</a> - <a href="https://mega.nz/file/0tgS0YQS#yDlPVhSRD1mRHosHdzpxFd8E5bKnLA2bVYJiFqoHsao"><code>PDF</code></a></li>
-<li><code>[13/11/07]</code> <a href="https://mega.nz/file/sopDCTgK#dR8Z5TzKsCuUf2c8c8Jw98w0xmMy2swIZD2PdOySRRA">Successioni per ricorrenza non autonome</a> - <a href="https://mega.nz/file/sh5g3IgY#lL1TZqL2PwhM76x8r2GAJewi2z_TIqznWpFrsWd9XJU"><code>PDF</code></a></li>
-<li><code>[13/11/07]</code> <a href="https://mega.nz/file/sggTjKQB#81FosWvvjVnks1FD3lEhfUkqWD16KNicVGZ857V1zrU">Successioni per ricorrenza: ulteriori esercizi</a> - <a href="https://mega.nz/file/xp4UGJzB#HrDAPCnO5uF4XoMO0qqfRCW5PttU2Zaxs2Myxj4dLxs"><code>PDF</code></a></li>
-<li><code>[14/11/07]</code> <a href="https://mega.nz/file/too3EZSC#YqPCVY2D9L1JTqBG3CXd9XR_HTEcewNc47LgYOEYNTI">Spazio n-dimensionale, vettori, norma, prodotto scalare</a> - <a href="https://mega.nz/file/A9QyEZ5K#TzVfjjF2YlphoMLIXapx_ADnd9qJyoa4qGqmdRgSJdY"><code>PDF</code></a></li>
-<li><code>[14/11/07]</code> <a href="https://mega.nz/file/spQFSYaR#PfaGOzqOFbd6hVwH9704miVRDeLzpgYCe1PCRrdzeDk">Funzioni di 2 variabili e loro linee di livello</a> - <a href="https://mega.nz/file/YpRllIYB#X2xzHSEegWjuzTH8MQqE-gCNnw8C2pliP6aWiWIb1bc"><code>PDF</code></a></li>
-<li><code>[14/11/07]</code> <a href="https://mega.nz/file/4h5gQbZJ#4h0PmdXP4GG2PmKs4rYkqWrYN5BC8Ef0VQ8ChpKjyg0">Limiti e continuità in 2 variabili</a> - <a href="https://mega.nz/file/Ap41RTiD#sbYsaqT5BMqygwHkIRPmxF4GRzxHpFxqIVhgwc2-m8c"><code>PDF</code></a></li>
-<li><code>[15/11/07]</code> <a href="https://mega.nz/file/h8gyCTaZ#AqUbQWuIttWTXKPWUx1QNv3whrXgFz4az3J78iv3mhY">Derivate parziali e direzionali</a> - <a href="https://mega.nz/file/YpYhDbqQ#I6o4lVHgsYdiE97Qa3GfQTSA2WefJ_Uz599K8sxoSOI"><code>PDF</code></a></li>
-<li><code>[15/11/07]</code> <a href="https://mega.nz/file/gxgCxA6L#A56awGfmmrzqa1gC0Q4tZK_QWfuwh29sADWxpN-YwUk">Differenziale e gradiente</a> - <a href="https://mega.nz/file/sp5jWZya#6siIZYgZ_gkwtLJTUVwrOM9jOXMzWZnVmoJNiWnXgAc"><code>PDF</code></a></li>
-<li><code>[16/11/07]</code> <a href="https://mega.nz/file/lgIyGYzC#iYUX8ISdMUPGkjt3aWCZAJK_qFkRuFKx8sJyUdi51VQ">Massimi e minimi in 2 variabili: teorema di Weiestrass e metodo delle linee di livello</a> - <a href="https://mega.nz/file/B9pEURRD#wP5dNfyS95NJDFuhcNG3ETTWBX9eQFWr0015nkyF8wA"><code>PDF</code></a></li>
-<li><code>[16/11/07]</code> <a href="https://mega.nz/file/98wgnQ4J#h83LPdvGrGNJZBmwZKtJmG1-4geCPkdc9-s4vLuleOE">Massimi e minimi in 2 variabili: parametrizzazione del bordo</a> - <a href="https://mega.nz/file/xgRBHZZa#hEynceIvWoVojg99Krvd5tGNBa3i3yGJ0kNOH7LeSi4"><code>PDF</code></a></li>
-<li><code>[20/11/07]</code> <a href="https://mega.nz/file/V5gWXAxD#Ohg0dIk-D6g-h-49toq-tzyJgrJ4Nh8YadyvKGrCxhw">Moltiplicatori di Lagrange</a> - <a href="https://mega.nz/file/J44wURZY#bJwTAYF_gGGua-Wt2wqa8oJ_iR4w50fvj2AnyV-Xds4"><code>PDF</code></a></li>
-<li><code>[20/11/07]</code> <a href="https://mega.nz/file/EthgWTiT#dVqXIj0edZBHyQG9wEEXLQmgi0_g18RQDfkT40u-h8Q">Massimi e minimi su insiemi limitati</a> - <a href="https://mega.nz/file/F1YEkJxC#xAC2fnZLlTXp0nT1FcpARuAfySz0GvjxIEfRgsZH2Jo"><code>PDF</code></a></li>
-<li><code>[21/11/07]</code> <a href="https://mega.nz/file/I0p2nLLK#lODL-dj1BlPI19o0q4O3i4qEI5XrPEc_0sQWXHOQ-MA">Derivate parziali successive, massimi e minimi su insiemi non limitati</a> - <a href="https://mega.nz/file/94ojgBAY#IGuhyxWlIjooGTKYiTjLnFXpQhHeQF-nLNIJAIW4ZeA"><code>PDF</code></a></li>
-<li><code>[21/11/07]</code> <a href="https://mega.nz/file/s15zFKga#A65yN6de3x6JrgZiffw0ADNUU4kO8RsSkK9AFuk3wwc">Integrali in una variabile: notazioni, significato geometrico, definizioni</a> - <a href="https://mega.nz/file/hoYn2Sgb#Yf2plL4Tak1ap8wCmwFEljblD1Y2bFz6Sop6ofruf64"><code>PDF</code></a></li>
-<li><code>[21/11/07]</code> <a href="https://mega.nz/file/I8RByZ4B#nHS2Abk-CJNeuspi7pTp5evroSwkgzLZbweZ4gENS4M">Funzione integrale, primitive, teorema della media integrale, teorema fondamentale del calcolo integrale</a> - <a href="https://mega.nz/file/pphj2ADQ#jnrVyxrHP5829GE0wgv0cmkXdUEVTUlZIa8r2z98ACA"><code>PDF</code></a></li>
-<li><code>[22/11/07]</code> <a href="https://mega.nz/file/k4x0FCjC#EEX17xvN7eGN3I_yOHRkEqPHS28O1mjDGsbvasJsgkI">Integrazione per parti</a> - <a href="https://mega.nz/file/E0JA1bxQ#O46PdgHVZJ03-PPWG4q3tYnz_aXFPmee1u025AnNZJg"><code>PDF</code></a></li>
-<li><code>[22/11/07]</code> <a href="https://mega.nz/file/c1IRWRCQ#D2LooBFoz9wgNdKAqRGLlJE6PDa6pHfKsObvVM8Xp30">Integrazione per sostituzione</a> - <a href="https://mega.nz/file/tlBXEDgK#m3BsSXjMWqu4tbi643OqGeUXtsI_QQoVOT7-qXJSS_o"><code>PDF</code></a></li>
-<li><code>[23/11/07]</code> <a href="https://mega.nz/file/ktRSAKbB#WmsGC-pyLXhLP6Y-qYbJHEc-oV9U4mmbgqO3Y7jwvoM">Integrazione funzioni razionali (prima parte)</a> - <a href="https://mega.nz/file/wo4CyBqA#ZhuI9l4sR7fO1o58s8LsbOLg99pARSW-yEot_PHCS78"><code>PDF</code></a></li>
-<li><code>[23/11/07]</code> <a href="https://mega.nz/file/8wIECKgS#gEFbgEuw-4_PCOn-3Am_u_ZIOPtKfcUkXmZIbxzVGXY">Integrazione funzioni razionali (seconda parte)</a> - <a href="https://mega.nz/file/Qs4ARZII#ISdvY06vSNyzwif1FpFKcQRKpcG19Gg-vYiLJ6H5fYU"><code>PDF</code></a></li>
-<li><code>[27/11/07]</code> <a href="https://mega.nz/file/cxQRiAhC#4lkxyZLjT-gio4D8WLWkxJ3AEOQsPx0hYk7pU9nEoEE">Sostituzioni razionalizzanti (prima parte)</a> - <a href="https://mega.nz/file/cpoUmDYQ#072cykxLqoWDYrKVdGgu5J4oOsU5BjDY_YRzBZI1GU8"><code>PDF</code></a></li>
-<li><code>[27/11/07]</code> <a href="https://mega.nz/file/1kIWFIRB#TxvE922vFXAqpFl03gVpKwgzKewNA0Ff1980qlp5d-Q">Sostituzioni razionalizzanti (seconda parte)</a> - <a href="https://mega.nz/file/xsoXgbbQ#0Wf6oASnXqU71dS215tjAia7XPoPYh6_YUeK881jqkI"><code>PDF</code></a></li>
-<li><code>[28/11/07]</code> <a href="https://mega.nz/file/glYFVRBb#XQYAw1fSYlIOwDYqf1ANADgdNyvPa8XlGl42uc3LnwU">Integrali doppi: notazioni, definizioni, formula di riduzione sui rettangoli</a> - <a href="https://mega.nz/file/Jo5nSBrK#C3Wu1un6g581ca160Vv64xzoQwkrmdmes8uaH58ZtdE"><code>PDF</code></a></li>
-<li><code>[28/11/07]</code> <a href="https://mega.nz/file/p9oThBwZ#sev_Ergj9pNJmv7VIrSbK5vzK-tx0JJVr4VRwQRScU4">Integrali doppi: formula di riduzione su insiemi normali rispetto all’asse <code>x</code></a> - <a href="https://mega.nz/file/5k5FiIab#3s5pEPEwon1eJjTyHs4ecZRYGWhpJTTNp7HKnsbb-B8"><code>PDF</code></a></li>
-<li><code>[28/11/07]</code> <a href="https://mega.nz/file/VsgXhSBb#0XFa2U9l8ILQ1_z88aKhqQwFGRLg1jSa-uv97AI__Yk">Integrali doppi: formula di riduzione su insiemi normali rispetto all’asse <code>y</code></a> - <a href="https://mega.nz/file/whI33Z7I#TdC_AN-QK96iCMgr1t2i95E0ttBHQPB44E8bt7w3y1Y"><code>PDF</code></a></li>
-<li><code>[29/11/07]</code> <a href="https://mega.nz/file/80YTzLCT#vma0tM-1toCxxAZ3hTcemFr7nssc16kqK7IfJb4A4Kg">Integrali impropri: definizioni e spezzamento in integrali monoproblema</a> - <a href="https://mega.nz/file/s4Zy3BTa#sgFZbhhliz0TQ3ixeAtOswaixrzFFaTg8beAQ_vkNCg"><code>PDF</code></a></li>
-<li><code>[29/11/07]</code> <a href="https://mega.nz/file/Uw50QBZZ#hH1IzHbtlslFP4M9XkHt9Cd3Wp2QacIwgU-cTLzpBFA">Integrali impropri: criteri di convergenza</a> - <a href="https://mega.nz/file/F8JFRLgA#Xz5cS03-9RjBoaomTMe-cyugU0TuZiaJXyV0E4uQs5M"><code>PDF</code></a></li>
-<li><code>[30/11/07]</code> <a href="https://mega.nz/file/1sAHkYjI#b1XI4InUPNe3etdltOKZ0emwx6wycYWuRY1AAmWd8qE">Coordinate polari e loro utilizzo per il calcolo di integrali doppi</a> - <a href="https://mega.nz/file/I5ZCxSZT#eJminB7HBsSTO4cREbzP_rY6aBCMxM0-QdohI6lNkRo"><code>PDF</code></a></li>
-<li><code>[30/11/07]</code> <a href="https://mega.nz/file/YwBUha4J#pi1_vV6buyYBB5p8UIy6ZqkXzM4_g9DREeCpD4exQi8">Cambi di variabile negli integrali doppi</a> - <a href="https://mega.nz/file/ExwgARKI#bca96Aj6umktkTgwkmi407adv5dtOEi_fvcTd3HDKW4"><code>PDF</code></a></li>
-<li><code>[04/12/07]</code> <a href="https://mega.nz/file/J9JzBbaA#177gzEiZP66bJmpJpwaf95d7rF_zAMK-mlZUmgqTVo0">Integrali tripli: notazioni, definizioni, formula di riduzione per colonne</a> - <a href="https://mega.nz/file/dk5SSSxZ#8B72IxEZrTCTRXK0uJLKdCci5IMScLNO72ciS8i5roc"><code>PDF</code></a></li>
-<li><code>[04/12/07]</code> <a href="https://mega.nz/file/MxAznaBK#HB-UamuQhNXVyy2QUhBQeMo-qsPUarhJWsq93mQHboo">Integrali tripli: formula di riduzione per sezioni</a> - <a href="https://mega.nz/file/414BTTDZ#nzw9jhjiaJnL6x0yIxhmPWVzAVdCjEQlIu0X6itytyg"><code>PDF</code></a></li>
-<li><code>[05/12/07]</code> <a href="https://mega.nz/file/FtwRGJaT#bmwhsGl8fN8jvFFeelqyonHCVcgV0dIYeGyjGth2atA">Coordinate cilindriche e sferiche e loro utilizzo per il calcolo di integrali tripli</a> - <a href="https://mega.nz/file/YsRSHLjY#JbOeb-8LoGI3BlS8IdG0RsY3o8BYg-xwmFX2kk0_8JY"><code>PDF</code></a></li>
-<li><code>[05/12/07]</code> <a href="https://mega.nz/file/opQElZJT#FqOHP_xCPaTw8f1M577VG4iwQ0jBx0K2t3jB5FijjPQ">Calcolo di baricentri di figure piane e solide mediante integrali doppi e tripli</a> - <a href="https://mega.nz/file/g1R2GJJJ#zUSQ9rhlgF8sJrnddLiIHIU-4bi0K8sDgPMipyTSqR0"><code>PDF</code></a></li>
-<li><code>[05/12/07]</code> <a href="https://mega.nz/file/hsYVRITK#1NIqOtL5W6McDYE5iv9r4ewBap6JU-hUPL4XoFmwBMc">Cambi di variabile negli integrali tripli (volume dei solidi di rotazione)</a> - <a href="https://mega.nz/file/8wISiRCL#-dTSMrHPeimWv4jrqEIRaIGgwdK7RhwDbUUkQPE7-7c"><code>PDF</code></a></li>
-<li><code>[06/12/07]</code> <a href="https://mega.nz/file/8kJTwYyR#yTJXCVrDhHRBMjJMJ5baqNXTqUPkUtCEWY-StuxgAPc">Studio della convergenza di integrali impropri mediante l’integrazione per parti</a> - <a href="https://mega.nz/file/Ilpi3JRA#H7hbtYfi_Ws55PmN5o5WMmlcFAF7VXcw1ai7-qK-voU"><code>PDF</code></a></li>
-<li><code>[06/12/07]</code> <a href="https://mega.nz/file/Uth1xJQb#4N0cPmd3vblpcy_mXqpLwEIn7UR7DTJsegbnPWurljA">Confronti serie integrali (metodo <em>dei triangolini</em> per lo studio di integrali impropri)</a> - <a href="https://mega.nz/file/UoZU2bqB#IPsKRJqrSxJ1DN9CVJ48fXAZWs-FK7qvv4q-8WRaVg8"><code>PDF</code></a></li>
-<li><code>[07/12/07]</code> <a href="https://mega.nz/file/51YHHBAS#CS7dMFb3tM03X89Xb7R2UJ0zl0vuHYJO5VvFwML38Oc">Curve: definizioni, lunghezza, integrali curvilinei</a> - <a href="https://mega.nz/file/UwZzAIoT#i_TYagbmEar_nCpDisSO7JV375D1F2kGRz7JQgswkuA"><code>PDF</code></a></li>
-<li><code>[07/12/07]</code> <a href="https://mega.nz/file/8gZDCKaB#s1vpQyBC1RWnqGVszTiiVC7D1VsJNrIYU9KRKWTQOPY">Baricentro di una curva (area di una superficie di rotazione)</a> - <a href="https://mega.nz/file/9ghAUaQY#tP3Sn4apVzF4HJy51LFrQpxxD03y6TkRCO30hPirXFY"><code>PDF</code></a></li>
-<li><code>[11/12/07]</code> <a href="https://mega.nz/file/x9hgSQYL#Ety_P8pArelxgzlAjQtb9eKfdhKLtPARR4tm-yglefQ">Equazioni differenziali e problema di Cauchy (notazioni e definizioni)</a> - <a href="https://mega.nz/file/tpoxSCQD#eUOtHDQeFC7aQxN4eIQRbR573MjLXUUPlh0y4WxjEL4"><code>PDF</code></a></li>
-<li><code>[12/12/07]</code> <a href="https://mega.nz/file/ZsB2zK5Z#5XuopJkBkatfhSY8VSZuh5s5FkE-yN0ODFDiHHhw3FU">Equazioni differenziali a variabili separabili (tempo di vita, blow-up, break-down)</a> - <a href="https://mega.nz/file/50wFTJrT#aoxNF36DG4kIYI95x6B2ZYCGRcu7kz2hb-H1Bd3ZO8c"><code>PDF</code></a></li>
-<li><code>[12/12/07]</code> <a href="https://mega.nz/file/hpxzCBQR#si8DYrOJe9ANFM-etIhtHuyHJFIuDi6dy8e-_YkFxdU">Esempi di studio di equazioni differenziali a variabili separabili</a> - <a href="https://mega.nz/file/h4BVgQ7S#ni599unDdEOqvMZ9zVNmmp4gkVEf2vR-UMMhFc4oPC0"><code>PDF</code></a></li>
-<li><code>[12/12/07]</code> <a href="https://mega.nz/file/hhhlBKAB#YDZtOdrvUNt54w735hM7OmUNX-k-tlimpXXno_wjilg">Esempi di studio di equazioni differenziali a variabili separabili in funzione del dato iniziale</a> - <a href="https://mega.nz/file/l0Z12TwB#SrAqQR5SRXcSH-HPHqPu4-iZF8K6TVCZ7mxssNH1SQg"><code>PDF</code></a></li>
-<li><code>[13/12/07]</code> <a href="https://mega.nz/file/I5QQkbbL#U-Utw7hHGL39CvOKTWHSueAfWLhiVhwtcXkMffAxAFI">Equazioni differenziali lineari omogenee</a> - <a href="https://mega.nz/file/I5oi1Zaa#MweUvHidcyI4wLJ_MbXkj4DHEqNM_u8Xo9jMYqd2Rnw"><code>PDF</code></a></li>
-<li><code>[13/12/07]</code> <a href="https://mega.nz/file/RkwV0ToQ#AJUS6EJ6-nT4UP2rbs8b7lRnIbyl2n9MBUWsXq8W_wA">Equazioni differenziali lineari non omogenee (ricerca per tentavi di una soluzione)</a> - <a href="https://mega.nz/file/F4JmxA7Y#gL_a0em5_UcZxKKfeTWphFavzJECFJnrFfxDY2Vlwbs"><code>PDF</code></a></li>
-<li><code>[14/12/07]</code> <a href="https://mega.nz/file/RxxHCYRR#EPUFmWB62I6dku83QmQn66eBnv2nBUXz2-7A6npOdlY">Equazioni differenziali lineari non omogenee (ulteriori esempi di ricerca per tentavi di una soluzione)</a> - <a href="https://mega.nz/file/0xAn1D6a#Tl5EInYcZF3DDG2243UaA5xoTLW856RpmkGEvWjspxM"><code>PDF</code></a></li>
-<li><code>[14/12/07]</code> <a href="https://mega.nz/file/JgwWwQAR#V9Y6HxU-E_T6yZsN41BmcMcMCiBHwL5bPdPgYzrXjBI">Equazioni differenziali lineari del primo ordine</a> - <a href="https://mega.nz/file/UkAXEKLa#9NVw1FEiEyyazxOJIwxgZ5HbIagXX0HUGUXg62QEsOM"><code>PDF</code></a></li>
-<li><code>[18/12/07]</code> <a href="https://mega.nz/file/MhoEFSZb#Q7-TTzRSgpsey3jpnWqq5AutbgywRQehyX_WlhNssls">Equazioni differenziali lineari non omogenee (metodo di variazione delle costanti)</a> - <a href="https://mega.nz/file/k1xViTII#UlrLyn6OGmV4WeyNebmjYHIxZRqiZ67Dy_cbYaXvnb8"><code>PDF</code></a></li>
-<li><code>[18/12/07]</code> <a href="https://mega.nz/file/xtoR0LRa#hdpIvoZK-G1Jnlvk32Ug1UmNolzKKlXCkaQTqYSizgk">Tecniche per calcolare la somma di una serie di potenze</a> - <a href="https://mega.nz/file/V04CQDib#nhUz5IYcdPvXA4g_2OawRuSopOrfZUxB9zJcYteV9ZQ"><code>PDF</code></a></li>
-<li><code>[19/12/07]</code> <a href="https://mega.nz/file/Jx5nDBQT#3-VIZYqCbk2DF3Tcmh9J9-IaBIjJG2oVTP93waTTZ5Q">Sistemi di equazioni differenziali lineari omogenee (studio di equazioni differenziali con parametri)</a> - <a href="https://mega.nz/file/R0Q0Ga6b#twlwN_BTQxISBboHll3McTg0NIEUVbUZzF-ffbvZSdU"><code>PDF</code></a></li>
-<li><code>[19/12/07]</code> <a href="https://mega.nz/file/YhBQjCSa#mKjKXxoC7BiWgOP7yCu8Md-ZvC0Je00zs_ZPALywpwQ">Calcolo di 2 integrali impegnativi</a> - <a href="https://mega.nz/file/pkJzhBha#eeaFXATtwO0zoLYG5uCRLRwKTEtv0UXo-DYCAhIIhT4"><code>PDF</code></a></li>
+<li><code>[02/10/07]</code> <a
+href="https://mega.nz/file/Y8ZSyZKB#SocjSc8UR_ghF-UzrI2plUd6tAoDvT5QaYjD6wb9czI">Insiemi</a>
+- <a
+href="https://mega.nz/file/p9QzTR7T#cmhkAEb8JSXz3mhsqd5gB6GQ77um5kBdTCo9y0oH02M"><code>PDF</code></a></li>
+<li><code>[02/10/07]</code> <a
+href="https://mega.nz/file/R9ZAFTqT#UhyClOSBLImsvKfP6GJGHTUCOKr18YmKrqeIPUm2_ok">Funzioni
+tra insiemi, iniettività, surgettività, immagine e controimmagine</a> -
+<a
+href="https://mega.nz/file/kwpWWR7Q#jtPypG0jFwWg278cZBYuSEUNxdHT-1OML_o7HtaWSoU"><code>PDF</code></a></li>
+<li><code>[03/10/07]</code> <a
+href="https://mega.nz/file/xg4SiRIL#HkcQLRwks26Rtpb2h4nk3QsaS-5tabYczOi3wwPeZ_8">Principio
+di induzione</a> - <a
+href="https://mega.nz/file/RgpXTJDT#6PyS0E5pPwLG03uOHkUKDVEn4qGgPvcb5qoOJFkHKq8"><code>PDF</code></a></li>
+<li><code>[03/10/07]</code> <a
+href="https://mega.nz/file/ssQnEZLL#to4Th3HAkb8wpn8E13nrxhhGsb-tlr8nHhgl7UeR9n0">Funzioni
+reali: simmetrie, monotonia, iniettività, surgettività</a> - <a
+href="https://mega.nz/file/I1hiyRpZ#a7sLA1t0n6lDKQAnzHvHbY3SCHV49wpM5xLwwW7E6tI"><code>PDF</code></a></li>
+<li><code>[03/10/07]</code> <a
+href="https://mega.nz/file/1lYziI4B#IHPlFpzZ_MpIrR642BWmA21w6uIxrhn2_ZxvDknlXZI">Presentazione
+funzioni elementari</a> - <a
+href="https://mega.nz/file/hxRXWZ6a#kEfl1FREvVgJH3u-endCucMDJAu4g0fBUw4BBmTFQQ0"><code>PDF</code></a></li>
+<li><code>[04/10/07]</code> <a
+href="https://mega.nz/file/ZxgkUSoB#GSmSVoViMcALt7BDVN-0BoindeA89-ETs4sFYlIqXz4">Fine
+presentazione funzioni elementari, assioma di continuità</a> - <a
+href="https://mega.nz/file/UxhECTST#aLUdGD09jxsMMx1QakH4x27jve2pqHAsN0i_tLl-Lcs"><code>PDF</code></a></li>
+<li><code>[04/10/07]</code> <a
+href="https://mega.nz/file/Ixh2TKYS#2_uyEox4wsOCIqDQYog7h1yf5TzSLfSiEZHeW7U9wlU">Estremo
+inferiore e superiore</a> - <a
+href="https://mega.nz/file/F94GyQyC#SGjEG_I4fOoOUldJ8wL_QyjLDqjj4A7cDqBj0eehVPI"><code>PDF</code></a></li>
+<li><code>[04/10/07]</code> <a
+href="https://mega.nz/file/k8Z3DYoZ#ILZJYV_BFnlJNDS7NoY6Ca2qmRaPzlE5G2GemTtB5-c">Limiti
+di successioni: definizioni</a> - <a
+href="https://mega.nz/file/RhwQmQBC#t2Dq6_1F3T-YRcIbzptZ1Q7O7gN0f0ZWp1zyIr4nRbc"><code>PDF</code></a></li>
+<li><code>[04/10/07]</code> <a
+href="https://mega.nz/file/RxxHGbIA#zy9c6p_Zj8vjczNz_uhHL2Y50muTszljx1it0OPx8KU">Operazioni
+sui grafici: interpretazione grafica di equazioni, disequazioni,
+immagine e controimmagine</a> - <a
+href="https://mega.nz/file/tpw1AT5R#9tTUVtHg2is0wdSrfvHP4RRnvoz-zNEG6-Rwdlxh378"><code>PDF</code></a></li>
+<li><code>[09/10/07]</code> <a
+href="https://mega.nz/file/08o1VYgI#QvTt7baV-Ia442upqFOPMFOK5KObFy3dCs1xEjJLFSw">Limiti
+di successioni: teoremi algebrici e di confronto</a> - <a
+href="https://mega.nz/file/QspCFQga#QZztxAapdmYa763SO5e_YdWo3hBRwakJXY7GAfZ5jU0"><code>PDF</code></a></li>
+<li><code>[09/10/07]</code> <a
+href="https://mega.nz/file/NhJWiJDY#YFrf2HqNYVWWOauLqKm84GQLjLM1Q7POcf0hJ3Pz1g0">Successioni
+monotone: esempi di calcolo di limiti di successioni</a> - <a
+href="https://mega.nz/file/Mp4wFZRQ#J1XCxaIb9GqCnw-zZTtJOoPVwJi-6Oo0fl8RIGqS38Y"><code>PDF</code></a></li>
+<li><code>[09/10/07]</code> <a
+href="https://mega.nz/file/M4w3yJpY#_jo3y2U93Dc33p9xfMgIdQSQLaQXDsuUb9xBnSCHtxU">Limiti
+di successioni: rapporto, radice, rapporto → radice</a> - <a
+href="https://mega.nz/file/k5ZSlIjY#C4fsiq8f2Vkn07xE3PPLsm2wsag1u1ZaBL0rBNxPHr8"><code>PDF</code></a></li>
+<li><code>[09/10/07]</code> <a
+href="https://mega.nz/file/8lA0QJIL#phluFT_QrBYjkD3rsPnX_tqDiHbT1fEvZKuYARNmgx8">Confronto
+tra ordini di infinito per successioni</a> - <a
+href="https://mega.nz/file/s85AibCQ#Ah4ZRooy1H3ZfY5lwXi_6s0gj7BGsyyXCGCd8egktjk"><code>PDF</code></a></li>
+<li><code>[10/10/07]</code> <a
+href="https://mega.nz/file/spg21ZwQ#HxjSERTYoSYiZVeBboNez_xMH1yA9E8AsWb7qa6nhf0">Limiti
+di funzioni: definizioni</a> - <a
+href="https://mega.nz/file/t1BnlbKa#zSPMNHRzRtfHGxk8F-CwTpNEAsDiLjwo_DdIeUnnhd4"><code>PDF</code></a></li>
+<li><code>[10/10/07]</code> <a
+href="https://mega.nz/file/8oQAjZSI#2iD6d7oC7STPRWEilxPX7N5ZU3LHc8b4o-IesxVsIYU">Continuità,
+primi esempi di calcolo di limiti</a> - <a
+href="https://mega.nz/file/t8hAlT4L#BxSGh9h83YE2owKvcVJYIFgMlQz6oG9sEM_D090tOT8"><code>PDF</code></a></li>
+<li><code>[10/10/07]</code> <a
+href="https://mega.nz/file/t4w3SYgS#pXju2gl4mnMiJNon28qrQoVtDrPPpRsbmQ4S4RDS6Jo">Cambio
+di variabili nei limiti: esempi</a> - <a
+href="https://mega.nz/file/BgxzkDwR#VFDC_pe7KMcs_Y8Qz5qcZOf-vJfyGg9o3HMUYgkDbCA"><code>PDF</code></a></li>
+<li><code>[11/10/07]</code> <a
+href="https://mega.nz/file/El5VzLTI#4s6VEEdB09Bg-MObMQpPgMjJyckl6u7WMaiNPeE2wC8">Dimostrazione
+dei principali limiti notevoli</a> - <a
+href="https://mega.nz/file/wtxQ1KgR#-aEv6zlEL53rphvSLOdyu-Uoi3G7JABXLqzya4unJSY"><code>PDF</code></a></li>
+<li><code>[11/10/07]</code> <a
+href="https://mega.nz/file/8ooxVIIZ#USY8xRn2ArqbpMnLs1YrvG-lQfXTmrIkx7QRsBiWgxo">Criterio
+funzioni → successioni: esempi di calcolo di limiti</a> - <a
+href="https://mega.nz/file/E0Y0xQiQ#3V9yZ5Tc5P1aEYb7URcYSqCR9s9FWDoMI8p5EiXQ4-M"><code>PDF</code></a></li>
+<li><code>[12/10/07]</code> <a
+href="https://mega.nz/file/Bph0iJbB#flBxb_kmk1RgZ8038MWIM7IJaneuM0x35vkwC82rlDw">Sottosuccessioni
+e non esistenza di limiti</a> - <a
+href="https://mega.nz/file/85pw1LAS#gFEexi6GNrGBuiiJhkvyMAb_oOgaklcxFp0HWxTOqZY"><code>PDF</code></a></li>
+<li><code>[12/10/07]</code> <a
+href="https://mega.nz/file/E44GCCoZ#8TwpF7TeuWD4sRSt6d1s9ok3rhh2twFKbDd27jQD0IM">Esercizi
+sui limiti</a> - <a
+href="https://mega.nz/file/0hhzDZJa#E4GKhZLNbHaKzVtRSPxBfaLxb7vap42ToLojMBCizIk"><code>PDF</code></a></li>
+<li><code>[16/10/07]</code> <a
+href="https://mega.nz/file/AkQTyI5Y#Qv5P-YFpeMJ1l3GFMVUAxeuJGq6LuTflPOz_eQEGqnc">Linguaggio
+degli infinitesimi: o piccolo</a> - <a
+href="https://mega.nz/file/R5IigYZA#vSfDNi6oTj5oF5dU_8p-caA6sCSTfJ-pHjnrOIj6L5g"><code>PDF</code></a></li>
+<li><code>[16/10/07]</code> <a
+href="https://mega.nz/file/88h1xKxZ#qBNGhv8rw8sJcUTssNVibceLI1FdU6zdimgpQyOqeyw"><em>Sviluppini</em>
+e loro utilizzo nel calcolo dei limiti</a> - <a
+href="https://mega.nz/file/E8IQTDBa#4Zk2T3PzZ415st2DOnSe7p0JR_8jxxPckNTQhOXBpe0"><code>PDF</code></a></li>
+<li><code>[17/10/07]</code> <a
+href="https://mega.nz/file/s1YXSDTL#_Ns4mvqKnJrOu4T9uaytQHFUOGUA_PX2mg8qCuUIIto">Derivata
+e differenziale in una variabile</a> - <a
+href="https://mega.nz/file/psoTlRpB#vM5TuXmdNO_gHOl0Dpfhl-qcEifRAC1z24exV-5xy84"><code>PDF</code></a></li>
+<li><code>[17/10/07]</code> <a
+href="https://mega.nz/file/kthGgCIC#o_McojKXgWyna4rSkEmC4HOWkmwZpRw4SMwuvMFJyVw">Operazioni
+algebriche sulle derivate</a> - <a
+href="https://mega.nz/file/NsBDEQBQ#yCQo6_SdazwZ08dilqbCT2iDGT3wSTybYul9RTxrlGI"><code>PDF</code></a></li>
+<li><code>[17/10/07]</code> <a
+href="https://mega.nz/file/w0ZF3KKZ#rseQcego4iZzHU17-mg-0Q9eETOCYgfrcmZ8BxhTrN0">Derivate
+di funzioni inverse: esempi di calcolo di derivate</a> - <a
+href="https://mega.nz/file/Z15hxa5Q#cnnI6BS_u9r8tlwtfkXLTwqV3q1K2zu1aO2vzwt23F0"><code>PDF</code></a></li>
+<li><code>[18/10/07]</code> <a
+href="https://mega.nz/file/5sYkRISY#D4fSLQ647f5vN1Bp1K1Ieyp0mACcX8_ARtKehNsoST4">Teorema
+di De L’Hopital e formula di Taylor</a> - <a
+href="https://mega.nz/file/IlBjkDKA#HLLFhumZqFq-uYhZtM1wMq8F-9z5HaGmbLeEJA6VRnQ"><code>PDF</code></a></li>
+<li><code>[18/10/07]</code> <a
+href="https://mega.nz/file/Z45hRQTY#hJx7ntazHQW2N4-OyUYCVQd-tvjUgEc-53OxD6lSZHE">Sviluppi
+di Taylor di funzioni elementari e loro utilizzo nel calcolo di
+limiti</a> - <a
+href="https://mega.nz/file/YtYkkRaA#xB4jydvXQWfED21Ss2Xj7cvuKwqFSkM5SN0yRVfDPWI"><code>PDF</code></a></li>
+<li><code>[19/10/07]</code> <a
+href="https://mega.nz/file/E1xTmSJB#SkI-WEVpQhhqQCyhnyS17841iFR9V9td8CnfwS_Gb7A">Funzioni
+iperboliche</a> - <a
+href="https://mega.nz/file/cpZBXTTQ#R5Kh5eDnzxQOGBKVKeAfkW8WkToikbHM2Ky1OeLa9rs"><code>PDF</code></a></li>
+<li><code>[19/10/07]</code> <a
+href="https://mega.nz/file/doAjFLjS#LvFeqj_eaR31cWN8a29BfMACASm3LqbJYXz6ycAyo0g">Polinomi
+di Taylor di composizioni di funzioni</a> - <a
+href="https://mega.nz/file/g0AXHJAZ#Fuf_EqfT72zLJctG4JOvs6RgRa1mTGD77YPSao7Duck"><code>PDF</code></a></li>
+<li><code>[23/10/07]</code> <a
+href="https://mega.nz/file/9hY0CBAa#9fPQmA8myZUAWsaGqwrc5fv4Hv77vDgZxJ1i2Yg_CoM">Polinomi
+di Taylor con centro in un punto diverso dall’origine</a> - <a
+href="https://mega.nz/file/YkpjkQxQ#Co1DPDiY-v51AlWpsX5HpCgvOerOaPOUHdYgaujHEpE"><code>PDF</code></a></li>
+<li><code>[23/10/07]</code> <a
+href="https://mega.nz/file/0gQEgC4B#1ih0xcznG0yLJbRoCNxnyJgWxIl3OqKs0vrdXM_jpDQ">Serie:
+definizione, condizione necessaria, serie telescopiche</a> - <a
+href="https://mega.nz/file/Rp4iHDLY#CWlV5wJH9uYvhRCwpy9_AVjCmEulIe5B-WmDCKvrR7E"><code>PDF</code></a></li>
+<li><code>[24/10/07]</code> <a
+href="https://mega.nz/file/tsJ0iSpC#bfPwu8zf-EhWJd2gWgTqqaVcxjrKs-R3HbDzQ_puQow">Criteri
+per serie a termini positivi: radice, rapporto, confronto, confronto
+asintotico (casi standard)</a> - <a
+href="https://mega.nz/file/QhojBRrY#1JPr58eYLKKETTppSZL2NHzH9ku7BVq1wjfomibkoyM"><code>PDF</code></a></li>
+<li><code>[24/10/07]</code> <a
+href="https://mega.nz/file/FghAEDSA#b3KPeN6G7iZiYy4aQnBjXWZQyb4Y36O8QjhiUbpzIpI">Serie:
+dimostrazione criteri e casi limite del confronto asintotico</a> - <a
+href="https://mega.nz/file/0lIV1ShZ#8aimS3aO58fxvQpzNTvtryxrFQPXHVIfhknNPYepKJg"><code>PDF</code></a></li>
+<li><code>[24/10/07]</code> <a
+href="https://mega.nz/file/Fw4QFCAZ#wjBWGfhzBO553zarmnOJ_CU1Epoyunx5X9KrxV8aD5M">Esercizi
+sulle serie</a> - <a
+href="https://mega.nz/file/w4BAgZLS#15z60uIcEpqbFlqselcgvdCjiXVQdroM569vCpAoxak"><code>PDF</code></a></li>
+<li><code>[25/10/07]</code> <a
+href="https://mega.nz/file/B55gWYob#j51MjFDv9C318QB4k_0klot8T2mVYrpKVf43djCcGxQ">Serie
+a termini di segno qualunque: criterio di Leibniz e assoluta
+convergenza</a> - <a
+href="https://mega.nz/file/40ASHD4Y#bksm6MHDyShXBRQiFyaaDiUOo4Tdwj0LsFME8Pay6eE"><code>PDF</code></a></li>
+<li><code>[25/10/07]</code> <a
+href="https://mega.nz/file/d0gS2BJL#j3E2mPtVmXskCaAkp0yKVsIdrqWZPLXkm9lCkSJoAbw">Esercizi
+sulle serie (anche con parametri)</a> - <a
+href="https://mega.nz/file/csZ0QTZR#9Wz4LuImzXsvI-8kt-0QLVnfbmH__0p0ElX28GDuG2o"><code>PDF</code></a></li>
+<li><code>[26/10/07]</code> <a
+href="https://mega.nz/file/4xAVjb7R#6WD1kr9RttHgR_5vP8YlzPaV-4PbEOve4-CYyJmVCHk">Serie
+di potenze</a> - <a
+href="https://mega.nz/file/ZlQSwQzY#NW7XSCEgzGqoZ7Iu79lRWVI1JOL1Sbv4mw5pth0PG9g"><code>PDF</code></a></li>
+<li><code>[26/10/07]</code> <a
+href="https://mega.nz/file/h9xxWSxD#m_bWriab3kksNA_Pdq02oEerVNhttlkmGT0WxVsmqVk">Esercizi
+sulle serie di Taylor</a> - <a
+href="https://mega.nz/file/9ppxXSjY#8gxP2OCkTTckQAd_ZPOjAXfPSCqyFoZB939Fts3l8OI"><code>PDF</code></a></li>
+<li><code>[30/10/07]</code> <a
+href="https://mega.nz/file/clJxnSAI#f4RxRFmtmEmf_JSYjXVMgK2gLt6zxamJIF4jH2LQUmc">Teorema
+di esistenza degli zeri e conseguenze</a> - <a
+href="https://mega.nz/file/I1IxFa4D#ASHStAcLwv64zGiD-j7nV4qEHmhKarnyxCrUpeI5qbA"><code>PDF</code></a></li>
+<li><code>[30/10/07]</code> <a
+href="https://mega.nz/file/RpIjHRIb#Pyo6NHakDVjTo78SZyH22zvtvIQCUJ0k1t8O9Y4-Un0">Studio
+locale di funzioni</a> - <a
+href="https://mega.nz/file/BlJXzTRQ#c7KhpCRDzIh25bliwLbnjS2bkWfyLCLsoX1G0Gvu9AI"><code>PDF</code></a></li>
+<li><code>[31/10/07]</code> <a
+href="https://mega.nz/file/4xQ3yTIL#WqzXns3wDfBxbJM70cQ3qDO3z9muxlITgeDCetZeEgo">Massimi,
+minimi e teorema di Weierstrass</a> - <a
+href="https://mega.nz/file/lgYm2A5K#xK2FPeLhMLbiceZqE27f2Vym22clhA6lz3VCgETYEHo"><code>PDF</code></a></li>
+<li><code>[31/10/07]</code> <a
+href="https://mega.nz/file/94Q11KgS#SS3Z-gf3oSPlWmeDnFgmznEOqBA4-HCmBCsGY1AI128">Ricerca
+dei punti di max/min, teoremi di Rolle, Cauchy, Lagrange</a> - <a
+href="https://mega.nz/file/YlZUUJTb#Nl5bPEJou1SLbCpG0n8ouEepPxpwChLFlX8gp-InY9s"><code>PDF</code></a></li>
+<li><code>[31/10/07]</code> <a
+href="https://mega.nz/file/5kgnVT6B#_18NKCWZyUDasObjKQM7LIsGJrJ9HbIDOFrLLX8WOvM">Monotonia
+e segno della derivata</a> - <a
+href="https://mega.nz/file/9gYiBZAC#pKFx3uVXRilLMiQ_om0N_OZDm-1GWfAal38NlfNu7-o"><code>PDF</code></a></li>
+<li><code>[06/11/07]</code> <a
+href="https://mega.nz/file/YwADCDqK#9Z8IzctPG0kWIitMuHCfG3m5JvTJDo82h67ZOEaZfKw">Teorema
+<em>Monotonia 3</em>, asintoti orizzontali e verticali</a> - <a
+href="https://mega.nz/file/hwwWFBwB#Fft58hSCUuFPyfPVGRINyLWKh4BVzhGM1LC66xGaaBw"><code>PDF</code></a></li>
+<li><code>[06/11/07]</code> <a
+href="https://mega.nz/file/I94XDBIT#od8QCARFxrtLASuNJ_M2spJe_bDSgVR88U0PbvsPVI4">Asintoti
+obliqui, convessità e concavità</a> - <a
+href="https://mega.nz/file/s44UUQDD#m8BLQNXvVVI_cOv4UzB4iYasYaPqozAhX4TuqaayH1E"><code>PDF</code></a></li>
+<li><code>[07/11/07]</code> <a
+href="https://mega.nz/file/gtgmGITB#6wjDKNAOXdyHRnUcPKV-SFbJMcMJfibWa1EzwX-XEag">Successioni
+per ricorrenza: introduzione e primi esempi</a> - <a
+href="https://mega.nz/file/soRGEIKB#53U1HyZTVrncxHiDM_Pjh_jMXHpDCyGfbFXksTDdN_w"><code>PDF</code></a></li>
+<li><code>[07/11/07]</code> <a
+href="https://mega.nz/file/JsAyFKbZ#qpZmUtZAZ7R6tU-LtT3ROwKz6hcPWaD8LWlVnVEbl-M">Formula
+di Taylor con resto di Lagrange e applicazioni</a> - <a
+href="https://mega.nz/file/ItwXRbKI#djC4s1ejGfOYJ0qDl_l3vgxGR4_BZJhhromJiaLdZ7g"><code>PDF</code></a></li>
+<li><code>[07/11/07]</code> <a
+href="https://mega.nz/file/olAQyQiT#wc2kTE7GujYijw6gZTpfIwsHZCjqTL9sNGZy803wSPo">Esercizi
+su studio di funzioni, inf, sup, max, min</a> - <a
+href="https://mega.nz/file/JgQimChA#4_v_vAAKnvqRtwl5LxD9mUsxzuq8HPX_DcqaGyT26es"><code>PDF</code></a></li>
+<li><code>[08/11/07]</code> <a
+href="https://mega.nz/file/I9hzGCBI#l9GtOlnLNEIMGJMZFuwj2za1qDhyvU5RQY1uUK0jb9k">Funzioni
+Lipschitziane</a> - <a
+href="https://mega.nz/file/ptICGZDT#KFr8bGTmYHIZgANX8QPUPEvnN2EFxBrOE7GngqfcYg4"><code>PDF</code></a></li>
+<li><code>[08/11/07]</code> <a
+href="https://mega.nz/file/B4YlwKLC#8R0Xv93WHe6_2AH2R6qCNVxR_a9NLtEe-U9qSmURlIs">Esercizi
+su studio di funzioni, inf, sup, max, min</a> - <a
+href="https://mega.nz/file/oh5WHD5Q#935rrR-Q35KfnwBMseCHAAyhytkBvKEmdX3ZEKLIzN0"><code>PDF</code></a></li>
+<li><code>[09/11/07]</code> <a
+href="https://mega.nz/file/Ixg1nCYB#42qqhtdJkV2sDiRFkWTuWkC8Ts2C6BQuNqCglcHfS18">Successioni
+per ricorrenza autonome monotone</a> - <a
+href="https://mega.nz/file/9o5RwS5A#Xc7hW31cm9xVJ6bEwnXsURbHsKZ1tnRFdTWU4RAyaWY"><code>PDF</code></a></li>
+<li><code>[09/11/07]</code> <a
+href="https://mega.nz/file/I5hhVLra#YyW_XNMYedFt14RqnOK7GSB6dbkO7X8_td6gn9mFrsk">Successioni
+per ricorrenza autonome spiraleggianti</a> - <a
+href="https://mega.nz/file/0tgS0YQS#yDlPVhSRD1mRHosHdzpxFd8E5bKnLA2bVYJiFqoHsao"><code>PDF</code></a></li>
+<li><code>[13/11/07]</code> <a
+href="https://mega.nz/file/sopDCTgK#dR8Z5TzKsCuUf2c8c8Jw98w0xmMy2swIZD2PdOySRRA">Successioni
+per ricorrenza non autonome</a> - <a
+href="https://mega.nz/file/sh5g3IgY#lL1TZqL2PwhM76x8r2GAJewi2z_TIqznWpFrsWd9XJU"><code>PDF</code></a></li>
+<li><code>[13/11/07]</code> <a
+href="https://mega.nz/file/sggTjKQB#81FosWvvjVnks1FD3lEhfUkqWD16KNicVGZ857V1zrU">Successioni
+per ricorrenza: ulteriori esercizi</a> - <a
+href="https://mega.nz/file/xp4UGJzB#HrDAPCnO5uF4XoMO0qqfRCW5PttU2Zaxs2Myxj4dLxs"><code>PDF</code></a></li>
+<li><code>[14/11/07]</code> <a
+href="https://mega.nz/file/too3EZSC#YqPCVY2D9L1JTqBG3CXd9XR_HTEcewNc47LgYOEYNTI">Spazio
+n-dimensionale, vettori, norma, prodotto scalare</a> - <a
+href="https://mega.nz/file/A9QyEZ5K#TzVfjjF2YlphoMLIXapx_ADnd9qJyoa4qGqmdRgSJdY"><code>PDF</code></a></li>
+<li><code>[14/11/07]</code> <a
+href="https://mega.nz/file/spQFSYaR#PfaGOzqOFbd6hVwH9704miVRDeLzpgYCe1PCRrdzeDk">Funzioni
+di 2 variabili e loro linee di livello</a> - <a
+href="https://mega.nz/file/YpRllIYB#X2xzHSEegWjuzTH8MQqE-gCNnw8C2pliP6aWiWIb1bc"><code>PDF</code></a></li>
+<li><code>[14/11/07]</code> <a
+href="https://mega.nz/file/4h5gQbZJ#4h0PmdXP4GG2PmKs4rYkqWrYN5BC8Ef0VQ8ChpKjyg0">Limiti
+e continuità in 2 variabili</a> - <a
+href="https://mega.nz/file/Ap41RTiD#sbYsaqT5BMqygwHkIRPmxF4GRzxHpFxqIVhgwc2-m8c"><code>PDF</code></a></li>
+<li><code>[15/11/07]</code> <a
+href="https://mega.nz/file/h8gyCTaZ#AqUbQWuIttWTXKPWUx1QNv3whrXgFz4az3J78iv3mhY">Derivate
+parziali e direzionali</a> - <a
+href="https://mega.nz/file/YpYhDbqQ#I6o4lVHgsYdiE97Qa3GfQTSA2WefJ_Uz599K8sxoSOI"><code>PDF</code></a></li>
+<li><code>[15/11/07]</code> <a
+href="https://mega.nz/file/gxgCxA6L#A56awGfmmrzqa1gC0Q4tZK_QWfuwh29sADWxpN-YwUk">Differenziale
+e gradiente</a> - <a
+href="https://mega.nz/file/sp5jWZya#6siIZYgZ_gkwtLJTUVwrOM9jOXMzWZnVmoJNiWnXgAc"><code>PDF</code></a></li>
+<li><code>[16/11/07]</code> <a
+href="https://mega.nz/file/lgIyGYzC#iYUX8ISdMUPGkjt3aWCZAJK_qFkRuFKx8sJyUdi51VQ">Massimi
+e minimi in 2 variabili: teorema di Weiestrass e metodo delle linee di
+livello</a> - <a
+href="https://mega.nz/file/B9pEURRD#wP5dNfyS95NJDFuhcNG3ETTWBX9eQFWr0015nkyF8wA"><code>PDF</code></a></li>
+<li><code>[16/11/07]</code> <a
+href="https://mega.nz/file/98wgnQ4J#h83LPdvGrGNJZBmwZKtJmG1-4geCPkdc9-s4vLuleOE">Massimi
+e minimi in 2 variabili: parametrizzazione del bordo</a> - <a
+href="https://mega.nz/file/xgRBHZZa#hEynceIvWoVojg99Krvd5tGNBa3i3yGJ0kNOH7LeSi4"><code>PDF</code></a></li>
+<li><code>[20/11/07]</code> <a
+href="https://mega.nz/file/V5gWXAxD#Ohg0dIk-D6g-h-49toq-tzyJgrJ4Nh8YadyvKGrCxhw">Moltiplicatori
+di Lagrange</a> - <a
+href="https://mega.nz/file/J44wURZY#bJwTAYF_gGGua-Wt2wqa8oJ_iR4w50fvj2AnyV-Xds4"><code>PDF</code></a></li>
+<li><code>[20/11/07]</code> <a
+href="https://mega.nz/file/EthgWTiT#dVqXIj0edZBHyQG9wEEXLQmgi0_g18RQDfkT40u-h8Q">Massimi
+e minimi su insiemi limitati</a> - <a
+href="https://mega.nz/file/F1YEkJxC#xAC2fnZLlTXp0nT1FcpARuAfySz0GvjxIEfRgsZH2Jo"><code>PDF</code></a></li>
+<li><code>[21/11/07]</code> <a
+href="https://mega.nz/file/I0p2nLLK#lODL-dj1BlPI19o0q4O3i4qEI5XrPEc_0sQWXHOQ-MA">Derivate
+parziali successive, massimi e minimi su insiemi non limitati</a> - <a
+href="https://mega.nz/file/94ojgBAY#IGuhyxWlIjooGTKYiTjLnFXpQhHeQF-nLNIJAIW4ZeA"><code>PDF</code></a></li>
+<li><code>[21/11/07]</code> <a
+href="https://mega.nz/file/s15zFKga#A65yN6de3x6JrgZiffw0ADNUU4kO8RsSkK9AFuk3wwc">Integrali
+in una variabile: notazioni, significato geometrico, definizioni</a> -
+<a
+href="https://mega.nz/file/hoYn2Sgb#Yf2plL4Tak1ap8wCmwFEljblD1Y2bFz6Sop6ofruf64"><code>PDF</code></a></li>
+<li><code>[21/11/07]</code> <a
+href="https://mega.nz/file/I8RByZ4B#nHS2Abk-CJNeuspi7pTp5evroSwkgzLZbweZ4gENS4M">Funzione
+integrale, primitive, teorema della media integrale, teorema
+fondamentale del calcolo integrale</a> - <a
+href="https://mega.nz/file/pphj2ADQ#jnrVyxrHP5829GE0wgv0cmkXdUEVTUlZIa8r2z98ACA"><code>PDF</code></a></li>
+<li><code>[22/11/07]</code> <a
+href="https://mega.nz/file/k4x0FCjC#EEX17xvN7eGN3I_yOHRkEqPHS28O1mjDGsbvasJsgkI">Integrazione
+per parti</a> - <a
+href="https://mega.nz/file/E0JA1bxQ#O46PdgHVZJ03-PPWG4q3tYnz_aXFPmee1u025AnNZJg"><code>PDF</code></a></li>
+<li><code>[22/11/07]</code> <a
+href="https://mega.nz/file/c1IRWRCQ#D2LooBFoz9wgNdKAqRGLlJE6PDa6pHfKsObvVM8Xp30">Integrazione
+per sostituzione</a> - <a
+href="https://mega.nz/file/tlBXEDgK#m3BsSXjMWqu4tbi643OqGeUXtsI_QQoVOT7-qXJSS_o"><code>PDF</code></a></li>
+<li><code>[23/11/07]</code> <a
+href="https://mega.nz/file/ktRSAKbB#WmsGC-pyLXhLP6Y-qYbJHEc-oV9U4mmbgqO3Y7jwvoM">Integrazione
+funzioni razionali (prima parte)</a> - <a
+href="https://mega.nz/file/wo4CyBqA#ZhuI9l4sR7fO1o58s8LsbOLg99pARSW-yEot_PHCS78"><code>PDF</code></a></li>
+<li><code>[23/11/07]</code> <a
+href="https://mega.nz/file/8wIECKgS#gEFbgEuw-4_PCOn-3Am_u_ZIOPtKfcUkXmZIbxzVGXY">Integrazione
+funzioni razionali (seconda parte)</a> - <a
+href="https://mega.nz/file/Qs4ARZII#ISdvY06vSNyzwif1FpFKcQRKpcG19Gg-vYiLJ6H5fYU"><code>PDF</code></a></li>
+<li><code>[27/11/07]</code> <a
+href="https://mega.nz/file/cxQRiAhC#4lkxyZLjT-gio4D8WLWkxJ3AEOQsPx0hYk7pU9nEoEE">Sostituzioni
+razionalizzanti (prima parte)</a> - <a
+href="https://mega.nz/file/cpoUmDYQ#072cykxLqoWDYrKVdGgu5J4oOsU5BjDY_YRzBZI1GU8"><code>PDF</code></a></li>
+<li><code>[27/11/07]</code> <a
+href="https://mega.nz/file/1kIWFIRB#TxvE922vFXAqpFl03gVpKwgzKewNA0Ff1980qlp5d-Q">Sostituzioni
+razionalizzanti (seconda parte)</a> - <a
+href="https://mega.nz/file/xsoXgbbQ#0Wf6oASnXqU71dS215tjAia7XPoPYh6_YUeK881jqkI"><code>PDF</code></a></li>
+<li><code>[28/11/07]</code> <a
+href="https://mega.nz/file/glYFVRBb#XQYAw1fSYlIOwDYqf1ANADgdNyvPa8XlGl42uc3LnwU">Integrali
+doppi: notazioni, definizioni, formula di riduzione sui rettangoli</a> -
+<a
+href="https://mega.nz/file/Jo5nSBrK#C3Wu1un6g581ca160Vv64xzoQwkrmdmes8uaH58ZtdE"><code>PDF</code></a></li>
+<li><code>[28/11/07]</code> <a
+href="https://mega.nz/file/p9oThBwZ#sev_Ergj9pNJmv7VIrSbK5vzK-tx0JJVr4VRwQRScU4">Integrali
+doppi: formula di riduzione su insiemi normali rispetto all’asse
+<code>x</code></a> - <a
+href="https://mega.nz/file/5k5FiIab#3s5pEPEwon1eJjTyHs4ecZRYGWhpJTTNp7HKnsbb-B8"><code>PDF</code></a></li>
+<li><code>[28/11/07]</code> <a
+href="https://mega.nz/file/VsgXhSBb#0XFa2U9l8ILQ1_z88aKhqQwFGRLg1jSa-uv97AI__Yk">Integrali
+doppi: formula di riduzione su insiemi normali rispetto all’asse
+<code>y</code></a> - <a
+href="https://mega.nz/file/whI33Z7I#TdC_AN-QK96iCMgr1t2i95E0ttBHQPB44E8bt7w3y1Y"><code>PDF</code></a></li>
+<li><code>[29/11/07]</code> <a
+href="https://mega.nz/file/80YTzLCT#vma0tM-1toCxxAZ3hTcemFr7nssc16kqK7IfJb4A4Kg">Integrali
+impropri: definizioni e spezzamento in integrali monoproblema</a> - <a
+href="https://mega.nz/file/s4Zy3BTa#sgFZbhhliz0TQ3ixeAtOswaixrzFFaTg8beAQ_vkNCg"><code>PDF</code></a></li>
+<li><code>[29/11/07]</code> <a
+href="https://mega.nz/file/Uw50QBZZ#hH1IzHbtlslFP4M9XkHt9Cd3Wp2QacIwgU-cTLzpBFA">Integrali
+impropri: criteri di convergenza</a> - <a
+href="https://mega.nz/file/F8JFRLgA#Xz5cS03-9RjBoaomTMe-cyugU0TuZiaJXyV0E4uQs5M"><code>PDF</code></a></li>
+<li><code>[30/11/07]</code> <a
+href="https://mega.nz/file/1sAHkYjI#b1XI4InUPNe3etdltOKZ0emwx6wycYWuRY1AAmWd8qE">Coordinate
+polari e loro utilizzo per il calcolo di integrali doppi</a> - <a
+href="https://mega.nz/file/I5ZCxSZT#eJminB7HBsSTO4cREbzP_rY6aBCMxM0-QdohI6lNkRo"><code>PDF</code></a></li>
+<li><code>[30/11/07]</code> <a
+href="https://mega.nz/file/YwBUha4J#pi1_vV6buyYBB5p8UIy6ZqkXzM4_g9DREeCpD4exQi8">Cambi
+di variabile negli integrali doppi</a> - <a
+href="https://mega.nz/file/ExwgARKI#bca96Aj6umktkTgwkmi407adv5dtOEi_fvcTd3HDKW4"><code>PDF</code></a></li>
+<li><code>[04/12/07]</code> <a
+href="https://mega.nz/file/J9JzBbaA#177gzEiZP66bJmpJpwaf95d7rF_zAMK-mlZUmgqTVo0">Integrali
+tripli: notazioni, definizioni, formula di riduzione per colonne</a> -
+<a
+href="https://mega.nz/file/dk5SSSxZ#8B72IxEZrTCTRXK0uJLKdCci5IMScLNO72ciS8i5roc"><code>PDF</code></a></li>
+<li><code>[04/12/07]</code> <a
+href="https://mega.nz/file/MxAznaBK#HB-UamuQhNXVyy2QUhBQeMo-qsPUarhJWsq93mQHboo">Integrali
+tripli: formula di riduzione per sezioni</a> - <a
+href="https://mega.nz/file/414BTTDZ#nzw9jhjiaJnL6x0yIxhmPWVzAVdCjEQlIu0X6itytyg"><code>PDF</code></a></li>
+<li><code>[05/12/07]</code> <a
+href="https://mega.nz/file/FtwRGJaT#bmwhsGl8fN8jvFFeelqyonHCVcgV0dIYeGyjGth2atA">Coordinate
+cilindriche e sferiche e loro utilizzo per il calcolo di integrali
+tripli</a> - <a
+href="https://mega.nz/file/YsRSHLjY#JbOeb-8LoGI3BlS8IdG0RsY3o8BYg-xwmFX2kk0_8JY"><code>PDF</code></a></li>
+<li><code>[05/12/07]</code> <a
+href="https://mega.nz/file/opQElZJT#FqOHP_xCPaTw8f1M577VG4iwQ0jBx0K2t3jB5FijjPQ">Calcolo
+di baricentri di figure piane e solide mediante integrali doppi e
+tripli</a> - <a
+href="https://mega.nz/file/g1R2GJJJ#zUSQ9rhlgF8sJrnddLiIHIU-4bi0K8sDgPMipyTSqR0"><code>PDF</code></a></li>
+<li><code>[05/12/07]</code> <a
+href="https://mega.nz/file/hsYVRITK#1NIqOtL5W6McDYE5iv9r4ewBap6JU-hUPL4XoFmwBMc">Cambi
+di variabile negli integrali tripli (volume dei solidi di rotazione)</a>
+- <a
+href="https://mega.nz/file/8wISiRCL#-dTSMrHPeimWv4jrqEIRaIGgwdK7RhwDbUUkQPE7-7c"><code>PDF</code></a></li>
+<li><code>[06/12/07]</code> <a
+href="https://mega.nz/file/8kJTwYyR#yTJXCVrDhHRBMjJMJ5baqNXTqUPkUtCEWY-StuxgAPc">Studio
+della convergenza di integrali impropri mediante l’integrazione per
+parti</a> - <a
+href="https://mega.nz/file/Ilpi3JRA#H7hbtYfi_Ws55PmN5o5WMmlcFAF7VXcw1ai7-qK-voU"><code>PDF</code></a></li>
+<li><code>[06/12/07]</code> <a
+href="https://mega.nz/file/Uth1xJQb#4N0cPmd3vblpcy_mXqpLwEIn7UR7DTJsegbnPWurljA">Confronti
+serie integrali (metodo <em>dei triangolini</em> per lo studio di
+integrali impropri)</a> - <a
+href="https://mega.nz/file/UoZU2bqB#IPsKRJqrSxJ1DN9CVJ48fXAZWs-FK7qvv4q-8WRaVg8"><code>PDF</code></a></li>
+<li><code>[07/12/07]</code> <a
+href="https://mega.nz/file/51YHHBAS#CS7dMFb3tM03X89Xb7R2UJ0zl0vuHYJO5VvFwML38Oc">Curve:
+definizioni, lunghezza, integrali curvilinei</a> - <a
+href="https://mega.nz/file/UwZzAIoT#i_TYagbmEar_nCpDisSO7JV375D1F2kGRz7JQgswkuA"><code>PDF</code></a></li>
+<li><code>[07/12/07]</code> <a
+href="https://mega.nz/file/8gZDCKaB#s1vpQyBC1RWnqGVszTiiVC7D1VsJNrIYU9KRKWTQOPY">Baricentro
+di una curva (area di una superficie di rotazione)</a> - <a
+href="https://mega.nz/file/9ghAUaQY#tP3Sn4apVzF4HJy51LFrQpxxD03y6TkRCO30hPirXFY"><code>PDF</code></a></li>
+<li><code>[11/12/07]</code> <a
+href="https://mega.nz/file/x9hgSQYL#Ety_P8pArelxgzlAjQtb9eKfdhKLtPARR4tm-yglefQ">Equazioni
+differenziali e problema di Cauchy (notazioni e definizioni)</a> - <a
+href="https://mega.nz/file/tpoxSCQD#eUOtHDQeFC7aQxN4eIQRbR573MjLXUUPlh0y4WxjEL4"><code>PDF</code></a></li>
+<li><code>[12/12/07]</code> <a
+href="https://mega.nz/file/ZsB2zK5Z#5XuopJkBkatfhSY8VSZuh5s5FkE-yN0ODFDiHHhw3FU">Equazioni
+differenziali a variabili separabili (tempo di vita, blow-up,
+break-down)</a> - <a
+href="https://mega.nz/file/50wFTJrT#aoxNF36DG4kIYI95x6B2ZYCGRcu7kz2hb-H1Bd3ZO8c"><code>PDF</code></a></li>
+<li><code>[12/12/07]</code> <a
+href="https://mega.nz/file/hpxzCBQR#si8DYrOJe9ANFM-etIhtHuyHJFIuDi6dy8e-_YkFxdU">Esempi
+di studio di equazioni differenziali a variabili separabili</a> - <a
+href="https://mega.nz/file/h4BVgQ7S#ni599unDdEOqvMZ9zVNmmp4gkVEf2vR-UMMhFc4oPC0"><code>PDF</code></a></li>
+<li><code>[12/12/07]</code> <a
+href="https://mega.nz/file/hhhlBKAB#YDZtOdrvUNt54w735hM7OmUNX-k-tlimpXXno_wjilg">Esempi
+di studio di equazioni differenziali a variabili separabili in funzione
+del dato iniziale</a> - <a
+href="https://mega.nz/file/l0Z12TwB#SrAqQR5SRXcSH-HPHqPu4-iZF8K6TVCZ7mxssNH1SQg"><code>PDF</code></a></li>
+<li><code>[13/12/07]</code> <a
+href="https://mega.nz/file/I5QQkbbL#U-Utw7hHGL39CvOKTWHSueAfWLhiVhwtcXkMffAxAFI">Equazioni
+differenziali lineari omogenee</a> - <a
+href="https://mega.nz/file/I5oi1Zaa#MweUvHidcyI4wLJ_MbXkj4DHEqNM_u8Xo9jMYqd2Rnw"><code>PDF</code></a></li>
+<li><code>[13/12/07]</code> <a
+href="https://mega.nz/file/RkwV0ToQ#AJUS6EJ6-nT4UP2rbs8b7lRnIbyl2n9MBUWsXq8W_wA">Equazioni
+differenziali lineari non omogenee (ricerca per tentavi di una
+soluzione)</a> - <a
+href="https://mega.nz/file/F4JmxA7Y#gL_a0em5_UcZxKKfeTWphFavzJECFJnrFfxDY2Vlwbs"><code>PDF</code></a></li>
+<li><code>[14/12/07]</code> <a
+href="https://mega.nz/file/RxxHCYRR#EPUFmWB62I6dku83QmQn66eBnv2nBUXz2-7A6npOdlY">Equazioni
+differenziali lineari non omogenee (ulteriori esempi di ricerca per
+tentavi di una soluzione)</a> - <a
+href="https://mega.nz/file/0xAn1D6a#Tl5EInYcZF3DDG2243UaA5xoTLW856RpmkGEvWjspxM"><code>PDF</code></a></li>
+<li><code>[14/12/07]</code> <a
+href="https://mega.nz/file/JgwWwQAR#V9Y6HxU-E_T6yZsN41BmcMcMCiBHwL5bPdPgYzrXjBI">Equazioni
+differenziali lineari del primo ordine</a> - <a
+href="https://mega.nz/file/UkAXEKLa#9NVw1FEiEyyazxOJIwxgZ5HbIagXX0HUGUXg62QEsOM"><code>PDF</code></a></li>
+<li><code>[18/12/07]</code> <a
+href="https://mega.nz/file/MhoEFSZb#Q7-TTzRSgpsey3jpnWqq5AutbgywRQehyX_WlhNssls">Equazioni
+differenziali lineari non omogenee (metodo di variazione delle
+costanti)</a> - <a
+href="https://mega.nz/file/k1xViTII#UlrLyn6OGmV4WeyNebmjYHIxZRqiZ67Dy_cbYaXvnb8"><code>PDF</code></a></li>
+<li><code>[18/12/07]</code> <a
+href="https://mega.nz/file/xtoR0LRa#hdpIvoZK-G1Jnlvk32Ug1UmNolzKKlXCkaQTqYSizgk">Tecniche
+per calcolare la somma di una serie di potenze</a> - <a
+href="https://mega.nz/file/V04CQDib#nhUz5IYcdPvXA4g_2OawRuSopOrfZUxB9zJcYteV9ZQ"><code>PDF</code></a></li>
+<li><code>[19/12/07]</code> <a
+href="https://mega.nz/file/Jx5nDBQT#3-VIZYqCbk2DF3Tcmh9J9-IaBIjJG2oVTP93waTTZ5Q">Sistemi
+di equazioni differenziali lineari omogenee (studio di equazioni
+differenziali con parametri)</a> - <a
+href="https://mega.nz/file/R0Q0Ga6b#twlwN_BTQxISBboHll3McTg0NIEUVbUZzF-ffbvZSdU"><code>PDF</code></a></li>
+<li><code>[19/12/07]</code> <a
+href="https://mega.nz/file/YhBQjCSa#mKjKXxoC7BiWgOP7yCu8Md-ZvC0Je00zs_ZPALywpwQ">Calcolo
+di 2 integrali impegnativi</a> - <a
+href="https://mega.nz/file/pkJzhBha#eeaFXATtwO0zoLYG5uCRLRwKTEtv0UXo-DYCAhIIhT4"><code>PDF</code></a></li>
 </ol>
 <h3 id="esercitazioni-di-calcolo">Esercitazioni di calcolo</h3>
 <ul>
-<li><a href="https://mega.nz/file/JwpX3TLb#Cl9sJp1o1rSNYEZwt_oteCxlNwAAd-wTwqvtarVyra8"><code>Full PDF</code></a></li>
+<li><a
+href="https://mega.nz/file/JwpX3TLb#Cl9sJp1o1rSNYEZwt_oteCxlNwAAd-wTwqvtarVyra8"><code>Full PDF</code></a></li>
 </ul>
 <ol type="1">
-<li><code>[11/10/07]</code> <a href="https://mega.nz/file/FwpSjbbR#lJVzRsbHvJVgdRZkRAnGVnGiZbGYV3RhcJZJ31sGdfI">Funzioni, limiti</a> - <a href="https://mega.nz/file/F8h1XLJb#Gi_0Xvux4HF_kR-Bul46-q_X0qYCeTx2ejCM9T18ePo"><code>PDF</code></a></li>
-<li><code>[18/10/07]</code> <a href="https://mega.nz/file/h9QEVRgY#T-XOzlHQwxQnvduhuS0v5tSnfYUZ45U7lSMFvdntDVk">Limiti</a> - <a href="https://mega.nz/file/p1o1QaIT#51rJefVBk9eKmp9P8t5zwUYvPRjdfXPqZGIz6v8Qb-8"><code>PDF</code></a></li>
-<li><code>[25/10/07]</code> <a href="https://mega.nz/file/98YkzAYJ#ybN2-6_MU6Ue8vzqvakNTsofhUOBgA9nDi1OP-sOGw8">Limiti, serie</a> - <a href="https://mega.nz/file/V5ZDlZSa#-ONszQoKD3-vyRM5xSpx5nY4ZN805lxukrQD9TnJlx0"><code>PDF</code></a></li>
-<li><code>[08/11/07]</code> <a href="https://mega.nz/file/A0xHRbKQ#FOBRvRXEnlZCju8qE3cEgtrBFcJqOf4kPk9yUyfzqUo">Serie, studi di funzione</a> - <a href="https://mega.nz/file/U8oGCBCQ#gRaMbLHtZzVTX98-yM-tNKRA9smzSgRv6H_vxVeSN0E"><code>PDF</code></a></li>
-<li><code>[15/11/07]</code> <a href="https://mega.nz/file/1hhmkB7I#IWJbbSZUC3oQXoGXGGofUb4tB5XPoijWhpQNiW0IyDE">Limiti, serie, successioni per ricorrenza, inf/sup/max/min</a> - <a href="https://mega.nz/file/ItgExI7C#BOpzfZC54Y_2tsOYds55s_Nglx_njIywWHVjeJ3KLXY"><code>PDF</code></a></li>
-<li><code>[22/11/07]</code> <a href="https://mega.nz/file/c1ognbgQ#FvelTfDtis5_qoH8mBwu7q4aA-y2A0UiSZeSVOVz1D8">Max e min in 2 variabili, successioni per ricorrenza</a> - <a href="https://mega.nz/file/N8YjmRgY#c20ObAdXJ4Qpkfb-hGySaJqs-T00En0zako0Er6xBiI"><code>PDF</code></a></li>
-<li><code>[29/11/07]</code> <a href="https://mega.nz/file/YlxlCJgZ#2W96p6tIDlT2nKT0zL7iCCEzK_GvTPosCNxplaQaIzE">Integrali (anche multipli) e serie</a> - <a href="https://mega.nz/file/R8gEHBAA#5o4xvc4Cevd440_u4W2N4K5hhXMTpxoxlj8JEdqEe9w"><code>PDF</code></a></li>
-<li><code>[06/12/07]</code> <a href="https://mega.nz/file/00IHBTTQ#a62Vnqiq0o4TcfSG0qf1YR30M2VfQXturUw-0qgItrM">Limiti, successioni per ricorrenza, serie, integrali multipli</a> - <a href="https://mega.nz/file/AkAWiCia#5UHNA_ialqfJlUYdcx3wvKr9VVe_EEJCCvVg5bZYrlU"><code>PDF</code></a></li>
-<li><code>[13/12/07]</code> <a href="https://mega.nz/file/MpQExYYL#tshTyG9SPlrGnwqnZzQ_5vCfjZudoUStgRnWFDUO83o">Integrali impropri, integrali multipli</a> - <a href="https://mega.nz/file/lgZHRYja#hVykG62gSi9J_kUhbqh7KL-bqosyLR3JYJdAPAFAmXM"><code>PDF</code></a></li>
-<li><code>[19/12/07]</code> <a href="https://mega.nz/file/hkgAnQYK#ytw3wl_miK4DHvtPedf8HGT9UCfNpdMEYiycUV3IT0A">Risoluzione scritto d’esame maggio 2004</a> - <a href="https://mega.nz/file/g8YDDYpR#zmcPTgkRBp4WMVKUNf4Oijdd6lGvHeeLnkVZNmON1q4"><code>PDF</code></a></li>
-<li><code>[20/12/07]</code> <a href="https://mega.nz/file/E4BFWQYD#IQ4rdsv1hQalJ0UJGN60q_0EOEVlF-8J3AMmH6qTqcI">Un po’ di tutto</a> - <a href="https://mega.nz/file/dtpz0a6C#29NK4ZHy6MnGEGs69STJQWByC_TssdWeVQRN5aHl_3M"><code>PDF</code></a></li>
-<li><code>[07/01/08]</code> <a href="https://mega.nz/file/wghijRBb#Xsli-0wKz5zTZ4dtiYnfFzFHm0kNfU3ZWfItI5WvszI">Un po’ di tutto (temi d’esame)</a> - <a href="https://mega.nz/file/ktISiJZK#29xIf3jq0y79rRW_dShhu2mu7Vws4pAh5jG2c1BrkWA"><code>PDF</code></a></li>
+<li><code>[11/10/07]</code> <a
+href="https://mega.nz/file/FwpSjbbR#lJVzRsbHvJVgdRZkRAnGVnGiZbGYV3RhcJZJ31sGdfI">Funzioni,
+limiti</a> - <a
+href="https://mega.nz/file/F8h1XLJb#Gi_0Xvux4HF_kR-Bul46-q_X0qYCeTx2ejCM9T18ePo"><code>PDF</code></a></li>
+<li><code>[18/10/07]</code> <a
+href="https://mega.nz/file/h9QEVRgY#T-XOzlHQwxQnvduhuS0v5tSnfYUZ45U7lSMFvdntDVk">Limiti</a>
+- <a
+href="https://mega.nz/file/p1o1QaIT#51rJefVBk9eKmp9P8t5zwUYvPRjdfXPqZGIz6v8Qb-8"><code>PDF</code></a></li>
+<li><code>[25/10/07]</code> <a
+href="https://mega.nz/file/98YkzAYJ#ybN2-6_MU6Ue8vzqvakNTsofhUOBgA9nDi1OP-sOGw8">Limiti,
+serie</a> - <a
+href="https://mega.nz/file/V5ZDlZSa#-ONszQoKD3-vyRM5xSpx5nY4ZN805lxukrQD9TnJlx0"><code>PDF</code></a></li>
+<li><code>[08/11/07]</code> <a
+href="https://mega.nz/file/A0xHRbKQ#FOBRvRXEnlZCju8qE3cEgtrBFcJqOf4kPk9yUyfzqUo">Serie,
+studi di funzione</a> - <a
+href="https://mega.nz/file/U8oGCBCQ#gRaMbLHtZzVTX98-yM-tNKRA9smzSgRv6H_vxVeSN0E"><code>PDF</code></a></li>
+<li><code>[15/11/07]</code> <a
+href="https://mega.nz/file/1hhmkB7I#IWJbbSZUC3oQXoGXGGofUb4tB5XPoijWhpQNiW0IyDE">Limiti,
+serie, successioni per ricorrenza, inf/sup/max/min</a> - <a
+href="https://mega.nz/file/ItgExI7C#BOpzfZC54Y_2tsOYds55s_Nglx_njIywWHVjeJ3KLXY"><code>PDF</code></a></li>
+<li><code>[22/11/07]</code> <a
+href="https://mega.nz/file/c1ognbgQ#FvelTfDtis5_qoH8mBwu7q4aA-y2A0UiSZeSVOVz1D8">Max
+e min in 2 variabili, successioni per ricorrenza</a> - <a
+href="https://mega.nz/file/N8YjmRgY#c20ObAdXJ4Qpkfb-hGySaJqs-T00En0zako0Er6xBiI"><code>PDF</code></a></li>
+<li><code>[29/11/07]</code> <a
+href="https://mega.nz/file/YlxlCJgZ#2W96p6tIDlT2nKT0zL7iCCEzK_GvTPosCNxplaQaIzE">Integrali
+(anche multipli) e serie</a> - <a
+href="https://mega.nz/file/R8gEHBAA#5o4xvc4Cevd440_u4W2N4K5hhXMTpxoxlj8JEdqEe9w"><code>PDF</code></a></li>
+<li><code>[06/12/07]</code> <a
+href="https://mega.nz/file/00IHBTTQ#a62Vnqiq0o4TcfSG0qf1YR30M2VfQXturUw-0qgItrM">Limiti,
+successioni per ricorrenza, serie, integrali multipli</a> - <a
+href="https://mega.nz/file/AkAWiCia#5UHNA_ialqfJlUYdcx3wvKr9VVe_EEJCCvVg5bZYrlU"><code>PDF</code></a></li>
+<li><code>[13/12/07]</code> <a
+href="https://mega.nz/file/MpQExYYL#tshTyG9SPlrGnwqnZzQ_5vCfjZudoUStgRnWFDUO83o">Integrali
+impropri, integrali multipli</a> - <a
+href="https://mega.nz/file/lgZHRYja#hVykG62gSi9J_kUhbqh7KL-bqosyLR3JYJdAPAFAmXM"><code>PDF</code></a></li>
+<li><code>[19/12/07]</code> <a
+href="https://mega.nz/file/hkgAnQYK#ytw3wl_miK4DHvtPedf8HGT9UCfNpdMEYiycUV3IT0A">Risoluzione
+scritto d’esame maggio 2004</a> - <a
+href="https://mega.nz/file/g8YDDYpR#zmcPTgkRBp4WMVKUNf4Oijdd6lGvHeeLnkVZNmON1q4"><code>PDF</code></a></li>
+<li><code>[20/12/07]</code> <a
+href="https://mega.nz/file/E4BFWQYD#IQ4rdsv1hQalJ0UJGN60q_0EOEVlF-8J3AMmH6qTqcI">Un
+po’ di tutto</a> - <a
+href="https://mega.nz/file/dtpz0a6C#29NK4ZHy6MnGEGs69STJQWByC_TssdWeVQRN5aHl_3M"><code>PDF</code></a></li>
+<li><code>[07/01/08]</code> <a
+href="https://mega.nz/file/wghijRBb#Xsli-0wKz5zTZ4dtiYnfFzFHm0kNfU3ZWfItI5WvszI">Un
+po’ di tutto (temi d’esame)</a> - <a
+href="https://mega.nz/file/ktISiJZK#29xIf3jq0y79rRW_dShhu2mu7Vws4pAh5jG2c1BrkWA"><code>PDF</code></a></li>
 </ol>
 <nav class="site-nav" style="font-size:70%">
 <!-- footer content -->

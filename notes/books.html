@@ -6,53 +6,167 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>qmath – books</title>
   <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
   </style>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22256%22 height=%22256%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%237d6ee7%22></rect><path d=%22M32.27 77.81L32.27 77.81Q28.31 77.81 28.31 74.57L28.31 74.57L28.31 23.72Q29.93 22.10 33.17 22.10L33.17 22.10Q35.33 22.10 36.86 22.95Q38.39 23.81 39.65 26.06L39.65 26.06L56.84 54.86Q57.92 56.75 59.09 58.86Q60.26 60.98 61.34 63.09Q62.42 65.21 63.36 67.06Q64.31 68.90 64.94 70.16L64.94 70.16L65.30 70.07Q64.58 62.78 64.44 55.40Q64.31 48.02 64.31 41L64.31 41L64.31 22.82Q64.85 22.64 65.75 22.41Q66.65 22.19 67.73 22.19L67.73 22.19Q71.69 22.19 71.69 25.43L71.69 25.43L71.69 76.37Q70.88 77.09 69.62 77.50Q68.36 77.90 66.83 77.90L66.83 77.90Q64.67 77.90 63.14 77.05Q61.61 76.19 60.35 73.94L60.35 73.94L43.25 45.14Q42.17 43.34 40.95 41.18Q39.74 39.02 38.61 36.95Q37.49 34.88 36.55 32.99Q35.60 31.10 34.97 29.84L34.97 29.84L34.61 29.93Q35.06 34.25 35.33 39.79Q35.60 45.32 35.60 50.27L35.60 50.27L35.60 77.18Q35.15 77.36 34.20 77.58Q33.26 77.81 32.27 77.81Z%22 fill=%22%23fff%22></path></svg>" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu Mono">
-  <link rel="stylesheet" href="https://latex.now.sh/style.css">
-  <link rel="stylesheet" href="https://latex.now.sh/prism/prism.css">
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/prismjs/prism.min.js"></script>
   <style>
   body {
       max-width: 60rem;
-      line-height: 1.4;
-      color: black;
-      background: white;
-  }
-  code, pre, kbd {
-      font-family: 'Ubuntu Mono', monospace;
-      font-size: 95%;
-  }
-  blockquote {
-      font-style: italic;
-      border: 1px solid black;
-      border-radius: 4px;
-      background: #e9edf3;
-      padding: 1rem 3rem 2rem 3rem;
-      margin-left: 0rem;
-      margin-right: 0rem;
-  }
-  hr {
-      width: 50%;
-      height: 1px;
-      border: none;
-      background: gray;
-      margin-top: 2rem;
-      margin-bottom: 2rem;
-  }
-  a {
-      text-decoration: none;
-  }
-  a:hover {
-      text-decoration: underline;
   }
   </style>
 </head>
@@ -61,38 +175,56 @@
 <!-- before content -->
 </nav>
 <h1 id="books">Books</h1>
-<p>This is an ensemble of books I’ve used to study and keep as reference. The list is divided into categories and covers a wide range of topics, from mathematics to computer science, from physics to finance, with a focus on quantitative methods.</p>
+<p>This is an ensemble of books I’ve used to study and keep as
+reference. The list is divided into categories and covers a wide range
+of topics, from mathematics to computer science, from physics to
+finance, with a focus on quantitative methods.</p>
 <blockquote>
-<p>→ <a href="#number-theory"><code>Number theory</code></a><br />
-→ <a href="#combinatorics"><code>Combinatorics</code></a><br />
-→ <a href="#algebra"><code>Algebra</code></a><br />
-→ <a href="#geometry"><code>Geometry</code></a><br />
-→ <a href="#mathematical-analysis"><code>Mathematical Analysis</code></a><br />
-→ <a href="#mathematical-methods"><code>Mathematical methods</code></a><br />
-→ <a href="#numerical-methods"><code>Numerical methods</code></a><br />
-→ <a href="#probability-statistics"><code>Probability &amp; Statistics</code></a><br />
-→ <a href="#computational-finance"><code>Computational finance</code></a><br />
-→ <a href="#algorithms"><code>Algorithms</code></a><br />
-→ <a href="#operational-research"><code>Operational research</code></a><br />
-→ <a href="#competitive-programming"><code>Competitive programming</code></a><br />
-→ <a href="#machine-learning"><code>Machine learning</code></a><br />
-→ <a href="#phisics"><code>Phisics</code></a><br />
-→ <a href="#quantum-mechanics"><code>Quantum mechanics</code></a><br />
-→ <a href="#information-theory"><code>Information theory</code></a><br />
-→ <a href="#cryptography"><code>Cryptography</code></a><br />
-→ <a href="#computability-complexity"><code>Computability &amp; Complexity</code></a><br />
-→ <a href="#category-theory-logic"><code>Category theory &amp; Logic</code></a><br />
-→ <a href="#interpreters-compilers"><code>Interpreters &amp; Compilers</code></a><br />
-→ <a href="#programming-languages"><code>Programming languages</code></a><br />
-→ <a href="#computer-architecture"><code>Computer architecture</code></a><br />
-→ <a href="#operating-systems"><code>Operating systems</code></a><br />
-→ <a href="#computer-networks"><code>Computer networks</code></a><br />
-→ <a href="#distributed-systems"><code>Distributed systems</code></a><br />
-→ <a href="#unix-programming"><code>UNIX programming</code></a><br />
-→ <a href="#unix-system-administration"><code>UNIX system administration</code></a><br />
-→ <a href="#software-engineering"><code>Software engineering</code></a><br />
-→ <a href="#solutions-manuals"><code>Solutions manuals</code></a><br />
-→ <a href="#uncategorized"><code>Uncategorized</code></a></p>
+<p>→  <a href="#number-theory"><code>Number theory</code></a><br />
+→  <a href="#combinatorics"><code>Combinatorics</code></a><br />
+→  <a href="#algebra"><code>Algebra</code></a><br />
+→  <a href="#geometry"><code>Geometry</code></a><br />
+→  <a
+href="#mathematical-analysis"><code>Mathematical Analysis</code></a><br />
+→  <a
+href="#mathematical-methods"><code>Mathematical methods</code></a><br />
+→  <a href="#numerical-methods"><code>Numerical methods</code></a><br />
+→  <a
+href="#probability-statistics"><code>Probability &amp; Statistics</code></a><br />
+→  <a
+href="#computational-finance"><code>Computational finance</code></a><br />
+→  <a href="#algorithms"><code>Algorithms</code></a><br />
+→  <a
+href="#operational-research"><code>Operational research</code></a><br />
+→  <a
+href="#competitive-programming"><code>Competitive programming</code></a><br />
+→  <a href="#machine-learning"><code>Machine learning</code></a><br />
+→  <a href="#phisics"><code>Phisics</code></a><br />
+→  <a href="#quantum-mechanics"><code>Quantum mechanics</code></a><br />
+→  <a
+href="#information-theory"><code>Information theory</code></a><br />
+→  <a href="#cryptography"><code>Cryptography</code></a><br />
+→  <a
+href="#computability-complexity"><code>Computability &amp; Complexity</code></a><br />
+→  <a
+href="#category-theory-logic"><code>Category theory &amp; Logic</code></a><br />
+→  <a
+href="#interpreters-compilers"><code>Interpreters &amp; Compilers</code></a><br />
+→  <a
+href="#programming-languages"><code>Programming languages</code></a><br />
+→  <a
+href="#computer-architecture"><code>Computer architecture</code></a><br />
+→  <a href="#operating-systems"><code>Operating systems</code></a><br />
+→  <a href="#computer-networks"><code>Computer networks</code></a><br />
+→  <a
+href="#distributed-systems"><code>Distributed systems</code></a><br />
+→  <a href="#unix-programming"><code>UNIX programming</code></a><br />
+→  <a
+href="#unix-system-administration"><code>UNIX system administration</code></a><br />
+→  <a
+href="#software-engineering"><code>Software engineering</code></a><br />
+→  <a href="#solutions-manuals"><code>Solutions manuals</code></a><br />
+→  <a href="#uncategorized"><code>Uncategorized</code></a></p>
 </blockquote>
 <h3 id="number-theory">Number theory</h3>
 <ul>
@@ -107,8 +239,10 @@
 <li><code>[Graham, Knuth, Patashnik]</code> Matematica discreta</li>
 <li><code>[Mariconda, Tonolo]</code> Calcolo discreto</li>
 <li><code>[Wilf]</code> Generatingfunctionology</li>
-<li><code>[Martin]</code> Counting, the art of enumerative combinatorics</li>
-<li><code>[Chen, Koh]</code> Principles and techniques in combinatorics</li>
+<li><code>[Martin]</code> Counting, the art of enumerative
+combinatorics</li>
+<li><code>[Chen, Koh]</code> Principles and techniques in
+combinatorics</li>
 </ul>
 <h3 id="algebra">Algebra</h3>
 <ul>
@@ -128,8 +262,10 @@
 </ul>
 <h3 id="mathematical-analysis">Mathematical Analysis</h3>
 <ul>
-<li><code>[Acerbi, Buttazzo]</code> Primo corso di analisi matematica</li>
-<li><code>[Acerbi, Buttazzo]</code> Secondo corso di analisi matematica</li>
+<li><code>[Acerbi, Buttazzo]</code> Primo corso di analisi
+matematica</li>
+<li><code>[Acerbi, Buttazzo]</code> Secondo corso di analisi
+matematica</li>
 <li><code>[Giusti]</code> Analisi matematica 1</li>
 <li><code>[Giusti]</code> Analisi matematica 2</li>
 <li><code>[Pagani, Salsa]</code> Analisi matematica 1</li>
@@ -141,21 +277,30 @@
 </ul>
 <h3 id="mathematical-methods">Mathematical methods</h3>
 <ul>
-<li><code>[Bramanti]</code> Metodi di analisi matematica per l’ingegneria</li>
+<li><code>[Bramanti]</code> Metodi di analisi matematica per
+l’ingegneria</li>
 <li><code>[Codegone]</code> Metodi matematici per l’ingegegneria</li>
-<li><code>[Barozzi]</code> Matematica per l’ingegneria dell’informazione</li>
-<li><code>[Ambrosetti]</code> Appunti sulle equazioni differenziali ordinarie</li>
+<li><code>[Barozzi]</code> Matematica per l’ingegneria
+dell’informazione</li>
+<li><code>[Ambrosetti]</code> Appunti sulle equazioni differenziali
+ordinarie</li>
 <li><code>[Mascia]</code> Equazioni differenziali ordinarie</li>
-<li><code>[Tveito, Winther]</code> Introduction to partial differential equations</li>
-<li><code>[Farlow]</code> Partial differential equations for scientists and engineers</li>
+<li><code>[Tveito, Winther]</code> Introduction to partial differential
+equations</li>
+<li><code>[Farlow]</code> Partial differential equations for scientists
+and engineers</li>
 </ul>
 <h3 id="numerical-methods">Numerical methods</h3>
 <ul>
-<li><code>[Ghelardoni, Gheri, Marzulli]</code> Elementi di calcolo numerico</li>
-<li><code>[Esfandiari]</code> Numerical methods for engineers and scientists</li>
-<li><code>[Bevilacqua, Bini, Capovani, Menchi]</code> Metodi numerici</li>
+<li><code>[Ghelardoni, Gheri, Marzulli]</code> Elementi di calcolo
+numerico</li>
+<li><code>[Esfandiari]</code> Numerical methods for engineers and
+scientists</li>
+<li><code>[Bevilacqua, Bini, Capovani, Menchi]</code> Metodi
+numerici</li>
 <li><code>[Quarteroni, Saleri, Gervasio]</code> Calcolo scientifico</li>
-<li><code>[Quarteroni, Sacco, Saleri, Gervasio]</code> Matematica numerica</li>
+<li><code>[Quarteroni, Sacco, Saleri, Gervasio]</code> Matematica
+numerica</li>
 <li><code>[Dahlquist, Bjorck]</code> Numerical methods</li>
 </ul>
 <h3 id="probability-statistics">Probability &amp; Statistics</h3>
@@ -165,10 +310,13 @@
 <li><code>[Ross]</code> Calcolo delle probabilità</li>
 <li><code>[Grimmett, Welsh]</code> Probability</li>
 <li><code>[Caravenna, Dai Pra]</code> Probabilità</li>
-<li><code>[Rotondi, Pedroni, Pievatolo]</code> Probabilità, statistica e simulazione</li>
-<li><code>[Dekking, Kraaikamp, Lopuhaä, Meester]</code> A modern introduction to probability and statistics</li>
+<li><code>[Rotondi, Pedroni, Pievatolo]</code> Probabilità, statistica e
+simulazione</li>
+<li><code>[Dekking, Kraaikamp, Lopuhaä, Meester]</code> A modern
+introduction to probability and statistics</li>
 <li><code>[Bulmer]</code> Principles of statistics</li>
-<li><code>[Diez, Barr, Çetinkaya-Rundel]</code> OpenIntro statistics</li>
+<li><code>[Diez, Barr, Çetinkaya-Rundel]</code> OpenIntro
+statistics</li>
 <li><code>[Capinski, Kopp]</code> Measure, integral and probability</li>
 <li><code>[Brzezniak, Zastawniak]</code> Basic stochastic processes</li>
 </ul>
@@ -177,33 +325,46 @@
 <li><code>[Blyth]</code> An introduction to quantitative finance</li>
 <li><code>[Olivia, Rennò]</code> Principi di finanza quantitativa</li>
 <li><code>[Simon, Blume]</code> Mathematics for economists</li>
-<li><code>[Stefanica]</code> A primer for the mathematics of financial engineering</li>
-<li><code>[Stefanica]</code> A linear algebra primer for financial engineering</li>
+<li><code>[Stefanica]</code> A primer for the mathematics of financial
+engineering</li>
+<li><code>[Stefanica]</code> A linear algebra primer for financial
+engineering</li>
 <li><code>[Baxter, Rennie]</code> Financial calculus</li>
-<li><code>[Willmott, Howison, Dewynne]</code> The mathematics of financial derivatives</li>
+<li><code>[Willmott, Howison, Dewynne]</code> The mathematics of
+financial derivatives</li>
 <li><code>[Capinski, Zastawniak]</code> Mathematics for finance</li>
 <li><code>[Pascucci, Runggaldier]</code> Finanza matematica</li>
 <li><code>[Saari]</code> Mathematics for finance</li>
-<li><code>[Gilli, Maringer, Schumann]</code> Numerical methods and optimization in finance</li>
-<li><code>[Cornuejols. Pena, Tutuncu]</code> Optimization methods in finance</li>
-<li><code>[Higham]</code> An introduction to financial option valuation</li>
+<li><code>[Gilli, Maringer, Schumann]</code> Numerical methods and
+optimization in finance</li>
+<li><code>[Cornuejols. Pena, Tutuncu]</code> Optimization methods in
+finance</li>
+<li><code>[Higham]</code> An introduction to financial option
+valuation</li>
 <li><code>[Brown, Zima]</code> Mathematics of finance</li>
 <li><code>[Salvatore]</code> Statistics and econometrics</li>
-<li><code>[Lucchetti]</code> Appunti di analisi delle serie storiche</li>
+<li><code>[Lucchetti]</code> Appunti di analisi delle serie
+storiche</li>
 </ul>
 <h3 id="algorithms">Algorithms</h3>
 <ul>
-<li><code>[Greene, Knuth]</code> Mathematics for the analysis of algorithms</li>
-<li><code>[Sedgewick, Flajolet]</code> An introduction to the analysis of algorithms</li>
+<li><code>[Greene, Knuth]</code> Mathematics for the analysis of
+algorithms</li>
+<li><code>[Sedgewick, Flajolet]</code> An introduction to the analysis
+of algorithms</li>
 <li><code>[Sedgewick, Wayne]</code> Algorithms</li>
-<li><code>[Cormen, Leiserson, Rivest, Stein]</code> Introduction to algorithms</li>
+<li><code>[Cormen, Leiserson, Rivest, Stein]</code> Introduction to
+algorithms</li>
 <li><code>[Erickson]</code> Algorithms</li>
-<li><code>[Demetrescu, Finocchi, Italiano]</code> Algoritmi e strutture dati</li>
+<li><code>[Demetrescu, Finocchi, Italiano]</code> Algoritmi e strutture
+dati</li>
 <li><code>[Skiena]</code> The algorithm design manual</li>
 <li><code>[Zingaro]</code> Algorithmic thinking</li>
 <li><code>[Loundon]</code> Mastering algorithms with <em>C</em></li>
-<li><code>[Shaffer]</code> Data structures and algorithm analysis in <em>C++</em></li>
-<li><code>[Bird, Gibbons]</code> Algorithm design with <em>Haskell</em></li>
+<li><code>[Shaffer]</code> Data structures and algorithm analysis in
+<em>C++</em></li>
+<li><code>[Bird, Gibbons]</code> Algorithm design with
+<em>Haskell</em></li>
 <li><code>[Bird]</code> Pearls of functional algorithm design</li>
 </ul>
 <h3 id="operational-research">Operational research</h3>
@@ -217,35 +378,46 @@
 <h3 id="competitive-programming">Competitive programming</h3>
 <ul>
 <li><code>[McDowell]</code> Cracking the coding interview</li>
-<li><code>[Aziz, Lee, Prakash]</code> Elements of programming interviews in <em>Java</em></li>
-<li><code>[Aziz, Lee, Prakash]</code> Elements of programming interviews in <em>Python</em></li>
+<li><code>[Aziz, Lee, Prakash]</code> Elements of programming interviews
+in <em>Java</em></li>
+<li><code>[Aziz, Lee, Prakash]</code> Elements of programming interviews
+in <em>Python</em></li>
 <li><code>[Rossi]</code> Programming interview problems</li>
 <li><code>[Rourke]</code> Computational geometry in <em>C</em></li>
-<li><code>[Durr, Vie]</code> Competitive programming in <em>Python</em></li>
+<li><code>[Durr, Vie]</code> Competitive programming in
+<em>Python</em></li>
 <li><code>[Laaksonen]</code> Competitive programming</li>
 <li><code>[Warren]</code> Hacker’s delight</li>
-<li><code>[Steven, Felix, Suhendry]</code> Competitive programming 1</li>
-<li><code>[Steven, Felix, Suhendry]</code> Competitive programming 2</li>
+<li><code>[Steven, Felix, Suhendry]</code> Competitive programming
+1</li>
+<li><code>[Steven, Felix, Suhendry]</code> Competitive programming
+2</li>
 </ul>
 <h3 id="machine-learning">Machine learning</h3>
 <ul>
 <li><code>[Russell, Norvig]</code> Intelligenza artificiale 1</li>
 <li><code>[Russell, Norvig]</code> Intelligenza artificiale 2</li>
 <li><code>[Ertel]</code> Introduction to artificial intelligence</li>
-<li><code>[Hastie, Tibshirani, Friedman]</code> The elements of statistical learning</li>
+<li><code>[Hastie, Tibshirani, Friedman]</code> The elements of
+statistical learning</li>
 <li><code>[Bishop]</code> Pattern recognition and machine learning</li>
 <li><code>[Grigoletto, Pauli, Ventura]</code> Modello lineare</li>
-<li><code>[Deisenroth, Faisal, Ong]</code> Mathematics for machine learning</li>
-<li><code>[Shale-Shwartz, Ben-David]</code> Understanding machine learning</li>
-<li><code>[Willmott]</code> Machine learning: an applied mathematics introduction</li>
+<li><code>[Deisenroth, Faisal, Ong]</code> Mathematics for machine
+learning</li>
+<li><code>[Shale-Shwartz, Ben-David]</code> Understanding machine
+learning</li>
+<li><code>[Willmott]</code> Machine learning: an applied mathematics
+introduction</li>
 <li><code>[Zhou]</code> Machine learning</li>
 <li><code>[Goodfellow, Bengio, Courville]</code> Deep learning</li>
 <li><code>[Friedman, Mendhekar]</code> The little learner</li>
 <li><code>[Glassner]</code> Deep Learning</li>
 <li><code>[Burkov]</code> The hundred-page machine learning book</li>
 <li><code>[Perrotta]</code> Programming machine learning</li>
-<li><code>[Buontempo]</code> Genetic algorithms and machine learning for programmers</li>
-<li><code>[Fenner]</code> Machine learning with <em>Python</em> for everyone</li>
+<li><code>[Buontempo]</code> Genetic algorithms and machine learning for
+programmers</li>
+<li><code>[Fenner]</code> Machine learning with <em>Python</em> for
+everyone</li>
 </ul>
 <h3 id="phisics">Phisics</h3>
 <ul>
@@ -265,7 +437,8 @@
 </ul>
 <h3 id="quantum-mechanics">Quantum mechanics</h3>
 <ul>
-<li><code>[Griffiths]</code> Introduzione alla meccanica quantistica</li>
+<li><code>[Griffiths]</code> Introduzione alla meccanica
+quantistica</li>
 <li><code>[Picasso]</code> Lezioni di meccanica quantistica</li>
 <li><code>[Pittenger]</code> An introduction to quantum computing</li>
 <li><code>[Hirvensalo]</code> Quantum computing</li>
@@ -274,14 +447,17 @@
 <ul>
 <li><code>[Be]</code> aim - Information theory</li>
 <li><code>[Pierce]</code> La teoria dell’informazione</li>
-<li><code>[MacKay]</code> Information theory, inference, and learning algorithms</li>
+<li><code>[MacKay]</code> Information theory, inference, and learning
+algorithms</li>
 </ul>
 <h3 id="cryptography">Cryptography</h3>
 <ul>
 <li><code>[Aumasson]</code> Serious cryptography</li>
 <li><code>[Von Zur Gathen]</code> Cryptoschool</li>
-<li><code>[Katz, Lindell]</code> Introduction to modern cryptography</li>
-<li><code>[Baldoni, Ciliberto, Piacentini Cattaneo]</code> Aritmetica, crittografia e codici</li>
+<li><code>[Katz, Lindell]</code> Introduction to modern
+cryptography</li>
+<li><code>[Baldoni, Ciliberto, Piacentini Cattaneo]</code> Aritmetica,
+crittografia e codici</li>
 <li><code>[Venturi]</code> Crittografia nel paese delle meraviglie</li>
 <li><code>[Leonesi, Toffalori]</code> Numeri, crittografia e codici</li>
 </ul>
@@ -289,69 +465,93 @@
 <ul>
 <li><code>[Kotzen]</code> Automata and computability</li>
 <li><code>[Dovier, Giacobazzi]</code> Fondamenti dell’informatica</li>
-<li><code>[Ausiello, D'Amore, Gambosi, Laura]</code> Linguaggi, modelli, complessità</li>
+<li><code>[Ausiello, D'Amore, Gambosi, Laura]</code> Linguaggi, modelli,
+complessità</li>
 <li><code>[Papadimitriou]</code> Computational complexity</li>
-<li><code>[Bernasconi, Codenotti]</code> Introduzione alla complessità computazionale</li>
-<li><code>[Taylor]</code> Models of computation and formal languages</li>
+<li><code>[Bernasconi, Codenotti]</code> Introduzione alla complessità
+computazionale</li>
+<li><code>[Taylor]</code> Models of computation and formal
+languages</li>
 </ul>
 <h3 id="category-theory-logic">Category theory &amp; Logic</h3>
 <ul>
 <li><code>[Lawvere, Schanuel]</code> Teoria delle categorie</li>
 <li><code>[Milewski]</code> Category theory for programmers</li>
 <li><code>[Cameron]</code> Sets, logic and categories</li>
-<li><code>[Sannella, Fourman, Peng, Wadler]</code> Introduction to computation</li>
+<li><code>[Sannella, Fourman, Peng, Wadler]</code> Introduction to
+computation</li>
 </ul>
 <h3 id="interpreters-compilers">Interpreters &amp; Compilers</h3>
 <ul>
 <li><code>[Ball]</code> Writing an interpreter in <em>Go</em></li>
 <li><code>[Ball]</code> Writing a compiler in <em>Go</em></li>
 <li><code>[Holub]</code> Compiler design in <em>C</em></li>
-<li><code>[Schreiner, Friedman]</code> Introduction to compiler construction with <em>UNIX</em></li>
-<li><code>[Friendman, Wand, Haynes]</code> Essentials of programming languages</li>
-<li><code>[Crespi Reghizzi, Breveglieri, Morzenti]</code> Linguaggi formali e compilatori</li>
+<li><code>[Schreiner, Friedman]</code> Introduction to compiler
+construction with <em>UNIX</em></li>
+<li><code>[Friendman, Wand, Haynes]</code> Essentials of programming
+languages</li>
+<li><code>[Crespi Reghizzi, Breveglieri, Morzenti]</code> Linguaggi
+formali e compilatori</li>
 <li><code>[Ranta]</code> Implementing programming languages</li>
-<li><code>[Thain]</code> Introduction to compilers and language design</li>
+<li><code>[Thain]</code> Introduction to compilers and language
+design</li>
 </ul>
 <h3 id="programming-languages">Programming languages</h3>
 <ul>
-<li><code>[Kernighan, Ritchie]</code> The <em>C</em> programming language</li>
-<li><code>[Kelley, Pohl]</code> <em>C</em>, didattica e programmazione</li>
+<li><code>[Kernighan, Ritchie]</code> The <em>C</em> programming
+language</li>
+<li><code>[Kelley, Pohl]</code> <em>C</em>, didattica e
+programmazione</li>
 <li><code>[Holub]</code> The <em>C</em> companion</li>
 <li><code>[Harbison, Steele]</code> <em>C</em>, a reference manual</li>
-<li><code>[Domenici, Frosini]</code> Introduzione alla programmazione ed elementi di strutture dati con il linguaggio <em>C++</em></li>
-<li><code>[Dorbolò, Frosini, Lazzerini]</code> Programmazione ad oggetti con riferimento al <em>C++</em></li>
+<li><code>[Domenici, Frosini]</code> Introduzione alla programmazione ed
+elementi di strutture dati con il linguaggio <em>C++</em></li>
+<li><code>[Dorbolò, Frosini, Lazzerini]</code> Programmazione ad oggetti
+con riferimento al <em>C++</em></li>
 <li><code>[Lippman, Lajoie, Moo]</code> <em>C++</em> primer</li>
-<li><code>[Felleisen, Friedman, Johnson]</code> A little <em>Java</em>, a few patterns</li>
+<li><code>[Felleisen, Friedman, Johnson]</code> A little <em>Java</em>,
+a few patterns</li>
 <li><code>[Eckel]</code> Thinking in <em>Java</em></li>
 <li><code>[Bloch]</code> Effective <em>Java</em></li>
-<li><code>[Whitington]</code> <em>Python</em> from the very beginning</li>
+<li><code>[Whitington]</code> <em>Python</em> from the very
+beginning</li>
 <li><code>[Beazley]</code> <em>Python</em> distilled</li>
 <li><code>[Slatkin]</code> Effective <em>Python</em></li>
-<li><code>[Abelson, Sussman]</code> Structure and interpretation of computer programs, <em>Javascript</em> edition</li>
-<li><code>[Rauschmayer]</code> <em>Javascript</em> for impatient programmers</li>
+<li><code>[Abelson, Sussman]</code> Structure and interpretation of
+computer programs, <em>Javascript</em> edition</li>
+<li><code>[Rauschmayer]</code> <em>Javascript</em> for impatient
+programmers</li>
 <li><code>[Crockford]</code> How <em>Javascript</em> works</li>
 <li><code>[Bodner]</code> Learning <em>Go</em></li>
-<li><code>[Donovan, Kernighan]</code> The <em>Go</em> programming language</li>
+<li><code>[Donovan, Kernighan]</code> The <em>Go</em> programming
+language</li>
 <li><code>[Butcher, Farina]</code> <em>Go</em> in practice</li>
 <li><code>[Friedman, Felleisen]</code> The little Schemer</li>
 <li><code>[Friedman, Felleisen]</code> The seasoned Schemer</li>
-<li><code>[Friedman, Byrd, Kiselyov, Hemann]</code> The Reasoned Schemer</li>
+<li><code>[Friedman, Byrd, Kiselyov, Hemann]</code> The Reasoned
+Schemer</li>
 <li><code>[Dybvig]</code> The <em>Scheme</em> programming language</li>
-<li><code>[Abelson, Sussman]</code> Structure and interpretation of computer programs</li>
-<li><code>[Whitington]</code> <em>Haskell</em> from the very beginning</li>
+<li><code>[Abelson, Sussman]</code> Structure and interpretation of
+computer programs</li>
+<li><code>[Whitington]</code> <em>Haskell</em> from the very
+beginning</li>
 <li><code>[Hutton]</code> Programming in <em>Haskell</em></li>
 <li><code>[Bird]</code> Thinking functionally with <em>Haskell</em></li>
 <li><code>[Felleisen, Friedman]</code> The little MLer</li>
-<li><code>[Whitington]</code> <em>OCaml</em> from the very beginning</li>
+<li><code>[Whitington]</code> <em>OCaml</em> from the very
+beginning</li>
 <li><code>[Whitington]</code> More <em>OCaml</em></li>
-<li><code>[Cialdea Mayer, Limongelli]</code> Introduzione alla programmazione funzionale</li>
+<li><code>[Cialdea Mayer, Limongelli]</code> Introduzione alla
+programmazione funzionale</li>
 </ul>
 <h3 id="computer-architecture">Computer architecture</h3>
 <ul>
 <li><code>[Tanenbaum, Austin]</code> Architettura dei calcolatori</li>
 <li><code>[Plantz]</code> Introduction to computer organization</li>
-<li><code>[Harris, Harris]</code> Digital design and computer architecture</li>
-<li><code>[Corsini]</code> Dalle porte <code>and</code>, <code>or</code>, <code>not</code>, al sistema calcolatore</li>
+<li><code>[Harris, Harris]</code> Digital design and computer
+architecture</li>
+<li><code>[Corsini]</code> Dalle porte <code>and</code>,
+<code>or</code>, <code>not</code>, al sistema calcolatore</li>
 <li><code>[Streib]</code> Guide to assembly language</li>
 <li><code>[Zhirkov]</code> Low level programming</li>
 </ul>
@@ -359,7 +559,8 @@
 <ul>
 <li><code>[Tanenbaum]</code> I moderni sistemi operativi</li>
 <li><code>[Silberschatz, Galvin, Gagne]</code> Sistemi operativi</li>
-<li><code>[Arpaci, Dusseau]</code> Operating systems: three easy pieces</li>
+<li><code>[Arpaci, Dusseau]</code> Operating systems: three easy
+pieces</li>
 <li><code>[Love]</code> <em>Linux</em> kernel development</li>
 </ul>
 <h3 id="computer-networks">Computer networks</h3>
@@ -372,26 +573,33 @@
 <h3 id="distributed-systems">Distributed systems</h3>
 <ul>
 <li><code>[Tanenbaum, Steen]</code> Sistemi distribuiti</li>
-<li><code>[Wattenhofer]</code> Distributed ledger technology: the science of the blockchain</li>
+<li><code>[Wattenhofer]</code> Distributed ledger technology: the
+science of the blockchain</li>
 <li><code>[Rosenbaum]</code> Grokking Bitcoin</li>
 </ul>
 <h3 id="unix-programming"><em>UNIX</em> programming</h3>
 <ul>
 <li><code>[Kerrisk]</code> The <em>Linux</em> programming interface</li>
-<li><code>[Stevens, Rago]</code> Advanced programming in the <em>UNIX</em> environment</li>
+<li><code>[Stevens, Rago]</code> Advanced programming in the
+<em>UNIX</em> environment</li>
 <li><code>[Rochkind]</code> Advanced <em>UNIX</em> programming</li>
-<li><code>[Corbet, Rubini, Kroah-Hartman]</code> <em>Linux</em> device drivers</li>
+<li><code>[Corbet, Rubini, Kroah-Hartman]</code> <em>Linux</em> device
+drivers</li>
 <li><code>[Erickson]</code> Hacking, the art of exploitation</li>
 <li><code>[Kozierok]</code> The TCP/IP guide</li>
 </ul>
-<h3 id="unix-system-administration"><em>UNIX</em> system administration</h3>
+<h3 id="unix-system-administration"><em>UNIX</em> system
+administration</h3>
 <ul>
 <li><code>[Piccardi]</code> Amministrare <em>GNU/Linux</em></li>
-<li><code>[Glass, Ables]</code> <em>UNIX</em> for programmers and users</li>
+<li><code>[Glass, Ables]</code> <em>UNIX</em> for programmers and
+users</li>
 <li><code>[Kochan, Wood]</code> <em>UNIX</em> shell programming</li>
 <li><code>[Albing, Vossen]</code> <em>Bash</em> idioms</li>
-<li><code>[Dougherty, Robbins]</code> <em>Sed</em> &amp; <em>AWK</em></li>
-<li><code>[Aho, Kernighan, Weinberger]</code> The <em>AWK</em> programming language</li>
+<li><code>[Dougherty, Robbins]</code> <em>Sed</em> &amp;
+<em>AWK</em></li>
+<li><code>[Aho, Kernighan, Weinberger]</code> The <em>AWK</em>
+programming language</li>
 </ul>
 <h3 id="software-engineering">Software engineering</h3>
 <ul>
@@ -402,35 +610,57 @@
 <ul>
 <li><code>[Picasso]</code> Esercizi di fisica generale 1</li>
 <li><code>[Picasso]</code> Esercizi di fisica generale 2</li>
-<li><code>[D'Emilio, Picasso]</code> Problemi di meccanica quantistica</li>
+<li><code>[D'Emilio, Picasso]</code> Problemi di meccanica
+quantistica</li>
 <li><code>[Lovitch, Rosati]</code> Problemi di fisica generale 1</li>
 <li><code>[Rosati, Casali]</code> Problemi di fisica generale 2</li>
-<li><code>[Pavan, Sartori]</code> Problemi di fisica risolti e commentati 1</li>
-<li><code>[Pavan, Sartori]</code> Problemi di fisica risolti e commentati 2</li>
-<li><code>[Buttazzo, Gambini, Santi]</code> Esercizi di analisi matematica 1</li>
-<li><code>[Demidovich]</code> Esercizi e problemi di analisi matematica</li>
-<li><code>[Giusti]</code> Esercizi e complementi di analisi matematica 1</li>
-<li><code>[Giusti]</code> Esercizi e complementi di analisi matematica 2</li>
-<li><code>[Buttazzo, Colla]</code> Temi d’esame di analisi matematica 1</li>
-<li><code>[Buttazzo, Colla]</code> Temi d’esame di analisi matematica 2</li>
-<li><code>[Campanella]</code> Appunti di algebra, duecento esercizi svolti</li>
+<li><code>[Pavan, Sartori]</code> Problemi di fisica risolti e
+commentati 1</li>
+<li><code>[Pavan, Sartori]</code> Problemi di fisica risolti e
+commentati 2</li>
+<li><code>[Buttazzo, Gambini, Santi]</code> Esercizi di analisi
+matematica 1</li>
+<li><code>[Demidovich]</code> Esercizi e problemi di analisi
+matematica</li>
+<li><code>[Giusti]</code> Esercizi e complementi di analisi matematica
+1</li>
+<li><code>[Giusti]</code> Esercizi e complementi di analisi matematica
+2</li>
+<li><code>[Buttazzo, Colla]</code> Temi d’esame di analisi matematica
+1</li>
+<li><code>[Buttazzo, Colla]</code> Temi d’esame di analisi matematica
+2</li>
+<li><code>[Campanella]</code> Appunti di algebra, duecento esercizi
+svolti</li>
 <li><code>[Abate, De Fabritiis]</code> Esercizi di geometria</li>
-<li><code>[Parigi, Palestini]</code> Manuale di geometria, esercizi d’esame svolti</li>
+<li><code>[Parigi, Palestini]</code> Manuale di geometria, esercizi
+d’esame svolti</li>
 <li><code>[Capparelli, Del Fra]</code> Esercizi di geometria</li>
 <li><code>[Hollos]</code> Combinatorics problems and solutions</li>
-<li><code>[Foo, Lin]</code> Principles and techniques in combinatorics, solutions manual</li>
-<li><code>[Verri]</code> Probabilità e statistica, 600 esercizi d’esame risolti</li>
-<li><code>[Grana, Manfredi]</code> Esercizi di programmazione in linguaggio <em>C</em></li>
-<li><code>[Bolelli, Vincini]</code> Algoritmi in linguaggio <em>C</em></li>
+<li><code>[Foo, Lin]</code> Principles and techniques in combinatorics,
+solutions manual</li>
+<li><code>[Verri]</code> Probabilità e statistica, 600 esercizi d’esame
+risolti</li>
+<li><code>[Grana, Manfredi]</code> Esercizi di programmazione in
+linguaggio <em>C</em></li>
+<li><code>[Bolelli, Vincini]</code> Algoritmi in linguaggio
+<em>C</em></li>
 <li><code>[Martello, Vigo]</code> Esercizi di ricerca operativa</li>
-<li><code>[Stefanica]</code> A primer for the mathematics of financial engineering, solutions manual</li>
-<li><code>[Stefanica]</code> A linear algebra primer for financial engineering, solutions manual</li>
-<li><code>[Rosazza Ganin, Sgarra]</code> Esercizi di finanza matematica</li>
+<li><code>[Stefanica]</code> A primer for the mathematics of financial
+engineering, solutions manual</li>
+<li><code>[Stefanica]</code> A linear algebra primer for financial
+engineering, solutions manual</li>
+<li><code>[Rosazza Ganin, Sgarra]</code> Esercizi di finanza
+matematica</li>
 <li><code>[Gelfand, Glagoleva, Shnol]</code> Functions and graphs</li>
-<li><code>[Gelfand, Gerver, Kirillov, Konstantinov, Rushnirenko]</code> Sequences, combinations, limits</li>
-<li><code>[Stefanica, Radoicic, Wang]</code> 150 most frequently asked questions on quant interviews</li>
-<li><code>[Stefanica, Radoicic, Matic]</code> Probability and stochastic calculus quant interview questions</li>
-<li><code>[Stefanica, Radoicic, Matic]</code> Challenging brainteasers for interviews</li>
+<li><code>[Gelfand, Gerver, Kirillov, Konstantinov, Rushnirenko]</code>
+Sequences, combinations, limits</li>
+<li><code>[Stefanica, Radoicic, Wang]</code> 150 most frequently asked
+questions on quant interviews</li>
+<li><code>[Stefanica, Radoicic, Matic]</code> Probability and stochastic
+calculus quant interview questions</li>
+<li><code>[Stefanica, Radoicic, Matic]</code> Challenging brainteasers
+for interviews</li>
 </ul>
 <h3 id="uncategorized">Uncategorized</h3>
 <ul>
