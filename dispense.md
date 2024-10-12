@@ -92,7 +92,6 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 - `[Acquistapace]` [Appunti di analisi matematica: parte seconda](https://mega.nz/file/0sYThR6A#bs5R18OyyAf8sMNzNHNYNnlFKtmUedmqC9awYgL0wYQ)
 - `[Vitali]` [Lezioni introduttive sulle equazioni differenziali ordinarie](https://mega.nz/file/ApJBRB5Z#-ZEDXhOpE-5tlgI78h4nfEewb0-ySZ9qzEH-k7GP91Q)
 - `[Baiti]` [Dispensa sulle equazioni differenziali](https://mega.nz/file/89om0YpI#JR78Op87Mx1rbCo4bgXX0FFhCVGPztmJ6IvUtDeO-Us)
-- `[De Marchi]` [Soluzione numerica di equazioni differenziali](https://mega.nz/file/wwBhWShB#4vMjSoLw6MtRsZToymtQrkJl1Na2RgyV51hUamF5YXs)
 - `[Mugelli]` [Metodi matematici per l'ingegneria dell'informazione](https://mega.nz/file/JlwElCjK#L4o3oSvwWhPNOrY_JB3BNurHH8IFHW2KUtOUqeQN1S0)
 - `[Campiti]` [Metodi matematici per l'ingegneria](https://mega.nz/file/d1JQiZrQ#VciI2gvGfcp072BySk1b7zTpqJWBLT5XlXJ0zxv2fB0)
 - `[Ritelli, Spaletta]` [Introductory mathematical analysis for quantitative finance](https://mega.nz/file/RsozgYLQ#Ckv-yFsMak2pmGQf6vRJAmlNKZjKkb8Baw_CTej__A4)
@@ -129,9 +128,10 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 
 - `[Cavalca]` [Appunti di metodi numerici per l'ingegneria](https://mega.nz/file/Ypw3zZQb#Ohy9kfUhLx1U-WYCUdJ4wjB9EC5xorhkNfReXaFWKf4)
 - `[Ferretti]` [Appunti di analisi numerica](https://mega.nz/file/ggoniQhL#CXYVYVTPRWrYnOOgicKPF3acWhzqI_MyiNKLnJrNaNE)
-- `[Gelardoni, Gheri, Marzulli]` [Elementi di calcolo numerico](https://mega.nz/file/E15lDAaJ#AlSMtPTuDd9NNRdhsk3Ia-GIotqurmChXuMH0BWexCA)
 - `[Bevilacqua, Menchi]` [Appunti di calcolo numerico: note del corso](https://mega.nz/file/ktQVnLgD#AELQ71lo5C4Fup1KuauaaboM_3phtk8Kyvths_1LTKM)
 - `[Bevilacqua, Menchi]` [Appunti di calcolo numerico: esercizi risolti](https://mega.nz/file/RkpRAATZ#hgnXH5DSXmhElmHg0D2Ai0dUB__DEci_muPbk-jz09I)
+- `[Gelardoni, Gheri, Marzulli]` [Elementi di calcolo numerico](https://mega.nz/file/E15lDAaJ#AlSMtPTuDd9NNRdhsk3Ia-GIotqurmChXuMH0BWexCA)
+- `[De Marchi]` [Soluzione numerica di equazioni differenziali](https://mega.nz/file/wwBhWShB#4vMjSoLw6MtRsZToymtQrkJl1Na2RgyV51hUamF5YXs)
 - `[De Cecco, Vitolo]` [Note di calcolo matriciale](https://mega.nz/file/AoQACQDI#zBjejZOVfXCNa8Z8nTCrabnlkq7uCwy7oasHA_XAQLI)
 
 
