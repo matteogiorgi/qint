@@ -30,7 +30,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 > → &nbsp;[`UNIX programming`](#unix-programming)\
 > → &nbsp;[`UNIX system administration`](#unix-system-administration)\
 > → &nbsp;[`Software engineering`](#software-engineering)\
-> → &nbsp;[`Solutions manuals`](#solutions-manuals)\
+> → &nbsp;[`Solutions manual`](#solutions-manual)\
 > → &nbsp;[`Uncategorized`](#uncategorized)
 
 
@@ -396,16 +396,16 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 
-### Solutions manuals
-- `[Picasso]` Esercizi di fisica generale 1
-- `[Picasso]` Esercizi di fisica generale 2
-- `[D'Emilio, Picasso]` Problemi di meccanica quantistica
+### Solutions manual
 - `[Lovitch, Rosati]` Problemi di fisica generale 1
 - `[Rosati, Casali]` Problemi di fisica generale 2
 - `[Pavan, Sartori]` Problemi di fisica risolti e commentati 1
 - `[Pavan, Sartori]` Problemi di fisica risolti e commentati 2
+- `[Picasso]` Esercizi di fisica generale 1
+- `[Picasso]` Esercizi di fisica generale 2
+- `[D'Emilio, Picasso]` Problemi di meccanica quantistica
 - `[Buttazzo, Gambini, Santi]` Esercizi di analisi matematica 1
-- `[Demidovich]` Esercizi e problemi di analisi matematica
+- `[Mancino, Caprili]` Esercizi e complementi di analisi matematica 2
 - `[Giusti]` Esercizi e complementi di analisi matematica 1
 - `[Giusti]` Esercizi e complementi di analisi matematica 2
 - `[Buttazzo, Colla]` Temi d'esame di analisi matematica 1
@@ -425,9 +425,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 - `[Rosazza Ganin, Sgarra]` Esercizi di finanza matematica
 - `[Gelfand, Glagoleva, Shnol]` Functions and graphs
 - `[Gelfand, Gerver, Kirillov, Konstantinov, Rushnirenko]` Sequences, combinations, limits
-- `[Stefanica, Radoicic, Wang]` 150 most frequently asked questions on quant interviews
-- `[Stefanica, Radoicic, Matic]` Probability and stochastic calculus quant interview questions
-- `[Stefanica, Radoicic, Matic]` Challenging brainteasers for interviews
+- `[Demidovich]` Esercizi e problemi di analisi matematica
 
 
 

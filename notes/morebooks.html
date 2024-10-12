@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>qmath – morebooks</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22256%22 height=%22256%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%237d6ee7%22></rect><path d=%22M32.27 77.81L32.27 77.81Q28.31 77.81 28.31 74.57L28.31 74.57L28.31 23.72Q29.93 22.10 33.17 22.10L33.17 22.10Q35.33 22.10 36.86 22.95Q38.39 23.81 39.65 26.06L39.65 26.06L56.84 54.86Q57.92 56.75 59.09 58.86Q60.26 60.98 61.34 63.09Q62.42 65.21 63.36 67.06Q64.31 68.90 64.94 70.16L64.94 70.16L65.30 70.07Q64.58 62.78 64.44 55.40Q64.31 48.02 64.31 41L64.31 41L64.31 22.82Q64.85 22.64 65.75 22.41Q66.65 22.19 67.73 22.19L67.73 22.19Q71.69 22.19 71.69 25.43L71.69 25.43L71.69 76.37Q70.88 77.09 69.62 77.50Q68.36 77.90 66.83 77.90L66.83 77.90Q64.67 77.90 63.14 77.05Q61.61 76.19 60.35 73.94L60.35 73.94L43.25 45.14Q42.17 43.34 40.95 41.18Q39.74 39.02 38.61 36.95Q37.49 34.88 36.55 32.99Q35.60 31.10 34.97 29.84L34.97 29.84L34.61 29.93Q35.06 34.25 35.33 39.79Q35.60 45.32 35.60 50.27L35.60 50.27L35.60 77.18Q35.15 77.36 34.20 77.58Q33.26 77.81 32.27 77.81Z%22 fill=%22%23fff%22></path></svg>" />
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <style>
+  body {
+      max-width: 60rem;
+  }
+  </style>
+</head>
+<body>
+<nav class="site-nav" style="font-weight:bold">
+<!-- before content -->
+</nav>
+<h1 id="more-books">More books</h1>
+<p>This list contains supplementary material to study. It contains more
+in-depth books on the same topics of the <a href="">first</a> one, as
+well as books on other topics that are not previously covered. The books
+are still divided by topic from phisics to finance.</p>
+<blockquote>
+<p>→  <a href="#mathematics"><code>Mathematics</code></a><br />
+→  <a href="#phisics"><code>Phisics</code></a><br />
+→  <a href="#computer-science"><code>Computer science</code></a><br />
+→  <a href="#engineering"><code>Engineering</code></a><br />
+→  <a href="#finance"><code>Finance</code></a><br />
+→  <a
+href="#corso-di-matematica-superiore"><code>Corso di matematica superiore</code></a><br />
+→  <a
+href="#the-art-of-computer-programming"><code>The art of computer programming</code></a><br />
+→  <a href="#fisica-teorica"><code>Fisica teorica</code></a><br />
+→  <a href="#minimo-teorico"><code>Minimo teorico</code></a><br />
+→  <a href="#umath"><code>UMath</code></a><br />
+→  <a href="#solutions-manual"><code>Solutions manual</code></a><br />
+→  <a href="#basic-mathematics"><code>Basic mathematics</code></a><br />
+→  <a href="#uncategorized"><code>Uncategorized</code></a></p>
+</blockquote>
+<h3 id="mathematics">Mathematics</h3>
+<ul>
+<li><code>[Cummings]</code> Proofs</li>
+<li><code>[Cummings]</code> Real analysis</li>
+<li><code>[Aigner]</code> Proofs from the book</li>
+<li><code>[Hardy]</code> A course of pure mathematics</li>
+<li><code>[Rudin]</code> Principles of mathematical analysis</li>
+<li><code>[De Marco]</code> Analisi uno</li>
+<li><code>[De Marco]</code> Analisi due</li>
+<li><code>[Salsa]</code> Equazioni a derivate parziali</li>
+<li><code>[Suli]</code> An introduction to numerical analysis</li>
+<li><code>[Scott]</code> Numerical analysis</li>
+<li><code>[Pascucci]</code> Teoria delle probabilità</li>
+<li><code>[Pascucci]</code> Calcolo stocastico per la finanza</li>
+<li><code>[Privault]</code> Understanding Markov chains</li>
+<li><code>[Sernesi]</code> Geometria 1</li>
+<li><code>[Sernesi]</code> Geometria 2</li>
+<li><code>[Dummit, Foote]</code> Abstract algebra</li>
+<li><code>[Artin]</code> Algebra</li>
+<li><code>[Serre]</code> A course in arithmetic</li>
+<li><code>[Hardy]</code> An introduction to the theory of numbers</li>
+<li><code>[Silverman, Tate]</code> Rational points on elliptic
+curves</li>
+<li><code>[Apostol]</code> Introduction to analytic number theory</li>
+<li><code>[Koblitz]</code> A course in number theory and
+cryptography</li>
+<li><code>[Hoffstein, Pipher, Silverman]</code> An introduction to
+mathematical cryptography</li>
+<li><code>[Joux]</code> Algorithmic cryptanalysis</li>
+<li><code>[Ling, Xing]</code> Coding theory</li>
+<li><code>[Aigner]</code> A course in enumeration</li>
+<li><code>[Stanley]</code> Algebraic combinatorics</li>
+<li><code>[Stoll]</code> Set theory and logic</li>
+</ul>
+<h3 id="phisics">Phisics</h3>
+<ul>
+<li><code>[Elsgolts]</code> Equazioni differenziali e calcolo delle
+variazioni</li>
+<li><code>[Fasano, Marmi]</code> Meccanica analitica</li>
+<li><code>[Forte, Rottoli]</code> Fisica quantistica</li>
+<li><code>[Patri, Testa]</code> Fondamenti di meccanica quantistica</li>
+<li><code>[Coecke, Kissinger]</code> Picturing quantum processes</li>
+</ul>
+<h3 id="computer-science">Computer science</h3>
+<ul>
+<li><code>[Arora, Barak]</code> Computational complexity</li>
+<li><code>[Cooper]</code> Computability theory</li>
+<li><code>[Awodey]</code> Category theory</li>
+<li><code>[Fong, Spivak]</code> An invitation to applied category
+theory</li>
+<li><code>[Spivak]</code> Category theory for the sciences</li>
+<li><code>[Hopcroft, Ullman]</code> Automi, linguaggi e
+calcolabilità</li>
+<li><code>[Aho, Sethi, Ullman]</code> Compilatori</li>
+<li><code>[Bertot, Casteran]</code> Interactive theorem proving and
+program development</li>
+<li><code>[Alcock]</code> Illustrating <em>FORTRAN</em></li>
+<li><code>[Raucci]</code> Il linguaggio <em>FORTRAN</em> 90/95</li>
+<li><code>[Brodie]</code> Starting <em>FORTH</em></li>
+<li><code>[Brodie]</code> Thinking <em>FORTH</em></li>
+<li><code>[Nemeth, Snyder, Hein, Whaley]</code> <em>UNIX</em> and
+<em>Linux</em> system administration handbook</li>
+<li><code>[Gamma, Helm, Johnson, Vlissides]</code> Design patterns</li>
+<li><code>[Miles, Hamilton]</code> Learning <em>UML 2.0</em></li>
+<li><code>[Hernandez]</code> Database design for mere mortals</li>
+</ul>
+<h3 id="engineering">Engineering</h3>
+<ul>
+<li><code>[De Magistris, Milano]</code> Circuiti</li>
+<li><code>[Scherz, Monk]</code> Practical electronics for inventors</li>
+<li><code>[Giua, Seatzu]</code> Analisi dei sistemi dinamici</li>
+<li><code>[Ferrarese, Raparelli]</code> Meccanica applicata</li>
+<li><code>[Guiggiani]</code> Generazione per inviluppo di ruote dentate
+ad evolvente</li>
+<li><code>[Capurso]</code> Lezioni di scienza delle costruzioni</li>
+<li><code>[Cacciatore]</code> Elementi di macchine</li>
+<li><code>[Della Volpe]</code> Macchine</li>
+<li><code>[Luise, Vitetta]</code> Teoria dei segnali</li>
+<li><code>[Silvestroni]</code> Fondamenti di chimica</li>
+<li><code>[Callister]</code> Materials science and engineering</li>
+</ul>
+<h3 id="finance">Finance</h3>
+<ul>
+<li><code>[Berheim, Whinston]</code> Microeconomia</li>
+<li><code>[Varian]</code> Intermediate microeconomics</li>
+<li><code>[Saltari, Di Pietro]</code> Introduzione all’economia
+finanziaria</li>
+<li><code>[Damodaran, Roggi]</code> Finanza aziendale</li>
+<li><code>[Stock, Watson]</code> Introduzione all’econometria</li>
+<li><code>[Woolridge]</code> Introductory econometrics</li>
+<li><code>[Mishkin, Eakins, Forestieri]</code> Istituzioni e mercati
+finanziari</li>
+<li><code>[Luenberger]</code> Finanza e investimenti</li>
+<li><code>[Elton, Gruber, Brown, Goetzmann]</code> Teorie di portafoglio
+e analisi degli investimenti</li>
+<li><code>[Hull]</code> Fondamenti dei mercati di futures e opzioni</li>
+<li><code>[Hull]</code> Opzioni, futures e altri derivati</li>
+<li><code>[Hull]</code> Risk management e istituzioni finanziarie</li>
+<li><code>[Wilmott]</code> Introduzione alla finanza quantitativa</li>
+<li><code>[Hubbert]</code> Essential mathematics for market risk
+management</li>
+<li><code>[Duffy]</code> Finite difference methods in financial
+engineering</li>
+</ul>
+<h3 id="corso-di-matematica-superiore">Corso di matematica
+superiore</h3>
+<ul>
+<li><code>[Smirnov]</code> Volume 1: Funzioni e teoria dei limiti …</li>
+<li><code>[Smirnov]</code> Volume 2: Equazioni differenziali ordinarie
+…</li>
+<li><code>[Smirnov]</code> Volume 3I: Determinanti e soluzione dei
+sistemi di equazioni …</li>
+<li><code>[Smirnov]</code> Volume 3II: Elementi della teoria delle
+funzioni di una variabile complessa …</li>
+<li><code>[Smirnov]</code> Volume 4I: Equazioni integrali …</li>
+<li><code>[Smirnov]</code> Volume 4II: Teoria generale delle equazioni
+alle derivate parziali …</li>
+</ul>
+<h3 id="the-art-of-computer-programming">The art of computer
+programming</h3>
+<ul>
+<li><code>[Knuth]</code> Volume 1: Fundamental algorithms</li>
+<li><code>[Knuth]</code> Volume 2: Seminumerical algorithms</li>
+<li><code>[Knuth]</code> Volume 3: Sorting and searching</li>
+<li><code>[Knuth]</code> Volume 4A: Combinatorial algorithms</li>
+</ul>
+<h3 id="fisica-teorica">Fisica teorica</h3>
+<ul>
+<li><code>[Landau, Lifshitz]</code> Volume 1: Meccanica</li>
+<li><code>[Landau, Lifshitz]</code> Volume 2: La teoria dei campi</li>
+<li><code>[Landau, Lifshitz]</code> Volume 3: Meccanica quantistica non
+relativistica</li>
+<li><code>[Landau, Lifshitz]</code> Volume 4: Teoria quantistica
+relativistica</li>
+</ul>
+<h3 id="minimo-teorico">Minimo teorico</h3>
+<ul>
+<li><code>[Susskind, Hrabovsky]</code> Volume 1: Il minimo teorico</li>
+<li><code>[Susskind, Hrabovsky]</code> Volume 2: Relatività ristrettà e
+teoria classica dei campi</li>
+<li><code>[Susskind, Hrabovsky]</code> Volume 3: Meccanica
+quantistica</li>
+</ul>
+<h3 id="umath">UMath</h3>
+<ul>
+<li><code>[Trombetta]</code> Volume 1: Calcolo combinatorio</li>
+<li><code>[Damantino]</code> Volume 3: Teoria dei numeri</li>
+<li><code>[Damantino, Campeotto]</code> Volume 7: Aritmetica
+modulare</li>
+<li><code>[Tao]</code> Volume 8: Risolvere problemi matematici</li>
+<li><code>[Bianchi]</code> Volume 9: Probabilità</li>
+<li><code>[Paolini]</code> Volume 10: La matematica delle olimpiadi</li>
+<li><code>[Bernardi]</code> Volume 11: Dialoghi sulla logica</li>
+<li><code>[Càssola]</code> Volume 14: Problem solving in geometria</li>
+<li><code>[Safaei, Suppa, Tupitti]</code> Volume 15: Problem solving in
+algebra e teoria dei numeri</li>
+<li><code>[Mazza, Veredice]</code> Volume 18: Matematica discreta</li>
+<li><code>[Damantino, Bordignon, Cagnetta, Pecile]</code> Volume 19:
+Algebra</li>
+</ul>
+<h3 id="solutions-manual">Solutions manual</h3>
+<ul>
+<li><code>[De Marco, Mariconda]</code> Esercizi di calcolo in una
+variabile</li>
+<li><code>[Wing Yu]</code> A complete solution guide to <em>Priciples of
+mathematical analysis</em></li>
+<li><code>[Acerbi, Modica, Spagnolo]</code> Problemi scelti di analisi
+matematica 1</li>
+<li><code>[Acerbi, Modica, Spagnolo]</code> Problemi scelti di analisi
+matematica 2</li>
+<li><code>[Salsa, Verzini]</code> Equazioni a derivate parziali</li>
+<li><code>[Broglia, Fortuna, Luminati]</code> Problemi risolti di
+algebra lineare</li>
+<li><code>[Chirivì, Del Corso, Dvornicich]</code> Esercizi scelti di
+algebra (volume 1)</li>
+<li><code>[Chirivì, Del Corso, Dvornicich]</code> Esercizi scelti di
+algebra (volume 2)</li>
+<li><code>[Stefanica, Radoicic, Wang]</code> 150 most frequently asked
+questions on quant interviews</li>
+<li><code>[Stefanica, Radoicic, Matic]</code> Probability and stochastic
+calculus quant interview questions</li>
+<li><code>[Stefanica, Radoicic, Matic]</code> Challenging brainteasers
+for interviews</li>
+<li><code>[Della Volpe]</code> Esercizi di macchine</li>
+</ul>
+<h3 id="basic-mathematics">Basic mathematics</h3>
+<ul>
+<li><code>[Courant, Robbins]</code> Che cos’è la matematica?</li>
+<li><code>[Sprugnoli]</code> Introduzione alla matematica</li>
+<li><code>[Buttazzo]</code> Matematica preuniversitaria di base</li>
+<li><code>[Tommei]</code> Matematica di base</li>
+<li><code>[Kac, Ulam]</code> Mathematics and logic</li>
+<li><code>[Giuliano]</code> Argomaenti di probabilità e statistica</li>
+<li><code>[Mola]</code> Formulario di matematica</li>
+<li><code>[Lipovaca]</code> Learn you a <em>Haskell</em> for great
+good!</li>
+<li><code>[Haverbeke]</code> Eloquent <em>JavaScript</em></li>
+</ul>
+<h3 id="uncategorized">Uncategorized</h3>
+<ul>
+<li><code>[Knuth]</code> The art of computer programming:
+<em>MMIX</em></li>
+<li><code>[Ruckert]</code> The <em>MMIX</em> supplement</li>
+<li><code>[Gilardi]</code> Il <em>TeX</em></li>
+<li><code>[Van Dongen]</code> <em>LaTeX</em> and friends</li>
+<li><code>[Goossens, Mittelbach, Samarin]</code> The <em>LaTeX</em>
+companion</li>
+<li><code>[Goossens, Mittelbach, Samarin]</code> The <em>LaTeX</em>
+graphics companion</li>
+<li><code>[Neil]</code> Practical <em>Vim</em></li>
+<li><code>[Klein]</code> The <em>VimL</em> primer</li>
+<li><code>[Hogan]</code> <em>TMUX</em></li>
+<li><code>[Baldassini]</code> Vademecum per disegnatori e tecnici</li>
+</ul>
+<nav class="site-nav" style="font-size:70%">
+<!-- footer content -->
+</nav>
+</body>
+</html>
