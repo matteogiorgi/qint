@@ -10,7 +10,7 @@ This list contains additional resources for in-depth study. The books cover more
 > → &nbsp;[`Corso di matematica superiore`](#corso-di-matematica-superiore)\
 > → &nbsp;[`The art of computer programming`](#the-art-of-computer-programming)\
 > → &nbsp;[`Fisica teorica`](#fisica-teorica)\
-> → &nbsp;[`Minimo teorico`](#minimo-teorico)\
+> → &nbsp;[`Il minimo teorico`](#il-minimo-teorico)\
 > → &nbsp;[`UMath`](#umath)\
 > → &nbsp;[`Solutions manual`](#solutions-manual)\
 > → &nbsp;[`Basic mathematics`](#basic-mathematics)\
@@ -27,6 +27,7 @@ This list contains additional resources for in-depth study. The books cover more
 - `[Rudin]` Principles of mathematical analysis
 - `[De Marco]` Analisi uno
 - `[De Marco]` Analisi due
+- `[Elsgolts]` Equazioni differenziali e calcolo delle variazioni
 - `[Salsa]` Equazioni a derivate parziali
 - `[Suli]` An introduction to numerical analysis
 - `[Scott]` Numerical analysis
@@ -52,16 +53,6 @@ This list contains additional resources for in-depth study. The books cover more
 
 
 
-### Physics
-- `[Elsgolts]` Equazioni differenziali e calcolo delle variazioni
-- `[Fasano, Marmi]` Meccanica analitica
-- `[Forte, Rottoli]` Fisica quantistica
-- `[Patri, Testa]` Fondamenti di meccanica quantistica
-- `[Coecke, Kissinger]` Picturing quantum processes
-
-
-
-
 ### Computer science
 - `[Arora, Barak]` Computational complexity
 - `[Cooper]` Computability theory
@@ -79,6 +70,15 @@ This list contains additional resources for in-depth study. The books cover more
 - `[Gamma, Helm, Johnson, Vlissides]` Design patterns
 - `[Miles, Hamilton]` Learning *UML 2.0*
 - `[Hernandez]` Database design for mere mortals
+
+
+
+
+### Physics
+- `[Fasano, Marmi]` Meccanica analitica
+- `[Forte, Rottoli]` Fisica quantistica
+- `[Patri, Testa]` Fondamenti di meccanica quantistica
+- `[Coecke, Kissinger]` Picturing quantum processes
 
 
 
@@ -120,59 +120,60 @@ This list contains additional resources for in-depth study. The books cover more
 
 
 ### Corso di matematica superiore
-- `[Smirnov]` Volume 1: Funzioni e teoria dei limiti ...
-- `[Smirnov]` Volume 2: Equazioni differenziali ordinarie ...
-- `[Smirnov]` Volume 3I: Determinanti e soluzione dei sistemi di equazioni ...
-- `[Smirnov]` Volume 3II: Elementi della teoria delle funzioni di una variabile complessa ...
-- `[Smirnov]` Volume 4I: Equazioni integrali ...
-- `[Smirnov]` Volume 4II: Teoria generale delle equazioni alle derivate parziali ...
+- `[Smirnov]` Volume 1: calcolo elementare
+- `[Smirnov]` Volume 2: calcolo avanzato
+- `[Smirnov]` Volume 3I: algebra lineare
+- `[Smirnov]` Volume 3II: variabili complesse - funzioni speciali
+- `[Smirnov]` Volume 4I: equazioni integrali e differenziali alle derivate parziali
+- `[Smirnov]` Volume 4II: integrazione e analisi funzionale
 
 
 
 
 ### The art of computer programming
-- `[Knuth]` Volume 1: Fundamental algorithms
-- `[Knuth]` Volume 2: Seminumerical algorithms
-- `[Knuth]` Volume 3: Sorting and searching
-- `[Knuth]` Volume 4A: Combinatorial algorithms
+- `[Knuth]` Volume 1: fundamental algorithms
+- `[Knuth]` Volume 2: seminumerical algorithms
+- `[Knuth]` Volume 3: sorting and searching
+- `[Knuth]` Volume 4A: combinatorial algorithms
 
 
 
 
 ### Fisica teorica
-- `[Landau, Lifshitz]` Volume 1: Meccanica
-- `[Landau, Lifshitz]` Volume 2: La teoria dei campi
-- `[Landau, Lifshitz]` Volume 3: Meccanica quantistica non relativistica
-- `[Landau, Lifshitz]` Volume 4: Teoria quantistica relativistica
+- `[Landau, Lifshitz]` Volume 1: meccanica
+- `[Landau, Lifshitz]` Volume 2: la teoria dei campi
+- `[Landau, Lifshitz]` Volume 3: meccanica quantistica non relativistica
+- `[Landau, Lifshitz]` Volume 4: teoria quantistica relativistica
 
 
 
 
-### Minimo teorico
-- `[Susskind, Hrabovsky]` Volume 1: Il minimo teorico
-- `[Susskind, Hrabovsky]` Volume 2: Relatività ristrettà e teoria classica dei campi
-- `[Susskind, Hrabovsky]` Volume 3: Meccanica quantistica
+### Il minimo teorico
+- `[Susskind, Hrabovsky]` Volume 1: il minimo teorico
+- `[Susskind, Hrabovsky]` Volume 2: relatività ristrettà e teoria classica dei campi
+- `[Susskind, Hrabovsky]` Volume 3: meccanica quantistica
 
 
 
 
 ### UMath
-- `[Trombetta]` Volume 1: Calcolo combinatorio
-- `[Damantino]` Volume 3: Teoria dei numeri
-- `[Damantino, Campeotto]` Volume 7: Aritmetica modulare
-- `[Tao]` Volume 8: Risolvere problemi matematici
-- `[Bianchi]` Volume 9: Probabilità
-- `[Paolini]` Volume 10: La matematica delle olimpiadi
-- `[Bernardi]` Volume 11: Dialoghi sulla logica
-- `[Càssola]` Volume 14: Problem solving in geometria
-- `[Safaei, Suppa, Tupitti]` Volume 15: Problem solving in algebra e teoria dei numeri
-- `[Mazza, Veredice]` Volume 18: Matematica discreta
-- `[Damantino, Bordignon, Cagnetta, Pecile]` Volume 19: Algebra
+- `[Trombetta]` Volume 1: calcolo combinatorio
+- `[Damantino]` Volume 3: teoria dei numeri
+- `[Damantino, Campeotto]` Volume 7: aritmetica modulare
+- `[Tao]` Volume 8: risolvere problemi matematici
+- `[Bianchi]` Volume 9: probabilità
+- `[Paolini]` Volume 10: la matematica delle olimpiadi
+- `[Bernardi]` Volume 11: dialoghi sulla logica
+- `[Càssola]` Volume 14: problem solving in geometria
+- `[Safaei, Suppa, Tupitti]` Volume 15: problem solving in algebra e teoria dei numeri
+- `[Mazza, Veredice]` Volume 18: matematica discreta
+- `[Damantino, Bordignon, Cagnetta, Pecile]` Volume 19: algebra
 
 
 
 
 ### Solutions manual
+- `[Della Volpe]` Esercizi di macchine
 - `[De Marco, Mariconda]` Esercizi di calcolo in una variabile
 - `[Wing Yu]` A complete solution guide to *Priciples of mathematical analysis*
 - `[Acerbi, Modica, Spagnolo]` Problemi scelti di analisi matematica 1
@@ -184,7 +185,6 @@ This list contains additional resources for in-depth study. The books cover more
 - `[Stefanica, Radoicic, Wang]` 150 most frequently asked questions on quant interviews
 - `[Stefanica, Radoicic, Matic]` Probability and stochastic calculus quant interview questions
 - `[Stefanica, Radoicic, Matic]` Challenging brainteasers for interviews
-- `[Della Volpe]` Esercizi di macchine
 
 
 
@@ -204,6 +204,7 @@ This list contains additional resources for in-depth study. The books cover more
 
 
 ### Uncategorized
+- `[Baldassini]` Vademecum per disegnatori e tecnici
 - `[Knuth]` The art of computer programming: *MMIX*
 - `[Ruckert]` The *MMIX* supplement
 - `[Gilardi]` Il *TeX*
@@ -213,4 +214,3 @@ This list contains additional resources for in-depth study. The books cover more
 - `[Neil]` Practical *Vim*
 - `[Klein]` The *VimL* primer
 - `[Hogan]` *TMUX*
-- `[Baldassini]` Vademecum per disegnatori e tecnici
