@@ -1,9 +1,9 @@
 # More books
 
-This list contains supplementary material to study. It contains more in-depth books on the same topics of the [first]() one, as well as books on other topics that are not previously covered. The books are still divided by topic from phisics to finance.
+This list contains additional resources for in-depth study. The books cover more advanced topics related to those discussed in the [first](https://www.geoteo.net/qmath/books) list as well as entirely new subjects not previously addressed. The books are categorized by topic.
 
 > → &nbsp;[`Mathematics`](#mathematics)\
-> → &nbsp;[`Phisics`](#phisics)\
+> → &nbsp;[`Physics`](#physics)\
 > → &nbsp;[`Computer science`](#computer-science)\
 > → &nbsp;[`Engineering`](#engineering)\
 > → &nbsp;[`Finance`](#finance)\
@@ -52,7 +52,7 @@ This list contains supplementary material to study. It contains more in-depth bo
 
 
 
-### Phisics
+### Physics
 - `[Elsgolts]` Equazioni differenziali e calcolo delle variazioni
 - `[Fasano, Marmi]` Meccanica analitica
 - `[Forte, Rottoli]` Fisica quantistica
@@ -195,7 +195,7 @@ This list contains supplementary material to study. It contains more in-depth bo
 - `[Buttazzo]` Matematica preuniversitaria di base
 - `[Tommei]` Matematica di base
 - `[Kac, Ulam]` Mathematics and logic
-- `[Giuliano]` Argomaenti di probabilità e statistica
+- `[Giuliano]` Argomenti di probabilità e statistica
 - `[Mola]` Formulario di matematica
 - `[Lipovaca]` Learn you a *Haskell* for great good!
 - `[Haverbeke]` Eloquent *JavaScript*
