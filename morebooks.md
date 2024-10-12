@@ -149,9 +149,9 @@ This list contains additional resources for in-depth study. The books cover more
 
 
 ### Il minimo teorico
-- `[Susskind, Hrabovsky]` Volume 1: il minimo teorico
-- `[Susskind, Hrabovsky]` Volume 2: relatività ristrettà e teoria classica dei campi
-- `[Susskind, Hrabovsky]` Volume 3: meccanica quantistica
+- `[Susskind, Hrabovsky]` Volume 1: meccanica classica
+- `[Susskind, Friedman]` Volume 2: meccanica quantistica
+- `[Susskind, Friedman]` Volume 3: relatività ristrettà e teoria classica dei campi
 
 
 
