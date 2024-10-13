@@ -149,15 +149,18 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 
 ### Finanza & Econometria
 
-- `[Palestini]` [Dispense di matematica finanziaria](https://mega.nz/file/81RTlYLY#AIrd7gomGuiNc387zYTfuFz8CpJq7wXON4zb3Vh6or8)
 - `[Magi]` [Appunti di economia finanziaria](https://mega.nz/file/Y9hhgQZb#QA-FC3t2thwiyYPYI7PRS3Zc0V7NUSy0PC22CmZvsX0)
+- `[Palestini]` [Dispense di matematica finanziaria](https://mega.nz/file/81RTlYLY#AIrd7gomGuiNc387zYTfuFz8CpJq7wXON4zb3Vh6or8)
+- `[Palestini]` [Modelli matematici per le scelte di portafoglio](https://mega.nz/file/08IzAB5C#NBlf5ouYC5r9wtubTeRKzDqrP9PEeBsXNuzyMGyl1vY)
+- `[Palestini]` [Laboratorio di economia e finanza delle imprese di assicurazioni](https://mega.nz/file/hwZEUAQb#wU4oKHSkGiqvCl2dYxQj6E_W5XvVo5B44LeUc_Bn6HI)
 - `[Airoldi]` [Elementi di finanza, metodi numerici e loro implementazione](https://mega.nz/file/99AjwZrI#-E5EMVvUULVAvojGTmKJwOzf_6UqsJv3w76YlroV_as)
 - `[Borrelli]` [Calcolo stocastico e mercati finanziari](https://mega.nz/file/RxYFESAS#vSoQJlGM503hlS711AEdom0dI6j1fTVa8Ezerggu2mQ)
 - `[Forsyth]` [An introduction to computational finance without agonizing pain](https://mega.nz/file/k4p2yL6L#iyMcH4MPmQ6kddqsb3XhemHsVErmsSzlyZrReEYObQg)
+- `[Palestini]` [Lecture notes in introductory econometrics](https://mega.nz/file/doAVELJZ#xpuMKAdBD0oGTGVwHAoXbKEvss0Q9Qb06tKihq1D450)
 - `[Amisano]` [Lezioni di econometria](https://mega.nz/file/AloiDQha#rGvxtiA3KVFJxiDGtpGTqP34o0BTUT_3PfHAno3RwSU)
+- `[Polini]` [Econometria for dummies](https://mega.nz/file/lgIH1ToR#49aO9Ln3DX750hq0faupJ-aa1Ndmz141Mx2nPhT51w0)
 - `[Lucchetti]` [Basic econometrics](https://mega.nz/file/xh5mgLqT#Ilvb4YBO1R1dJr6RagIYqBacAtHPXCM6eNVTcZrbi-s)
 - `[Lucchetti]` [Appunti di analisi delle serie storiche](https://mega.nz/file/Up5CyLSI#eQ9KUrFK75NgkjVFkQvHo5xCmFtVlGoWL8GjoMWGNXw)
-- `[Polini]` [Econometria for dummies](https://mega.nz/file/lgIH1ToR#49aO9Ln3DX750hq0faupJ-aa1Ndmz141Mx2nPhT51w0)
 
 
 
