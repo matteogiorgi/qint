@@ -104,8 +104,8 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 ### Probabilità & Statistica
 
 - `[Caravenna, Dai Prà]` [Introduzione alla probabilità](https://mega.nz/file/J0pkVRYQ#NcG-pWdvjuqqoyIVLe0NJpydkKU1JOI2LOcH-6v5xiM)
-- `[Vargiolu, Dai Pra]` [Appunti di probabilità e statistica: note del corso](https://mega.nz/file/10oCRS4J#4p9k1WXCQynhVhm7tnMCIQMtW2Ne5Xm6YV3eo2Avzlo)
-- `[Vargiolu, Dai Pra]` [Appunti di probabilità e statistica: esercizi risolti](https://mega.nz/file/FkZHXDpD#miZEvo7BN4ZJH6HsSh1hhLUu1c3uPNhF1eQZNaSIdac)
+- `[Vargiolu, Dai Prà]` [Appunti di probabilità e statistica: note del corso](https://mega.nz/file/10oCRS4J#4p9k1WXCQynhVhm7tnMCIQMtW2Ne5Xm6YV3eo2Avzlo)
+- `[Vargiolu, Dai Prà]` [Appunti di probabilità e statistica: esercizi risolti](https://mega.nz/file/FkZHXDpD#miZEvo7BN4ZJH6HsSh1hhLUu1c3uPNhF1eQZNaSIdac)
 - `[Trevisan]` [Calcolo delle probabilità e statistica: probabilità discreta](https://mega.nz/file/UgJ2QYab#Axq65ot4jeHEZRXy_wjv1vPuhT6WABRl_45qV1q_vlk)
 - `[Trevisan]` [Calcolo delle probabilità e statistica: probabilità continua](https://mega.nz/file/VgwilLSa#K1IUsvPDeXYbuR-jttL360M32J0RPr1GCOX9b9xDSs0)
 - `[Trevisan]` [Calcolo delle probabilità e statistica: catene di Markov](https://mega.nz/file/B0QlkZKK#pVYV7ra69LhuxwhaOlBP9CazX_QDih819Ze_dLlKQyo)
@@ -114,8 +114,10 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 - `[Carpignani]` [Elementi di probabilità e statistica](https://mega.nz/file/Ix5FDYwC#NDnbambPwfqgW-nt8GsxRLzvOpL32d8z4PzBF_TrXWY)
 - `[Trevisan]` [Probabilità e processi stocastici: note del corso](https://mega.nz/file/50oFmADI#ylNOsuU4ReE7loOKmgshSc9HcjxxKUeENygW6kMG1Kg)
 - `[Trevisan]` [Probabilità e processi stocastici: esercizi risolti](https://mega.nz/file/hpol2bCD#4p2JQ0hKLu8ViN87zlwJv3g1t8CZEOGwGWdIebebsuo)
-- `[Dai Pra]` [Stochastic methods](https://mega.nz/file/slgwSIIA#LwYKPbABgK0YWKKsspoF767OHm3PDPsXB89aAMf3fkc)
+- `[Dai Prà]` [Stochastic methods](https://mega.nz/file/slgwSIIA#LwYKPbABgK0YWKKsspoF767OHm3PDPsXB89aAMf3fkc)
 - `[Pavon]` [Lectures on discrete probabilistic methods](https://mega.nz/file/8whizIpY#dUqoY4s6f2stUHlEfvh6y55TL3RKpdqzdWU2frVIkPc)
+- `[Vargiolu]` [Calcolo delle probabilità](https://mega.nz/file/AsIx2QQL#UBgX6WAVt6sEvN-Un9mhQf7McHmonpoE3oEW_gqOGCQ)
+- `[Vargiolu]` [Teoria della misura](https://mega.nz/file/8sgyDBxB#zIcmP9Vfs74QSODN2pYw61r7GiMVEZCtw44jMtiZL08)
 - `[Grotto, Maurelli, Pratelli]` [Introduzione alla statistica matematica](https://mega.nz/file/F1JH1IyI#TRjGJCjrmJPcJO202duxkM85-rfdsVhv-dtn_oB5yNM)
 - `[Frederic]` [Appunti di statistica](https://mega.nz/file/wlAR2ADY#edFkAsaer5QC4ilIpok5_v1xYd1-4TzaoccRZujHEQc)
 - `[Marchetti]` [Introduzione ai modelli statistici](https://mega.nz/file/M1AznYKa#6GJgZZKexS3HnzoHqybsrDI9L3JLRnowfkAdeylBhaQ)
