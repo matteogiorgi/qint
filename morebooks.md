@@ -199,6 +199,7 @@ This list contains additional resources for in-depth study. The books cover more
 - `[Mola]` Formulario di matematica
 - `[Lipovaca]` Learn you a *Haskell* for great good!
 - `[Haverbeke]` Eloquent *JavaScript*
+- `[Starmer]` The statquest illustrated guide to machine learning
 
 
 
