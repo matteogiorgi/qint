@@ -96,6 +96,7 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 - `[Campiti]` [Metodi matematici per l'ingegneria](https://mega.nz/file/d1JQiZrQ#VciI2gvGfcp072BySk1b7zTpqJWBLT5XlXJ0zxv2fB0)
 - `[Ritelli, Spaletta]` [Introductory mathematical analysis for quantitative finance](https://mega.nz/file/RsozgYLQ#Ckv-yFsMak2pmGQf6vRJAmlNKZjKkb8Baw_CTej__A4)
 - `[Vargiolu]` [Teoria della misura](https://mega.nz/file/8sgyDBxB#zIcmP9Vfs74QSODN2pYw61r7GiMVEZCtw44jMtiZL08)
+- `[Miranda]` [Teoria della misura e integrazione](https://mega.nz/file/k0IX1KoJ#9P-yPotOR-Tmw_V34oLbYFqxdVx6uR7OMkdTdQNsgtA)
 - `[Zanghì]` [Appunti di metodi matematici della fisica](https://mega.nz/file/o0QClKQC#TSYTL01Os7ZuB8n7u9zJ9D44yckdFmLfwuTqHTM6VaM)
 - `[Zanghì]` [Lezioni di fisica teorica](https://mega.nz/file/N8BVhaZI#pnmBoXgm_pCZyN4mbS66w4aTmlI2QHTXUnvnSFWTrpU)
 
