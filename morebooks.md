@@ -84,15 +84,15 @@ This list contains additional resources for in-depth study. The books cover more
 
 
 ### Engineering
+- `[Luise, Vitetta]` Teoria dei segnali
 - `[De Magistris, Milano]` Circuiti
 - `[Scherz, Monk]` Practical electronics for inventors
+- `[Capurso]` Lezioni di scienza delle costruzioni
 - `[Giua, Seatzu]` Analisi dei sistemi dinamici
 - `[Ferrarese, Raparelli]` Meccanica applicata
 - `[Guiggiani]` Generazione per inviluppo di ruote dentate ad evolvente
-- `[Capurso]` Lezioni di scienza delle costruzioni
 - `[Cacciatore]` Elementi di macchine
 - `[Della Volpe]` Macchine
-- `[Luise, Vitetta]` Teoria dei segnali
 - `[Silvestroni]` Fondamenti di chimica
 - `[Callister]` Materials science and engineering
 
@@ -100,15 +100,14 @@ This list contains additional resources for in-depth study. The books cover more
 
 
 ### Finance
-- `[Berheim, Whinston]` Microeconomia
 - `[Varian]` Intermediate microeconomics
 - `[Saltari, Di Pietro]` Introduzione all'economia finanziaria
-- `[Damodaran, Roggi]` Finanza aziendale
+- `[Mishkin, Eakins]` Istituzioni e mercati finanziari
 - `[Stock, Watson]` Introduzione all'econometria
 - `[Woolridge]` Introductory econometrics
-- `[Mishkin, Eakins, Forestieri]` Istituzioni e mercati finanziari
 - `[Luenberger]` Finanza e investimenti
 - `[Elton, Gruber, Brown, Goetzmann]` Teorie di portafoglio e analisi degli investimenti
+- `[Damodaran, Roggi]` Finanza aziendale
 - `[Hull]` Fondamenti dei mercati di futures e opzioni
 - `[Hull]` Opzioni, futures e altri derivati
 - `[Hull]` Risk management e istituzioni finanziarie
