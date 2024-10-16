@@ -140,7 +140,7 @@ This list contains additional resources for in-depth study. The books cover more
 
 ### Fisica teorica
 - `[Landau, Lifshitz]` Volume 1: meccanica
-- `[Landau, Lifshitz]` Volume 2: la teoria dei campi
+- `[Landau, Lifshitz]` Volume 2: teoria dei campi
 - `[Landau, Lifshitz]` Volume 3: meccanica quantistica non relativistica
 - `[Landau, Lifshitz]` Volume 4: teoria quantistica relativistica
 
