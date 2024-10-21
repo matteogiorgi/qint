@@ -93,8 +93,6 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 - `[Acquistapace]` [Introduzione alla teoria delle equazioni alle derivate parziali](https://mega.nz/file/kkBnTajB#tWdq9mHGKnKF3IPBe2e4ZdMOz4mAigmTEgvg7AKWJEU)
 - `[Vitali]` [Lezioni introduttive sulle equazioni differenziali ordinarie](https://mega.nz/file/ApJBRB5Z#-ZEDXhOpE-5tlgI78h4nfEewb0-ySZ9qzEH-k7GP91Q)
 - `[Baiti]` [Dispensa sulle equazioni differenziali](https://mega.nz/file/89om0YpI#JR78Op87Mx1rbCo4bgXX0FFhCVGPztmJ6IvUtDeO-Us)
-- `[Caliari]` [Dispense di metodi numerici per equazioni differenziali](https://mega.nz/file/EhJGQYgC#4eeweryCQvZpdDpL9yykpB2tzRsc24kWW7pmXHjaEdk)
-- `[Gori]` [Soluzione numerica di problemi alle derivate parziali](https://mega.nz/file/54wjCS6A#V9z9fNTY3sEVTeZp9sZClEygUdyi0tf8dPlRfZcT79o)
 - `[Mugelli]` [Metodi matematici per l'ingegneria dell'informazione](https://mega.nz/file/JlwElCjK#L4o3oSvwWhPNOrY_JB3BNurHH8IFHW2KUtOUqeQN1S0)
 - `[Campiti]` [Metodi matematici per l'ingegneria](https://mega.nz/file/d1JQiZrQ#VciI2gvGfcp072BySk1b7zTpqJWBLT5XlXJ0zxv2fB0)
 - `[Ritelli, Spaletta]` [Introductory mathematical analysis for quantitative finance](https://mega.nz/file/RsozgYLQ#Ckv-yFsMak2pmGQf6vRJAmlNKZjKkb8Baw_CTej__A4)
@@ -139,6 +137,8 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 - `[Gelardoni, Gheri, Marzulli]` [Elementi di calcolo numerico](https://mega.nz/file/E15lDAaJ#AlSMtPTuDd9NNRdhsk3Ia-GIotqurmChXuMH0BWexCA)
 - `[De Marchi]` [Soluzione numerica di equazioni differenziali](https://mega.nz/file/wwBhWShB#4vMjSoLw6MtRsZToymtQrkJl1Na2RgyV51hUamF5YXs)
 - `[De Cecco, Vitolo]` [Note di calcolo matriciale](https://mega.nz/file/AoQACQDI#zBjejZOVfXCNa8Z8nTCrabnlkq7uCwy7oasHA_XAQLI)
+- `[Caliari]` [Dispense di metodi numerici per equazioni differenziali](https://mega.nz/file/EhJGQYgC#4eeweryCQvZpdDpL9yykpB2tzRsc24kWW7pmXHjaEdk)
+- `[Gori]` [Soluzione numerica di problemi alle derivate parziali](https://mega.nz/file/54wjCS6A#V9z9fNTY3sEVTeZp9sZClEygUdyi0tf8dPlRfZcT79o)
 
 
 
