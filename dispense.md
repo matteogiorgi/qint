@@ -91,6 +91,7 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 - `[Acquistapace]` [Appunti di analisi matematica: parte prima](https://mega.nz/file/YswTXQwR#71xO_iaQH44jLts4pp6psh15pUKZoYiqWJ1ieT9qIFI)
 - `[Acquistapace]` [Appunti di analisi matematica: parte seconda](https://mega.nz/file/0sYThR6A#bs5R18OyyAf8sMNzNHNYNnlFKtmUedmqC9awYgL0wYQ)
 - `[Acquistapace]` [Introduzione alla teoria delle equazioni alle derivate parziali](https://mega.nz/file/kkBnTajB#tWdq9mHGKnKF3IPBe2e4ZdMOz4mAigmTEgvg7AKWJEU)
+- `[Corli]` [Equazioni differenziali ordinarie](https://mega.nz/file/1wZWwDgT#9ctIB4lKjVfxIPQrB0P0-im5uQwkDUqKqNxxSsKtk3s)
 - `[Vitali]` [Lezioni introduttive sulle equazioni differenziali ordinarie](https://mega.nz/file/ApJBRB5Z#-ZEDXhOpE-5tlgI78h4nfEewb0-ySZ9qzEH-k7GP91Q)
 - `[Baiti]` [Dispensa sulle equazioni differenziali](https://mega.nz/file/89om0YpI#JR78Op87Mx1rbCo4bgXX0FFhCVGPztmJ6IvUtDeO-Us)
 - `[Mugelli]` [Metodi matematici per l'ingegneria dell'informazione](https://mega.nz/file/JlwElCjK#L4o3oSvwWhPNOrY_JB3BNurHH8IFHW2KUtOUqeQN1S0)
