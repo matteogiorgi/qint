@@ -404,12 +404,12 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 - `[Picasso]` Esercizi di fisica generale 1
 - `[Picasso]` Esercizi di fisica generale 2
 - `[D'Emilio, Picasso]` Problemi di meccanica quantistica
-- `[Buttazzo, Gambini, Santi]` Esercizi di analisi matematica 1
-- `[Mancino, Caprili]` Esercizi e complementi di analisi matematica 2
 - `[Giusti]` Esercizi e complementi di analisi matematica 1
 - `[Giusti]` Esercizi e complementi di analisi matematica 2
 - `[Buttazzo, Colla]` Temi d'esame di analisi matematica 1
 - `[Buttazzo, Colla]` Temi d'esame di analisi matematica 2
+- `[De Marco, Mariconda]` Esercizi di calcolo in una variabile
+- `[Mancino, Caprili]` Esercizi e complementi di analisi matematica 2
 - `[Campanella]` Appunti di algebra, duecento esercizi svolti
 - `[Abate, De Fabritiis]` Esercizi di geometria
 - `[Parigi, Palestini]` Manuale di geometria, esercizi d'esame svolti
@@ -425,7 +425,6 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 - `[Rosazza Ganin, Sgarra]` Esercizi di finanza matematica
 - `[Gelfand, Glagoleva, Shnol]` Functions and graphs
 - `[Gelfand, Gerver, Kirillov, Konstantinov, Rushnirenko]` Sequences, combinations, limits
-- `[Demidovich]` Esercizi e problemi di analisi matematica
 
 
 

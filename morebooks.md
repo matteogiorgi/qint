@@ -173,10 +173,11 @@ This list contains additional resources for in-depth study. The books cover more
 
 ### Solutions manual
 - `[Della Volpe]` Esercizi di macchine
-- `[De Marco, Mariconda]` Esercizi di calcolo in una variabile
+- `[Demidovich]` Esercizi e problemi di analisi matematica
 - `[Wing Yu]` A complete solution guide to *Priciples of mathematical analysis*
 - `[Acerbi, Modica, Spagnolo]` Problemi scelti di analisi matematica 1
 - `[Acerbi, Modica, Spagnolo]` Problemi scelti di analisi matematica 2
+- `[Buttazzo, Gambini, Santi]` Esercizi di analisi matematica 1
 - `[Salsa, Verzini]` Equazioni a derivate parziali
 - `[Broglia, Fortuna, Luminati]` Problemi risolti di algebra lineare
 - `[Chirivì, Del Corso, Dvornicich]` Esercizi scelti di algebra (volume 1)

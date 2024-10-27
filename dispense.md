@@ -43,6 +43,7 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 - `[Downey]` [Pensare in *Python*](https://mega.nz/file/c8oFTTTA#pJYO2aXIFoJMck705o2UyQGk36knZs8Bo3RMo7Bl9aI)
 - `[De Marchi]` [Matlab, un ambiente per il calcolo scientifico](https://mega.nz/file/sxAihJBL#dq3R0_L1NhnzUEesMZmtR6q9G6c1Qshzc8ssdq0JJ34)
 - `[Milewski]` [Category theory for programmers](https://mega.nz/file/c0wEFTIR#V1TXA5SWG_tJ6XH4kcmTtCVtyC1QxBZhcGQDTKok7Pg)
+- `[Fokkinga]` [A gentle introduction to category theory](https://mega.nz/file/s0ZgXR4a#0xKKoV-pCUc3bvtU2dNrkqP6t8HAwIk78uZF6i223uk)
 - `[Mauny]` [Functional programming using *Caml Light*](https://mega.nz/file/I44jGajC#EQmxpWWFRPszp076gGSup3ML4fl1k54A0-vhJRnOWnk)
 - `[Leroy, Remy]` [*UNIX* system programming in *OCaml*](https://mega.nz/file/V5hD0Cba#jjwItIUKfoKrO_aHN0SWTbSVDeZaEvh_sE581ZdMHLk)
 
