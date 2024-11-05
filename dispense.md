@@ -28,6 +28,7 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 - `[Sheehy]` [A first course on data structures](https://mega.nz/file/cpB0SaiJ#2fCtplLNndEg22v2yPteZByI4qB8G0PIbP4xVwua9gE)
 - `[Goldwurm]` [Catene di Markov e applicazioni algoritmiche](https://mega.nz/file/Y9ggSRzJ#9mKA1k5IBfjMfsJjVop0N1oVSN1EwiRuw4xaVr9OvJ0)
 - `[Laaksonen]` [Competitive programmer's handbook](https://mega.nz/file/FlBVxTBa#1_3tayyZDEpj-MsX78DlQzs6jhGpZbLPG0tbCf4s13Y)
+- `[Bester]` [An interview primer for quantitative finance](https://mega.nz/file/8towSaJa#oUvMBM4WAie2Ri-F3zKiOc6W-sTChFTWNqTeu-cGBlQ)
 - `[Chen Cai]` [*LeetCode* book](https://mega.nz/file/N8I2HKzA#ksmiyMC9iw6vM8OLM_Ilki_Bt6SBWk3cjOgV80zaaHM)
 
 
