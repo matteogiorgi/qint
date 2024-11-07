@@ -126,7 +126,7 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 - `[Vargiolu]` [Calcolo delle probabilità](https://mega.nz/file/AsIx2QQL#UBgX6WAVt6sEvN-Un9mhQf7McHmonpoE3oEW_gqOGCQ)
 - `[Dai Prà]` [Stochastic methods](https://mega.nz/file/slgwSIIA#LwYKPbABgK0YWKKsspoF767OHm3PDPsXB89aAMf3fkc)
 - `[Pavon]` [Lectures on discrete probabilistic methods](https://mega.nz/file/8whizIpY#dUqoY4s6f2stUHlEfvh6y55TL3RKpdqzdWU2frVIkPc)
-- `[Pivato]` [Analysis, neasure and probability](https://mega.nz/file/YwQkVL5R#u5dM4Sk7S1neICCHeEMQq3S3Wh8MYmwQpCQaw4hH6SI)
+- `[Pivato]` [Analysis, measure and probability](https://mega.nz/file/YwQkVL5R#u5dM4Sk7S1neICCHeEMQq3S3Wh8MYmwQpCQaw4hH6SI)
 - `[Caravenna]` [Analisi stocastica](https://mega.nz/file/s5gEGZoL#7vWPsSfcHpm-PPFzW0bfj8GkkPFFO7mO73VFXZRPuIs)
 - `[Grotto, Maurelli, Pratelli]` [Introduzione alla statistica matematica](https://mega.nz/file/F1JH1IyI#TRjGJCjrmJPcJO202duxkM85-rfdsVhv-dtn_oB5yNM)
 - `[Frederic]` [Appunti di statistica](https://mega.nz/file/wlAR2ADY#edFkAsaer5QC4ilIpok5_v1xYd1-4TzaoccRZujHEQc)
