@@ -11,6 +11,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 > → &nbsp;[`Numerical methods`](#numerical-methods)\
 > → &nbsp;[`Probability & Statistics`](#probability-statistics)\
 > → &nbsp;[`Computational finance`](#computational-finance)\
+> → &nbsp;[`Finance`](#finance)\
 > → &nbsp;[`Algorithms`](#algorithms)\
 > → &nbsp;[`Operational research`](#operational-research)\
 > → &nbsp;[`Competitive programming`](#competitive-programming)\
@@ -144,9 +145,13 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 - `[Gilli, Maringer, Schumann]` Numerical methods and optimization in finance
 - `[Cornuejols. Pena, Tutuncu]` Optimization methods in finance
 - `[Higham]` An introduction to financial option valuation
-- `[Brown, Zima]` Mathematics of finance
-- `[Salvatore]` Statistics and econometrics
-- `[Lucchetti]` Appunti di analisi delle serie storiche
+
+
+
+
+### Finance
+- `[Luenberger]` Finanza e investimenti
+- `[Banks]` Finance
 
 
 
@@ -436,4 +441,3 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 - `[Granneman]` *Linux* phrasebook
 - `[Swicegood]` Pragmatic guide to *Git*
 - `[Griffiths, Higharn]` Learning *LaTeX*
-- `[Banks]` Finance

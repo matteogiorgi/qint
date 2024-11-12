@@ -25,7 +25,6 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 
 
 ### Linguaggi & Programmazione
-
 - `[Shotts]` [The *Linux* command line](https://mega.nz/file/F1BWFYQS#A-ALRqFEGV8EWQaIKqHd-7ObTC9kqcU1aSIbCm01n80)
 - `[Picardi]` [Guida alla programmazione in *Linux*](https://mega.nz/file/otgRWJgA#6yUpLdsZlYQTQ2t4hA9GCL3jIddjV0c4lDKDxtvyOvM)
 - `[Banahan, Brady, Doran]` [The *C* book](https://mega.nz/file/01x0kBLC#hrlzEyf4HONk1l6gEQ5D3J09B7nfxeR-yqasSIz-FEc)
@@ -42,7 +41,6 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 
 
 ### Algoritmi & Strutture dati
-
 - `[Lauria]` [Appunti su algoritmi e complesssità](https://mega.nz/file/dshBnJyQ#iHZ7BZwnJ0iziQZoEiUBP8kpYJT9wbnxsVfIzmr-T-M)
 - `[De Francesco, Martini]` [Appunti di algoritmi e strutture dati](https://mega.nz/file/M5IWxKaI#43cRF8HtbZ0pqOKAIiZw2S-ST2uliuwsQ_iO6mYQE5Y)
 - `[Bongiovanni, Calamoneri, Monti]` [Introduzione agli algoritmi: note del corso](https://mega.nz/file/Ag5wETCK#36jz3PvlI0IYfFfnzkV7xnOXBhc0aedERtRCoroybao)
@@ -58,7 +56,6 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 
 
 ### Matematica discreta
-
 - `[Fleck]` [Building blocks for theoretical computer science](https://mega.nz/file/ggARGbCB#uydNx9jOIgjK3xOJP-Q7DRe51u_NDRQf0kWigrglVdo)
 - `[Bonchi, Conte, Corradini, Grossi]` [Fondamenti dell'informatica](https://mega.nz/file/U1xSCQKR#m82gfTfq95pCfLd2AgXcOk9N27gHjqW90am1cQLmGwY)
 - `[Quattrocchi]` [Breve introduzione alla teoria dei grafi](https://mega.nz/file/BsBSEbrQ#ofk5pY8IBc1h-aVsdTokOVwJ_bw-DYCUNu9clZ9DDO0)
@@ -71,7 +68,6 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 
 
 ### Algebra
-
 - `[Gaiffi]` [Appunti di aritmetica](https://mega.nz/file/0xBWjBrA#Xs3GSpC-Yz_szlrTyoTtA3aAEJvZR2KHUNtVb-UqoYo)
 - `[Campanella]` [Appunti di algebra: parte prima](https://mega.nz/file/p4YDTIrb#tVjGKr-ertNhKk0YZsivq7_d9pjnCTVy46D4oUbFedE)
 - `[Campanella]` [Appunti di algebra: parte seconda](https://mega.nz/file/I8x2iQCC#-stMRzbKXjerhHrzpd6VSis9K9umbtA6uQenEkc33kA)
@@ -81,7 +77,6 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 
 
 ### Algebra lineare
-
 - `[De Cecco, Vitolo]` [Appunti di geometria e algebra: note del corso](https://mega.nz/file/E55BiQ6b#UXnL-cdHvCsEolfJG2iwjRgR1utt9fhuto7MFHKcKWw)
 - `[Calvaruso, Vitolo]` [Appunti di geometria e algebra: esercizi risolti](https://mega.nz/file/w4xkyCga#E8R1lWb38gHr_03ZVqls-Gb3Q3MZ_Y9D0CZhRzRP1dQ)
 - `[Martelli]` [Geometria e algebra lineare](https://mega.nz/file/Zl4i1LpI#DuIFxdW0Hf3Dt6sg-E22ImXXgEZV6dzRhl9xQWCTeZY)
@@ -97,7 +92,6 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 
 
 ### Analisi matematica
-
 - `[Paolini]` [Appunti di analisi matematica uno](https://mega.nz/file/lkxBCLrS#GvwZYhrATQ4zN5lCRh5NTZvA_wD8jL3Kt135jeE1a5c)
 - `[Sengupta]` [Introductory calculus notes](https://mega.nz/file/c8hDwayb#a55gupJXYpezTBu1yEFeio2AWBEmaONZmfuCK85_YM8)
 - `[Battaia]` [Introduzione al calcolo differenziale](https://mega.nz/file/JxBGSTjK#rPqzp8-w8PIT38wNq5qruiTxhPVT556wfKWOhLCAvDw)
@@ -116,7 +110,6 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 
 
 ### Equazioni differenziali
-
 - `[Corli]` [Equazioni differenziali ordinarie](https://mega.nz/file/1wZWwDgT#9ctIB4lKjVfxIPQrB0P0-im5uQwkDUqKqNxxSsKtk3s)
 - `[Vitali]` [Lezioni introduttive sulle equazioni differenziali ordinarie](https://mega.nz/file/ApJBRB5Z#-ZEDXhOpE-5tlgI78h4nfEewb0-ySZ9qzEH-k7GP91Q)
 - `[Baiti]` [Dispensa sulle equazioni differenziali](https://mega.nz/file/89om0YpI#JR78Op87Mx1rbCo4bgXX0FFhCVGPztmJ6IvUtDeO-Us)
@@ -131,7 +124,6 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 
 
 ### Metodi analitici
-
 - `[Vargiolu]` [Teoria della misura](https://mega.nz/file/8sgyDBxB#zIcmP9Vfs74QSODN2pYw61r7GiMVEZCtw44jMtiZL08)
 - `[Miranda]` [Teoria della misura e integrazione](https://mega.nz/file/k0IX1KoJ#9P-yPotOR-Tmw_V34oLbYFqxdVx6uR7OMkdTdQNsgtA)
 - `[Mugelli]` [Metodi matematici per l'ingegneria dell'informazione](https://mega.nz/file/JlwElCjK#L4o3oSvwWhPNOrY_JB3BNurHH8IFHW2KUtOUqeQN1S0)
@@ -142,7 +134,6 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 
 
 ### Probabilità
-
 - `[Trevisan]` [Calcolo delle probabilità e statistica: probabilità discreta](https://mega.nz/file/UgJ2QYab#Axq65ot4jeHEZRXy_wjv1vPuhT6WABRl_45qV1q_vlk)
 - `[Trevisan]` [Calcolo delle probabilità e statistica: probabilità continua](https://mega.nz/file/VgwilLSa#K1IUsvPDeXYbuR-jttL360M32J0RPr1GCOX9b9xDSs0)
 - `[Trevisan]` [Calcolo delle probabilità e statistica: catene di Markov](https://mega.nz/file/B0QlkZKK#pVYV7ra69LhuxwhaOlBP9CazX_QDih819Ze_dLlKQyo)
@@ -158,7 +149,6 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 
 
 ### Metodi stocastici
-
 - `[Trevisan]` [Probabilità e processi stocastici: note del corso](https://mega.nz/file/50oFmADI#ylNOsuU4ReE7loOKmgshSc9HcjxxKUeENygW6kMG1Kg)
 - `[Trevisan]` [Probabilità e processi stocastici: esercizi risolti](https://mega.nz/file/hpol2bCD#4p2JQ0hKLu8ViN87zlwJv3g1t8CZEOGwGWdIebebsuo)
 - `[Dai Prà]` [Stochastic methods](https://mega.nz/file/slgwSIIA#LwYKPbABgK0YWKKsspoF767OHm3PDPsXB89aAMf3fkc)
@@ -172,7 +162,6 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 
 
 ### Metodi numerici
-
 - `[Cavalca]` [Appunti di metodi numerici per l'ingegneria](https://mega.nz/file/Ypw3zZQb#Ohy9kfUhLx1U-WYCUdJ4wjB9EC5xorhkNfReXaFWKf4)
 - `[Ferretti]` [Appunti di analisi numerica](https://mega.nz/file/ggoniQhL#CXYVYVTPRWrYnOOgicKPF3acWhzqI_MyiNKLnJrNaNE)
 - `[Bevilacqua, Menchi]` [Appunti di calcolo numerico: note del corso](https://mega.nz/file/ktQVnLgD#AELQ71lo5C4Fup1KuauaaboM_3phtk8Kyvths_1LTKM)
@@ -184,7 +173,6 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 
 
 ### Ricerca operativa
-
 - `[Bigi, Frangioni, Gallo, Pallottino, Scutellà]` [Appunti di ricerca operativa](https://mega.nz/file/g0pQiRSS#vpbuJlfIUTrfGa_PTWyjyfNQpWB6FICnxG0Ip8Kc954)
 - `[Lucidi, De Santis]` [Appunti di ricerca operativa](https://mega.nz/file/p5RHQDhA#HGf9qkI1Kw7n_Akt27sZ7VI9HRCYXQu--C8ZrWzhju8)
 - `[Roma]` [Appunti di ricerca operativa: note del corso](https://mega.nz/file/Z1QziRyB#WYazjJaWGN7wJzag5Z_kqNoExVh572FGaL4EUwLGTfY)
@@ -194,7 +182,6 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 
 
 ### Statistica
-
 - `[Grotto, Maurelli, Pratelli]` [Introduzione alla statistica matematica](https://mega.nz/file/F1JH1IyI#TRjGJCjrmJPcJO202duxkM85-rfdsVhv-dtn_oB5yNM)
 - `[Frederic]` [Appunti di statistica](https://mega.nz/file/wlAR2ADY#edFkAsaer5QC4ilIpok5_v1xYd1-4TzaoccRZujHEQc)
 - `[Marchetti]` [Introduzione ai modelli statistici](https://mega.nz/file/M1AznYKa#6GJgZZKexS3HnzoHqybsrDI9L3JLRnowfkAdeylBhaQ)
@@ -204,7 +191,6 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 
 
 ### Econometria
-
 - `[Amisano]` [Lezioni di econometria](https://mega.nz/file/AloiDQha#rGvxtiA3KVFJxiDGtpGTqP34o0BTUT_3PfHAno3RwSU)
 - `[Palestini]` [Lecture notes in introductory econometrics](https://mega.nz/file/doAVELJZ#xpuMKAdBD0oGTGVwHAoXbKEvss0Q9Qb06tKihq1D450)
 - `[Lucchetti]` [Basic econometrics](https://mega.nz/file/xh5mgLqT#Ilvb4YBO1R1dJr6RagIYqBacAtHPXCM6eNVTcZrbi-s)
@@ -215,7 +201,6 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 
 
 ### Finanza quantitativa
-
 - `[Borrelli]` [Calcolo stocastico e mercati finanziari](https://mega.nz/file/RxYFESAS#vSoQJlGM503hlS711AEdom0dI6j1fTVa8Ezerggu2mQ)
 - `[Forsyth]` [An introduction to computational finance without agonizing pain](https://mega.nz/file/k4p2yL6L#iyMcH4MPmQ6kddqsb3XhemHsVErmsSzlyZrReEYObQg)
 - `[Airoldi]` [Elementi di finanza, metodi numerici e loro implementazione](https://mega.nz/file/99AjwZrI#-E5EMVvUULVAvojGTmKJwOzf_6UqsJv3w76YlroV_as)
@@ -229,7 +214,6 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 
 
 ### Programmazione competitiva
-
 - `[Laaksonen]` [Competitive programmer's handbook](https://mega.nz/file/FlBVxTBa#1_3tayyZDEpj-MsX78DlQzs6jhGpZbLPG0tbCf4s13Y)
 - `[Chen Cai]` [*LeetCode* book](https://mega.nz/file/N8I2HKzA#ksmiyMC9iw6vM8OLM_Ilki_Bt6SBWk3cjOgV80zaaHM)
 
@@ -237,7 +221,6 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 
 
 ### Fisica classica
-
 - `[Gronchi]` [Lezioni di meccanica razionale](https://mega.nz/file/t1Rh2SiL#bGoPljB3F3NMwSVHlDT91w079YLm1-vQH5Nq7pgOiLk)
 - `[Battaia]` [Appunti ed esercizi di meccanica razionale](https://mega.nz/file/J5oynb6I#_EGs23Zu5b-BwvD20jZxvcIRGLuj606F53aY7Jc63Uo)
 - `[Zanghì]` [Lezioni di fisica teorica](https://mega.nz/file/N8BVhaZI#pnmBoXgm_pCZyN4mbS66w4aTmlI2QHTXUnvnSFWTrpU)
@@ -246,7 +229,6 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 
 
 ### Matematica di base
-
 - `[Battaia]` [Matematica alla maturità](https://mega.nz/file/9pRmjJBS#cblgUKnvIWla0eWfHnQpm76o8WyscO_-H2hth9QQ_v0)
 - `[Battaia]` [Precorso di matematica](https://mega.nz/file/1lhHCBjI#RZmt30087W0e9dpD2yOhWRrcw4EYfERzJtd8D84alLY)
 - `[Battaia]` [Appunti di matematica](https://mega.nz/file/EsoiDALD#-70ie_1bmlPdNCQa7OfwCsURmrNUmRZuSKgeF4d-MUM)

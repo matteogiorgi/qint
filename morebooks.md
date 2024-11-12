@@ -12,6 +12,7 @@ This list contains additional resources for in-depth study. The books cover more
 > → &nbsp;[`Fisica teorica`](#fisica-teorica)\
 > → &nbsp;[`Il minimo teorico`](#il-minimo-teorico)\
 > → &nbsp;[`UMath`](#umath)\
+> → &nbsp;[`Schaum's outlines`](#schaums-outlines)\
 > → &nbsp;[`Solutions manual`](#solutions-manual)\
 > → &nbsp;[`Basic mathematics`](#basic-mathematics)\
 > → &nbsp;[`Uncategorized`](#uncategorized)
@@ -31,7 +32,8 @@ This list contains additional resources for in-depth study. The books cover more
 - `[Salsa]` Equazioni a derivate parziali
 - `[Suli]` An introduction to numerical analysis
 - `[Scott]` Numerical analysis
-- `[Pascucci]` Teoria delle probabilità
+- `[Pascucci]` Teoria delle probabilità: variabili aleatorie e distribuzioni
+- `[Pascucci]` Teoria delle probabilità: processi e calcolo stocastico
 - `[Pascucci]` Calcolo stocastico per la finanza
 - `[Privault]` Understanding Markov chains
 - `[Sernesi]` Geometria 1
@@ -105,7 +107,7 @@ This list contains additional resources for in-depth study. The books cover more
 - `[Mishkin, Eakins]` Istituzioni e mercati finanziari
 - `[Stock, Watson]` Introduzione all'econometria
 - `[Woolridge]` Introductory econometrics
-- `[Luenberger]` Finanza e investimenti
+- `[Lucchetti]` Appunti di analisi delle serie storiche
 - `[Elton, Gruber, Brown, Goetzmann]` Teorie di portafoglio e analisi degli investimenti
 - `[Damodaran, Roggi]` Finanza aziendale
 - `[Hull]` Fondamenti dei mercati di futures e opzioni
@@ -167,6 +169,26 @@ This list contains additional resources for in-depth study. The books cover more
 - `[Safaei, Suppa, Tupitti]` Volume 15: problem solving in algebra e teoria dei numeri
 - `[Mazza, Veredice]` Volume 18: matematica discreta
 - `[Damantino, Bordignon, Cagnetta, Pecile]` Volume 19: algebra
+
+
+
+
+### Schaum's outlines
+- `[Mendelson]` Calculus
+- `[Wrede, Spiegel]` Advanced calculus
+- `[Bronson, Costa]` Differential equations
+- `[Spiegel]` Calculus of finite differences and difference equations
+- `[Lipschutz, Lipson]` Linear algebra
+- `[Bronson]` Matrix operations
+- `[Scheid]` Numerical analysis
+- `[Bronson, Naadimuthu]` Operations research
+- `[Lipschutz, Lipson]` Probability
+- `[Hsu]` Probability, random variables, and stochastic processes
+- `[Spiegel, Stephens]` Statistics
+- `[Salvatore]` Statistics and econometrics
+- `[Pena-Levano]` Calculus for business, economics and finance
+- `[Brown, Zima]` Mathematics of finance
+- `[Salvatore]` Microeconomics
 
 
 
