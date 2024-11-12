@@ -35,6 +35,7 @@ This list contains additional resources for in-depth study. The books cover more
 - `[Pascucci]` Teoria delle probabilità: variabili aleatorie e distribuzioni
 - `[Pascucci]` Teoria delle probabilità: processi e calcolo stocastico
 - `[Pascucci]` Calcolo stocastico per la finanza
+- `[Duffy]` Finite difference methods in financial engineering
 - `[Privault]` Understanding Markov chains
 - `[Sernesi]` Geometria 1
 - `[Sernesi]` Geometria 2
@@ -115,7 +116,6 @@ This list contains additional resources for in-depth study. The books cover more
 - `[Hull]` Risk management e istituzioni finanziarie
 - `[Wilmott]` Introduzione alla finanza quantitativa
 - `[Hubbert]` Essential mathematics for market risk management
-- `[Duffy]` Finite difference methods in financial engineering
 
 
 
