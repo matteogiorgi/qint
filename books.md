@@ -202,9 +202,10 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 - `[Russell, Norvig]` Intelligenza artificiale 1
 - `[Russell, Norvig]` Intelligenza artificiale 2
 - `[Ertel]` Introduction to artificial intelligence
+- `[Starmer]` The statquest guide to machine learning
+- `[Grigoletto, Pauli, Ventura]` Modello lineare
 - `[Hastie, Tibshirani, Friedman]` The elements of statistical learning
 - `[Bishop]` Pattern recognition and machine learning
-- `[Grigoletto, Pauli, Ventura]` Modello lineare
 - `[Deisenroth, Faisal, Ong]` Mathematics for machine learning
 - `[Shale-Shwartz, Ben-David]` Understanding machine learning
 - `[Willmott]` Machine learning: an applied mathematics introduction
