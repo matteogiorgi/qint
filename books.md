@@ -320,9 +320,9 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 - `[Bodner]` Learning *Go*
 - `[Donovan, Kernighan]` The *Go* programming language
 - `[Butcher, Farina]` *Go* in practice
-- `[Friedman, Felleisen]` The little schemer
-- `[Friedman, Felleisen]` The seasoned schemer
-- `[Friedman, Byrd, Kiselyov, Hemann]` The reasoned schemer
+- `[Friedman, Felleisen]` The little Schemer
+- `[Friedman, Felleisen]` The seasoned Schemer
+- `[Friedman, Byrd, Kiselyov, Hemann]` The reasoned Schemer
 - `[Dybvig]` The *Scheme* programming language
 - `[Abelson, Sussman]` Structure and interpretation of computer programs
 - `[Whitington]` *Haskell* from the very beginning
