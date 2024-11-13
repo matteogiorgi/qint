@@ -95,7 +95,7 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 - `[Paolini]` [Appunti di analisi matematica uno](https://mega.nz/file/lkxBCLrS#GvwZYhrATQ4zN5lCRh5NTZvA_wD8jL3Kt135jeE1a5c)
 - `[Sengupta]` [Introductory calculus notes](https://mega.nz/file/c8hDwayb#a55gupJXYpezTBu1yEFeio2AWBEmaONZmfuCK85_YM8)
 - `[Battaia]` [Introduzione al calcolo differenziale](https://mega.nz/file/JxBGSTjK#rPqzp8-w8PIT38wNq5qruiTxhPVT556wfKWOhLCAvDw)
-- `[Gregorio]` [Calcolo diffrenziale e integrale](https://mega.nz/file/MkRwQL4R#TgTWrhm9FKn5tbUCmnY-lY5bKB6HixxkUdzhCbA7Mbs)
+- `[Gregorio]` [Calcolo differenziale e integrale](https://mega.nz/file/MkRwQL4R#TgTWrhm9FKn5tbUCmnY-lY5bKB6HixxkUdzhCbA7Mbs)
 - `[Gobbino]` [Stampato lezioni di analisi matematica 1: parte prima](https://mega.nz/file/NlwhQaaD#e1EBO8xY7pXvd4wy5wEwCJmBlcd4kFB9rPISc0gcu-8)
 - `[Gobbino]` [Stampato lezioni di analisi matematica 1: parte seconda](https://mega.nz/file/4xRQ3QgB#XXODWIXHg19E0V9jfSFbXJI5ZxSwAVF2XoC_nkueDcg)
 - `[Gobbino]` [Stampato lezioni di analisi matematica 2](https://mega.nz/file/l5ZWiTib#EkGWIi9FJWVO_alRoRtmxWHIZ_Lq3XfSQ_st38srqTc)
