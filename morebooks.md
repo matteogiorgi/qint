@@ -186,7 +186,6 @@ This list contains additional resources for in-depth study. The books cover more
 - `[Hsu]` Probability, random variables, and stochastic processes
 - `[Spiegel, Stephens]` Statistics
 - `[Salvatore]` Statistics and econometrics
-- `[Pena-Levano]` Calculus for business, economics and finance
 - `[Brown, Zima]` Mathematics of finance
 - `[Salvatore]` Microeconomics
 
