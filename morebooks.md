@@ -26,6 +26,7 @@ This list contains additional resources for in-depth study. The books cover more
 - `[Aigner]` Proofs from the book
 - `[Hardy]` A course of pure mathematics
 - `[Rudin]` Principles of mathematical analysis
+- `[Kolmogorov, Fomin]` Elementi di teoria delle funzioni e di analisi funzionale
 - `[De Marco]` Analisi uno
 - `[De Marco]` Analisi due
 - `[Elsgolts]` Equazioni differenziali e calcolo delle variazioni
@@ -176,6 +177,7 @@ This list contains additional resources for in-depth study. The books cover more
 - `[Wrede, Spiegel]` Advanced calculus
 - `[Bronson, Costa]` Differential equations
 - `[Spiegel]` Calculus of finite differences and difference equations
+- `[Spiegel]` Real variables
 - `[Lipschutz, Lipson]` Linear algebra
 - `[Bronson]` Matrix operations
 - `[Scheid]` Numerical analysis
