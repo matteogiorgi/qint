@@ -114,8 +114,6 @@ This list contains additional resources for in-depth study. The books cover more
 - `[Hull]` Fondamenti dei mercati di futures e opzioni
 - `[Hull]` Opzioni, futures e altri derivati
 - `[Hull]` Risk management e istituzioni finanziarie
-- `[Wilmott]` Introduzione alla finanza quantitativa
-- `[Hubbert]` Essential mathematics for market risk management
 
 
 
@@ -193,7 +191,6 @@ This list contains additional resources for in-depth study. The books cover more
 
 
 ### Solutions manual
-- `[Della Volpe]` Esercizi di macchine
 - `[Demidovich]` Esercizi e problemi di analisi matematica
 - `[Wing Yu]` A complete solution guide to *Priciples of mathematical analysis*
 - `[Acerbi, Modica, Spagnolo]` Problemi scelti di analisi matematica 1
@@ -206,6 +203,7 @@ This list contains additional resources for in-depth study. The books cover more
 - `[Stefanica, Radoicic, Wang]` 150 most frequently asked questions on quant interviews
 - `[Stefanica, Radoicic, Matic]` Probability and stochastic calculus quant interview questions
 - `[Stefanica, Radoicic, Matic]` Challenging brainteasers for interviews
+- `[Della Volpe]` Esercizi di macchine
 
 
 
@@ -213,14 +211,13 @@ This list contains additional resources for in-depth study. The books cover more
 ### Basic mathematics
 - `[Courant, Robbins]` Che cos'è la matematica?
 - `[Sprugnoli]` Introduzione alla matematica
-- `[Buttazzo]` Matematica preuniversitaria di base
 - `[Tommei]` Matematica di base
-- `[Kac, Ulam]` Mathematics and logic
+- `[Buttazzo]` Matematica preuniversitaria di base
 - `[Giuliano]` Argomenti di probabilità e statistica
+- `[Kac, Ulam]` Mathematics and logic
 - `[Mola]` Formulario di matematica
 - `[Lipovaca]` Learn you a *Haskell* for great good!
 - `[Haverbeke]` Eloquent *JavaScript*
-- `[Starmer]` The statquest illustrated guide to machine learning
 
 
 

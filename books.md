@@ -7,9 +7,11 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 > → &nbsp;[`Algebra`](#algebra)\
 > → &nbsp;[`Geometry`](#geometry)\
 > → &nbsp;[`Mathematical Analysis`](#mathematical-analysis)\
-> → &nbsp;[`Mathematical methods`](#mathematical-methods)\
+> → &nbsp;[`Differential equations`](#differential-equations)\
+> → &nbsp;[`Analytical methods`](#analytical-methods)\
 > → &nbsp;[`Numerical methods`](#numerical-methods)\
-> → &nbsp;[`Probability & Statistics`](#probability-statistics)\
+> → &nbsp;[`Probability`](#probability)\
+> → &nbsp;[`Statistics`](#statistics)\
 > → &nbsp;[`Computational finance`](#computational-finance)\
 > → &nbsp;[`Finance`](#finance)\
 > → &nbsp;[`Algorithms`](#algorithms)\
@@ -92,14 +94,19 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 
-### Mathematical methods
-- `[Bramanti]` Metodi di analisi matematica per l'ingegneria
-- `[Codegone]` Metodi matematici per l'ingegegneria
-- `[Barozzi]` Matematica per l'ingegneria dell'informazione
+### Differential equations
 - `[Ambrosetti]` Appunti sulle equazioni differenziali ordinarie
 - `[Mascia]` Equazioni differenziali ordinarie
 - `[Tveito, Winther]` Introduction to partial differential equations
 - `[Farlow]` Partial differential equations for scientists and engineers
+
+
+
+
+### Analytical methods
+- `[Bramanti]` Metodi di analisi matematica per l'ingegneria
+- `[Codegone]` Metodi matematici per l'ingegegneria
+- `[Barozzi]` Matematica per l'ingegneria dell'informazione
 
 
 
@@ -115,18 +122,26 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 
-### Probability & Statistics
-- `[Chung, AitSahlia]` Elementary probability theory
+### Probability
 - `[Morin]` Probability
 - `[Ross]` Calcolo delle probabilità
+- `[Chung, AitSahlia]` Elementary probability theory
 - `[Grimmett, Welsh]` Probability
 - `[Caravenna, Dai Pra]` Probabilità
 - `[Rotondi, Pedroni, Pievatolo]` Probabilità, statistica e simulazione
 - `[Dekking, Kraaikamp, Lopuhaä, Meester]` A modern introduction to probability and statistics
-- `[Bulmer]` Principles of statistics
-- `[Diez, Barr, Çetinkaya-Rundel]` OpenIntro statistics
 - `[Capinski, Kopp]` Measure, integral and probability
 - `[Brzezniak, Zastawniak]` Basic stochastic processes
+
+
+
+
+### Statistics
+- `[Bulmer]` Principles of statistics
+- `[Diez, Barr, Çetinkaya-Rundel]` OpenIntro statistics
+- `[Starmer]` The statquest guide to machine learning
+- `[Hastie, Tibshirani, Friedman]` The elements of statistical learning
+- `[Grigoletto, Pauli, Ventura]` Modello lineare
 
 
 
@@ -150,8 +165,10 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 ### Finance
-- `[Luenberger]` Finanza e investimenti
 - `[Banks]` Finance
+- `[Luenberger]` Finanza e investimenti
+- `[Hubbert]` Essential mathematics for market risk management
+- `[Wilmott]` Introduzione alla finanza quantitativa
 
 
 
@@ -202,9 +219,6 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 - `[Russell, Norvig]` Intelligenza artificiale 1
 - `[Russell, Norvig]` Intelligenza artificiale 2
 - `[Ertel]` Introduction to artificial intelligence
-- `[Starmer]` The statquest guide to machine learning
-- `[Grigoletto, Pauli, Ventura]` Modello lineare
-- `[Hastie, Tibshirani, Friedman]` The elements of statistical learning
 - `[Bishop]` Pattern recognition and machine learning
 - `[Deisenroth, Faisal, Ong]` Mathematics for machine learning
 - `[Shale-Shwartz, Ben-David]` Understanding machine learning
@@ -249,7 +263,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 ### Information theory
-- `[Be]` aim - Information theory
+- `[Be-Naim]` Information theory
 - `[Pierce]` La teoria dell'informazione
 - `[MacKay]` Information theory, inference, and learning algorithms
 
