@@ -147,18 +147,20 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 ### Computational finance
-- `[Blyth]` An introduction to quantitative finance
-- `[Olivia, Rennò]` Principi di finanza quantitativa
 - `[Simon, Blume]` Mathematics for economists
+- `[Saari]` Mathematics of finance
+- `[Blyth]` An introduction to quantitative finance
+- `[Teh]` Advanced calculus for quantitative finance 1
+- `[Teh]` Advanced calculus for quantitative finance 2
 - `[Stefanica]` A primer for the mathematics of financial engineering
 - `[Stefanica]` A linear algebra primer for financial engineering
-- `[Baxter, Rennie]` Financial calculus
-- `[Willmott, Howison, Dewynne]` The mathematics of financial derivatives
-- `[Capinski, Zastawniak]` Mathematics for finance
 - `[Pascucci, Runggaldier]` Finanza matematica
-- `[Saari]` Mathematics for finance
+- `[Olivia, Rennò]` Principi di finanza quantitativa
+- `[Capinski, Zastawniak]` Mathematics for finance
 - `[Gilli, Maringer, Schumann]` Numerical methods and optimization in finance
 - `[Cornuejols. Pena, Tutuncu]` Optimization methods in finance
+- `[Willmott, Howison, Dewynne]` The mathematics of financial derivatives
+- `[Baxter, Rennie]` Financial calculus
 - `[Higham]` An introduction to financial option valuation
 
 
