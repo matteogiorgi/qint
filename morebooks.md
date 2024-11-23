@@ -177,7 +177,6 @@ This list contains additional resources for in-depth study. The books cover more
 - `[Wrede, Spiegel]` Advanced calculus
 - `[Bronson, Costa]` Differential equations
 - `[Spiegel]` Calculus of finite differences and difference equations
-- `[Spiegel]` Real variables
 - `[Lipschutz, Lipson]` Linear algebra
 - `[Bronson]` Matrix operations
 - `[Scheid]` Numerical analysis
@@ -225,13 +224,13 @@ This list contains additional resources for in-depth study. The books cover more
 
 
 ### Uncategorized
-- `[Baldassini]` Vademecum per disegnatori e tecnici
-- `[Knuth]` The art of computer programming: *MMIX*
 - `[Ruckert]` The *MMIX* supplement
+- `[Knuth]` The art of computer programming: *MMIX*
 - `[Gilardi]` Il *TeX*
 - `[Van Dongen]` *LaTeX* and friends
 - `[Goossens, Mittelbach, Samarin]` The *LaTeX* companion
 - `[Goossens, Mittelbach, Samarin]` The *LaTeX* graphics companion
-- `[Neil]` Practical *Vim*
-- `[Klein]` The *VimL* primer
 - `[Hogan]` *TMUX*
+- `[Klein]` The *VimL* primer
+- `[Neil]` Practical *Vim*
+- `[Baldassini]` Vademecum per disegnatori e tecnici

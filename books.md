@@ -147,7 +147,6 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 ### Computational finance
-- `[Simon, Blume]` Mathematics for economists
 - `[Saari]` Mathematics of finance
 - `[Blyth]` An introduction to quantitative finance
 - `[Teh]` Advanced calculus for quantitative finance 1
@@ -453,6 +452,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 ### Uncategorized
 - `[Garrity]` All the math you missed
+- `[Simon, Blume]` Mathematics for economists
 - `[Manca]` Linguaggi e calcoli
 - `[Ferragina, Luccio]` Il pensiero computazionale
 - `[Granneman]` *Linux* phrasebook
