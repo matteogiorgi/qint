@@ -96,6 +96,7 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 - `[Sengupta]` [Introductory calculus notes](https://mega.nz/file/c8hDwayb#a55gupJXYpezTBu1yEFeio2AWBEmaONZmfuCK85_YM8)
 - `[Battaia]` [Introduzione al calcolo differenziale](https://mega.nz/file/JxBGSTjK#rPqzp8-w8PIT38wNq5qruiTxhPVT556wfKWOhLCAvDw)
 - `[Gregorio]` [Calcolo differenziale e integrale](https://mega.nz/file/MkRwQL4R#TgTWrhm9FKn5tbUCmnY-lY5bKB6HixxkUdzhCbA7Mbs)
+- `[Hunter]` [An introduction to real analysis](https://mega.nz/file/01pkFbbL#QtNtJHZXF4bOSWvwWV5NUZ55IeQRAX2qK-V7TmMR2aw)
 - `[Gobbino]` [Stampato lezioni di analisi matematica 1: parte prima](https://mega.nz/file/NlwhQaaD#e1EBO8xY7pXvd4wy5wEwCJmBlcd4kFB9rPISc0gcu-8)
 - `[Gobbino]` [Stampato lezioni di analisi matematica 1: parte seconda](https://mega.nz/file/4xRQ3QgB#XXODWIXHg19E0V9jfSFbXJI5ZxSwAVF2XoC_nkueDcg)
 - `[Gobbino]` [Stampato lezioni di analisi matematica 2](https://mega.nz/file/l5ZWiTib#EkGWIi9FJWVO_alRoRtmxWHIZ_Lq3XfSQ_st38srqTc)
@@ -117,6 +118,7 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 - `[De Marchi]` [Soluzione numerica di equazioni differenziali](https://mega.nz/file/wwBhWShB#4vMjSoLw6MtRsZToymtQrkJl1Na2RgyV51hUamF5YXs)
 - `[Caliari]` [Dispense di metodi numerici per equazioni differenziali](https://mega.nz/file/EhJGQYgC#4eeweryCQvZpdDpL9yykpB2tzRsc24kWW7pmXHjaEdk)
 - `[Gori]` [Soluzione numerica di problemi alle derivate parziali](https://mega.nz/file/54wjCS6A#V9z9fNTY3sEVTeZp9sZClEygUdyi0tf8dPlRfZcT79o)
+- `[Hunter]` [Notes on partial differential equations](https://mega.nz/file/10RnnabR#X10VKFmU1iV96x58pBQOR8VLQZ2uqy87gNneOBe0JxM)
 - `[Evans]` [An introduction to stochastic differential equations](https://mega.nz/file/d8pTwCQL#XVg3-zdYxkuiBoujW8czXWBFo2x6a0aQuvKA3TXV4K4)
 - `[Flandoli]` [Elements of mathematical oncology](https://mega.nz/file/18RmmA5R#vT3D1fQ8ZZyTjgcwlE94PrHJUVu0vK-bSeaG8pn23tg)
 
@@ -126,6 +128,8 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 ### Metodi analitici
 - `[Vargiolu]` [Teoria della misura](https://mega.nz/file/8sgyDBxB#zIcmP9Vfs74QSODN2pYw61r7GiMVEZCtw44jMtiZL08)
 - `[Miranda]` [Teoria della misura e integrazione](https://mega.nz/file/k0IX1KoJ#9P-yPotOR-Tmw_V34oLbYFqxdVx6uR7OMkdTdQNsgtA)
+- `[Bramanti]` [Introduzione alla teoria della misura e integrale di Lebesgue](https://mega.nz/file/R45mBCzL#CmibpXK0jYIVU6jfLBAhZ98h1GgLvb9yn8n-mBzp6Mw)
+- `[Hunter]` [Measure theory](https://mega.nz/file/Q5ZWgJCY#USS-yIhVgJm4lOoEu6dq4Z4pXGsYHnQLKJ5V2kL3-FE)
 - `[Mugelli]` [Metodi matematici per l'ingegneria dell'informazione](https://mega.nz/file/JlwElCjK#L4o3oSvwWhPNOrY_JB3BNurHH8IFHW2KUtOUqeQN1S0)
 - `[Campiti]` [Metodi matematici per l'ingegneria](https://mega.nz/file/d1JQiZrQ#VciI2gvGfcp072BySk1b7zTpqJWBLT5XlXJ0zxv2fB0)
 - `[Zanghì]` [Appunti di metodi matematici della fisica](https://mega.nz/file/o0QClKQC#TSYTL01Os7ZuB8n7u9zJ9D44yckdFmLfwuTqHTM6VaM)

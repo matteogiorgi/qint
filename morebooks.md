@@ -187,6 +187,7 @@ This list contains additional resources for in-depth study. The books cover more
 - `[Bronson, Naadimuthu]` Operations research
 - `[Lipschutz, Lipson]` Probability
 - `[Hsu]` Probability, random variables, and stochastic processes
+- `[Spiegel, Schiller, Srinivasan]` Probability and statistics
 - `[Spiegel, Stephens]` Statistics
 - `[Salvatore]` Statistics and econometrics
 - `[Brown, Zima]` Mathematics of finance
