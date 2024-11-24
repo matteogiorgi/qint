@@ -417,7 +417,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 
-### Solutions manual
+### Solution manuals
 - `[Lovitch, Rosati]` Problemi di fisica generale 1
 - `[Rosati, Casali]` Problemi di fisica generale 2
 - `[Pavan, Sartori]` Problemi di fisica risolti e commentati 1
@@ -444,8 +444,8 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 - `[Stefanica]` A primer for the mathematics of financial engineering, solutions manual
 - `[Stefanica]` A linear algebra primer for financial engineering, solutions manual
 - `[Rosazza Ganin, Sgarra]` Esercizi di finanza matematica
-- `[Gelfand, Glagoleva, Shnol]` Functions and graphs
 - `[Gelfand, Gerver, Kirillov, Konstantinov, Rushnirenko]` Sequences, combinations, limits
+- `[Gelfand, Glagoleva, Shnol]` Functions and graphs
 
 
 

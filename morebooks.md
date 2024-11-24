@@ -88,22 +88,26 @@ This list contains additional resources for in-depth study. The books cover more
 
 
 ### Engineering
-- `[Luise, Vitetta]` Teoria dei segnali
-- `[De Magistris, Milano]` Circuiti
-- `[Scherz, Monk]` Practical electronics for inventors
 - `[Capurso]` Lezioni di scienza delle costruzioni
 - `[Giua, Seatzu]` Analisi dei sistemi dinamici
 - `[Ferrarese, Raparelli]` Meccanica applicata
 - `[Guiggiani]` Generazione per inviluppo di ruote dentate ad evolvente
-- `[Cacciatore]` Elementi di macchine
+- `[Cengenl]` Termodinamica e trasmissione del calore
 - `[Della Volpe]` Macchine
+- `[Cacciatore]` Elementi di macchine
 - `[Silvestroni]` Fondamenti di chimica
 - `[Callister]` Materials science and engineering
+- `[Perfetti]` Circuiti elettrici
+- `[De Magistris, Milano]` Circuiti
+- `[Rizzoni]` Elettrotecnica
+- `[Scherz, Monk]` Practical electronics for inventors
+- `[Luise, Vitetta]` Teoria dei segnali
 
 
 
 
 ### Finance
+- `[Bernheim, Whinston]` Microeconomia
 - `[Varian]` Intermediate microeconomics
 - `[Saltari, Di Pietro]` Introduzione all'economia finanziaria
 - `[Mishkin, Eakins]` Istituzioni e mercati finanziari
@@ -175,10 +179,10 @@ This list contains additional resources for in-depth study. The books cover more
 ### Schaum's outlines
 - `[Mendelson]` Calculus
 - `[Wrede, Spiegel]` Advanced calculus
-- `[Bronson, Costa]` Differential equations
 - `[Spiegel]` Calculus of finite differences and difference equations
-- `[Lipschutz, Lipson]` Linear algebra
+- `[Bronson, Costa]` Differential equations
 - `[Bronson]` Matrix operations
+- `[Lipschutz, Lipson]` Linear algebra
 - `[Scheid]` Numerical analysis
 - `[Bronson, Naadimuthu]` Operations research
 - `[Lipschutz, Lipson]` Probability
@@ -191,7 +195,7 @@ This list contains additional resources for in-depth study. The books cover more
 
 
 
-### Solutions manual
+### Solution manuals
 - `[Demidovich]` Esercizi e problemi di analisi matematica
 - `[Wing Yu]` A complete solution guide to *Priciples of mathematical analysis*
 - `[Acerbi, Modica, Spagnolo]` Problemi scelti di analisi matematica 1
@@ -224,6 +228,7 @@ This list contains additional resources for in-depth study. The books cover more
 
 
 ### Uncategorized
+- `[Baldassini]` Vademecum per disegnatori e tecnici
 - `[Ruckert]` The *MMIX* supplement
 - `[Knuth]` The art of computer programming: *MMIX*
 - `[Gilardi]` Il *TeX*
@@ -233,4 +238,3 @@ This list contains additional resources for in-depth study. The books cover more
 - `[Hogan]` *TMUX*
 - `[Klein]` The *VimL* primer
 - `[Neil]` Practical *Vim*
-- `[Baldassini]` Vademecum per disegnatori e tecnici
