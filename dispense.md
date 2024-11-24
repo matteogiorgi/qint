@@ -1,25 +1,8 @@
-# Dispense
+# University notes
 
 Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_libero) raccolta di dispense su vari argomenti, scritte da diversi autori. Il materiale è principalmente in italiano e copre argomenti utili per lo studio di algoritmi, matematica computazionale e materie affini.
 
-> → &nbsp;[`Linguaggi & Programmazione`](#linguaggi-programmazione)\
-> → &nbsp;[`Algoritmi & Strutture dati`](#algoritmi-strutture-dati)\
-> → &nbsp;[`Matematica discreta`](#matematica-discreta)\
-> → &nbsp;[`Algebra`](#algebra)\
-> → &nbsp;[`Algebra lineare`](#algebra-lineare)\
-> → &nbsp;[`Analisi matematica`](#analisi-matematica)\
-> → &nbsp;[`Equazioni differenziali`](#equazioni-differenziali)\
-> → &nbsp;[`Metodi analitici`](#metodi-analitici)\
-> → &nbsp;[`Probabilità`](#probabilità)\
-> → &nbsp;[`Metodi stocastici`](#metodi-stocastici)\
-> → &nbsp;[`Metodi numerici`](#metodi-numerici)\
-> → &nbsp;[`Ricerca operativa`](#ricerca-operativa)\
-> → &nbsp;[`Statistica`](#statistica)\
-> → &nbsp;[`Econometria`](#econometria)\
-> → &nbsp;[`Finanza quantitativa`](#finanza-quantitativa)\
-> → &nbsp;[`Programmazione competitiva`](#programmazione-competitiva)\
-> → &nbsp;[`Fisica classica`](#fisica-classica)\
-> → &nbsp;[`Matematica di base`](#matematica-di-base)
+---
 
 
 

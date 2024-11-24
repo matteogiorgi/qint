@@ -2,20 +2,7 @@
 
 This list contains additional resources for in-depth study. The books cover more advanced topics related to those discussed in the [first](https://www.geoteo.net/qmath/books) list as well as entirely new subjects not previously addressed. The books are categorized by topic.
 
-> → &nbsp;[`Mathematics`](#mathematics)\
-> → &nbsp;[`Physics`](#physics)\
-> → &nbsp;[`Computer science`](#computer-science)\
-> → &nbsp;[`Engineering`](#engineering)\
-> → &nbsp;[`Finance`](#finance)\
-> → &nbsp;[`Corso di matematica superiore`](#corso-di-matematica-superiore)\
-> → &nbsp;[`The art of computer programming`](#the-art-of-computer-programming)\
-> → &nbsp;[`Fisica teorica`](#fisica-teorica)\
-> → &nbsp;[`Il minimo teorico`](#il-minimo-teorico)\
-> → &nbsp;[`UMath`](#umath)\
-> → &nbsp;[`Schaum's outlines`](#schaums-outlines)\
-> → &nbsp;[`Solutions manual`](#solutions-manual)\
-> → &nbsp;[`Basic mathematics`](#basic-mathematics)\
-> → &nbsp;[`Uncategorized`](#uncategorized)
+---
 
 
 
@@ -79,6 +66,7 @@ This list contains additional resources for in-depth study. The books cover more
 
 
 ### Physics
+- `[Goldstein]` Classical mechanics
 - `[Fasano, Marmi]` Meccanica analitica
 - `[Forte, Rottoli]` Fisica quantistica
 - `[Patri, Testa]` Fondamenti di meccanica quantistica

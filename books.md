@@ -1,40 +1,8 @@
-# Books
+# Quant books
 
 This is an ensemble of books I've used to study and keep as reference. The list is divided into categories and covers a wide range of topics, from mathematics to computer science, from physics to finance, with a focus on quantitative methods.
 
-> → &nbsp;[`Number theory`](#number-theory)\
-> → &nbsp;[`Combinatorics`](#combinatorics)\
-> → &nbsp;[`Algebra`](#algebra)\
-> → &nbsp;[`Geometry`](#geometry)\
-> → &nbsp;[`Mathematical Analysis`](#mathematical-analysis)\
-> → &nbsp;[`Differential equations`](#differential-equations)\
-> → &nbsp;[`Analytical methods`](#analytical-methods)\
-> → &nbsp;[`Numerical methods`](#numerical-methods)\
-> → &nbsp;[`Probability`](#probability)\
-> → &nbsp;[`Statistics`](#statistics)\
-> → &nbsp;[`Computational finance`](#computational-finance)\
-> → &nbsp;[`Finance`](#finance)\
-> → &nbsp;[`Algorithms`](#algorithms)\
-> → &nbsp;[`Operational research`](#operational-research)\
-> → &nbsp;[`Competitive programming`](#competitive-programming)\
-> → &nbsp;[`Machine learning`](#machine-learning)\
-> → &nbsp;[`Phisics`](#phisics)\
-> → &nbsp;[`Quantum mechanics`](#quantum-mechanics)\
-> → &nbsp;[`Information theory`](#information-theory)\
-> → &nbsp;[`Cryptography`](#cryptography)\
-> → &nbsp;[`Computability & Complexity`](#computability-complexity)\
-> → &nbsp;[`Category theory & Logic`](#category-theory-logic)\
-> → &nbsp;[`Interpreters & Compilers`](#interpreters-compilers)\
-> → &nbsp;[`Programming languages`](#programming-languages)\
-> → &nbsp;[`Computer architecture`](#computer-architecture)\
-> → &nbsp;[`Operating systems`](#operating-systems)\
-> → &nbsp;[`Computer networks`](#computer-networks)\
-> → &nbsp;[`Distributed systems`](#distributed-systems)\
-> → &nbsp;[`UNIX programming`](#unix-programming)\
-> → &nbsp;[`UNIX system administration`](#unix-system-administration)\
-> → &nbsp;[`Software engineering`](#software-engineering)\
-> → &nbsp;[`Solutions manual`](#solutions-manual)\
-> → &nbsp;[`Uncategorized`](#uncategorized)
+---
 
 
 
@@ -104,6 +72,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 ### Analytical methods
+- `[Stillwell]` The real numbers
 - `[Bramanti]` Metodi di analisi matematica per l'ingegneria
 - `[Codegone]` Metodi matematici per l'ingegegneria
 - `[Barozzi]` Matematica per l'ingegneria dell'informazione
@@ -167,10 +136,10 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 ### Finance
-- `[Banks]` Finance
 - `[Luenberger]` Finanza e investimenti
 - `[Hubbert]` Essential mathematics for market risk management
 - `[Wilmott]` Introduzione alla finanza quantitativa
+- `[Banks]` Finance
 
 
 
@@ -255,7 +224,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 
-### Quantum mechanics
+### Quantum physics
 - `[Griffiths]` Introduzione alla meccanica quantistica
 - `[Picasso]` Lezioni di meccanica quantistica
 - `[Pittenger]` An introduction to quantum computing
