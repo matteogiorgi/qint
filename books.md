@@ -124,10 +124,11 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 ### Probability
 - `[Morin]` Probability
-- `[Ross]` Calcolo delle probabilità
 - `[Chung, AitSahlia]` Elementary probability theory
 - `[Grimmett, Welsh]` Probability
 - `[Caravenna, Dai Pra]` Probabilità
+- `[Ross]` Calcolo delle probabilità
+- `[Ross]` Probabilità e statistica per l'ingegneria e le scienze
 - `[Rotondi, Pedroni, Pievatolo]` Probabilità, statistica e simulazione
 - `[Dekking, Kraaikamp, Lopuhaä, Meester]` A modern introduction to probability and statistics
 - `[Capinski, Kopp]` Measure, integral and probability
