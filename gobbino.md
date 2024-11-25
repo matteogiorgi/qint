@@ -1,6 +1,10 @@
 # Full calculus
 
-Questa pagina contiene il materiale di lezioni ed esercitazioni tenute dal [Prof. Gobbino](http://pagine.dm.unipi.it/gobbino/Home_Page/ArchivioDidattico.html) per l'esame di calcolo del corso di Laurea in *Ingegneria Elettronica e Telecomunicazioni* dell'[Università di Pisa](https://www.unipi.it) nell'anno accademico 2007/2008, oltre al materiale del corso di **precalcolo** (aggiunto qua sotto e in [`full PDF`](https://mega.nz/file/494AjQaR#ZJMr0XKfmEUgvrVcZfupBSP7UkyrBhSQn0tSQNT7Xj4)) tenuto dal Professore nel medesimo anno.
+Questa pagina contiene il materiale di lezioni ed esercitazioni tenute dal [Prof. Gobbino](http://pagine.dm.unipi.it/gobbino/Home_Page/ArchivioDidattico.html) per l'esame di calcolo del corso di Laurea in *Ingegneria Elettronica e Telecomunicazioni* dell'[Università di Pisa](https://www.unipi.it) nell'anno accademico 2007/2008.
+
+---
+
+Per completezza, aggiungo qui anche il materiale del corso di **precalcolo** ([`full PDF`](https://mega.nz/file/494AjQaR#ZJMr0XKfmEUgvrVcZfupBSP7UkyrBhSQn0tSQNT7Xj4)) tenutosi nel medesimo anno:
 
 1.  `[17/09/07]` [Frazioni e potenze](https://mega.nz/file/khIHUZaD#1Y4EpqKSjPMh3wPQN7jeHg-fcCPgLJrBSNWkPIO-PcU) - [`PDF`](https://mega.nz/file/FtR0iCyB#yHNSp0-ljIsfLJlopZtPwzZBQ0HwdGwIz0hrniux-E0)
 2.  `[18/09/07]` [Polinomi ed equazioni polinomiali](https://mega.nz/file/99QWTa4K#o2zC0ILXsx3UmCvckLmIRIS9DfJzNUaKS2VANXxr-lA) - [`PDF`](https://mega.nz/file/U14GQR4Q#OpP-SB_Wp4hSACFJHIRvccIism2XLZ2H7kXeIC2eIlE)
