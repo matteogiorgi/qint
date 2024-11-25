@@ -63,11 +63,12 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 ### Differential equations
-- `[Logan]` A first course in differential equations
-- `[Ambrosetti]` Appunti sulle equazioni differenziali ordinarie
 - `[Mascia]` Equazioni differenziali ordinarie
-- `[Tveito, Winther]` Introduction to partial differential equations
+- `[Ambrosetti]` Appunti sulle equazioni differenziali ordinarie
+- `[Logan]` A first course in differential equations
+- `[Logan]` Applied partial differential equations
 - `[Farlow]` Partial differential equations for scientists and engineers
+- `[Tveito, Winther]` Introduction to partial differential equations
 
 
 
