@@ -63,6 +63,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 ### Differential equations
+- `[Logan]` A first course in differential equations
 - `[Ambrosetti]` Appunti sulle equazioni differenziali ordinarie
 - `[Mascia]` Equazioni differenziali ordinarie
 - `[Tveito, Winther]` Introduction to partial differential equations
@@ -121,6 +122,8 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 - `[Blyth]` An introduction to quantitative finance
 - `[Teh]` Advanced calculus for quantitative finance 1
 - `[Teh]` Advanced calculus for quantitative finance 2
+- `[Shreve]` Stochastic calculus for finance 1
+- `[Shreve]` Stochastic calculus for finance 2
 - `[Stefanica]` A primer for the mathematics of financial engineering
 - `[Stefanica]` A linear algebra primer for financial engineering
 - `[Pascucci, Runggaldier]` Finanza matematica
