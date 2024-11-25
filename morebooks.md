@@ -1,6 +1,6 @@
 # More books
 
-This list contains additional resources for in-depth study. The books cover more advanced topics related to those discussed in the [first](https://www.geoteo.net/qmath/books) list as well as entirely new subjects not previously addressed. The books are categorized by topic.
+This list contains additional resources for in-depth study. The books cover more advanced topics related to those discussed in the [first](https://www.geoteo.net/qmath/books) list, as well as entirely new subjects not previously addressed. The books are categorized by topic.
 
 ---
 
