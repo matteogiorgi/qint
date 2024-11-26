@@ -74,6 +74,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 ### Analytical methods
+- `[Nahin]` Inside interesting integrals
 - `[Stillwell]` The real numbers
 - `[Bramanti]` Metodi di analisi matematica per l'ingegneria
 - `[Codegone]` Metodi matematici per l'ingegegneria
