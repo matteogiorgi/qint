@@ -169,10 +169,11 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 
 
 ### Statistica
-- `[Grotto, Maurelli, Pratelli]` [Introduzione alla statistica matematica](https://mega.nz/file/F1JH1IyI#TRjGJCjrmJPcJO202duxkM85-rfdsVhv-dtn_oB5yNM)
 - `[Frederic]` [Appunti di statistica](https://mega.nz/file/wlAR2ADY#edFkAsaer5QC4ilIpok5_v1xYd1-4TzaoccRZujHEQc)
 - `[Marchetti]` [Introduzione ai modelli statistici](https://mega.nz/file/M1AznYKa#6GJgZZKexS3HnzoHqybsrDI9L3JLRnowfkAdeylBhaQ)
 - `[Fuhrman]` [Appunti sulla regressione lineare](https://mega.nz/file/k4wx1CSI#0DgHKq0JziEjm6Fz5x10R0DCanuoaLLWsBNxViwCcfs)
+- `[Grotto, Maurelli, Pratelli]` [Introduzione alla statistica matematica](https://mega.nz/file/F1JH1IyI#TRjGJCjrmJPcJO202duxkM85-rfdsVhv-dtn_oB5yNM)
+- `[Deisenroth, Faisal, Ong]` [Mathematics for machine learning](https://mega.nz/file/shRRiTLK#d4aBrM_rWYDt1stJ3mB0Mb64G-9cBNslDUunOSq62dY)
 
 
 
