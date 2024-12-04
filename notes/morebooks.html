@@ -7,6 +7,9 @@
   <title>qmath – morebooks</title>
   <style>
     html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
       color: #1a1a1a;
       background-color: #fdfdfd;
     }
@@ -25,16 +28,13 @@
     @media (max-width: 600px) {
       body {
         font-size: 0.9em;
-        padding: 12px;
+        padding: 1em;
       }
       h1 {
         font-size: 1.8em;
       }
     }
     @media print {
-      html {
-        background-color: white;
-      }
       body {
         background-color: transparent;
         color: black;
@@ -84,10 +84,9 @@
       color: #606060;
     }
     code {
-      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
       font-size: 85%;
       margin: 0;
-      hyphens: manual;
     }
     pre {
       margin: 1em 0;
@@ -149,24 +148,35 @@
     }
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    /* The extra [class] is a hack that increases specificity enough to
-       override a similar rule in reveal.js */
-    ul.task-list[class]{list-style: none;}
-    ul.task-list li input[type="checkbox"] {
-      font-size: inherit;
-      width: 0.8em;
-      margin: 0 0.8em 0.2em -1.6em;
-      vertical-align: middle;
-    }
+    ul.task-list{list-style: none;}
   </style>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22256%22 height=%22256%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%237d6ee7%22></rect><path d=%22M32.27 77.81L32.27 77.81Q28.31 77.81 28.31 74.57L28.31 74.57L28.31 23.72Q29.93 22.10 33.17 22.10L33.17 22.10Q35.33 22.10 36.86 22.95Q38.39 23.81 39.65 26.06L39.65 26.06L56.84 54.86Q57.92 56.75 59.09 58.86Q60.26 60.98 61.34 63.09Q62.42 65.21 63.36 67.06Q64.31 68.90 64.94 70.16L64.94 70.16L65.30 70.07Q64.58 62.78 64.44 55.40Q64.31 48.02 64.31 41L64.31 41L64.31 22.82Q64.85 22.64 65.75 22.41Q66.65 22.19 67.73 22.19L67.73 22.19Q71.69 22.19 71.69 25.43L71.69 25.43L71.69 76.37Q70.88 77.09 69.62 77.50Q68.36 77.90 66.83 77.90L66.83 77.90Q64.67 77.90 63.14 77.05Q61.61 76.19 60.35 73.94L60.35 73.94L43.25 45.14Q42.17 43.34 40.95 41.18Q39.74 39.02 38.61 36.95Q37.49 34.88 36.55 32.99Q35.60 31.10 34.97 29.84L34.97 29.84L34.61 29.93Q35.06 34.25 35.33 39.79Q35.60 45.32 35.60 50.27L35.60 50.27L35.60 77.18Q35.15 77.36 34.20 77.58Q33.26 77.81 32.27 77.81Z%22 fill=%22%23fff%22></path></svg>" />
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <link rel="stylesheet" href="https://latex.vercel.app/style.css">
   <style>
+  html, body {
+      background-color: #ffffff;
+  }
   body {
       max-width: 60rem;
+  }
+  p, ul, ol {
+      line-height: 1.4;
+  }
+  a {
+      text-decoration: none;
+  }
+  a:hover {
+      text-decoration: underline;
+  }
+  pre {
+      line-height: 1.4;
+      padding: 1rem 1.4rem;
+      border: 1px solid #e1e4e8;
+      border-radius: 6px;
   }
   </style>
 </head>
@@ -183,245 +193,237 @@ categorized by topic.</p>
 <hr />
 <h3 id="mathematics">Mathematics</h3>
 <ul>
-<li><code>[Cummings]</code> Proofs</li>
-<li><code>[Cummings]</code> Real analysis</li>
-<li><code>[Aigner]</code> Proofs from the book</li>
-<li><code>[Hardy]</code> A course of pure mathematics</li>
-<li><code>[Rudin]</code> Principles of mathematical analysis</li>
-<li><code>[Kolmogorov, Fomin]</code> Elementi di teoria delle funzioni e
-di analisi funzionale</li>
-<li><code>[De Marco]</code> Analisi uno</li>
-<li><code>[De Marco]</code> Analisi due</li>
-<li><code>[Elsgolts]</code> Equazioni differenziali e calcolo delle
+<li><em>Cummings</em> → Proofs</li>
+<li><em>Cummings</em> → Real analysis</li>
+<li><em>Aigner</em> → Proofs from the book</li>
+<li><em>Hardy</em> → A course of pure mathematics</li>
+<li><em>Rudin</em> → Principles of mathematical analysis</li>
+<li><em>Kolmogorov, Fomin</em> → Elementi di teoria delle funzioni e di
+analisi funzionale</li>
+<li><em>De Marco</em> → Analisi uno</li>
+<li><em>De Marco</em> → Analisi due</li>
+<li><em>Elsgolts</em> → Equazioni differenziali e calcolo delle
 variazioni</li>
-<li><code>[Salsa]</code> Equazioni a derivate parziali</li>
-<li><code>[Suli]</code> An introduction to numerical analysis</li>
-<li><code>[Scott]</code> Numerical analysis</li>
-<li><code>[Pascucci]</code> Teoria delle probabilità: variabili
-aleatorie e distribuzioni</li>
-<li><code>[Pascucci]</code> Teoria delle probabilità: processi e calcolo
+<li><em>Salsa</em> → Equazioni a derivate parziali</li>
+<li><em>Suli</em> → An introduction to numerical analysis</li>
+<li><em>Scott</em> → Numerical analysis</li>
+<li><em>Pascucci</em> → Teoria delle probabilità: variabili aleatorie e
+distribuzioni</li>
+<li><em>Pascucci</em> → Teoria delle probabilità: processi e calcolo
 stocastico</li>
-<li><code>[Pascucci]</code> Calcolo stocastico per la finanza</li>
-<li><code>[Duffy]</code> Finite difference methods in financial
+<li><em>Pascucci</em> → Calcolo stocastico per la finanza</li>
+<li><em>Duffy</em> → Finite difference methods in financial
 engineering</li>
-<li><code>[Privault]</code> Understanding Markov chains</li>
-<li><code>[Sernesi]</code> Geometria 1</li>
-<li><code>[Sernesi]</code> Geometria 2</li>
-<li><code>[Dummit, Foote]</code> Abstract algebra</li>
-<li><code>[Artin]</code> Algebra</li>
-<li><code>[Serre]</code> A course in arithmetic</li>
-<li><code>[Hardy]</code> An introduction to the theory of numbers</li>
-<li><code>[Silverman, Tate]</code> Rational points on elliptic
-curves</li>
-<li><code>[Apostol]</code> Introduction to analytic number theory</li>
-<li><code>[Koblitz]</code> A course in number theory and
-cryptography</li>
-<li><code>[Hoffstein, Pipher, Silverman]</code> An introduction to
+<li><em>Privault</em> → Understanding Markov chains</li>
+<li><em>Sernesi</em> → Geometria 1</li>
+<li><em>Sernesi</em> → Geometria 2</li>
+<li><em>Dummit, Foote</em> → Abstract algebra</li>
+<li><em>Artin</em> → Algebra</li>
+<li><em>Serre</em> → A course in arithmetic</li>
+<li><em>Hardy</em> → An introduction to the theory of numbers</li>
+<li><em>Silverman, Tate</em> → Rational points on elliptic curves</li>
+<li><em>Apostol</em> → Introduction to analytic number theory</li>
+<li><em>Koblitz</em> → A course in number theory and cryptography</li>
+<li><em>Hoffstein, Pipher, Silverman</em> → An introduction to
 mathematical cryptography</li>
-<li><code>[Joux]</code> Algorithmic cryptanalysis</li>
-<li><code>[Ling, Xing]</code> Coding theory</li>
-<li><code>[Aigner]</code> A course in enumeration</li>
-<li><code>[Stanley]</code> Algebraic combinatorics</li>
-<li><code>[Stoll]</code> Set theory and logic</li>
+<li><em>Joux</em> → Algorithmic cryptanalysis</li>
+<li><em>Ling, Xing</em> → Coding theory</li>
+<li><em>Aigner</em> → A course in enumeration</li>
+<li><em>Stanley</em> → Algebraic combinatorics</li>
+<li><em>Stoll</em> → Set theory and logic</li>
 </ul>
 <h3 id="computer-science">Computer science</h3>
 <ul>
-<li><code>[Arora, Barak]</code> Computational complexity</li>
-<li><code>[Cooper]</code> Computability theory</li>
-<li><code>[Awodey]</code> Category theory</li>
-<li><code>[Fong, Spivak]</code> An invitation to applied category
+<li><em>Arora, Barak</em> → Computational complexity</li>
+<li><em>Cooper</em> → Computability theory</li>
+<li><em>Awodey</em> → Category theory</li>
+<li><em>Fong, Spivak</em> → An invitation to applied category
 theory</li>
-<li><code>[Spivak]</code> Category theory for the sciences</li>
-<li><code>[Hopcroft, Ullman]</code> Automi, linguaggi e
-calcolabilità</li>
-<li><code>[Aho, Sethi, Ullman]</code> Compilatori</li>
-<li><code>[Bertot, Casteran]</code> Interactive theorem proving and
-program development</li>
-<li><code>[Alcock]</code> Illustrating <em>FORTRAN</em></li>
-<li><code>[Raucci]</code> Il linguaggio <em>FORTRAN</em> 90/95</li>
-<li><code>[Brodie]</code> Starting <em>FORTH</em></li>
-<li><code>[Brodie]</code> Thinking <em>FORTH</em></li>
-<li><code>[Nemeth, Snyder, Hein, Whaley]</code> <em>UNIX</em> and
+<li><em>Spivak</em> → Category theory for the sciences</li>
+<li><em>Hopcroft, Ullman</em> → Automi, linguaggi e calcolabilità</li>
+<li><em>Aho, Sethi, Ullman</em> → Compilatori</li>
+<li><em>Bertot, Casteran</em> → Interactive theorem proving and program
+development</li>
+<li><em>Alcock</em> → Illustrating <em>FORTRAN</em></li>
+<li><em>Raucci</em> → Il linguaggio <em>FORTRAN</em> 90/95</li>
+<li><em>Brodie</em> → Starting <em>FORTH</em></li>
+<li><em>Brodie</em> → Thinking <em>FORTH</em></li>
+<li><em>Nemeth, Snyder, Hein, Whaley</em> → <em>UNIX</em> and
 <em>Linux</em> system administration handbook</li>
-<li><code>[Gamma, Helm, Johnson, Vlissides]</code> Design patterns</li>
-<li><code>[Miles, Hamilton]</code> Learning <em>UML 2.0</em></li>
-<li><code>[Hernandez]</code> Database design for mere mortals</li>
+<li><em>Gamma, Helm, Johnson, Vlissides</em> → Design patterns</li>
+<li><em>Miles, Hamilton</em> → Learning <em>UML 2.0</em></li>
+<li><em>Hernandez</em> → Database design for mere mortals</li>
 </ul>
 <h3 id="physics">Physics</h3>
 <ul>
-<li><code>[Goldstein]</code> Classical mechanics</li>
-<li><code>[Fasano, Marmi]</code> Meccanica analitica</li>
-<li><code>[Forte, Rottoli]</code> Fisica quantistica</li>
-<li><code>[Patri, Testa]</code> Fondamenti di meccanica quantistica</li>
-<li><code>[Coecke, Kissinger]</code> Picturing quantum processes</li>
+<li><em>Goldstein</em> → Classical mechanics</li>
+<li><em>Fasano, Marmi</em> → Meccanica analitica</li>
+<li><em>Forte, Rottoli</em> → Fisica quantistica</li>
+<li><em>Patri, Testa</em> → Fondamenti di meccanica quantistica</li>
+<li><em>Coecke, Kissinger</em> → Picturing quantum processes</li>
 </ul>
 <h3 id="engineering">Engineering</h3>
 <ul>
-<li><code>[Capurso]</code> Lezioni di scienza delle costruzioni</li>
-<li><code>[Giua, Seatzu]</code> Analisi dei sistemi dinamici</li>
-<li><code>[Ferrarese, Raparelli]</code> Meccanica applicata</li>
-<li><code>[Guiggiani]</code> Generazione per inviluppo di ruote dentate
-ad evolvente</li>
-<li><code>[Cengenl]</code> Termodinamica e trasmissione del calore</li>
-<li><code>[Della Volpe]</code> Macchine</li>
-<li><code>[Cacciatore]</code> Elementi di macchine</li>
-<li><code>[Silvestroni]</code> Fondamenti di chimica</li>
-<li><code>[Callister]</code> Materials science and engineering</li>
-<li><code>[Perfetti]</code> Circuiti elettrici</li>
-<li><code>[De Magistris, Milano]</code> Circuiti</li>
-<li><code>[Rizzoni]</code> Elettrotecnica</li>
-<li><code>[Scherz, Monk]</code> Practical electronics for inventors</li>
-<li><code>[Luise, Vitetta]</code> Teoria dei segnali</li>
+<li><em>Capurso</em> → Lezioni di scienza delle costruzioni</li>
+<li><em>Giua, Seatzu</em> → Analisi dei sistemi dinamici</li>
+<li><em>Ferrarese, Raparelli</em> → Meccanica applicata</li>
+<li><em>Guiggiani</em> → Generazione per inviluppo di ruote dentate ad
+evolvente</li>
+<li><em>Cengenl</em> → Termodinamica e trasmissione del calore</li>
+<li><em>Della Volpe</em> → Macchine</li>
+<li><em>Cacciatore</em> → Elementi di macchine</li>
+<li><em>Silvestroni</em> → Fondamenti di chimica</li>
+<li><em>Callister</em> → Materials science and engineering</li>
+<li><em>Perfetti</em> → Circuiti elettrici</li>
+<li><em>De Magistris, Milano</em> → Circuiti</li>
+<li><em>Rizzoni</em> → Elettrotecnica</li>
+<li><em>Scherz, Monk</em> → Practical electronics for inventors</li>
+<li><em>Luise, Vitetta</em> → Teoria dei segnali</li>
 </ul>
 <h3 id="finance">Finance</h3>
 <ul>
-<li><code>[Bernheim, Whinston]</code> Microeconomia</li>
-<li><code>[Varian]</code> Intermediate microeconomics</li>
-<li><code>[Saltari, Di Pietro]</code> Introduzione all’economia
+<li><em>Bernheim, Whinston</em> → Microeconomia</li>
+<li><em>Varian</em> → Intermediate microeconomics</li>
+<li><em>Saltari, Di Pietro</em> → Introduzione all’economia
 finanziaria</li>
-<li><code>[Mishkin, Eakins]</code> Istituzioni e mercati finanziari</li>
-<li><code>[Stock, Watson]</code> Introduzione all’econometria</li>
-<li><code>[Woolridge]</code> Introductory econometrics</li>
-<li><code>[Lucchetti]</code> Appunti di analisi delle serie
-storiche</li>
-<li><code>[Elton, Gruber, Brown, Goetzmann]</code> Teorie di portafoglio
-e analisi degli investimenti</li>
-<li><code>[Damodaran, Roggi]</code> Finanza aziendale</li>
-<li><code>[Hull]</code> Fondamenti dei mercati di futures e opzioni</li>
-<li><code>[Hull]</code> Opzioni, futures e altri derivati</li>
-<li><code>[Hull]</code> Risk management e istituzioni finanziarie</li>
+<li><em>Mishkin, Eakins</em> → Istituzioni e mercati finanziari</li>
+<li><em>Stock, Watson</em> → Introduzione all’econometria</li>
+<li><em>Woolridge</em> → Introductory econometrics</li>
+<li><em>Lucchetti</em> → Appunti di analisi delle serie storiche</li>
+<li><em>Elton, Gruber, Brown, Goetzmann</em> → Teorie di portafoglio e
+analisi degli investimenti</li>
+<li><em>Damodaran, Roggi</em> → Finanza aziendale</li>
+<li><em>Hull</em> → Fondamenti dei mercati di futures e opzioni</li>
+<li><em>Hull</em> → Opzioni, futures e altri derivati</li>
+<li><em>Hull</em> → Risk management e istituzioni finanziarie</li>
 </ul>
 <h3 id="corso-di-matematica-superiore">Corso di matematica
 superiore</h3>
 <ul>
-<li><code>[Smirnov]</code> Volume 1: calcolo elementare</li>
-<li><code>[Smirnov]</code> Volume 2: calcolo avanzato</li>
-<li><code>[Smirnov]</code> Volume 3I: algebra lineare</li>
-<li><code>[Smirnov]</code> Volume 3II: variabili complesse - funzioni
+<li><em>Smirnov</em> → Volume 1: calcolo elementare</li>
+<li><em>Smirnov</em> → Volume 2: calcolo avanzato</li>
+<li><em>Smirnov</em> → Volume 3I: algebra lineare</li>
+<li><em>Smirnov</em> → Volume 3II: variabili complesse - funzioni
 speciali</li>
-<li><code>[Smirnov]</code> Volume 4I: equazioni integrali e
-differenziali alle derivate parziali</li>
-<li><code>[Smirnov]</code> Volume 4II: integrazione e analisi
+<li><em>Smirnov</em> → Volume 4I: equazioni integrali e differenziali
+alle derivate parziali</li>
+<li><em>Smirnov</em> → Volume 4II: integrazione e analisi
 funzionale</li>
 </ul>
 <h3 id="the-art-of-computer-programming">The art of computer
 programming</h3>
 <ul>
-<li><code>[Knuth]</code> Volume 1: fundamental algorithms</li>
-<li><code>[Knuth]</code> Volume 2: seminumerical algorithms</li>
-<li><code>[Knuth]</code> Volume 3: sorting and searching</li>
-<li><code>[Knuth]</code> Volume 4A: combinatorial algorithms</li>
+<li><em>Knuth</em> → Volume 1: fundamental algorithms</li>
+<li><em>Knuth</em> → Volume 2: seminumerical algorithms</li>
+<li><em>Knuth</em> → Volume 3: sorting and searching</li>
+<li><em>Knuth</em> → Volume 4A: combinatorial algorithms</li>
 </ul>
 <h3 id="fisica-teorica">Fisica teorica</h3>
 <ul>
-<li><code>[Landau, Lifshitz]</code> Volume 1: meccanica</li>
-<li><code>[Landau, Lifshitz]</code> Volume 2: teoria dei campi</li>
-<li><code>[Landau, Lifshitz]</code> Volume 3: meccanica quantistica non
+<li><em>Landau, Lifshitz</em> → Volume 1: meccanica</li>
+<li><em>Landau, Lifshitz</em> → Volume 2: teoria dei campi</li>
+<li><em>Landau, Lifshitz</em> → Volume 3: meccanica quantistica non
 relativistica</li>
-<li><code>[Landau, Lifshitz]</code> Volume 4: teoria quantistica
+<li><em>Landau, Lifshitz</em> → Volume 4: teoria quantistica
 relativistica</li>
 </ul>
 <h3 id="il-minimo-teorico">Il minimo teorico</h3>
 <ul>
-<li><code>[Susskind, Hrabovsky]</code> Volume 1: meccanica classica</li>
-<li><code>[Susskind, Friedman]</code> Volume 2: meccanica
-quantistica</li>
-<li><code>[Susskind, Friedman]</code> Volume 3: relatività ristrettà e
+<li><em>Susskind, Hrabovsky</em> → Volume 1: meccanica classica</li>
+<li><em>Susskind, Friedman</em> → Volume 2: meccanica quantistica</li>
+<li><em>Susskind, Friedman</em> → Volume 3: relatività ristrettà e
 teoria classica dei campi</li>
 </ul>
 <h3 id="umath">UMath</h3>
 <ul>
-<li><code>[Trombetta]</code> Volume 1: calcolo combinatorio</li>
-<li><code>[Damantino]</code> Volume 3: teoria dei numeri</li>
-<li><code>[Damantino, Campeotto]</code> Volume 7: aritmetica
-modulare</li>
-<li><code>[Tao]</code> Volume 8: risolvere problemi matematici</li>
-<li><code>[Bianchi]</code> Volume 9: probabilità</li>
-<li><code>[Paolini]</code> Volume 10: la matematica delle olimpiadi</li>
-<li><code>[Bernardi]</code> Volume 11: dialoghi sulla logica</li>
-<li><code>[Càssola]</code> Volume 14: problem solving in geometria</li>
-<li><code>[Safaei, Suppa, Tupitti]</code> Volume 15: problem solving in
+<li><em>Trombetta</em> → Volume 1: calcolo combinatorio</li>
+<li><em>Damantino</em> → Volume 3: teoria dei numeri</li>
+<li><em>Damantino, Campeotto</em> → Volume 7: aritmetica modulare</li>
+<li><em>Tao</em> → Volume 8: risolvere problemi matematici</li>
+<li><em>Bianchi</em> → Volume 9: probabilità</li>
+<li><em>Paolini</em> → Volume 10: la matematica delle olimpiadi</li>
+<li><em>Bernardi</em> → Volume 11: dialoghi sulla logica</li>
+<li><em>Càssola</em> → Volume 14: problem solving in geometria</li>
+<li><em>Safaei, Suppa, Tupitti</em> → Volume 15: problem solving in
 algebra e teoria dei numeri</li>
-<li><code>[Mazza, Veredice]</code> Volume 18: matematica discreta</li>
-<li><code>[Damantino, Bordignon, Cagnetta, Pecile]</code> Volume 19:
+<li><em>Mazza, Veredice</em> → Volume 18: matematica discreta</li>
+<li><em>Damantino, Bordignon, Cagnetta, Pecile</em> → Volume 19:
 algebra</li>
 </ul>
 <h3 id="schaums-outlines">Schaum’s outlines</h3>
 <ul>
-<li><code>[Mendelson]</code> Calculus</li>
-<li><code>[Wrede, Spiegel]</code> Advanced calculus</li>
-<li><code>[Spiegel]</code> Calculus of finite differences and difference
+<li><em>Mendelson</em> → Calculus</li>
+<li><em>Wrede, Spiegel</em> → Advanced calculus</li>
+<li><em>Spiegel</em> → Calculus of finite differences and difference
 equations</li>
-<li><code>[Bronson, Costa]</code> Differential equations</li>
-<li><code>[Bronson]</code> Matrix operations</li>
-<li><code>[Lipschutz, Lipson]</code> Linear algebra</li>
-<li><code>[Scheid]</code> Numerical analysis</li>
-<li><code>[Bronson, Naadimuthu]</code> Operations research</li>
-<li><code>[Lipschutz, Lipson]</code> Probability</li>
-<li><code>[Hsu]</code> Probability, random variables, and stochastic
+<li><em>Bronson, Costa</em> → Differential equations</li>
+<li><em>Bronson</em> → Matrix operations</li>
+<li><em>Lipschutz, Lipson</em> → Linear algebra</li>
+<li><em>Scheid</em> → Numerical analysis</li>
+<li><em>Bronson, Naadimuthu</em> → Operations research</li>
+<li><em>Lipschutz, Lipson</em> → Probability</li>
+<li><em>Hsu</em> → Probability, random variables, and stochastic
 processes</li>
-<li><code>[Spiegel, Schiller, Srinivasan]</code> Probability and
+<li><em>Spiegel, Schiller, Srinivasan</em> → Probability and
 statistics</li>
-<li><code>[Spiegel, Stephens]</code> Statistics</li>
-<li><code>[Salvatore]</code> Statistics and econometrics</li>
-<li><code>[Brown, Zima]</code> Mathematics of finance</li>
-<li><code>[Salvatore]</code> Microeconomics</li>
+<li><em>Spiegel, Stephens</em> → Statistics</li>
+<li><em>Salvatore</em> → Statistics and econometrics</li>
+<li><em>Brown, Zima</em> → Mathematics of finance</li>
+<li><em>Salvatore</em> → Microeconomics</li>
 </ul>
 <h3 id="solution-manuals">Solution manuals</h3>
 <ul>
-<li><code>[Demidovich]</code> Esercizi e problemi di analisi
-matematica</li>
-<li><code>[Wing Yu]</code> A complete solution guide to <em>Priciples of
+<li><em>Demidovich</em> → Esercizi e problemi di analisi matematica</li>
+<li><em>Wing Yu</em> → A complete solution guide to <em>Priciples of
 mathematical analysis</em></li>
-<li><code>[Acerbi, Modica, Spagnolo]</code> Problemi scelti di analisi
+<li><em>Acerbi, Modica, Spagnolo</em> → Problemi scelti di analisi
 matematica 1</li>
-<li><code>[Acerbi, Modica, Spagnolo]</code> Problemi scelti di analisi
+<li><em>Acerbi, Modica, Spagnolo</em> → Problemi scelti di analisi
 matematica 2</li>
-<li><code>[Buttazzo, Gambini, Santi]</code> Esercizi di analisi
-matematica 1</li>
-<li><code>[Salsa, Verzini]</code> Equazioni a derivate parziali</li>
-<li><code>[Broglia, Fortuna, Luminati]</code> Problemi risolti di
-algebra lineare</li>
-<li><code>[Chirivì, Del Corso, Dvornicich]</code> Esercizi scelti di
-algebra (volume 1)</li>
-<li><code>[Chirivì, Del Corso, Dvornicich]</code> Esercizi scelti di
-algebra (volume 2)</li>
-<li><code>[Stefanica, Radoicic, Wang]</code> 150 most frequently asked
+<li><em>Buttazzo, Gambini, Santi</em> → Esercizi di analisi matematica
+1</li>
+<li><em>Salsa, Verzini</em> → Equazioni a derivate parziali</li>
+<li><em>Broglia, Fortuna, Luminati</em> → Problemi risolti di algebra
+lineare</li>
+<li><em>Chirivì, Del Corso, Dvornicich</em> → Esercizi scelti di algebra
+(volume 1)</li>
+<li><em>Chirivì, Del Corso, Dvornicich</em> → Esercizi scelti di algebra
+(volume 2)</li>
+<li><em>Stefanica, Radoicic, Wang</em> → 150 most frequently asked
 questions on quant interviews</li>
-<li><code>[Stefanica, Radoicic, Matic]</code> Probability and stochastic
+<li><em>Stefanica, Radoicic, Matic</em> → Probability and stochastic
 calculus quant interview questions</li>
-<li><code>[Stefanica, Radoicic, Matic]</code> Challenging brainteasers
-for interviews</li>
-<li><code>[Della Volpe]</code> Esercizi di macchine</li>
+<li><em>Stefanica, Radoicic, Matic</em> → Challenging brainteasers for
+interviews</li>
+<li><em>Della Volpe</em> → Esercizi di macchine</li>
 </ul>
 <h3 id="basic-mathematics">Basic mathematics</h3>
 <ul>
-<li><code>[Courant, Robbins]</code> Che cos’è la matematica?</li>
-<li><code>[Sprugnoli]</code> Introduzione alla matematica</li>
-<li><code>[Tommei]</code> Matematica di base</li>
-<li><code>[Buttazzo]</code> Matematica preuniversitaria di base</li>
-<li><code>[Giuliano]</code> Argomenti di probabilità e statistica</li>
-<li><code>[Kac, Ulam]</code> Mathematics and logic</li>
-<li><code>[Mola]</code> Formulario di matematica</li>
-<li><code>[Lipovaca]</code> Learn you a <em>Haskell</em> for great
+<li><em>Courant, Robbins</em> → Che cos’è la matematica?</li>
+<li><em>Sprugnoli</em> → Introduzione alla matematica</li>
+<li><em>Tommei</em> → Matematica di base</li>
+<li><em>Buttazzo</em> → Matematica preuniversitaria di base</li>
+<li><em>Giuliano</em> → Argomenti di probabilità e statistica</li>
+<li><em>Kac, Ulam</em> → Mathematics and logic</li>
+<li><em>Mola</em> → Formulario di matematica</li>
+<li><em>Lipovaca</em> → Learn you a <em>Haskell</em> for great
 good!</li>
-<li><code>[Haverbeke]</code> Eloquent <em>JavaScript</em></li>
+<li><em>Haverbeke</em> → Eloquent <em>JavaScript</em></li>
 </ul>
 <h3 id="uncategorized">Uncategorized</h3>
 <ul>
-<li><code>[Baldassini]</code> Vademecum per disegnatori e tecnici</li>
-<li><code>[Ruckert]</code> The <em>MMIX</em> supplement</li>
-<li><code>[Knuth]</code> The art of computer programming:
-<em>MMIX</em></li>
-<li><code>[Gilardi]</code> Il <em>TeX</em></li>
-<li><code>[Van Dongen]</code> <em>LaTeX</em> and friends</li>
-<li><code>[Goossens, Mittelbach, Samarin]</code> The <em>LaTeX</em>
+<li><em>Baldassini</em> → Vademecum per disegnatori e tecnici</li>
+<li><em>Ruckert</em> → The <em>MMIX</em> supplement</li>
+<li><em>Knuth</em> → The art of computer programming: <em>MMIX</em></li>
+<li><em>Gilardi</em> → Il <em>TeX</em></li>
+<li><em>Van Dongen</em> → <em>LaTeX</em> and friends</li>
+<li><em>Goossens, Mittelbach, Samarin</em> → The <em>LaTeX</em>
 companion</li>
-<li><code>[Goossens, Mittelbach, Samarin]</code> The <em>LaTeX</em>
-graphics companion</li>
-<li><code>[Hogan]</code> <em>TMUX</em></li>
-<li><code>[Klein]</code> The <em>VimL</em> primer</li>
-<li><code>[Neil]</code> Practical <em>Vim</em></li>
+<li><em>Goossens, Mittelbach, Samarin</em> → The <em>LaTeX</em> graphics
+companion</li>
+<li><em>Hogan</em> → <em>TMUX</em></li>
+<li><em>Klein</em> → The <em>VimL</em> primer</li>
+<li><em>Neil</em> → Practical <em>Vim</em></li>
 </ul>
 <nav class="site-nav" style="font-size:70%">
 <!-- footer content -->
