@@ -104,7 +104,6 @@ This list contains additional resources for in-depth study. The books cover more
 - *Lucchetti* → Appunti di analisi delle serie storiche
 - *Elton, Gruber, Brown, Goetzmann* → Teorie di portafoglio e analisi degli investimenti
 - *Damodaran, Roggi* → Finanza aziendale
-- *Hull* → Fondamenti dei mercati di futures e opzioni
 - *Hull* → Opzioni, futures e altri derivati
 - *Hull* → Risk management e istituzioni finanziarie
 
@@ -176,7 +175,6 @@ This list contains additional resources for in-depth study. The books cover more
 - *Lipschutz, Lipson* → Probability
 - *Hsu* → Probability, random variables, and stochastic processes
 - *Spiegel, Schiller, Srinivasan* → Probability and statistics
-- *Spiegel, Stephens* → Statistics
 - *Salvatore* → Statistics and econometrics
 - *Brown, Zima* → Mathematics of finance
 - *Salvatore* → Microeconomics

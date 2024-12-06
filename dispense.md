@@ -131,6 +131,8 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 - *Vargiolu, Dai Prà* → [Appunti di probabilità e statistica: esercizi risolti](https://mega.nz/file/FkZHXDpD#miZEvo7BN4ZJH6HsSh1hhLUu1c3uPNhF1eQZNaSIdac)
 - *Caravenna, Dai Prà* → [Introduzione alla probabilità](https://mega.nz/file/J0pkVRYQ#NcG-pWdvjuqqoyIVLe0NJpydkKU1JOI2LOcH-6v5xiM)
 - *Vargiolu* → [Calcolo delle probabilità](https://mega.nz/file/AsIx2QQL#UBgX6WAVt6sEvN-Un9mhQf7McHmonpoE3oEW_gqOGCQ)
+- *Vershynin* → [High-dimensional probability](https://mega.nz/file/I1YnwbQI#wJttI4CgzJuHzTqIYie9N8tud7wYZwFBVO1fgJUNzNQ)
+- *Adams* → [High-dimensional probability](https://mega.nz/file/kgA1iZiC#HVeFar5T7GJg1_qKBd_CS3xUstRth81vLNTXy4cjEEU)
 
 
 

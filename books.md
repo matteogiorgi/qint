@@ -144,6 +144,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 - *Luenberger* → Finanza e investimenti
 - *Hubbert* → Essential mathematics for market risk management
 - *Wilmott* → Introduzione alla finanza quantitativa
+- *Hull* → Fondamenti dei mercati di futures e opzioni
 - *Banks* → Finance
 
 
