@@ -142,6 +142,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 ### Finance
 - *Luenberger* → Finanza e investimenti
+- *Cacciafesta* → Lezioni di matematica finanziaria classica e moderna
 - *Hubbert* → Essential mathematics for market risk management
 - *Wilmott* → Introduzione alla finanza quantitativa
 - *Hull* → Fondamenti dei mercati di futures e opzioni

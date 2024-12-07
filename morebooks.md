@@ -102,10 +102,12 @@ This list contains additional resources for in-depth study. The books cover more
 - *Stock, Watson* → Introduzione all'econometria
 - *Woolridge* → Introductory econometrics
 - *Lucchetti* → Appunti di analisi delle serie storiche
-- *Elton, Gruber, Brown, Goetzmann* → Teorie di portafoglio e analisi degli investimenti
-- *Damodaran, Roggi* → Finanza aziendale
 - *Hull* → Opzioni, futures e altri derivati
 - *Hull* → Risk management e istituzioni finanziarie
+- *Elton, Gruber, Brown, Goetzmann* → Teorie di portafoglio e analisi degli investimenti
+- *Damodaran, Roggi* → Finanza aziendale
+- *Berk, De Marzo* → Finanza aziendale (volume 1)
+- *Berk, De Marzo* → Finanza aziendale (volume 2)
 
 
 
@@ -208,6 +210,7 @@ This list contains additional resources for in-depth study. The books cover more
 - *Giuliano* → Argomenti di probabilità e statistica
 - *Kac, Ulam* → Mathematics and logic
 - *Mola* → Formulario di matematica
+- *Balma, Pedroni* → Matematica finanziaria
 - *Lipovaca* → Learn you a *Haskell* for great good!
 - *Haverbeke* → Eloquent *JavaScript*
 
