@@ -8,7 +8,6 @@ This repository contains a collection of material, useful for quant interviews p
 - [More books](https://www.geoteo.net/qmath/morebooks). List of additional resources for in-depth study
 - [University notes](https://www.geoteo.net/qmath/dispense). Notes from intersting university courses found online
 - [Full calculus](https://www.geoteo.net/qmath/gobbino). Complete calculus course by Prof. Gobbino from UniPi
-- [Intro to algorithms](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/). Undergrad MIT course on algorithms
-- [Advanced algorithms](https://ocw.mit.edu/courses/6-854j-advanced-algorithms-fall-2008/). Grad course on the algorithm design and analysis
-- [Topics in math](https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/). Applied math course for finance from MIT
+- [Intro to algorithms](https://ocw.mit.edu/courses/6-046j-introduction-to-algorithms-sma-5503-fall-2005). The famous MIT course on algorithms by Prof. Leiserson
+- [Topics in math](https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013). Applied math course for finance from MIT
 - [Math for finance](https://ocw.uci.edu/courses/math_176_math_of_finance.html). Effective course by Prof. Saari from UCI
