@@ -58,6 +58,8 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 - *Canuto, Tabacco* → Analisi matematica 2
 - *Piskunov* → Calcolo differenziale e integrale 1
 - *Piskunov* → Calcolo differenziale e integrale 2
+- *Lebl* → Basic analysis 1 (\*)
+- *Lebl* → Basic analysis 2 (\*)
 
 
 
@@ -65,8 +67,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 ### Differential equations
 - *Mascia* → Equazioni differenziali ordinarie
 - *Ambrosetti* → Appunti sulle equazioni differenziali ordinarie
-- *Logan* → A first course in differential equations
-- *Logan* → Applied partial differential equations
+- *Lebl* → Notes on diffy qs (\*)
 - *Farlow* → Partial differential equations for scientists and engineers
 - *Tveito, Winther* → Introduction to partial differential equations
 
@@ -74,11 +75,10 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 ### Analytical methods
-- *Nahin* → Inside interesting integrals
-- *Stillwell* → The real numbers
 - *Bramanti* → Metodi di analisi matematica per l'ingegneria
 - *Codegone* → Metodi matematici per l'ingegegneria
 - *Barozzi* → Matematica per l'ingegneria dell'informazione
+- *Stillwell* → The real numbers
 
 
 
@@ -100,9 +100,6 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 - *Grimmett, Welsh* → Probability
 - *Caravenna, Dai Pra* → Probabilità
 - *Ross* → Calcolo delle probabilità
-- *Ross* → Probabilità e statistica per l'ingegneria e le scienze
-- *Rotondi, Pedroni, Pievatolo* → Probabilità, statistica e simulazione
-- *Dekking, Kraaikamp, Lopuhaä, Meester* → A modern introduction to probability and statistics
 - *Capinski, Kopp* → Measure, integral and probability
 - *Brzezniak, Zastawniak* → Basic stochastic processes
 
@@ -110,6 +107,9 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 ### Statistics
+- *Ross* → Probabilità e statistica per l'ingegneria e le scienze
+- *Rotondi, Pedroni, Pievatolo* → Probabilità, statistica e simulazione
+- *Dekking, Kraaikamp, Lopuhaä, Meester* → A modern introduction to probability and statistics
 - *Bulmer* → Principles of statistics
 - *Diez, Barr, Çetinkaya-Rundel* → OpenIntro statistics
 - *Starmer* → The statquest guide to machine learning

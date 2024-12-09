@@ -21,7 +21,7 @@ This list contains additional resources for in-depth study. The books cover more
 - *Suli* → An introduction to numerical analysis
 - *Scott* → Numerical analysis
 - *Pascucci* → Teoria delle probabilità: variabili aleatorie e distribuzioni
-- *Pascucci* → Teoria delle probabilità: processi e calcolo stocastico
+- *Pascucci* → Teoria delle probabilità: processi e calcolo stocastico (\*)
 - *Pascucci* → Calcolo stocastico per la finanza
 - *Duffy* → Finite difference methods in financial engineering
 - *Privault* → Understanding Markov chains
@@ -106,8 +106,8 @@ This list contains additional resources for in-depth study. The books cover more
 - *Hull* → Risk management e istituzioni finanziarie
 - *Elton, Gruber, Brown, Goetzmann* → Teorie di portafoglio e analisi degli investimenti
 - *Damodaran, Roggi* → Finanza aziendale
-- *Berk, De Marzo* → Finanza aziendale (volume 1)
-- *Berk, De Marzo* → Finanza aziendale (volume 2)
+- *Berk, De Marzo* → Finanza aziendale (volume 1) (\*)
+- *Berk, De Marzo* → Finanza aziendale (volume 2) (\*)
 
 
 
@@ -170,10 +170,12 @@ This list contains additional resources for in-depth study. The books cover more
 - *Wrede, Spiegel* → Advanced calculus
 - *Spiegel* → Calculus of finite differences and difference equations
 - *Bronson, Costa* → Differential equations
+- *Duchateau* → Partial differential equations (\*)
+- *Spiegel* → Laplace transforms (\*)
 - *Bronson* → Matrix operations
 - *Lipschutz, Lipson* → Linear algebra
 - *Scheid* → Numerical analysis
-- *Bronson, Naadimuthu* → Operations research
+- *Bronson, Naadimuthu* → Operations research (\*)
 - *Lipschutz, Lipson* → Probability
 - *Hsu* → Probability, random variables, and stochastic processes
 - *Spiegel, Schiller, Srinivasan* → Probability and statistics
