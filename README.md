@@ -16,9 +16,9 @@ This repository contains a collection of material, useful for quant interviews p
 
 
 ### University courses
-- [Full calculus](https://www.geoteo.net/qmath/gobbino). Complete calculus course by Prof. Gobbino from UniPi
-- [Real analysis](https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2015). More advanced MIT course on real numbers
-- [Topics in math](https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013). Applied math course for finance from MIT
-- [Math for finance](https://ocw.uci.edu/courses/math_176_math_of_finance.html). Effective course by Prof. Saari from UCI
-- [Intro to algorithms](https://ocw.mit.edu/courses/6-046j-introduction-to-algorithms-sma-5503-fall-2005). The famous MIT course on algorithms by Prof. Leiserson
-- [Algorithm design](https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2015). More advanced MIT course on algorithms
+- [Calculus I/II](http://pagine.dm.unipi.it/gobbino/Home_Page/AD_T08.html). Calculus course by Prof. Gobbino from UniPi ([backup-page](https://www.geoteo.net/qmath/gobbino))
+- [Real analysis](https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020). More advanced MIT course on real numbers by Prof. Rodriguez
+- [Intro to algorithms](https://ocw.mit.edu/courses/6-046j-introduction-to-algorithms-sma-5503-fall-2005). The famous MIT course on algorithms by Prof. Leiserson, Demaine
+- [Algorithm design](https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2015). More advanced MIT course on algorithms by Prof. Demaine, Devadas, Lynch
+- [Topics in math](https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013). Applied math course for finance from MIT by Prof. Kempthorne, Lee, Strela, Xia
+- [Math for finance](https://ocw.uci.edu/courses/math_176_math_of_finance.html). Very effective course on finmath by Prof. Saari from UCI
