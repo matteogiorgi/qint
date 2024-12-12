@@ -58,8 +58,8 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 - *Canuto, Tabacco* → Analisi matematica 2
 - *Piskunov* → Calcolo differenziale e integrale 1
 - *Piskunov* → Calcolo differenziale e integrale 2
-- *Lebl* → Basic analysis 1 (\*)
-- *Lebl* → Basic analysis 2 (\*)
+- *Lebl* → Basic analysis 1
+- *Lebl* → Basic analysis 2
 
 
 
@@ -67,9 +67,9 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 ### Differential equations
 - *Mascia* → Equazioni differenziali ordinarie
 - *Ambrosetti* → Appunti sulle equazioni differenziali ordinarie
-- *Lebl* → Notes on diffy qs (\*)
 - *Farlow* → Partial differential equations for scientists and engineers
 - *Tveito, Winther* → Introduction to partial differential equations
+- *Lebl* → Notes on diffy qs
 
 
 
