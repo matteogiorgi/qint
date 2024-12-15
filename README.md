@@ -10,7 +10,7 @@ This repository contains a collection of material, useful for quant interviews p
 ### Books & notes
 - [Quant books](https://www.geoteo.net/qmath/books). Collection of books I used during university
 - [More books](https://www.geoteo.net/qmath/morebooks). List of additional resources for in-depth study
-- [Free notes](https://www.geoteo.net/qmath/dispense). Notes from intersting university courses found online
+- [Free notes](https://www.geoteo.net/qmath/dispense). Useful university notes found online
 
 
 

@@ -170,8 +170,6 @@ This list contains additional resources for in-depth study. The books cover more
 - *Wrede, Spiegel* → Advanced calculus
 - *Spiegel* → Calculus of finite differences and difference equations
 - *Bronson, Costa* → Differential equations
-- *Duchateau* → Partial differential equations (\*)
-- *Spiegel* → Laplace transforms (\*)
 - *Bronson* → Matrix operations
 - *Lipschutz, Lipson* → Linear algebra
 - *Scheid* → Numerical analysis
