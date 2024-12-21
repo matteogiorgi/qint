@@ -61,6 +61,9 @@ This list contains additional resources for in-depth study. The books cover more
 - *Gamma, Helm, Johnson, Vlissides* → Design patterns
 - *Miles, Hamilton* → Learning *UML 2.0*
 - *Hernandez* → Database design for mere mortals
+- *Granneman* → *Linux* phrasebook
+- *Powers, Peek, O'Reilly, Loukides* → Unix power tools
+- *Tyler* → X power tools
 
 
 
@@ -76,6 +79,7 @@ This list contains additional resources for in-depth study. The books cover more
 
 
 ### Engineering
+- *Baldassini* → Vademecum per disegnatori e tecnici
 - *Capurso* → Lezioni di scienza delle costruzioni
 - *Giua, Seatzu* → Analisi dei sistemi dinamici
 - *Ferrarese, Raparelli* → Meccanica applicata
@@ -164,6 +168,14 @@ This list contains additional resources for in-depth study. The books cover more
 
 
 
+### TeX & LaTeX
+- *Gilardi* → Il *TeX*
+- *Van Dongen* → *LaTeX* and friends
+- *Goossens, Mittelbach, Samarin* → The *LaTeX* companion
+- *Goossens, Mittelbach, Samarin* → The *LaTeX* graphics companion
+
+
+
 
 ### Schaum's outlines
 - *Mendelson* → Calculus
@@ -205,6 +217,7 @@ This list contains additional resources for in-depth study. The books cover more
 ### Basic mathematics
 - *Courant, Robbins* → Che cos'è la matematica?
 - *Sprugnoli* → Introduzione alla matematica
+- *Simon, Blume* → Mathematics for economists
 - *Tommei* → Matematica di base
 - *Buttazzo* → Matematica preuniversitaria di base
 - *Giuliano* → Argomenti di probabilità e statistica
@@ -218,13 +231,9 @@ This list contains additional resources for in-depth study. The books cover more
 
 
 ### Uncategorized
-- *Baldassini* → Vademecum per disegnatori e tecnici
 - *Ruckert* → The *MMIX* supplement
 - *Knuth* → The art of computer programming: *MMIX*
-- *Gilardi* → Il *TeX*
-- *Van Dongen* → *LaTeX* and friends
-- *Goossens, Mittelbach, Samarin* → The *LaTeX* companion
-- *Goossens, Mittelbach, Samarin* → The *LaTeX* graphics companion
-- *Hogan* → *TMUX*
-- *Klein* → The *VimL* primer
 - *Neil* → Practical *Vim*
+- *Klein* → The *VimL* primer
+- *Hogan* → *TMUX*
+- *Swicegood* → Pragmatic guide to *Git*

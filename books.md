@@ -11,6 +11,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 - *Khinchin* → Continued fractions
 - *Vinogradov* → Elements of number theory
 - *Andrews* → Number theory
+- *Stein* → Elementary number theory
 - *Davenport* → The higher arithmetic
 
 
@@ -34,6 +35,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 - *Herstein* → Algebra
 - *Piacentini Cattaneo* → Algebra
 - *Leonesi, Toffalori* → Un invito all'algebra
+- *Lauritzen* → Concrete abstract algebra
 
 
 
@@ -146,6 +148,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 - *Hubbert* → Essential mathematics for market risk management
 - *Wilmott* → Introduzione alla finanza quantitativa
 - *Hull* → Fondamenti dei mercati di futures e opzioni
+- *Serafini* → Teorie del rischio e teoria di portafoglio
 - *Banks* → Finance
 
 
@@ -266,15 +269,18 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 - *Papadimitriou* → Computational complexity
 - *Bernasconi, Codenotti* → Introduzione alla complessità computazionale
 - *Taylor* → Models of computation and formal languages
+- *Sannella, Fourman, Peng, Wadler* → Introduction to computation
 
 
 
 
 ### Category theory & Logic
-- *Lawvere, Schanuel* → Teoria delle categorie
-- *Milewski* → Category theory for programmers
+- *Doets, van Eijck* → The Haskell road to logic, maths and programming
 - *Cameron* → Sets, logic and categories
-- *Sannella, Fourman, Peng, Wadler* → Introduction to computation
+- *Pierce* → Basic category theory for computer scientists
+- *Milewski* → Category theory for programmers
+- *Lawvere, Schanuel* → Teoria delle categorie
+- *Walters* → Categories and computer science
 
 
 
@@ -353,6 +359,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 - *Halsall* → Networking e Internet
 - *Kurose, Ross* → Reti di calcolatori e Internet
 - *Woodbeck* → Network programming with *Go*
+- *Pitt* → Fundamental networking in *Java*
 
 
 
@@ -429,9 +436,6 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 ### Uncategorized
 - *Garrity* → All the math you missed
-- *Simon, Blume* → Mathematics for economists
 - *Manca* → Linguaggi e calcoli
 - *Ferragina, Luccio* → Il pensiero computazionale
-- *Granneman* → *Linux* phrasebook
-- *Swicegood* → Pragmatic guide to *Git*
 - *Griffiths, Higharn* → Learning *LaTeX*
