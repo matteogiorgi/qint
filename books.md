@@ -268,6 +268,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 - *Ausiello, D'Amore, Gambosi, Laura* → Linguaggi, modelli, complessità
 - *Papadimitriou* → Computational complexity
 - *Bernasconi, Codenotti* → Introduzione alla complessità computazionale
+- *Sipser* → Introduzione alla teoria della computazione
 - *Taylor* → Models of computation and formal languages
 - *Sannella, Fourman, Peng, Wadler* → Introduction to computation
 
@@ -339,6 +340,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 - *Plantz* → Introduction to computer organization
 - *Harris, Harris* → Digital design and computer architecture
 - *Corsini* → Dalle porte `and`, `or`, `not`, al sistema calcolatore
+- *Bolchini, Brandolese, Salice, Sciuto* → Reti logiche
 - *Streib* → Guide to assembly language
 - *Zhirkov* → Low level programming
 
@@ -347,6 +349,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 ### Operating systems
 - *Tanenbaum* → I moderni sistemi operativi
+- *Tanenbaum* → Operating systems design and implementation
 - *Silberschatz, Galvin, Gagne* → Sistemi operativi
 - *Arpaci, Dusseau* → Operating systems: three easy pieces
 - *Love* → *Linux* kernel development
@@ -395,6 +398,8 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 ### Software engineering
+- *Martin* → Clean code
+- *Martin* → Clean architecture
 - *Larman* → Applying *UML* and patterns
 - *Viescas* → *SQL* queries for mere mortals
 

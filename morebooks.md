@@ -11,7 +11,9 @@ This list contains additional resources for in-depth study. The books cover more
 - *Cummings* → Proofs
 - *Cummings* → Real analysis
 - *Aigner* → Proofs from the book
+- *Birkhoff, Mac Lane* → A survey of modern algebra
 - *Hardy* → A course of pure mathematics
+- *Prodi* → Analisi matematica
 - *Rudin* → Principles of mathematical analysis
 - *Kolmogorov, Fomin* → Elementi di teoria delle funzioni e di analisi funzionale
 - *De Marco* → Analisi uno
@@ -40,11 +42,13 @@ This list contains additional resources for in-depth study. The books cover more
 - *Aigner* → A course in enumeration
 - *Stanley* → Algebraic combinatorics
 - *Stoll* → Set theory and logic
+- *Mac Lane* → Categorie nella pratica matematica
 
 
 
 
 ### Computer science
+- *Luccio, Pagli* → Reti logiche e calcolatori
 - *Arora, Barak* → Computational complexity
 - *Cooper* → Computability theory
 - *Awodey* → Category theory
@@ -62,6 +66,7 @@ This list contains additional resources for in-depth study. The books cover more
 - *Miles, Hamilton* → Learning *UML 2.0*
 - *Hernandez* → Database design for mere mortals
 - *Granneman* → *Linux* phrasebook
+- *Kroah-Hartman* → Linux kernel in a nutshell
 - *Powers, Peek, O'Reilly, Loukides* → Unix power tools
 - *Tyler* → X power tools
 
