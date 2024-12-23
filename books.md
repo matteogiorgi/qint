@@ -44,6 +44,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 - *Strang* → Introduction to linear algebra
 - *Axler* → Linear algebra done right
 - *Parigi, Palestini* → Manule di geometria
+- *Capparelli, Del Fra* → Geometria
 - *Abate* → Geometria
 
 
