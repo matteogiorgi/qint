@@ -61,14 +61,21 @@ This list contains additional resources for in-depth study. The books cover more
 - *Raucci* → Il linguaggio *FORTRAN* 90/95
 - *Brodie* → Starting *FORTH*
 - *Brodie* → Thinking *FORTH*
+- *Cox, Buday* → Concurrency in *Go*
+- *Marlow* → Parallel and concurrent programming in *Haskell*
+- *Goetz* → *Java* concurrency in practice
+- *Klemens* → 21st century *C*
+- *Grinberg* → Flask web development
+- *Snoyman* → Developing web applications with *Haskell* and *Yesod*
+- *Peterson, Davie* → Computer networks
 - *Nemeth, Snyder, Hein, Whaley* → *UNIX* and *Linux* system administration handbook
+- *Powers, Peek, O'Reilly, Loukides* → Unix power tools
+- *Tyler* → X power tools
 - *Gamma, Helm, Johnson, Vlissides* → Design patterns
 - *Miles, Hamilton* → Learning *UML 2.0*
 - *Hernandez* → Database design for mere mortals
 - *Granneman* → *Linux* phrasebook
 - *Kroah-Hartman* → Linux kernel in a nutshell
-- *Powers, Peek, O'Reilly, Loukides* → Unix power tools
-- *Tyler* → X power tools
 
 
 
@@ -76,6 +83,7 @@ This list contains additional resources for in-depth study. The books cover more
 ### Physics
 - *Goldstein* → Classical mechanics
 - *Fasano, Marmi* → Meccanica analitica
+- *Greenwood* → Classical dynamics
 - *Forte, Rottoli* → Fisica quantistica
 - *Patri, Testa* → Fondamenti di meccanica quantistica
 - *Coecke, Kissinger* → Picturing quantum processes

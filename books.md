@@ -176,6 +176,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 - *Schoen* → Fondamenti di ricerca operativa
 - *Martello* → Ricerca operativa
 - *Fischetti* → Lezioni di ricerca operativa
+- *Papadimitriou, Steiglitz* → Combinatorial optimization
 - *Diestel* → Graph theory
 
 
@@ -353,6 +354,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 - *Silberschatz, Galvin, Gagne* → Sistemi operativi
 - *Arpaci, Dusseau* → Operating systems: three easy pieces
 - *Love* → *Linux* kernel development
+- *Bovet, Cesati* → Understanding the *Linux* kernel
 
 
 
@@ -390,6 +392,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 - *Piccardi* → Amministrare *GNU/Linux*
 - *Glass, Ables* → *UNIX* for programmers and users
 - *Kochan, Wood* → *UNIX* shell programming
+- *Robbins, Beebe* → Classic shell scripting
 - *Albing, Vossen* → *Bash* idioms
 - *Dougherty, Robbins* → *Sed* & *AWK*
 - *Aho, Kernighan, Weinberger* → The *AWK* programming language
@@ -400,6 +403,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 ### Software engineering
 - *Martin* → Clean code
 - *Martin* → Clean architecture
+- *Kernighan, Pike* → The practice of programming
 - *Larman* → Applying *UML* and patterns
 - *Viescas* → *SQL* queries for mere mortals
 
