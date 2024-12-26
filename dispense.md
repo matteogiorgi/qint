@@ -1,11 +1,9 @@
 Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_libero) raccolta di dispense su vari argomenti, scritte da diversi autori. Il materiale è principalmente in italiano e copre argomenti utili per lo studio di algoritmi, matematica computazionale e materie affini.
 
----
 
 
 
-
-### Linguaggi & Programmazione
+## Linguaggi & Programmazione
 - *Haverbeke* → [Eloquent *JavaScript*](https://mega.nz/file/BghQTJYI#QNqICiQszzUVW8J4n9RP9RuTISe8wXEb_TJqEPWBGN8)
 - *Abelson, Sussman* → [Structure and interpretation of computer programs](https://mega.nz/file/wgIEUb6A#3NrlsDomh_nqVTEbGnjMOn0sM5aWGuurqilhEY8dfac)
 - *Banahan, Brady, Doran* → [The *C* book](https://mega.nz/file/01x0kBLC#hrlzEyf4HONk1l6gEQ5D3J09B7nfxeR-yqasSIz-FEc)
@@ -21,7 +19,7 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 
 
 
-### Algoritmi & Strutture dati
+## Algoritmi & Strutture dati
 - *Finocchi, Mulas* → [Appunti di algoritmica](https://mega.nz/file/cs4GATaD#9cMCqjCTAiGnsBkll--aKsxloD_CnMOS_7GOoyq9mNY)
 - *De Francesco, Martini* → [Appunti di algoritmi e strutture dati](https://mega.nz/file/M5IWxKaI#43cRF8HtbZ0pqOKAIiZw2S-ST2uliuwsQ_iO6mYQE5Y)
 - *Lauria* → [Appunti su algoritmi e complesssità](https://mega.nz/file/dshBnJyQ#iHZ7BZwnJ0iziQZoEiUBP8kpYJT9wbnxsVfIzmr-T-M)
@@ -38,7 +36,7 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 
 
 
-### Algebra & Matematica discreta
+## Algebra & Matematica discreta
 - *Fleck* → [Building blocks for theoretical computer science](https://mega.nz/file/ggARGbCB#uydNx9jOIgjK3xOJP-Q7DRe51u_NDRQf0kWigrglVdo)
 - *Bonchi, Conte, Corradini, Grossi* → [Fondamenti dell'informatica](https://mega.nz/file/U1xSCQKR#m82gfTfq95pCfLd2AgXcOk9N27gHjqW90am1cQLmGwY)
 - *Berarducci, Gaiffi* → [Appunti di matematica discreta: aritmetica](https://mega.nz/file/s0pwETIC#RjYJLEnkjTVBOHG2afQAfUEKzZy73FefOcoeklXhL0w)
@@ -53,7 +51,7 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 
 
 
-### Geometria & Algebra lineare
+## Geometria & Algebra lineare
 - *Polini* → [Algebra lineare for dummies](https://mega.nz/file/NwRSyCgI#oVgzZkVVNTX1Ma3T9R-P2XJEluiO1WsM_3ioMZMw4C0)
 - *Di Martino, Gaiffi* → [Appunti di matematica discreta: algebra lineare](https://mega.nz/file/o9wxHZ5L#u0nknPBHyi0xlnhwiUfBPRdV5lim-J5usW_XJa6cuHo)
 - *Berarducci, Papini* → [Linear algebra exercises](https://mega.nz/file/Np4iXIBC#fcM8APRb4CptRMB6JSyEf1GAdWhiHca1pM4YMbfKoVM)
@@ -69,7 +67,7 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 
 
 
-### Calcolo & Analisi reale
+## Calcolo & Analisi reale
 - *Kuttler* → [Calculus, applications and theory](https://mega.nz/file/w4I1jBSZ#O7gmP1o0ElD-_pwZAzN2_ZrrP0ZrdfeYgCfogaWMZQM)
 - *Eleuteri* → [Dispense di analisi matematica 1: note del corso](https://mega.nz/file/RthWnQSb#diOVBhik34EnSd1D8vjg4uV5FUp4wMW94waUtmxuVpI)
 - *Eleuteri* → [Dispense di analisi matematica 1: esercizi risolti](https://mega.nz/file/F8xVQRjB#dPR_yTR3koh7y1KYDSK4BBX5LD0WQpVMYKQA-xTUU-o)
@@ -118,7 +116,7 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 
 
 
-### Probabilità & Metodi stocastici
+## Probabilità & Metodi stocastici
 - *Trevisan* → [Calcolo delle probabilità e statistica: probabilità discreta](https://mega.nz/file/UgJ2QYab#Axq65ot4jeHEZRXy_wjv1vPuhT6WABRl_45qV1q_vlk)
 - *Trevisan* → [Calcolo delle probabilità e statistica: probabilità continua](https://mega.nz/file/VgwilLSa#K1IUsvPDeXYbuR-jttL360M32J0RPr1GCOX9b9xDSs0)
 - *Trevisan* → [Calcolo delle probabilità e statistica: catene di Markov](https://mega.nz/file/B0QlkZKK#pVYV7ra69LhuxwhaOlBP9CazX_QDih819Ze_dLlKQyo)
@@ -149,7 +147,7 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 
 
 
-### Metodi numerici
+## Metodi numerici
 - *Cavalca* → [Appunti di metodi numerici per l'ingegneria](https://mega.nz/file/Ypw3zZQb#Ohy9kfUhLx1U-WYCUdJ4wjB9EC5xorhkNfReXaFWKf4)
 - *Bevilacqua, Menchi* → [Appunti di calcolo numerico: note del corso](https://mega.nz/file/ktQVnLgD#AELQ71lo5C4Fup1KuauaaboM_3phtk8Kyvths_1LTKM)
 - *Bevilacqua, Menchi* → [Appunti di calcolo numerico: esercizi risolti](https://mega.nz/file/RkpRAATZ#hgnXH5DSXmhElmHg0D2Ai0dUB__DEci_muPbk-jz09I)
@@ -160,7 +158,7 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 
 
 
-### Ricerca operativa
+## Ricerca operativa
 - *Bigi, Frangioni, Gallo, Pallottino, Scutellà* → [Appunti di ricerca operativa](https://mega.nz/file/g0pQiRSS#vpbuJlfIUTrfGa_PTWyjyfNQpWB6FICnxG0Ip8Kc954)
 - *Lucidi, De Santis* → [Appunti di ricerca operativa](https://mega.nz/file/p5RHQDhA#HGf9qkI1Kw7n_Akt27sZ7VI9HRCYXQu--C8ZrWzhju8)
 - *Roma* → [Appunti di ricerca operativa: note del corso](https://mega.nz/file/Z1QziRyB#WYazjJaWGN7wJzag5Z_kqNoExVh572FGaL4EUwLGTfY)
@@ -210,7 +208,7 @@ Questa pagina contiene una [libera](https://it.wikipedia.org/wiki/Software_liber
 
 
 
-### Matematica di base
+## Matematica di base
 - *Battaia* → [Matematica alla maturità](https://mega.nz/file/9pRmjJBS#cblgUKnvIWla0eWfHnQpm76o8WyscO_-H2hth9QQ_v0)
 - *Battaia* → [Precorso di matematica](https://mega.nz/file/1lhHCBjI#RZmt30087W0e9dpD2yOhWRrcw4EYfERzJtd8D84alLY)
 - *Battaia* → [Appunti di matematica](https://mega.nz/file/EsoiDALD#-70ie_1bmlPdNCQa7OfwCsURmrNUmRZuSKgeF4d-MUM)

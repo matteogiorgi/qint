@@ -1,11 +1,9 @@
 This list contains additional resources for in-depth study. The books cover more advanced topics related to those discussed in the [first](https://www.geoteo.net/qmath/books) list, as well as entirely new subjects not previously addressed. The books are categorized by topic.
 
----
 
 
 
-
-### Mathematics
+## Mathematics
 - *Cummings* → Proofs
 - *Cummings* → Real analysis
 - *Aigner* → Proofs from the book
@@ -45,7 +43,7 @@ This list contains additional resources for in-depth study. The books cover more
 
 
 
-### Computer science
+## Computer science
 - *Luccio, Pagli* → Reti logiche e calcolatori
 - *Arora, Barak* → Computational complexity
 - *Cooper* → Computability theory
@@ -78,7 +76,7 @@ This list contains additional resources for in-depth study. The books cover more
 
 
 
-### Physics
+## Physics
 - *Goldstein* → Classical mechanics
 - *Fasano, Marmi* → Meccanica analitica
 - *Greenwood* → Classical dynamics
@@ -89,7 +87,7 @@ This list contains additional resources for in-depth study. The books cover more
 
 
 
-### Engineering
+## Engineering
 - *Baldassini* → Vademecum per disegnatori e tecnici
 - *Capurso* → Lezioni di scienza delle costruzioni
 - *Giua, Seatzu* → Analisi dei sistemi dinamici
@@ -109,7 +107,7 @@ This list contains additional resources for in-depth study. The books cover more
 
 
 
-### Finance
+## Finance
 - *Bernheim, Whinston* → Microeconomia
 - *Varian* → Intermediate microeconomics
 - *Saltari, Di Pietro* → Introduzione all'economia finanziaria
@@ -125,7 +123,7 @@ This list contains additional resources for in-depth study. The books cover more
 
 
 
-### Corso di matematica superiore
+## Corso di matematica superiore
 - *Smirnov* → Volume 1: calcolo elementare
 - *Smirnov* → Volume 2: calcolo avanzato
 - *Smirnov* → Volume 3I: algebra lineare
@@ -136,7 +134,7 @@ This list contains additional resources for in-depth study. The books cover more
 
 
 
-### The art of computer programming
+## The art of computer programming
 - *Knuth* → Volume 1: fundamental algorithms
 - *Knuth* → Volume 2: seminumerical algorithms
 - *Knuth* → Volume 3: sorting and searching
@@ -145,7 +143,7 @@ This list contains additional resources for in-depth study. The books cover more
 
 
 
-### Fisica teorica
+## Fisica teorica
 - *Landau, Lifshitz* → Volume 1: meccanica
 - *Landau, Lifshitz* → Volume 2: teoria dei campi
 - *Landau, Lifshitz* → Volume 3: meccanica quantistica non relativistica
@@ -154,7 +152,7 @@ This list contains additional resources for in-depth study. The books cover more
 
 
 
-### Il minimo teorico
+## Il minimo teorico
 - *Susskind, Hrabovsky* → Volume 1: meccanica classica
 - *Susskind, Friedman* → Volume 2: meccanica quantistica
 - *Susskind, Friedman* → Volume 3: relatività ristrettà e teoria classica dei campi
@@ -162,7 +160,7 @@ This list contains additional resources for in-depth study. The books cover more
 
 
 
-### UMath
+## UMath
 - *Trombetta* → Volume 1: calcolo combinatorio
 - *Damantino* → Volume 3: teoria dei numeri
 - *Damantino, Campeotto* → Volume 7: aritmetica modulare
@@ -177,7 +175,7 @@ This list contains additional resources for in-depth study. The books cover more
 
 
 
-### TeX & LaTeX
+## TeX & LaTeX
 - *Gilardi* → Il *TeX*
 - *Van Dongen* → *LaTeX* and friends
 - *Goossens, Mittelbach, Samarin* → The *LaTeX* companion
@@ -186,7 +184,7 @@ This list contains additional resources for in-depth study. The books cover more
 
 
 
-### Schaum's outlines
+## Schaum's outlines
 - *Mendelson* → Calculus
 - *Wrede, Spiegel* → Advanced calculus
 - *Spiegel* → Calculus of finite differences and difference equations
@@ -205,7 +203,7 @@ This list contains additional resources for in-depth study. The books cover more
 
 
 
-### Solution manuals
+## Solution manuals
 - *Demidovich* → Esercizi e problemi di analisi matematica
 - *Wing Yu* → A complete solution guide to *Priciples of mathematical analysis*
 - *Acerbi, Modica, Spagnolo* → Problemi scelti di analisi matematica 1
@@ -223,7 +221,7 @@ This list contains additional resources for in-depth study. The books cover more
 
 
 
-### Basic mathematics
+## Basic mathematics
 - *Courant, Robbins* → Che cos'è la matematica?
 - *Sprugnoli* → Introduzione alla matematica
 - *Simon, Blume* → Mathematics for economists
@@ -239,7 +237,7 @@ This list contains additional resources for in-depth study. The books cover more
 
 
 
-### Uncategorized
+## Uncategorized
 - *Ruckert* → The *MMIX* supplement
 - *Knuth* → The art of computer programming: *MMIX*
 - *Neil* → Practical *Vim*

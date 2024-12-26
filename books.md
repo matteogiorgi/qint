@@ -13,7 +13,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 
-### Combinatorics
+## Combinatorics
 - *Keller, Trotter* → Applied combinatorics
 - *Graham, Knuth, Patashnik* → Matematica discreta
 - *Mariconda, Tonolo* → Calcolo discreto
@@ -24,7 +24,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 
-### Algebra
+## Algebra
 - *Di Martino* → Algebra
 - *Campanella* → Appunti di algebra 1
 - *Campanella* → Appunti di algebra 2
@@ -36,7 +36,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 
-### Geometry
+## Geometry
 - *Strang* → Introduction to linear algebra
 - *Axler* → Linear algebra done right
 - *Parigi, Palestini* → Manule di geometria
@@ -46,7 +46,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 
-### Mathematical Analysis
+## Mathematical Analysis
 - *Acerbi, Buttazzo* → Primo corso di analisi matematica
 - *Acerbi, Buttazzo* → Secondo corso di analisi matematica
 - *Giusti* → Analisi matematica 1
@@ -63,7 +63,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 
-### Differential equations
+## Differential equations
 - *Mascia* → Equazioni differenziali ordinarie
 - *Ambrosetti* → Appunti sulle equazioni differenziali ordinarie
 - *Farlow* → Partial differential equations for scientists and engineers
@@ -73,7 +73,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 
-### Analytical methods
+## Analytical methods
 - *Bramanti* → Metodi di analisi matematica per l'ingegneria
 - *Codegone* → Metodi matematici per l'ingegegneria
 - *Barozzi* → Matematica per l'ingegneria dell'informazione
@@ -82,7 +82,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 
-### Numerical methods
+## Numerical methods
 - *Ghelardoni, Gheri, Marzulli* → Elementi di calcolo numerico
 - *Esfandiari* → Numerical methods for engineers and scientists
 - *Bevilacqua, Bini, Capovani, Menchi* → Metodi numerici
@@ -93,7 +93,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 
-### Probability
+## Probability
 - *Morin* → Probability
 - *Chung, AitSahlia* → Elementary probability theory
 - *Grimmett, Welsh* → Probability
@@ -105,7 +105,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 
-### Statistics
+## Statistics
 - *Ross* → Probabilità e statistica per l'ingegneria e le scienze
 - *Rotondi, Pedroni, Pievatolo* → Probabilità, statistica e simulazione
 - *Dekking, Kraaikamp, Lopuhaä, Meester* → A modern introduction to probability and statistics
@@ -118,7 +118,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 
-### Computational finance
+## Computational finance
 - *Saari* → Mathematics of finance
 - *Blyth* → An introduction to quantitative finance
 - *Teh* → Advanced calculus for quantitative finance 1
@@ -139,7 +139,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 
-### Finance
+## Finance
 - *Luenberger* → Finanza e investimenti
 - *Cacciafesta* → Lezioni di matematica finanziaria classica e moderna
 - *Hubbert* → Essential mathematics for market risk management
@@ -151,7 +151,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 
-### Algorithms
+## Algorithms
 - *Greene, Knuth* → Mathematics for the analysis of algorithms
 - *Sedgewick, Flajolet* → An introduction to the analysis of algorithms
 - *Sedgewick, Wayne* → Algorithms
@@ -168,7 +168,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 
-### Operational research
+## Operational research
 - *Serafini* → Ricerca operativa
 - *Schoen* → Fondamenti di ricerca operativa
 - *Martello* → Ricerca operativa
@@ -179,7 +179,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 
-### Competitive programming
+## Competitive programming
 - *McDowell* → Cracking the coding interview
 - *Aziz, Lee, Prakash* → Elements of programming interviews in *Java*
 - *Aziz, Lee, Prakash* → Elements of programming interviews in *Python*
@@ -194,7 +194,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 
-### Machine learning
+## Machine learning
 - *Russell, Norvig* → Intelligenza artificiale 1
 - *Russell, Norvig* → Intelligenza artificiale 2
 - *Ertel* → Introduction to artificial intelligence
@@ -214,7 +214,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 
-### Phisics
+## Phisics
 - *Ranfone* → Complementi di fisica
 - *Kittel, Knight, Ruderman* → Meccanica
 - *Purcell* → Elettricità e magnetismo
@@ -232,7 +232,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 
-### Quantum physics
+## Quantum physics
 - *Griffiths* → Introduzione alla meccanica quantistica
 - *Picasso* → Lezioni di meccanica quantistica
 - *Pittenger* → An introduction to quantum computing
@@ -241,7 +241,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 
-### Information theory
+## Information theory
 - *Be-Naim* → Information theory
 - *Pierce* → La teoria dell'informazione
 - *MacKay* → Information theory, inference, and learning algorithms
@@ -249,7 +249,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 
-### Cryptography
+## Cryptography
 - *Aumasson* → Serious cryptography
 - *Von Zur Gathen* → Cryptoschool
 - *Katz, Lindell* → Introduction to modern cryptography
@@ -260,7 +260,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 
-### Computability & Complexity
+## Computability & Complexity
 - *Kotzen* → Automata and computability
 - *Dovier, Giacobazzi* → Fondamenti dell'informatica
 - *Ausiello, D'Amore, Gambosi, Laura* → Linguaggi, modelli, complessità
@@ -273,7 +273,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 
-### Category theory & Logic
+## Category theory & Logic
 - *Doets, van Eijck* → The Haskell road to logic, maths and programming
 - *Cameron* → Sets, logic and categories
 - *Pierce* → Basic category theory for computer scientists
@@ -284,7 +284,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 
-### Interpreters & Compilers
+## Interpreters & Compilers
 - *Ball* → Writing an interpreter in *Go*
 - *Ball* → Writing a compiler in *Go*
 - *Holub* → Compiler design in *C*
@@ -297,7 +297,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 
-### Programming languages
+## Programming languages
 - *Kernighan, Ritchie* → The *C* programming language
 - *Kelley, Pohl* → *C*, didattica e programmazione
 - *Holub* → The *C* companion
@@ -333,7 +333,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 
-### Computer architecture
+## Computer architecture
 - *Tanenbaum, Austin* → Architettura dei calcolatori
 - *Plantz* → Introduction to computer organization
 - *Harris, Harris* → Digital design and computer architecture
@@ -345,7 +345,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 
-### Operating systems
+## Operating systems
 - *Tanenbaum* → I moderni sistemi operativi
 - *Tanenbaum* → Operating systems design and implementation
 - *Silberschatz, Galvin, Gagne* → Sistemi operativi
@@ -356,7 +356,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 
-### Computer networks
+## Computer networks
 - *Tanenbaum* → Reti di calcolatori
 - *Halsall* → Networking e Internet
 - *Kurose, Ross* → Reti di calcolatori e Internet
@@ -366,7 +366,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 
-### Distributed systems
+## Distributed systems
 - *Tanenbaum, Steen* → Sistemi distribuiti
 - *Wattenhofer* → Distributed ledger technology: the science of the blockchain
 - *Rosenbaum* → Grokking Bitcoin
@@ -374,7 +374,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 
-### *UNIX* programming
+## *UNIX* programming
 - *Kerrisk* → The *Linux* programming interface
 - *Stevens, Rago* → Advanced programming in the *UNIX* environment
 - *Rochkind* → Advanced *UNIX* programming
@@ -385,7 +385,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 
-### *UNIX* system administration
+## *UNIX* system administration
 - *Piccardi* → Amministrare *GNU/Linux*
 - *Glass, Ables* → *UNIX* for programmers and users
 - *Kochan, Wood* → *UNIX* shell programming
@@ -397,7 +397,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 
-### Software engineering
+## Software engineering
 - *Martin* → Clean code
 - *Martin* → Clean architecture
 - *Kernighan, Pike* → The practice of programming
@@ -407,7 +407,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 
-### Solution manuals
+## Solution manuals
 - *Lovitch, Rosati* → Problemi di fisica generale 1
 - *Rosati, Casali* → Problemi di fisica generale 2
 - *Pavan, Sartori* → Problemi di fisica risolti e commentati 1
@@ -440,7 +440,7 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 
-### Uncategorized
+## Uncategorized
 - *Garrity* → All the math you missed
 - *Manca* → Linguaggi e calcoli
 - *Ferragina, Luccio* → Il pensiero computazionale

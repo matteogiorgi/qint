@@ -24,7 +24,7 @@ Il lavoro e la dedizione del Prof. Gobbino sono encomiabili e il suo corso è un
 
 
 
-### Lezioni di calcolo - [`full PDF`](https://mega.nz/file/B9oGEQSD#1P7fkyQ17V1bOtrMV56JAPwi9pO7k8sEHrJAiUITuh8)
+## Lezioni di calcolo - [`full PDF`](https://mega.nz/file/B9oGEQSD#1P7fkyQ17V1bOtrMV56JAPwi9pO7k8sEHrJAiUITuh8)
 
 - 02/10/07. [Insiemi](https://mega.nz/file/Y8ZSyZKB#SocjSc8UR_ghF-UzrI2plUd6tAoDvT5QaYjD6wb9czI) - [`PDF`](https://mega.nz/file/p9QzTR7T#cmhkAEb8JSXz3mhsqd5gB6GQ77um5kBdTCo9y0oH02M)
 - 02/10/07. [Funzioni tra insiemi, iniettività, surgettività, immagine e controimmagine](https://mega.nz/file/R9ZAFTqT#UhyClOSBLImsvKfP6GJGHTUCOKr18YmKrqeIPUm2_ok) - [`PDF`](https://mega.nz/file/kwpWWR7Q#jtPypG0jFwWg278cZBYuSEUNxdHT-1OML_o7HtaWSoU)
@@ -130,7 +130,7 @@ Il lavoro e la dedizione del Prof. Gobbino sono encomiabili e il suo corso è un
 
 
 
-### Esercitazioni di calcolo - [`full PDF`](https://mega.nz/file/JwpX3TLb#Cl9sJp1o1rSNYEZwt_oteCxlNwAAd-wTwqvtarVyra8)
+## Esercitazioni di calcolo - [`full PDF`](https://mega.nz/file/JwpX3TLb#Cl9sJp1o1rSNYEZwt_oteCxlNwAAd-wTwqvtarVyra8)
 
 - 11/10/07. [Funzioni, limiti](https://mega.nz/file/FwpSjbbR#lJVzRsbHvJVgdRZkRAnGVnGiZbGYV3RhcJZJ31sGdfI) - [`PDF`](https://mega.nz/file/F8h1XLJb#Gi_0Xvux4HF_kR-Bul46-q_X0qYCeTx2ejCM9T18ePo)
 - 18/10/07. [Limiti](https://mega.nz/file/h9QEVRgY#T-XOzlHQwxQnvduhuS0v5tSnfYUZ45U7lSMFvdntDVk) - [`PDF`](https://mega.nz/file/p1o1QaIT#51rJefVBk9eKmp9P8t5zwUYvPRjdfXPqZGIz6v8Qb-8)
