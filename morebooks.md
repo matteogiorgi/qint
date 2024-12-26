@@ -123,8 +123,6 @@ This list contains additional resources for in-depth study. The books cover more
 - *Hull* → Risk management e istituzioni finanziarie
 - *Elton, Gruber, Brown, Goetzmann* → Teorie di portafoglio e analisi degli investimenti
 - *Damodaran, Roggi* → Finanza aziendale
-- *Berk, De Marzo* → Finanza aziendale (volume 1) (\*)
-- *Berk, De Marzo* → Finanza aziendale (volume 2) (\*)
 
 
 
