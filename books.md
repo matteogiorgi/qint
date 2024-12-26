@@ -1,5 +1,3 @@
-# Quant books
-
 This is an ensemble of books I've used to study and keep as reference. The list is divided into categories and covers a wide range of topics, from mathematics to computer science, from physics to finance, with a focus on quantitative methods.
 
 ---

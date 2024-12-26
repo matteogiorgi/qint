@@ -1,5 +1,3 @@
-# Calculus I/II
-
 Questa pagina contiene il materiale di lezioni ed esercitazioni tenute dal [Prof. Gobbino](http://pagine.dm.unipi.it/gobbino/Home_Page/ArchivioDidattico.html) per l'esame di calcolo del corso di Laurea in *Ingegneria Elettronica e Telecomunicazioni* dell'[Università di Pisa](https://www.unipi.it) nell'anno accademico 2007/2008. Per completezza, qua sotto sono elencate anche le lezioni del corso di precalcolo tenuto dal Professore nel medesimo anno.
 
 ---
