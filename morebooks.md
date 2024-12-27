@@ -61,8 +61,6 @@ This list contains additional resources for in-depth study. The books cover more
 - *Marlow* → Parallel and concurrent programming in *Haskell*
 - *Goetz* → *Java* concurrency in practice
 - *Klemens* → 21st century *C*
-- *Grinberg* → Flask web development
-- *Snoyman* → Developing web applications with *Haskell* and *Yesod*
 - *Peterson, Davie* → Computer networks
 - *Nemeth, Snyder, Hein, Whaley* → *UNIX* and *Linux* system administration handbook
 - *Powers, Peek, O'Reilly, Loukides* → Unix power tools

@@ -366,6 +366,13 @@ This is an ensemble of books I've used to study and keep as reference. The list 
 
 
 
+## Web frameworks
+- *Grinberg* → Flask web development
+- *Snoyman* → Developing web applications with *Haskell* and *Yesod*
+
+
+
+
 ## Distributed systems
 - *Tanenbaum, Steen* → Sistemi distribuiti
 - *Wattenhofer* → Distributed ledger technology: the science of the blockchain
