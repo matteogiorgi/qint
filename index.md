@@ -223,8 +223,7 @@ Below is a [free](https://en.wikipedia.org/wiki/Free_software) list of notes on 
 
 
 
-**More resources**
-
+### More resources
 - [Quantitative books](books.md). Collection of books I used during my university years
 - [More textbooks](morebooks.md). List of additional resources for in-depth study
 - [Calculus I/II](http://pagine.dm.unipi.it/gobbino/Home_Page/AD_T08.html). Calculus course by Prof. Gobbino from UniPi ([backup-page](gobbino.md))
