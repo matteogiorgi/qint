@@ -218,10 +218,13 @@ Below is a [free](https://en.wikipedia.org/wiki/Free_software) list of notes on 
 - *Battaia* → [Matematica di base: esercizi risolti](https://mega.nz/file/QsZUFA6B#0MxujvvCdOnDwtXX3Um1Dp9RwJlPOUeYEy7JWwXsI0w)
 - *Sprugnoli* → [Introduzione alla matematica](https://mega.nz/file/oghSzS5B#O_0gdk4zphQtj0jrYC9ElLukLQe5JEPAcKffKKPoRnQ)
 
+---
 
 
 
-## More resources
+
+**More resources**
+
 - [Quantitative books](books.md). Collection of books I used during my university years
 - [More textbooks](morebooks.md). List of additional resources for in-depth study
 - [Calculus I/II](http://pagine.dm.unipi.it/gobbino/Home_Page/AD_T08.html). Calculus course by Prof. Gobbino from UniPi ([backup-page](gobbino.md))
