@@ -1,5 +1,5 @@
 # Quantitative resources
-This repository contains a collection of material, useful for quant interviews preparation: from books and notes to online lectures, from coding to math. Everything is always a work in progress, do not expect anything fancy.
+This repository contains a collection of useful material for quant interviews. Everything is always a work in progress, do not expect anything fancy.
 
 
 
