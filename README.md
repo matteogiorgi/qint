@@ -11,7 +11,7 @@ This repository contains a collection of material, useful for quant interviews p
 
 
 ## Notes
-Below there is a [free](https://en.wikipedia.org/wiki/Free_software) list of notes on various topics, written by different authors. The material is mainly in italian and covers subjects useful for the study of algorithms and related subjects.
+Below there is a [free](https://en.wikipedia.org/wiki/Free_software) list of notes on various topics, written by different authors: the material covers subjects useful for the study of algorithms and related subjects.
 
 
 ### Languages & Programming
