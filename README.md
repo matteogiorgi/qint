@@ -1,5 +1,5 @@
 # Quantitative interviews
-This repository contains a collection of useful material for quant interviews. Everything is always a work in progress, do not expect anything fancy.
+This repository is a collection of material for quant interviews. Everything is always a work in progress, do not expect anything fancy.
 
 
 
@@ -12,7 +12,7 @@ This repository contains a collection of useful material for quant interviews. E
 
 
 ## Notes
-Below there is a [free](https://en.wikipedia.org/wiki/Free_software) list of notes on various topics, written by different authors: the material covers subjects useful for the study of algorithms and related subjects.
+Below there is a [free](https://en.wikipedia.org/wiki/Free_software) list of notes on various topics covering algorithms and related subjects.
 
 
 ### Languages & Programming
