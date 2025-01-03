@@ -1,5 +1,5 @@
 # Quantitative interviews
-This repo is a working-in-progress collection for quant interviews, do not expect anything fancy.
+This repo is a working-in-progress resource for quant interviews, do not expect anything fancy.
 
 
 
