@@ -7,7 +7,8 @@ This repository contains a collection of useful material for quant interviews. E
 ## LeetCode
 ![](resources/commit.png)
 
-
+- [The Fibonacci sequence](fibonacci.ipynb)
+- [Optimal stock market strategy](stock.ipynb)
 
 
 ## Notes
