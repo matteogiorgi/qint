@@ -9,6 +9,10 @@ This repo is a working-in-progress resource for quant interviews, do not expect 
 
 - [The Fibonacci sequence](fibonacci.ipynb)
 - [Optimal stock market strategy](stock.ipynb)
+- [Change-making](change.ipynb)
+- [Number of expressions with target results](expressions.ipynb)
+- [Partitioning a set into equal-sum parts](partitioning.ipynb)
+- [Splitting a string without spaces into words](splitting.ipynb)
 
 
 ## Notes
