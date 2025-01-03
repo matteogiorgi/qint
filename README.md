@@ -1,4 +1,4 @@
-# Quantitative resources
+# Quantitative interviews
 This repository contains a collection of useful material for quant interviews. Everything is always a work in progress, do not expect anything fancy.
 
 
