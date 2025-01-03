@@ -1,5 +1,5 @@
 # Quantitative interviews
-This repository is a collection of material for quant interviews. Everything is always a work in progress, do not expect anything fancy.
+This repo collects material for quant interviews. Everything is always a work in progress, do not expect anything fancy.
 
 
 
