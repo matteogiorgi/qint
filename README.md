@@ -12,15 +12,31 @@ This repo is a working-in-progress resource for quant interviews, do not expect 
 
 
 ## Notes
-Below there is a [free](https://en.wikipedia.org/wiki/Free_software) list of notes on various topics covering algorithms and related subjects.
+![](resources/notes.png)
 
-
-### Languages & Programming
-- *Picardi*: [Guida alla programmazione in *Linux*](https://mega.nz/file/otgRWJgA#6yUpLdsZlYQTQ2t4hA9GCL3jIddjV0c4lDKDxtvyOvM)
-- *Abelson, Sussman*: [Structure and interpretation of computer programs](https://mega.nz/file/wgIEUb6A#3NrlsDomh_nqVTEbGnjMOn0sM5aWGuurqilhEY8dfac)
-- *Milewski*: [Category theory for programmers](https://mega.nz/file/c0wEFTIR#V1TXA5SWG_tJ6XH4kcmTtCVtyC1QxBZhcGQDTKok7Pg)
 - *Mauny*: [Functional programming using *Caml Light*](https://mega.nz/file/I44jGajC#EQmxpWWFRPszp076gGSup3ML4fl1k54A0-vhJRnOWnk)
+- *Milewski*: [Category theory for programmers](https://mega.nz/file/c0wEFTIR#V1TXA5SWG_tJ6XH4kcmTtCVtyC1QxBZhcGQDTKok7Pg)
+- *Abelson, Sussman*: [Structure and interpretation of computer programs](https://mega.nz/file/wgIEUb6A#3NrlsDomh_nqVTEbGnjMOn0sM5aWGuurqilhEY8dfac)
+- *Finocchi, Mulas*: [Appunti di algoritmica](https://mega.nz/file/cs4GATaD#9cMCqjCTAiGnsBkll--aKsxloD_CnMOS_7GOoyq9mNY)
+- *De Francesco, Martini*: [Appunti di algoritmi e strutture dati](https://mega.nz/file/M5IWxKaI#43cRF8HtbZ0pqOKAIiZw2S-ST2uliuwsQ_iO6mYQE5Y)
+- *Erickson*: [Algorithms](https://mega.nz/file/5ooTFC5Z#8Obnl02rVjL7cUjfdRKplTwi8pP7ztHZ-6yTG2hQImI)
+- *Shaffer*: [Data structures and algorithm analysis](https://mega.nz/file/8lxX0b5J#u7jlCf9_Gyo9h6xQ13Cqyrp7TPWYhBlk4pDdIeHnsf8)
+- *Morin*: [Open data structures](https://mega.nz/file/RxJWkRJL#JrSZ0fGA4KE4japX4okulsdw8VL1eTCzBnALhRXy1Bs)
+- *Sheehy*: [A first course on data structures](https://mega.nz/file/cpB0SaiJ#2fCtplLNndEg22v2yPteZByI4qB8G0PIbP4xVwua9gE)
+- *Laaksonen*: [Competitive programmer's handbook](https://mega.nz/file/FlBVxTBa#1_3tayyZDEpj-MsX78DlQzs6jhGpZbLPG0tbCf4s13Y)
+- *Chen Cai*: [*LeetCode* book](https://mega.nz/file/N8I2HKzA#ksmiyMC9iw6vM8OLM_Ilki_Bt6SBWk3cjOgV80zaaHM)
+- *Picardi*: [Guida alla programmazione in *Linux*](https://mega.nz/file/otgRWJgA#6yUpLdsZlYQTQ2t4hA9GCL3jIddjV0c4lDKDxtvyOvM)
 - *Leroy, Remy*: [*UNIX* system programming in *OCaml*](https://mega.nz/file/V5hD0Cba#jjwItIUKfoKrO_aHN0SWTbSVDeZaEvh_sE581ZdMHLk)
+
+
+
+
+<!-- ### Languages & Programming -->
+<!-- - *Picardi*: [Guida alla programmazione in *Linux*](https://mega.nz/file/otgRWJgA#6yUpLdsZlYQTQ2t4hA9GCL3jIddjV0c4lDKDxtvyOvM) -->
+<!-- - *Abelson, Sussman*: [Structure and interpretation of computer programs](https://mega.nz/file/wgIEUb6A#3NrlsDomh_nqVTEbGnjMOn0sM5aWGuurqilhEY8dfac) -->
+<!-- - *Milewski*: [Category theory for programmers](https://mega.nz/file/c0wEFTIR#V1TXA5SWG_tJ6XH4kcmTtCVtyC1QxBZhcGQDTKok7Pg) -->
+<!-- - *Mauny*: [Functional programming using *Caml Light*](https://mega.nz/file/I44jGajC#EQmxpWWFRPszp076gGSup3ML4fl1k54A0-vhJRnOWnk) -->
+<!-- - *Leroy, Remy*: [*UNIX* system programming in *OCaml*](https://mega.nz/file/V5hD0Cba#jjwItIUKfoKrO_aHN0SWTbSVDeZaEvh_sE581ZdMHLk) -->
 
 <!-- - *Haverbeke*: [Eloquent *JavaScript*](https://mega.nz/file/BghQTJYI#QNqICiQszzUVW8J4n9RP9RuTISe8wXEb_TJqEPWBGN8) -->
 <!-- - *Banahan, Brady, Doran*: [The *C* book](https://mega.nz/file/01x0kBLC#hrlzEyf4HONk1l6gEQ5D3J09B7nfxeR-yqasSIz-FEc) -->
@@ -32,15 +48,15 @@ Below there is a [free](https://en.wikipedia.org/wiki/Free_software) list of not
 
 
 
-### Algorithms & Data structures
-- *De Francesco, Martini*: [Appunti di algoritmi e strutture dati](https://mega.nz/file/M5IWxKaI#43cRF8HtbZ0pqOKAIiZw2S-ST2uliuwsQ_iO6mYQE5Y)
-- *Finocchi, Mulas*: [Appunti di algoritmica](https://mega.nz/file/cs4GATaD#9cMCqjCTAiGnsBkll--aKsxloD_CnMOS_7GOoyq9mNY)
-- *Erickson*: [Algorithms](https://mega.nz/file/5ooTFC5Z#8Obnl02rVjL7cUjfdRKplTwi8pP7ztHZ-6yTG2hQImI)
-- *Shaffer*: [Data structures and algorithm analysis](https://mega.nz/file/8lxX0b5J#u7jlCf9_Gyo9h6xQ13Cqyrp7TPWYhBlk4pDdIeHnsf8)
-- *Morin*: [Open data structures](https://mega.nz/file/RxJWkRJL#JrSZ0fGA4KE4japX4okulsdw8VL1eTCzBnALhRXy1Bs)
-- *Sheehy*: [A first course on data structures](https://mega.nz/file/cpB0SaiJ#2fCtplLNndEg22v2yPteZByI4qB8G0PIbP4xVwua9gE)
-- *Laaksonen*: [Competitive programmer's handbook](https://mega.nz/file/FlBVxTBa#1_3tayyZDEpj-MsX78DlQzs6jhGpZbLPG0tbCf4s13Y)
-- *Chen Cai*: [*LeetCode* book](https://mega.nz/file/N8I2HKzA#ksmiyMC9iw6vM8OLM_Ilki_Bt6SBWk3cjOgV80zaaHM)
+<!-- ### Algorithms & Data structures -->
+<!-- - *De Francesco, Martini*: [Appunti di algoritmi e strutture dati](https://mega.nz/file/M5IWxKaI#43cRF8HtbZ0pqOKAIiZw2S-ST2uliuwsQ_iO6mYQE5Y) -->
+<!-- - *Finocchi, Mulas*: [Appunti di algoritmica](https://mega.nz/file/cs4GATaD#9cMCqjCTAiGnsBkll--aKsxloD_CnMOS_7GOoyq9mNY) -->
+<!-- - *Erickson*: [Algorithms](https://mega.nz/file/5ooTFC5Z#8Obnl02rVjL7cUjfdRKplTwi8pP7ztHZ-6yTG2hQImI) -->
+<!-- - *Shaffer*: [Data structures and algorithm analysis](https://mega.nz/file/8lxX0b5J#u7jlCf9_Gyo9h6xQ13Cqyrp7TPWYhBlk4pDdIeHnsf8) -->
+<!-- - *Morin*: [Open data structures](https://mega.nz/file/RxJWkRJL#JrSZ0fGA4KE4japX4okulsdw8VL1eTCzBnALhRXy1Bs) -->
+<!-- - *Sheehy*: [A first course on data structures](https://mega.nz/file/cpB0SaiJ#2fCtplLNndEg22v2yPteZByI4qB8G0PIbP4xVwua9gE) -->
+<!-- - *Laaksonen*: [Competitive programmer's handbook](https://mega.nz/file/FlBVxTBa#1_3tayyZDEpj-MsX78DlQzs6jhGpZbLPG0tbCf4s13Y) -->
+<!-- - *Chen Cai*: [*LeetCode* book](https://mega.nz/file/N8I2HKzA#ksmiyMC9iw6vM8OLM_Ilki_Bt6SBWk3cjOgV80zaaHM) -->
 
 <!-- - *Lauria*: [Appunti su algoritmi e complesssità](https://mega.nz/file/dshBnJyQ#iHZ7BZwnJ0iziQZoEiUBP8kpYJT9wbnxsVfIzmr-T-M) -->
 <!-- - *Bongiovanni, Calamoneri, Monti*: [Introduzione agli algoritmi: note del corso](https://mega.nz/file/Ag5wETCK#36jz3PvlI0IYfFfnzkV7xnOXBhc0aedERtRCoroybao) -->
