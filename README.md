@@ -1,7 +1,7 @@
 # Quantitative INTerviews
 This repo contains resources for quant interviews with notes on algorithms and data structures, and a collection of problems with solutions. The thing is a work-in-progress, so do not expect anything fancy.
 
-### [Interview problems](interview_problems.pdf)
+### [Interview problems](https://nbviewer.org/github/matteogiorgi/qint/blob/main/interview_problems.pdf)
 01. [The Fibonacci sequence](01_fibonacci_sequence/)
 02. [Optimal stock market strategy](02_stock_market/)
 03. [Change-making](03_change_making/)
