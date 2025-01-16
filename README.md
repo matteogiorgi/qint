@@ -1,24 +1,15 @@
-# Quantitative interviews
-This repo is a working-in-progress resource for quant interviews, do not expect anything fancy.
+# Quantitative INTerviews
+This repo contains resources for quant interviews with notes on algorithms and data structures, and a collection of problems with solutions. The thing is a work-in-progress, so do not expect anything fancy.
 
+### [Interview problems](interview_problems.pdf)
+01. [The Fibonacci sequence](01_fibonacci_sequence/)
+02. [Optimal stock market strategy](02_stock_market/)
+03. [Change-making](03_change_making/)
+04. [Number of expressions with target result](04_count_expressions/)
+05. [Partitioning a set into equal-sum parts](05_set_partitioning/)
+06. [Splitting a string without spaces into words](06_splitting_string/)
 
-
-
-## LeetCode
-![](resources/commit.png)
-
-- [The Fibonacci sequence](fibonacci.ipynb)
-- [Optimal stock market strategy](stock.ipynb)
-- [Change-making](change.ipynb)
-- [Number of expressions with target results](expressions.ipynb)
-- [Partitioning a set into equal-sum parts](partitioning.ipynb)
-- [Splitting a string without spaces into words](splitting.ipynb)
-
-
-## Notes
-![](resources/notes.png)
-
-- *Mauny*: [Functional programming using *Caml Light*](https://mega.nz/file/I44jGajC#EQmxpWWFRPszp076gGSup3ML4fl1k54A0-vhJRnOWnk)
+### Notes
 - *Milewski*: [Category theory for programmers](https://mega.nz/file/c0wEFTIR#V1TXA5SWG_tJ6XH4kcmTtCVtyC1QxBZhcGQDTKok7Pg)
 - *Abelson, Sussman*: [Structure and interpretation of computer programs](https://mega.nz/file/wgIEUb6A#3NrlsDomh_nqVTEbGnjMOn0sM5aWGuurqilhEY8dfac)
 - *Finocchi, Mulas*: [Appunti di algoritmica](https://mega.nz/file/cs4GATaD#9cMCqjCTAiGnsBkll--aKsxloD_CnMOS_7GOoyq9mNY)
@@ -29,13 +20,20 @@ This repo is a working-in-progress resource for quant interviews, do not expect 
 - *Sheehy*: [A first course on data structures](https://mega.nz/file/cpB0SaiJ#2fCtplLNndEg22v2yPteZByI4qB8G0PIbP4xVwua9gE)
 - *Laaksonen*: [Competitive programmer's handbook](https://mega.nz/file/FlBVxTBa#1_3tayyZDEpj-MsX78DlQzs6jhGpZbLPG0tbCf4s13Y)
 - *Chen Cai*: [*LeetCode* book](https://mega.nz/file/N8I2HKzA#ksmiyMC9iw6vM8OLM_Ilki_Bt6SBWk3cjOgV80zaaHM)
-- *Picardi*: [Guida alla programmazione in *Linux*](https://mega.nz/file/otgRWJgA#6yUpLdsZlYQTQ2t4hA9GCL3jIddjV0c4lDKDxtvyOvM)
-- *Leroy, Remy*: [*UNIX* system programming in *OCaml*](https://mega.nz/file/V5hD0Cba#jjwItIUKfoKrO_aHN0SWTbSVDeZaEvh_sE581ZdMHLk)
+
+
+
+
+<!-- ![](resources/commit.png) -->
 
 
 
 
 <!-- ### Languages & Programming -->
+<!-- - *Mauny*: [Functional programming using *Caml Light*](https://mega.nz/file/I44jGajC#EQmxpWWFRPszp076gGSup3ML4fl1k54A0-vhJRnOWnk) -->
+<!-- - *Picardi*: [Guida alla programmazione in *Linux*](https://mega.nz/file/otgRWJgA#6yUpLdsZlYQTQ2t4hA9GCL3jIddjV0c4lDKDxtvyOvM) -->
+<!-- - *Leroy, Remy*: [*UNIX* system programming in *OCaml*](https://mega.nz/file/V5hD0Cba#jjwItIUKfoKrO_aHN0SWTbSVDeZaEvh_sE581ZdMHLk) -->
+
 <!-- - *Picardi*: [Guida alla programmazione in *Linux*](https://mega.nz/file/otgRWJgA#6yUpLdsZlYQTQ2t4hA9GCL3jIddjV0c4lDKDxtvyOvM) -->
 <!-- - *Abelson, Sussman*: [Structure and interpretation of computer programs](https://mega.nz/file/wgIEUb6A#3NrlsDomh_nqVTEbGnjMOn0sM5aWGuurqilhEY8dfac) -->
 <!-- - *Milewski*: [Category theory for programmers](https://mega.nz/file/c0wEFTIR#V1TXA5SWG_tJ6XH4kcmTtCVtyC1QxBZhcGQDTKok7Pg) -->
